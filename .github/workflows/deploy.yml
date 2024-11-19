@@ -1,0 +1,13 @@
+name: Generate static org-roam-ui page
+on:
+  push:
+    branches:
+      - main
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate org-roam-ui page
+        uses: ikoamu/publish-org-roam-ui@main
+        with:
+          org-roam-db-filename: org-roam.db
