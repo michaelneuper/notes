@@ -11,3 +11,4 @@ jobs:
         uses: ikoamu/publish-org-roam-ui@main
         with:
           org-roam-db-filename: org-roam.db
+          deploy-to-pages: true
