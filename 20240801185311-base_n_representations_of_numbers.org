@@ -1,0 +1,35 @@
+:PROPERTIES:
+:ID:       8ea1ce16-590e-49d7-a694-82ba1eefad68
+:END:
+#+title: Base b Representations of Numbers
+#+filetags: fundamentals
+
+* Theorem
+#+begin_quote
+If \(b>1\) is an integer, then every positive integer \(n\) can be uniquely expressed in the form
+\begin{equation*}
+n = d_k b^k+d_{k-1}b^{k-1}+\cdots+d_1b + d_0
+\end{equation*}
+where \(0\le d_i<b, i = 0,1,\ldots,k\) and \(d_k\ne0\).
+
+Then the [[id:2f8faf02-c178-4881-86b1-5f9c5f646d6a][string]] \((d_kd_{k-1}\ldots d_1d_0)_{b}\) is the base b representation of \(n\).
+#+end_quote
+
+* Example
+Find the base 2 representation of 13.
+\begin{align*}
+13 &= 8 + 4 + 1 \\
+&= 1\cdot2^{3} + 1\cdot2^2 + 0\cdot2^1 + 1\cdot2^0 \\
+&= (1101)_2
+\end{align*}
+
+* Algorithm
+Find the base b representation of \(n\). (using [[id:c977d405-bd76-410c-bada-8cc025f39597][Division Theorem]])
+- Divide \(n\) by \(b\) and keep track of remainders.
+- Continue dividing by \(b\) until we reach 0.
+- The [[id:d1a18e96-d26e-4ec0-85be-596c9d8a64a7][sequence]] of remainders from *bottom to top* is the base b representation.
+
+See [[id:fe20cbc0-3044-4520-8078-2a32ed086cf1][algorithm in python]]
+
+** Example
+[[file:images/base-b-example.png]]

@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       cfdcb584-4895-41eb-9c8a-d9dc66e2bd2c
+:END:
+#+title: Independent Events
+#+filetags: conditional_probability
+
+* Definition
+Events \(E\) and \(F\) are said to be independent if
+\begin{equation*}
+P(EF) = P(E)P(F)
+\end{equation*}
+
+Knowledge that one event occurred, does not influence the probability that the other event will occur.
+So it follows that
+
+\(P(E|F) = P(E)\) and \(P(F|E) = P(F)\)
+
+* Proposition
+If \(E\) and \(F\) are independent, then \(E\) and \(F^{c}\) are also independent.
+** Proof
+Suppose \(E\) and \(F\) are independent
+\begin{align*}
+P(E) &= P(EF) + P(EF^{c})
+&= P(E)P(F) + P(EF^{c})
+\end{align*}
+since \(E=EF\cup EF^{c}\), with \(EF\) and \(EF^{c}\) [[id:b804e882-b52f-49fd-a577-bcae712bbb75][mutually exclusive]]
+\begin{align*}
+\therefore P(EF^{c}) &= P(E)(1-P(F))
+&= P(E)P(F^{c})
+\end{align*}
+Therefore \(E\) and \(F^{c}\) are independent.

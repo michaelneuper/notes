@@ -1,0 +1,59 @@
+:PROPERTIES:
+:ID:       3f7dc694-9c9e-470b-9c66-838def9c830b
+:END:
+#+title: Main Class Features
+#+filetags: phonetics
+
+* Consonantal vs Syllabic
+** Consonantal
+#+begin_quote
+[[id:fc791ad0-6d5d-401f-a4d0-0cea9582a9ce][Consonants]] (excluding [[id:d3fcb290-8b15-45b3-b823-6678c40296af][Glides]]), i.e. non-vowels.
+#+end_quote
+*** Anterior
+#+begin_quote
+Consonants that are produced in the front of the mouth (up to and including the alveolar ridge).
+#+end_quote
+i.e. labials, interdentals, alveolars
+*** Coronal
+#+begin_quote
+Consonants that are produced by raising the tip or blade of the tongue.
+#+end_quote
+i.e. liquids, palatals (including affricates)
+** Syllabic
+#+begin_quote
+[[id:c7dc39d3-f617-4902-b909-8a378c4a1e6a][Vowels]], i.e. sounds that can form the nucleus of a syllable.
+#+end_quote
+
+* Sonorant vs Obstruent
+** Sonorant
+#+begin_quote
+Loud, "singlable" sounds.
+Always [[id:4d9ffad4-3673-4a9c-bd8f-06c2fec02b2a][voiced]].
+#+end_quote
+includes vowels, glides, nasals, liquids
+** Obstruent
+#+begin_quote
+Non-sonorant.
+Not "singable".
+#+end_quote
+includes non-nasal stops, fricatives, affricates
+
+* Continuant vs Stop
+** Continuant
+#+begin_quote
+Non-stop sounds.
+Continuous airflow through the mouth.
+#+end_quote
+includes all speech sounds except stops and affricates
+** Stop
+#+begin_quote
+Sounds in which the airstream is briefly but completely stopped in the oral cavity
+#+end_quote
+includes nasal consonants and affricates
+
+* Rules
+- [+ syllabic] <=> [- consonantal]
+- glides  = [- syllabic - consonantal]
+- [+ syllabic] <=> [+ sonorant]
+- [+ sonorant] <=> [- obstruent]
+- [+ sonorant] <=> [+ continuant + voice] except nasals which are [- continuant]

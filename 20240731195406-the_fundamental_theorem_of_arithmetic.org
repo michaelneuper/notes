@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       eec39827-126e-4fb3-9b1a-07a177d251b0
+:END:
+#+title: The Fundamental Theorem of Arithmetic
+#+filetags: theorem fundamentals
+
+* Definition
+#+begin_quote
+Every positive integer \(n>1\) can be written uniquely product of [[id:b405884b-d7f8-4931-a546-9a942f7c23f9][prime numbers]]:
+\begin{equation*}
+n = p_1^{k_1}p_2^{k_2}\cdots p_s^{k_s}
+\end{equation*}
+where \(p_1 < p_2 < \cdots p_s\) and \(p,s\in\mathbb{Z}^+\) giving the number of times each prime occurs as a factor of \(n\).
+#+end_quote

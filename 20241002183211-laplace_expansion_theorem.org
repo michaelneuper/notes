@@ -1,0 +1,44 @@
+:PROPERTIES:
+:ID:       92f33b54-329d-4f13-9bbc-11cb086f2b34
+:END:
+#+title: Laplace Expansion Theorem
+#+filetags: linear_algebra theorem
+
+* Definition
+#+begin_quote
+The [[id:fdc2dbe7-d134-4b80-a687-407ac36f637f][determinant]] of an \(n \times n\) [[id:a3e5a759-ca7d-46e2-a390-c3cb8f1cc823][matrix]] \(A = [a_{ij}]\), where \(n \geq 2\), can be computed as
+
+\begin{equation*}
+\det(A) = a_{i1}C_{i1} + a_{i2}C_{i2} + \cdots + a_{in}C_{in}
+\end{equation*}
+\begin{equation*}
+= \sum_{j=1}^{n} a_{ij}C_{ij}
+\end{equation*}
+
+(which is the /cofactor expansion along the ith row/) and also as
+
+\begin{equation*}
+\det(A) = a_{1j}C_{1j} + a_{2j}C_{2j} + \cdots + a_{nj}C_{nj}
+\end{equation*}
+\begin{equation*}
+= \sum_{i=1}^{n} a_{ij}C_{ij}
+\end{equation*}
+
+(the /cofactor expansion along the jth column/).
+
+#+end_quote
+
+* Notes
+Since \( C_{ij} = (-1)^{i+j} \det A_{ij} \), each cofactor is plus or minus the corresponding minor,
+with the correct sign given by the term \( (-1)^{i+j} \). A quick way to determine whether
+the sign is \( + \) or \( - \) is to remember that the signs form a "checkerboard" pattern:
+
+\begin{equation*}
+\begin{bmatrix}
++ & - & + & - & \cdots \\
+- & + & - & + & \cdots \\
++ & - & + & - & \cdots \\
+- & + & - & + & \cdots \\
+\vdots & \vdots & \vdots & \vdots & \ddots
+\end{bmatrix}
+\end{equation*}

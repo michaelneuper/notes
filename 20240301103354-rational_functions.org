@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       c562099b-bc16-43f7-aa59-d24718f4e731
+:END:
+#+title: Rational Functions
+
+* Definition
+#+begin_quote
+A function \(f\) is called a rational function if it is the quotient of two [[id:4b3a5c7d-3853-4222-b6d3-16e73c922303][polynomials]].
+
+\begin{equation*} f(x) = \frac{P(x)}{Q(x)} \end{equation*}
+
+Then \(\text{Dom}(f) = \mathbb{R}\backslash\{x\in\mathbb{R}|Q(x) = 0\}\)
+#+end_quote
+
+** Proper Rational Functions
+A rational function is called *proper* if \(\text{deg}(P) < \text{deg}(Q)\).
+** Improper Rational Functions
+A rational function is called *improper* if \(\text{deg}(P) \ge \text{deg}(Q)\).
+
+* Example
+\begin{equation*}
+f(x) = \frac{x^3+1}{x-1}
+\end{equation*}

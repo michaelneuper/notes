@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       20b6443b-50db-44a8-b227-1723f4c3eafe
+:END:
+#+title: Folk Etymology
+
+* Definition
+#+begin_quote
+A change in a word or phrase resulting from the replacement of an unfamiliar form by a more familiar one through popular usage.
+#+end_quote
+
+* [[id:344bb2c7-523a-4539-97b2-1d70691c17bb][Spoonerisms]]
+* [[id:029fe728-573b-44c7-a74f-63574cdc03d8][Eggcorns]]
+* [[id:4477447f-9b10-4dc3-9132-d548c190bb78][Mondegreens]]
+* [[id:fe3a256c-337e-4c2e-8474-f638315272f5][Malapropisms]]

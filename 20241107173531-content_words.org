@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       0b8544f2-06f0-4043-b2eb-1e1473f6fd8f
+:ROAM_ALIASES: "Lexical Category"
+:END:
+#+title: Content Words
+
+* Definition
+Words which carry descriptive content.
+
+* Word Classes
+[[id:18a6c1d4-46af-4fa4-9f17-3703208f5015][Word Classes]] that are content words (rather than [[id:9a810397-113e-4503-ad81-aac930a71673][Function Words]])
+- [[id:c35e1ea9-8b8a-40ee-8b18-dd7169825658][Nouns]]
+- [[id:d1cfe60a-53d4-470a-aea5-4b4bc9890d8f][Verbs]]
+- [[id:fea63701-9546-46b7-9e7e-5d09e30d1fe5][Adjectives]]
+- [[id:6279d857-28c1-4a9f-8051-e53f5f619ee7][Adverbs]]
+- [[id:cfc40864-219f-4fbe-95b0-6fe72f803b2e][Prepositions]]
+
+Note: out of these, only nouns and verbs are found in all human languages

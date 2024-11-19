@@ -1,0 +1,37 @@
+:PROPERTIES:
+:ID:       87d42439-b03b-48be-84ab-2215b4733dd7
+:END:
+#+title: Functions
+#+filetags: functions
+
+* Definition
+#+begin_quote
+A *function* \(f : X \to Y\) is a rule which assigns each \(x\in X\) to a unique \(y\in Y\).
+[[file:~/Library/Mobile Documents/com~apple~CloudDocs/Notes/images/function.svg]]
+#+end_quote
+
+* Formally
+A function \(f : X \rightarrow Y\) is a [[id:72a5316f-9b83-4c20-aa2e-42ffe2813cfb][relation]] \(f \subseteq X \times Y\) satisfying:
+- For each \(x\in X\) there exists a \(y\in Y\) sch that \((x,y) \in f\)
+- For each \(x\in X\) and \(y_1,y_2\in Y\), if \((x,y_1)\in f\) and \((x,y_2)\in f\), then \(y_1=y_2\)
+
+* Domain and Range
+For a function \(f: D \to E\) we refer to
+- \(D\) as the *domain* of \(f\)
+- \(E\) as the *codomain* of \(f\)
+- \(\{f(x) | x \in D\}\) as the *range* of \(f\)
+- \(\{(x, f(x)) | x \in D\}\) as the *graph* of \(f\)
+
+* Essential Functions
+** [[id:4b3a5c7d-3853-4222-b6d3-16e73c922303][Polynomials]]
+** [[id:24417979-df13-429a-8cb4-0778d1f50066][Power Functions]]
+** [[id:c562099b-bc16-43f7-aa59-d24718f4e731][Rational Functions]]
+** [[id:03560687-d9a8-4929-b202-ec17351bb4e1][Algebraic Functions]]
+** [[id:d29f8fa1-bce7-4d4e-8592-edbab6d30395][Trigonometric Functions]]
+** [[id:7cc8b837-300f-4e53-8450-8f7cdb584868][Exponential Functions]]
+** [[id:af0f366c-775b-4905-af0a-8950764196ea][Logarithmic Functions]]
+
+* New Functions from Old Functions
+** [[id:39171c2e-036b-4b31-9b08-ae4fdb5da56c][Translation]]
+** [[id:19b56635-aa2c-43b8-86fa-18fdb4759369][Stretching]]
+** [[id:bf2f1304-6346-43da-bcc0-71878fb5789b][Reflections]]

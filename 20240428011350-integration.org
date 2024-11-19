@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       7256d12e-eb3d-48d1-8f12-7168c6fe8522
+:END:
+#+title: Integration
+#+filetags: calculus integration
+
+* Riemann Sum Definition
+#+begin_quote
+Let \(f\) be a function defined on an interval \([a,b]\).
+Divide \([a,b]\) into subintervals of equal width \(\Delta x = \frac{b-a}{n}\).
+Let \(x_i = a, x_1, x_2,\cdots,x_n=b\) be the endpoints of the subintervals, and let \(x_1^{*}, x_2^{*}, x_n^{*}\) be any sample points so that \(x_i^{*}\in [x_{i-1}, x_{i}]\).
+Then the definite integral of \(f\) from \(a\) to \(b\) is
+
+\begin{equation*}
+\int_a^{b}f(x) \, dx = \lim_{n\to\infty}\sum_{i=1}^nf(x_i^{*})\Delta x
+\end{equation*}
+
+provided that this limit exists and gives some value for all possible choices of sample points.
+If it does, we say that \(f\) is *integrable* on \([a,b]\).
+#+end_quote
+
+* Areas and Distances
+[[file:images/area.pdf]]
+
+* Composition Property
+If \(m\le f(x) \le M\) for all \(x\in[a,b]\) then \(m(b-a)\le \int_a^{b}f(x) \, dx \le M(b-a)\)

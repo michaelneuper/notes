@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       1cdeaabc-baf6-49b8-b8e3-b9e5bf901ec8
+:END:
+#+title: Gaussian Elimination
+#+filetags: linear_algebra linear_equations
+
+* Algorithm
+1. Write the augmented [[id:a3e5a759-ca7d-46e2-a390-c3cb8f1cc823][matrix]] of the system of [[id:de4c53ce-6aa5-4e56-a0e1-3918d18a17c4][linear equations]].
+2. Use [[id:6dec1333-da8e-4cf2-b4f3-06002a3472ad][elementry row operations]] to reduce the augmented matrix to [[id:ca814013-0b88-4d4c-9a6a-f0a685266229][row echelon form]].
+3. Using back substitution, solve the equivalent system that corresponds to the row-reduced matrix.

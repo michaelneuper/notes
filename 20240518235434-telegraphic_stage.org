@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       cc402477-aa30-48ec-9c95-d637479b7238
+:END:
+#+title: Telegraphic Stage
+#+filetags: language_acquisition
+
+- 18-24 months
+- 100+ words
+- Two-word [[id:d974a4cd-8904-4d95-9ca7-e5b1cbba41e8][utterances]]
+- Content words

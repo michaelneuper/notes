@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       b1839aa5-ae20-4579-b049-04d2cbe75380
+:END:
+#+title: Dipthongs
+#+filetags: phonetics
+
+* Definition
+#+begin_quote
+Two [[id:c7dc39d3-f617-4902-b909-8a378c4a1e6a][Vowels]] pronounced consecutively in the same syllable.
+Gradual blending or transition between two vowel sounds, resulting in a single, complex sound.
+#+end_quote
+
+* Transcription
+Joined by means of a "bow tie" [d͜ʒ]
+
+* Examples
+- low [lə͜ʊ]
+- loud [la͜ʊd]
+- lay [lɛ͜ɪ]

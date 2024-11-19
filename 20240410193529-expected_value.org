@@ -1,0 +1,52 @@
+:PROPERTIES:
+:ID:       ec08bf1f-90a5-429a-94f5-fb027476fb8e
+:END:
+#+title: Expected Value
+#+filetags: random_variables
+
+* Definition for [[id:d844373f-4fd9-4bdd-b621-101594827ab7][Discrete Random Variables]]
+#+begin_quote
+The expected value \(E[X]\) of a discrete [[id:d844373f-4fd9-4bdd-b621-101594827ab7][random variable]] \(X\) is defined as
+
+\begin{equation*}
+E[X] = \sum_xxp(x)
+\end{equation*}
+#+end_quote
+
+* Definition for [[id:02a15daa-14ee-4057-ad3c-3ba5f15a150d][Continuous Random Variables]]
+#+begin_quote
+The expected value of a continuous random variable \(X\) with [[id:c33b418c-6edd-4de3-9d73-6d5de459abe9][Probability Density Function]] \(f(x)\) is defined as
+
+\begin{equation*}
+E[X] = \int_{-\infty}^{\infty}xf(x) \, dx
+\end{equation*}
+#+end_quote
+
+* Note
+It is a weighted average of the values that \(X\) can take on; each weighted by its probability.
+
+* Proposition
+If \(X\) has [[id:ceca6e9c-8832-4d54-9442-d1675964ebca][probability mass function]] \(p(x)\), then for any real [[id:87d42439-b03b-48be-84ab-2215b4733dd7][function]] \(g(\cdot)\),
+
+\begin{equation*}
+E[g(x)] = \sum_xg(x)p(x)
+\end{equation*}
+
+Similarly, for continuous random variables
+
+\begin{equation*}
+E[g(x)] = \int_{-\infty}^{\infty}g(x)p(x) \, dx
+\end{equation*}
+
+* Corollary 1
+\(E[a] = a\) for any constant \(a\)
+
+* Corollary 2
+\(E[aF(X) + bG(X)] = aE[F(X)] + bE[G(X)]\) with \(a\) and \(b\) constant
+
+* Corollary 3
+\(E[aX + b] = aE[X] + b\) with \(a\) and \(b\) constant
+
+* Example
+- if \(p(0) = 0.5\) and \(p(1) = 0.5\), then \(E[X] = 0.5\)
+- if \(p(16) = 0.1\), \(p(23) = 0.6\), \(p(25) = 0.3\), then \(E[X] = 22.9\)

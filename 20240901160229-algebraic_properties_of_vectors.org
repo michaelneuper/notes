@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       cf2a9e8c-794b-4543-a5e7-a5b14263b04c
+:END:
+#+title: Algebraic Properties of Vectors
+#+filetags: linear_algebra vectors
+
+* [[id:d5b9323d-271b-428f-8028-1d63bb90a5b5][Commutativity]]
+* [[id:c8f00bb3-244d-4138-8a02-86934cf0103b][Associativity]]
+* Additive [[id:1a59f45c-c849-40c5-82e2-48b95050eecb][Identity Element]]
+\(\vec{u} + \vec{0} = \vec{u}\)
+* Additive [[id:19ce9aa6-cd43-49ec-85c4-a5b0fadadca6][Inverse Element]]
+\(\vec{u} + (-\vec{u} = \vec{0}\)
+* [[id:441fae62-367a-4c7e-9c2c-3df0d1132fe7][Distributive Property]]

@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       d5b9323d-271b-428f-8028-1d63bb90a5b5
+:END:
+#+title: Commutativity
+
+* Definition
+#+begin_quote
+We say that the [[id:87704c09-b23d-4980-ab11-0a5f839ebf59][operation]] \(\square\) on a set \(X\) is *commutative* if
+\begin{equation*}
+x \square y = y \square x
+\end{equation*}
+for all \(x,y\in X\)
+#+end_quote
+
+* Applied to [[id:56ae2cf4-a426-46fd-82eb-9acb3c8512ba][Sets]]
+\(E \cup F = F \cup E\) and \(E \cap F = F \cap E\)
+
+* Applied to [[id:c320994c-b8c2-4d38-8954-d75f1c8aa022][Logical Operators]]
+\(E \vee F = F \vee E\) and \(E \wedge F = F \wedge E\)
+
+* Applied to [[id:81c97780-c8a5-4652-a6eb-d33732c37f1e][Vectors]]
+\(\vec{u} + \vec{v} = \vec{v} + \vec{u}\)

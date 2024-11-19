@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       4e8fbac2-f3c6-4df7-acbd-34ede5c35bee
+:END:
+#+title: Linear Differential Equations
+#+filetags: calculus differential_equations
+
+* Definition
+#+begin_quote
+A first-order *linear* [[id:7434ea42-2761-4665-979d-e8314e74fc3a][differential equation]] is one that can be put into the form
+\begin{equation*}
+\frac{dy}{dx} + P(x)y = Q(x)
+\end{equation*}
+#+end_quote
+
+* Solution
+\begin{equation*}
+y(x) = \frac{1}{I(x)} \left[\int I(x)Q(x)\,dx + C\right]
+\end{equation*}
+where the *integrating factor*
+\begin{equation*}
+I(x) = e^{\int P(x)\,dx}
+\end{equation*}
+
+Note: Do not add a \(+C\) when [[id:7256d12e-eb3d-48d1-8f12-7168c6fe8522][integrating]] \(P(x)\)

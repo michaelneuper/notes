@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       b405884b-d7f8-4931-a546-9a942f7c23f9
+:END:
+#+title: Prime Numbers
+#+filetags: fundamentals
+
+* Definition
+#+begin_quote
+A number \(p > 1\) in \(\mathbb{Z}^+\) is called *prime* if the only positive integers that [[id:8eace0e2-6a16-422e-a332-713fc01d4ea8][divide]] \(p\) are \(1\) and \(p\).
+#+end_quote

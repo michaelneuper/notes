@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       5b182033-4b47-42d0-92c8-b23ca8dd7f20
+:END:
+#+title: Modularity
+#+filetags: neurolinguisitics
+
+* Definition
+#+begin_quote
+The brain consists of different modules which fulfil different functions.
+#+end_quote

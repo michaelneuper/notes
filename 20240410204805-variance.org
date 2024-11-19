@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       3c1c1ebc-8580-4a58-b6f9-8d5fd1b1b33e
+:END:
+#+title: Variance
+#+filetags: random_variables
+
+* Definition
+#+begin_quote
+If \(X\) is a [[id:d844373f-4fd9-4bdd-b621-101594827ab7][random variable]], with [[id:ec08bf1f-90a5-429a-94f5-fb027476fb8e][expected value]] \(\mu = E[X]\), then the variance of \(X\) is defined as
+
+\begin{equation*}
+\text{Var}(X) = E[(X - \mu)^2]
+\end{equation*}
+#+end_quote
+
+* Alternative Formula
+\begin{equation*}
+\text{Var}(X) = E[X^2] - (E[X])^2
+\end{equation*}
+
+** Proof
+[[file:images/variance.png]]

@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       c33b418c-6edd-4de3-9d73-6d5de459abe9
+:END:
+#+title: Probability Density Function
+#+filetags: continuous_random_variables
+
+* Definition
+#+begin_quote
+A *probability density [[id:87d42439-b03b-48be-84ab-2215b4733dd7][function]] \(f(x)\)* associated with a [[id:02a15daa-14ee-4057-ad3c-3ba5f15a150d][continuous random variable]] \(X\) has the following properties:
+- \(f(x) \ge 0\) for all \(x\in(-\infty,\infty)\)
+- \(P\{a\le X \le b\} = \int_a^{b} f(x) \, dx\)
+- \(P\{-\infty\le X \le  \infty\} = \int_{-\infty}^{\infty} f(x) \, dx = 1\)
+
+Similar to the [[id:dc5f0d7c-34f1-46fc-bfe8-9f159ecd189c][Axioms of Probability]]
+#+end_quote
+
+* Note
+- \(P\{X=a\} = \int_a^af(x) \, dx = 0\)
+- \(P\left\{a-\frac{1}{2} \varepsilon \leq X \leq a+\frac{1}{2} \varepsilon\right\}=\int_{a-\frac{1}{2} \varepsilon}^{a+\frac{1}{2} \varepsilon} f(x) d x \approx \varepsilon f(a)\)

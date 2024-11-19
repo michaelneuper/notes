@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       7c520643-d169-4201-b90d-7e6466b94373
+:END:
+#+title: Proof by Contrapositive
+
+* Definition
+To prove \(\alpha\Rightarrow\beta\), prove \(\neg\alpha\Rightarrow\neg\beta\)
+
+* Example
+[[file:images/proof-by-contrapositive.png]]

@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       10b7d095-6ee4-4b1b-94a4-5f24fb09763e
+:END:
+#+title: Multinomial Coefficients
+#+filetags: combinatorics
+
+Number of ways to divide \(n\) objects into \(r\) groups of sizes \(n_1, n_2,\cdots n_r\):
+
+\[{n \choose n_1}{n-n_{1} \choose n_2}{n-n_1-n_2 \choose n_3}\cdots{n-n_1-n_2\cdots -n_{r-1} \choose n_r} = \frac{n!}{n_1!n_2!\cdots n_r!}\]
+which is the same as the number of permutations of \(n\) objects where \(n_1\) are identical, \(n_1\) are identical, etc.

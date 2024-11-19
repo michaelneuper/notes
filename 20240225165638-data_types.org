@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       72f40898-b06c-4c82-b670-b892182657a9
+:END:
+#+title: Data Types
+
+* Definition
+#+begin_quote
+A [[id:56ae2cf4-a426-46fd-82eb-9acb3c8512ba][set]] of values and a set of operations defined on those values.
+We use the data type to create new [[id:a971dde6-4766-41ea-9dd1-9de67a051aad][object]].
+#+end_quote
+
+* Built-in Data Types (Python)
+
+| Type    | Values                 | Sample [[id:fcb4d637-613d-4d46-bf3a-cd98985e05de][Literals]] | Operations     |
+|---------+------------------------+-----------------+----------------|
+| =str=   | Sequence of characters | 'Hello World'   | +              |
+| =int=   | Integers               | 17              | + - * // % **  |
+| =float= | Floating-point numbers | 3.1415 6.022e23 | + - * // % **  |
+| =bool=  | Truth values           | True, False     | and or not xor |
+
+** [[id:2f8faf02-c178-4881-86b1-5f9c5f646d6a][Strings]]
+** [[id:48b7b282-e1f3-4c80-b014-4868bb00b80e][Integers]]
+** [[id:321d94dc-4d0a-479e-a0e8-8f5603f7915e][Floating-point Numbers]]
+** [[id:4d6414f9-b619-4a2c-baa8-b980786f6087][Booleans]]

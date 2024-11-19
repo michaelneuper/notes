@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       2606eefb-295e-4afc-8942-9bbea33f66ed
+:END:
+#+title: Order of Growth Classifications
+#+filetags: performance
+
+| order of growth | function | slope of line in | factor for doubling |
+| description     |          | log-log plot (b) |        method (2^b) |
+|-----------------+----------+------------------+---------------------|
+| constant        | 1        |                0 |                   1 |
+| logarithmic     | log N    |                0 |                   1 |
+| linear          | N        |                1 |                   2 |
+| linearithmic    | N log N  |                1 |                   2 |
+| quadratic       | N^2      |                2 |                   4 |
+| cubic           | N^3      |                3 |                   8 |
+| exponential     | 2^N      |                - |                 2^N |
+
+[[file:images/order-of-growth.png]]

@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       981cbc58-4c6b-4f66-89ce-7debafaf9c82
+:END:
+#+title: Parabolas
+#+filetags: conic_sections
+
+* Definition
+#+begin_quote
+A *parabola* is the set of points in a plane that are equidistant from a fixed point \(F\) (focus) and a fixed line (directrix).
+[[file:images/parabola.png]]
+#+end_quote
+
+* Equation 1
+An equation of the parabola with vertex at \((h, k)\), focus \((h,p + k)\) and directrix \(y =k -p\) is
+\begin{equation*}
+(x - h)^2 = 4p(y-k)
+\end{equation*}
+[[file:images/parabola-1.png]]
+
+* Equation 2
+An equation of the parabola with vertex at \((h, k)\), focus \((p + h, k)\) and directrix \(x =h -p\) is
+\begin{equation*}
+(y-k)^2 = 4p(x-h)
+\end{equation*}
+[[file:images/parabola-2.png]]

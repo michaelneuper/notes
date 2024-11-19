@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       3500ef8a-ac1e-4542-b146-6e743a9acdde
+:END:
+#+title: Symmetry
+
+* Even Functions
+- A [[id:87d42439-b03b-48be-84ab-2215b4733dd7][function]] \(f\) is called *even* if for all \(x\) in the domain of \(f\), \(f(-x) = f(x)\)
+- Symmetric about the \(y\)-axis
+
+- e.g. \(f(x) = x^{2}\)
+
+* Odd Functions
+- A [[id:87d42439-b03b-48be-84ab-2215b4733dd7][function]] \(f\) is called *odd* if for all \(x\) in the domain of \(f\), \(f(-x) = -f(x)\)
+- Symmetric about the origin i.e. rotating the graph of \(f\) \(\pi\) radians gives us the same graph
+
+- e.g. \(f(x) = x\)

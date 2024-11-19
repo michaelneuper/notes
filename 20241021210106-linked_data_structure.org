@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       143316f4-b2de-4b30-be41-b65293769948
+:END:
+#+title: Linked Data Structure
+#+filetags: data_structures
+
+* Definition
+#+begin_quote
+A Linked [[id:60e83175-8286-4cf8-8d40-aee5c8727578][Data Structure]] is a DT that associates with each [[id:a971dde6-4766-41ea-9dd1-9de67a051aad][object]] a link to another one.
+Variable size with sequencial access.
+#+end_quote
+
+- Machine: Link is memory address of next object.
+- Python: Link is reference to next object.
+
+[[file:images/linked-dts.png]]

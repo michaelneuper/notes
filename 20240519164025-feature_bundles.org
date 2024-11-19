@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       cf14ed21-9e20-4930-b344-f71ab95b99d5
+:END:
+#+title: Feature Bundles
+#+filetags: phonetics
+
+* Definition
+#+begin_quote
+Used to describe the features of a sound.
+#+end_quote
+
+* Examples
+
+| [i]      |
+|----------|
+| + front  |
+| + high   |
+| + spread |
+
+
+** Exception
+| The schwa sound [ə] |
+|---------------------|
+| - back              |
+| - front             |
+| - high              |
+| - low               |
+| - round             |
+| - spread            |

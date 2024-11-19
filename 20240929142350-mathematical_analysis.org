@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       74b62ccc-11a9-45d0-94b1-e3da56680da3
+:END:
+#+title: Mathematical Analysis
+#+filetags: performance
+
+* Definition
+#+begin_quote
+- Analyse algorithm to develop formula for running time as a function of \(N\).
+- Useful for predicting and explaining.
+- Applies to any computer.
+#+end_quote

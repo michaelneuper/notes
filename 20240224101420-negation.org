@@ -1,0 +1,32 @@
+:PROPERTIES:
+:ID:       86afe72f-5d27-4bd7-8ccc-1d599ee00835
+:ROAM_ALIASES: NOT
+:END:
+#+title: Negation
+
+* Definition
+- For a (var-)statement \(\alpha\) we have that "\(\text{not } \alpha\)" is a (var-)statement.
+
+* Notation
+- Mathematical language: \(\neg\alpha\)
+
+* Gate
+[[file:images/NOT.png]]
+
+* Interpretation
+** For [[id:675d2e38-6ee5-49a0-9c07-bb1b5291a2f7][Statement]]
+- \(\neg\alpha\) is =true= iff \(\alpha\) is =false=.
+** For [[id:ac356044-060c-4b67-84f2-6361c9c574bb][Var-statements]]
+- The values making \(\neg\alpha\) true are the values that make \(\alpha\) false.
+
+* [[id:597a548b-60b2-41e7-aae9-8b1328d06e65][Truth Table]]
+| \(\alpha\) | \(\neg\alpha\) |
+|-------+--------|
+| T     | F      |
+| F     | T      |
+
+* Rules
+- \(\neg(\alpha \vee \beta) \Leftrightarrow \neg\alpha \wedge \neg\beta\)
+- \(\neg(\alpha \wedge \beta) \Leftrightarrow \neg\alpha \vee \neg\beta\)
+- \(\neg(\forall x \in X, \gamma(x)) \Leftrightarrow \exists x \in X, \neg\gamma(x)\)
+- \(\neg(\exists x \in X, \gamma(x)) \Leftrightarrow \forall x \in X, \neg\gamma(x)\)

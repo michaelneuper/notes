@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       e64ef180-2fff-4790-bf03-1920ea80b239
+:ROAM_ALIASES: Poset
+:END:
+#+title: Partially Ordered Set
+
+* Definition
+A *poset* is a [[id:56ae2cf4-a426-46fd-82eb-9acb3c8512ba][set]] \(P\) together with a binary [[id:72a5316f-9b83-4c20-aa2e-42ffe2813cfb][relation]] \(\le_{P}\) on \(P\) which is
+- [[id:f335aa45-3a2c-43e6-9d60-7e0e4cbe1e43][Reflexive]]
+- [[id:7b389a98-ad6e-4514-83e2-5fa4b5fff869][Transitive]]
+- [[id:d5865dc9-4394-40fd-add2-075fc6bd1aea][Antisymmetric]]
+
+* Terminology
+The relation \(\le_{P}\) is called a *partial order*.
+
+* Note
+The word /partial/ is used to indicate that not every pair of elements needs to be comparable.
+That is, there may be pairs for which neither element precedes the other.

@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       ddde4468-1e4a-46e1-814c-de158423d9a9
+:END:
+#+title: Assimilation
+
+* Definition
+The fact of a sound being made more like another in the same or next word
+* Examples
+- unlawful -> uNlawful
+- uncountable -> uNGcountable
+- unbeaten -> uMbeaten
+- cats -> catS
+- dogs -> dogZ

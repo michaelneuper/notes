@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       ccf028a5-ddc5-4ac3-8c50-7cb37e1d70c6
+:END:
+#+title: Concavity Test
+#+filetags: calculus derivatives
+
+* Definition
+#+begin_quote
+Let \(f\) be a function and \(I\) an interval
+
+(a) If \(f''(x) > 0\) for all \(x\in I\), then the graph of \(f\) is [[id:1e635710-fe6e-40ef-914a-022e2b01eb9c][concave upward]] on \(I\).
+(b) If \(f''(x) < 0\) for all \(x\in I\), then the graph of \(f\) is [[id:1e635710-fe6e-40ef-914a-022e2b01eb9c][concave downward]] on \(I\).
+#+end_quote

@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       35b7d043-169e-47e3-98bc-69bfaad2539e
+:END:
+#+title: Tilde Notation
+#+filetags: performance
+
+* Definition
+#+begin_quote
+\(f(N) \thicksim g(N)\) means
+\begin{equation*}
+\lim_{N\to \infty} \frac{f(N)}{g(N)} = 1
+\end{equation*}
+#+end_quote
+
+* Note
+Tilde notation typically only retains the dominant term in the algorithm’s complexity, discarding smaller terms (but not the constant factor associated with that dominant term).
+
+* Example
+\(\frac{5}{4} N^2 + \frac{13}{4} N + \frac{53}{2} \thicksim \frac{5}{4} N^2\)

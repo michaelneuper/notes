@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       c0eceaf3-cb33-49de-b28a-edc7fb8b6d4f
+:END:
+#+title: Plurals
+
+* Examples
+- student -> students
+- ox + oxen

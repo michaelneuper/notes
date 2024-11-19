@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       d209d5ef-ceb6-4801-8488-40d19377bb64
+:END:
+#+title: Unions
+
+* Definition
+- For any two sets \(A\) and \(B\) there exists a set containing all the elements in \(A\) [[id:d146a663-e2c9-453a-b7f5-387284f7285a][OR]] \(B\). Denoted \(A\cup B\).
+
+- If there is some larger set \(C\) with \(A,B\subseteq C\) then
+\begin{equation*}A \cup B := \{x \in C | x \in A \vee x \in B\}\end{equation*}
+
+** Unions of Multiple Sets
+Suppose we have sets \(A_1, A_2, A_3,\cdots A_{n}\) then their union can be written as \(\bigcup_{i=1}^nA_i\). This means that
+\begin{equation*}
+\bigcup_{i=1}^nA_i = \left(\bigcup_{i=1}^{n-1}A_i\right) \cup A_{n}
+\end{equation*}
+
+* Example
+- If \(A = \{1,2,3\}\) and \(B = \{3,4\}\) then
+- \(A\cup B = \{1,2,3,4\}\)
+
+* Visualisation
+[[file:images/union.svg]]

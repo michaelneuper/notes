@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       a92e4042-d07a-4eb5-97b3-a8bf094d14b7
+:END:
+#+title: Dimunition
+
+* Examples
+- cigarette

@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       103ed052-83c8-4f4a-9ffb-62a2bdd56637
+:END:
+#+title: Object Trace
+
+* Informational Trace
+Table showing values after each line of the program
+
+* Object Trace
+Shows [[id:88fbf286-a581-45bf-a765-5d27d3472517][variables]], [[id:a971dde6-4766-41ea-9dd1-9de67a051aad][objects]], object references for each line of the program
+
+[[file:images/object-trace.png]]

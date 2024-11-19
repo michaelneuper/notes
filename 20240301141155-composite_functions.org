@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       f24146bb-8cc1-4635-b0e9-41ac969cde51
+:END:
+#+title: Composite Functions
+
+* Definition
+Given two [[id:87d42439-b03b-48be-84ab-2215b4733dd7][functions]] \(f : X \to Y\) and \(g : Y \to Z\) we define their composite, as \(g\circ f: X \to Y\) as the function where \((g\circ f)(x) = g(f(x))\).
+
+* Notes
+- \(f\circ g\) is read as
+  - "\(f\) composed with \(g\)"
+  - "the composite/composition of \(f\) and \(g\)"
+  - "\(g\) then \(f\)"

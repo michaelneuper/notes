@@ -1,0 +1,42 @@
+:PROPERTIES:
+:ID:       e957b21b-0338-4020-b270-038f6b9f7b4a
+:END:
+#+title: Computer Science 144
+#+filetags: module
+
+* Using Data Types :using_dts:
+** [[id:72f40898-b06c-4c82-b670-b892182657a9][Data Types]]
+** [[id:045de827-7b9a-4212-82f9-e9e9869d0e94][Object Oriented Programming]]
+** [[id:a971dde6-4766-41ea-9dd1-9de67a051aad][Objects]]
+** [[id:2f8faf02-c178-4881-86b1-5f9c5f646d6a][Strings]]
+** [[id:18e848db-e7c7-488b-839e-baaaae1106d0][Color]]
+** [[id:d09cc2f1-ffb7-4a02-aea0-92e7ffbceda3][Picture]]
+* Creating Data Types :creating_dts:
+** [[id:bcab6ba6-de4b-4509-95fb-aee12584a1ed][Class]]
+* Designing Data Types :designing_dts:
+** [[id:6b7f9450-fbff-4901-ba2e-ab679464aef1][Encapsulation]]
+** [[id:21b66b5c-8ae8-49c2-b2e2-f1f39c1484a3][Immutability]]
+** [[id:ccfca208-d47e-433d-86c9-10519fcab5f7][Polymorphism]]
+** [[id:0d7eb97d-ec74-4a1e-88ca-c1bf49bc8cb1][Inheritance]]
+* Performance :performance:
+** [[id:ffd614f6-3982-42dc-b912-d82a30dd950c][Doubling Hypotheses]]
+** [[id:77dc50d9-658f-4ff0-98f7-c06d435ac80a][Empirical Analysis]]
+** [[id:35b7d043-169e-47e3-98bc-69bfaad2539e][Tilde Notation]]
+** [[id:74b62ccc-11a9-45d0-94b1-e3da56680da3][Mathematical Analysis]]
+** [[id:2606eefb-295e-4afc-8942-9bbea33f66ed][Order of Growth Classifications]]
+* Sorting and Searching :search_n_sort:
+** [[id:18af34be-095f-491f-b142-b410c890ab25][Binary Search]]
+** [[id:1d69c29d-2fa6-4db2-8900-70c38d86fc2a][Insertion Sort]]
+** [[id:1cbf7867-8a31-48ce-a944-b4eb503916c8][Merge Sort]]
+* Stacks and Queues :stacks_n_queues:
+** [[id:60e83175-8286-4cf8-8d40-aee5c8727578][Data Structure]]
+** [[id:436f54b5-16ec-4f0c-aac1-94637d34f65f][Stack]]
+** [[id:39dd3504-cf18-45e5-9ddb-6d1ef45970fb][Queue]]
+** TODO reverse polish notation
+** [[id:2007b6de-cbac-4c83-98d0-4278a638b43b][Sequential Data Structure]]
+** [[id:143316f4-b2de-4b30-be41-b65293769948][Linked Data Structure]]
+** [[id:62282d8d-bb16-4e49-bc3c-82abf080860b][Linked List]]
+* Symbol Tables :symbol_tables:
+** [[id:a274672a-12c8-44d0-85ae-b76002dc6fc4][Symbol Table]]
+** [[id:e7f4222e-43ce-484a-9ca2-b202a84105d0][Hash Table]]
+** [[id:1b5003f1-d27c-42da-b8d1-8eb238861fce][Binary Search Tree]]

@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       bf2f1304-6346-43da-bcc0-71878fb5789b
+:END:
+#+title: Reflections
+
+Let \(f\) be any function.
+Then the graph of
+
+- \(y=-f(x)\) is given by reflecting the graph of \(y=f(x)\) about the \(x\)-axis
+- \(y=f(-x)\) is given by reflecting the graph of \(y=f(x)\) about the \(y\)-axis

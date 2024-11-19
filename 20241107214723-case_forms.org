@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       65377891-8afc-4522-981a-18e4d99b0289
+:END:
+#+title: Case Forms
+
+* Nominative
+Case that indicates the subject of a [[id:d1cfe60a-53d4-470a-aea5-4b4bc9890d8f][verb]].
+
+/He/ likes her.
+
+* Accusative
+Case that indicates a direct object.
+
+She hates /him/.
+
+* Genitive
+Case that indicates possession.
+
+Ayanda broke /his/ heart.

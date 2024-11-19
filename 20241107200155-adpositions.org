@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       666b5a4b-b177-4aef-b97a-6a3e12270e82
+:END:
+#+title: Adpositions
+
+* Definition
+[[id:18a6c1d4-46af-4fa4-9f17-3703208f5015][Word Class]] to express spatial or temporal relations.
+
+* Types
+** [[id:cfc40864-219f-4fbe-95b0-6fe72f803b2e][Prepositions]]
+** [[id:f3195900-cc1b-4a32-bf5c-258981ab5635][Postpositions]]
+** [[id:2e216708-b028-49f2-b1bb-45fab837b489][Circumpositions]]

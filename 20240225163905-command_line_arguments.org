@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       c18c76bf-0c46-4c68-9199-0e30a07a08e9
+:END:
+#+title: Command-line Arguments
+
+#+begin_src python :results output :var arg1="Michael" :python "python3.8"
+import sys
+import stdio
+
+stdio.writeln('Hi, ' + sys.argv[1] + '. How are you?')
+#+end_src
+
+#+RESULTS:
+: Hi, Michael. How are you?

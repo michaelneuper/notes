@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       f5d5e0c6-73d2-4195-8e93-e0d27c328223
+:ROAM_ALIASES: XOR
+:END:
+#+title: Symmetric Difference
+
+* Definition
+- For any two sets \(A\) and \(B\) there exists a set containing all the elements in \(A\) OR \(B\), but not in both. Denoted \(A \oplus B\).
+
+\begin{equation*}
+A \oplus B = (A - B) \cup (B - A)
+\end{equation*}
+
+* Example
+- If \(A = \{1, 2, 3\}\) and \(B = \{3, 4\}\)
+- \(A \oplus B = \{1, 2, 4\}\)
+
+* Visualisation
+[[file:images/symmetric-difference.svg]]

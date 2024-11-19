@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       a1e222d8-ae4a-4487-986d-b39205f203be
+:END:
+#+title: Angles
+
+* Defintion
+Measure of rotation between two lines.
+
+* Converting from degrees to radians
+\(\text{rad} = \text{deg}\times\frac{\pi}{180^{\circ}}\)
+
+* Converting from radians to degrees
+\(\text{deg} = \text{rad}\times\frac{180^{\circ}}{\pi}\)

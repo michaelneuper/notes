@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       d726dffb-c8f4-4605-aff1-59519cdaf1ac
+:END:
+#+title: Inverse Trigonometric Functions
+#+filetags: inverse_functions
+
+The [[id:17d56a87-ff5e-4d0d-85f0-caa68750bb8f][inverses]] of [[id:d29f8fa1-bce7-4d4e-8592-edbab6d30395][trigonometric functions]].
+
+[[file:images/inverse-trig.png]]

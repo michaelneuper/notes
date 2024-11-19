@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       09845b83-73a7-4e6a-941d-df1ecbdf32d8
+:END:
+#+title: Bound Morphemes
+
+* Definition
+#+begin_quote
+Bound morphemes cannot stand alone, they must be attached to other morphemes in order to have a meaning.
+
+They occur as parts of words.
+#+end_quote
+
+* Categorisation
+- Bound roots (see [[id:8a1148be-ca0a-44cf-a140-c9e3191f8f90][Root Words]])
+- [[id:afd36133-0af4-41f7-a158-cc74636e0e6c][Affixes]]
+
+* Example
+- /s/ in dogs
+- /s/ in person's
+- /ir/ in irreversable

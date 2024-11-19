@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       8a1148be-ca0a-44cf-a140-c9e3191f8f90
+:ROAM_ALIASES: "Word Bases"
+:END:
+#+title: Root Words
+
+* Definition
+#+begin_quote
+The unit that provides the core meaning and to which [[id:09845b83-73a7-4e6a-941d-df1ecbdf32d8][bound morphemes]] attach. The same as a [[id:f1f0c1e3-2db3-4004-bbd9-e26b2e18698b][free morpheme]] except in the case of bound roots.
+#+end_quote
+
+* Bound Roots
+#+begin_quote
+Root words which cannot stand alone and must be attached to other bound morphemes to acquire meaning.
+#+end_quote
+
+** Examples
+- /ject/ in /inject/ or /reject/
+- /ceive/ in /receive/ or /deceive/

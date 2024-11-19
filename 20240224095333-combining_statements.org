@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       c320994c-b8c2-4d38-8954-d75f1c8aa022
+:ROAM_ALIASES: "Logical Operators"
+:END:
+#+title: Combining Statements
+#+filetags: logic
+
+* Operations on Statements
+** [[id:b6b3f983-2e80-4cd2-9167-b309c6156ccf][Conjunction]]
+** [[id:d146a663-e2c9-453a-b7f5-387284f7285a][Disjunction]]
+** [[id:86afe72f-5d27-4bd7-8ccc-1d599ee00835][Negation]]

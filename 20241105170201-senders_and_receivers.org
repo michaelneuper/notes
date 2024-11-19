@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       01f98bd6-a120-404a-a3ff-ae91a85d5306
+:END:
+#+title: Senders and Receivers
+
+* Sender
+** Author
+The one who decides what will be said and selects the appropriate words
+- e.g. media story = journalist
+- lecture = lecturer
+** Principal
+Person or institution whose position is established by the words that are spoken (originator of the set of ideas)
+- e.g. lecture about Hymes: principal = Hymes
+** Animator
+The one who actually speaks ("talking machine")
+- lecture = animator
+
+* Receivers
+** Addressed
+Recipients to whom the sender directs his message intentionally
+- lecture = students
+** Unaddressed
+Listeners who receive the message at the same time as the sender is speaking to the addressed receiver
+
+** Non-ratified receivers
+Sender is not aware of the presence of the receiver (eavesdroppers or overhearers)
+
+** Audience
+Refers to a large group of receivers who are generally not in a position to engage the speaker through dialogue and interaction

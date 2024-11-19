@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       3c65422f-9353-4842-8038-6bf8b96c3226
+:END:
+#+title: Conditional Probability is a Probability
+#+filetags: conditional_probability
+
+* Proposition
+For an experiment with sample space \(S\), and any fixed event \(F\) for which \(P(F) > 0\), all the [[id:dc5f0d7c-34f1-46fc-bfe8-9f159ecd189c][axioms of probability]] hold.
+
+* Proof for Axiom 1
+We know that \(P(EF) \geq 0\), \(P(F) > 0\), and \(P(EF) \leq P(F)\).
+Therefore \(0 \leq P(E|F) \leq 1\).
+
+* Proof for Axiom 2
+\(P(S|F) = \frac{P(SF)}{P(F)} = \frac{P(F)}{P(F)} = 1\)
+
+* Proof for Axiom 3
+\(P\left(\bigcup_{i=1}^{\infty}E_i|F\right) = \frac{P(\bigcup_{i=1}^{\infty}E_iF)}{P(F)} = \sum_{i=1}^{\infty}\frac{P(E_iF)}{P(F)} = \sum_{i=1}^{\infty}P(E_i|F)\)

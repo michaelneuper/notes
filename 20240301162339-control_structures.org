@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       5c0c52b1-dffb-4bd3-ba8e-3f6e935da2e5
+:END:
+#+title: Control Structures
+
+* Control Flow
+- The sequence of statements that are executed in a program
+- [[id:9280e877-a023-4954-980b-fb970828c43f][Conditionals]] and [[id:d0468b91-d8a9-40d8-8299-97d8910f0ae5][Loops]] enable us to choreograph the control flow

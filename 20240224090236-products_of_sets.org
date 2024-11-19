@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       fd77c6f5-fa5d-4cc1-893a-31e9dbaa49df
+:ROAM_ALIASES: "Cartesian Product"
+:END:
+#+title: Product Sets
+#+filetags: relations_diagraphs
+
+* Definition
+#+begin_quote
+If \(A\) and \(B\) are two nonempty [[id:56ae2cf4-a426-46fd-82eb-9acb3c8512ba][sets]], we define the *product set* or *Cartesian product* \(A\times B\) as the set of all [[id:0c82b098-23b3-475e-961d-86cbb4b5bf38][ordered pairs]] \((a,b)\) with \(a\in A\) and \(b\in B\).
+\begin{equation*}
+A\times B \coloneqq \{(a,b) \mid a\in A \wedge b\in B\}
+\end{equation*}
+#+end_quote
+
+* Theorem
+For any two finite, nonempty sets \(A\) and \(B\), \(|A\times B| = |A||B|\)
+
+* Example
+If \(A=\{1,2,3\}\) and \(B=\{3,4\}\) then
+\begin{equation*}
+A \times B = \left\{
+\begin{array}{ll}
+(1, 3), & (1, 4), \\
+(2, 3), & (2, 4), \\
+(3, 3), & (3, 4)
+\end{array}
+\right\}
+\end{equation*}

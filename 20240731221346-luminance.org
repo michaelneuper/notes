@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       b56ee29a-d65a-455e-b0d5-d03d380ac69e
+:END:
+#+title: Luminance
+
+* Definition
+#+begin_quote
+The /monochrome luminance/ of a color quantifies its *effective brightness*.
+#+end_quote
+
+* NTSC Formula
+\begin{equation*}
+0.299r + 0.587g + 0.114b
+\end{equation*}
+
+where r,g and b are the [[id:18e848db-e7c7-488b-839e-baaaae1106d0][RGB]] values
+
+* Application
+- Choose colors for displayed text.
+- Convert colors to grayscale.

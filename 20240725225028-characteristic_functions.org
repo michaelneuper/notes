@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       76f92382-4078-47e4-ab90-cfef54cf29f5
+:END:
+#+title: Characteristic Functions
+#+filetags: fundamentals
+
+* Definition
+#+begin_quote
+If \(A\) is a subset of a universal [[id:56ae2cf4-a426-46fd-82eb-9acb3c8512ba][set]] \(U\), the *characteristic function* \(f_A\) of \(A\) is defined for each \(x\in U\) as follows:
+
+\begin{equation*}
+f_{A}(x) =
+\begin{cases}
+1 ,\, x \in A \\
+0 ,\, x \not\in A \\
+\end{cases}
+\end{equation*}
+#+end_quote
+
+* Properties
+- \(f_{A\cap B} = f_A f_B\)
+- \(f_{A\cup B} = f_{A} + f_{B} - f_A f_B\)
+- \(f_{A\oplus B} = f_{A} + f_{B} - 2 f_A f_B\)

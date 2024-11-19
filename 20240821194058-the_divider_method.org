@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       84db17ef-b664-4aca-aa1b-d904f15a53bc
+:ROAM_ALIASES: "Stars and Bars"
+:END:
+#+title: The Divider Method
+#+filetags: combinatorics
+
+* Definition
+#+begin_quote
+The number of ways of sorting \(n\) *indistinguishable* objects into \(r\) containers (\(r-1\) dividers) is
+\begin{equation*}
+\frac{(n+r-1)!}{n!(r-1)!} = {n+r-1 \choose r-1}
+\end{equation*}
+#+end_quote
+
+* Example
+Four cookies are distributed between Tom, Dick, and Harry in such a way that each gets at least one cookie.
+The 4 cookies are traditionally represented as stars (****).
+But here, they are shown as cookie-colored circles (●●●●).
+The 3 gaps between the cookies are indicated by red carets (^ ^ ^).
+[[file:images/cookies.svg]]
+With three people, we need 2 bar symbols (| |) to occupy any two of the three gaps.
+Hence the problem reduces to finding the binomial coefficient \({\displaystyle {\tbinom {3}{2}}}\).
+Also shown are the three corresponding 3-compositions of 4.

@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       ca29a884-0d03-4f96-bd38-4282836c9e78
+:END:
+#+title: First Derivative Test
+#+filetags: calculus derivatives
+
+#+begin_quote
+Suppose \(c\) is a [[id:f66472e4-0f97-494d-91e0-0e70cd6026ef][critical number]] of a [[id:9f66f38c-1072-4146-9efe-5a90f984d480][continuous]] function \(f\).
+
+(a) If \(f'\) changes from positive to negative at \(c\), then \(f\) has a [[id:8e80da2f-092f-476a-b5f8-08749dc9dc1e][local maximum]] at \(c\).
+(b) If \(f'\) changes from negative to positive at \(c\), then \(f\) has a [[id:8e80da2f-092f-476a-b5f8-08749dc9dc1e][local minimum]] at \(c\).
+(c) If \(f'\) is positive to the left and right of \(c\), or if \(f'\) is negative to the left and right of \(c\), then \(f\) has no local maximum or minimum at \(c\).
+#+end_quote

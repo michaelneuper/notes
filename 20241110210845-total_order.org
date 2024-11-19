@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       fd07fdd8-c9af-49c8-81c1-614d4d0be12a
+:ROAM_ALIASES: Chain
+:END:
+#+title: Total Order
+
+* Definition
+A [[id:e64ef180-2fff-4790-bf03-1920ea80b239][poset]] \(P\) is called a *total order* if for any two elements \(x, y \in P\) we have that either \(x \le_{P} y\) or \(y \le_{P} x\).
+
+That is, any two elements in \(P\) are comparable.

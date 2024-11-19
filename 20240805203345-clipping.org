@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       727ef920-be25-4e8e-82d5-6353caa07759
+:END:
+#+title: Clipping
+
+* Definition
+#+begin_quote
+New words formed by cutting off (or *clipping*) a part of the word (non-[[id:afd36133-0af4-41f7-a158-cc74636e0e6c][affixes]]).
+#+end_quote
+
+* Examples
+- (tele)phone
+- exam(ination)
+- (re)fridge(rator)

@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       6afc397c-237e-4450-ac85-abb945da30bf
+:END:
+#+title: Localisation
+#+filetags: neurolinguistics
+
+* Definition
+#+begin_quote
+Different functions localised in different parts of the brain / fulfilled by different parts of the brain
+#+end_quote

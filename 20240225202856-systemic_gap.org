@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       33dbacce-b0c1-48fc-96a7-d241da73b174
+:END:
+#+title: Systemic Gap
+
+* Definition
+A sound or sequence that is [[id:f6cb0ecc-0219-49e4-868b-098b707113b6][phonologically]] or [[id:7edabb20-86fd-44fc-8552-0bb8d10663f8][phonetically]] *impossible* in a language
+
+* Examples
+- hl(ɬ)ong
+- g(x)oosen

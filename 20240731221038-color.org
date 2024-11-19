@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       18e848db-e7c7-488b-839e-baaaae1106d0
+:ROAM_ALIASES: RGB
+:END:
+#+title: Color
+
+[[id:72f40898-b06c-4c82-b670-b892182657a9][Data Type]] in python
+
+* Values
+- Red, green and blue (rgb) value
+
+* API
+[[file:images/color-api.png]]

@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       ecfd3087-af93-4584-8524-3723b4796ccd
+:END:
+#+title: Conjunctions (linguistics)
+
+* Definition
+Join two or more words or phrases.
+The strings of words that are co-ordinated (or conjoined) are known as *conjuncts*.
+
+| Pronouns:              | he /and/ she                                         |
+| Nouns:                 | carrots /and/ peas                                   |
+| Noun phrases:          | the book /or/ the computer                           |
+| Prepositions:          | in /or/ out                                          |
+| Prepositional phrases: | on the table /and/ under the chair                   |
+| Adjectives:            | the curtains were red /or/ orange                    |
+| Adverbs:               | she explained the work clearly /and/ comprehensively |
+| Verb phrases:          | eat muffins /and/ drink tea                          |
+| Sentences:             | he drinks juice /and/ she eats oats                  |
+
+* Types
+** Coordinating Conjunctions
+/and/, /or/, /but/
+** Subordinate Conjunctions
+/that/, /if/, /because/, /unless/, /while/, etc.

@@ -1,0 +1,45 @@
+:PROPERTIES:
+:ID:       47914a94-e4b1-485d-a380-c4e4f269f49d
+:END:
+#+title: Normal Random Variables
+#+filetags: continuous_random_variables
+
+* General Normal Random Variable
+#+begin_quote
+\(X\) is called a *normal* random variable with parameters \(\mu\) and \(\sigma\), if the probability density function is
+
+\begin{equation*}
+f(x) = \frac{1}{\sqrt{2\pi}\sigma} e^{-(x - \mu)^2 / 2\sigma^{2}}, \quad -\infty <  x < \infty
+\end{equation*}
+#+end_quote
+
+** Properties
+- \(E[X] = \mu\)
+- \(\text{Var}(X) = \sigma^{2}\)
+
+* Standard Normal Random Variable
+#+begin_quote
+\(Z\) is called a *standard normal* random variable if its [[id:c33b418c-6edd-4de3-9d73-6d5de459abe9][Probability Density Function]] is given by
+
+\begin{equation*}
+f(z) = \frac{1}{\sqrt{2\pi}}e^{-\frac{z^2}{2}}, \quad -\infty < x < \infty
+\end{equation*}
+#+end_quote
+
+[[file:images/normal-dist.png]]
+
+** Properties
+- \(E[Z] = 0\)
+- \(\text{Var}(Z) = 1\)
+
+* [[id:a5ec0598-39ea-42ee-a6e3-9427a3faa494][Cumulative Distribution Function]]
+\begin{equation*}
+\phi(a) = P\{Z,\le a\} = \frac{1}{\sqrt{2\pi}}\int_{-\infty}^{a}e^{-\frac{z^2}{2}} \, dz
+\end{equation*}
+
+** Symmetry Around 0
+\begin{equation*}
+\phi (-a) = 1 - \phi (a)
+\end{equation*}
+*** Proof
+[[file:images/normal-symmetry.png]]

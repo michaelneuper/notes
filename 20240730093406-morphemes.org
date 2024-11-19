@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       6520f76a-6137-4e67-bfb9-0e3fd7b8e628
+:END:
+#+title: Morphemes
+
+* Defintion
+#+begin_quote
+Minimal indivisible unit of meaning or grammatical function.
+
+Note: we use hyphenation to seperate morphemes from each other; for example, /dogs/ as /dog-s/
+#+end_quote
+
+* Categorisation
+- [[id:f1f0c1e3-2db3-4004-bbd9-e26b2e18698b][Free Morphemes]]
+- [[id:09845b83-73a7-4e6a-941d-df1ecbdf32d8][Bound Morphemes]]
+
+* Variants
+- [[id:7f92cbd6-018a-4933-9481-399325a626b4][Allomorphs]]
+
+* Examples
+- dog-s
+- walk-s
+- walk-ing
+- walk-ed

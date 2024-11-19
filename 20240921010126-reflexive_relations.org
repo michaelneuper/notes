@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       f335aa45-3a2c-43e6-9d60-7e0e4cbe1e43
+:END:
+#+title: Reflexive Relations
+
+* Definition
+A [[id:72a5316f-9b83-4c20-aa2e-42ffe2813cfb][relation]] \(R\subseteq X^2\) is called *reflexive* if for all \(x\in X\) we have that \(x \mathrel{R} x\).
+
+That is, each element must be related to itself.
+
+* Theorem
+A relation \(R\subseteq X^2\) is reflexive iff the [[id:313eb7b7-226a-4df4-8872-0c06f5104cec][diagonal]] of \(X\), denoted \(\Delta_X\subseteq R\).
+
+* Example
+Let \( A = \{1, 2, 3\} \). A relation \( R \) on \( A \) is defined as follows:
+
+\(R = \{ (1, 1), (2, 2), (3, 3), (1, 2), (2, 3) \}\)
+
+This relation \( R \) is reflexive because for every element \( a \in A \), the pair \( (a, a) \) is in \( R \). Specifically:
+- \((1, 1), (2, 2), (3, 3) \in R\)
+
+Thus, \( R \) satisfies the reflexive property.

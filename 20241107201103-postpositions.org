@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       f3195900-cc1b-4a32-bf5c-258981ab5635
+:END:
+#+title: Postpositions
+
+Follow their [[id:0ed530ac-7ee3-4521-8ef0-0e973b4c7814][complement]].
+
+benim _ile_ ("me with", Turkish)

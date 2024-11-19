@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       9053c2ec-d1de-4761-885d-470e069dda2b
+:END:
+#+title: Eponyms
+
+* Definition
+#+begin_quote
+An eponym is a term, phrase or name that is derived from a *proper noun*.
+#+end_quote
+
+* Examples
+- *Casanova* = From Giacomo Jacopo Girolamo Casanova de Seignalt (1725-98), an Italian who wrote a memoir in which he bragged about his “conquests.”
+- *Marxism* = After German philosopher and economist Karl Marx
+- *Down Syndrome* = After English physician John Langdon Down for his description of Down Syndrome

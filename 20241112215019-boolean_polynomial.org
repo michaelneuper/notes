@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       efc4e0a4-6336-4927-b7ea-1a6752e7454a
+:END:
+#+title: Boolean Polynomial
+
+* Definition
+A *boolean polynomial* in the variables \(x_{1}, \ldots, x_{n}\) is any [[id:4b3a5c7d-3853-4222-b6d3-16e73c922303][polynomial]] that can be constructed using the following [[id:25af17fb-fb34-4bc4-961f-8e5e6bd138f9][recursive]] rules:
+- \(x_{1}, \ldots, x_{n}\) are boolean polynomial
+- If \(p(x_{1}, \ldots, x_{n})\) and \(q(x_{1}, \ldots, x_{n})\) are boolean polynomials, then so are:
+  - \(p(x_{1}, \ldots, x_{n}) \wedge q(x_{1}, \ldots, x_{n})\)
+  - \(p(x_{1}, \ldots, x_{n}) \vee q(x_{1}, \ldots, x_{n})\)
+  - \(\neg p(x_{1}, \ldots, x_{n})\)

@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       03560687-d9a8-4929-b202-ec17351bb4e1
+:END:
+#+title: Algebraic Functions
+
+* Definition
+- A function \(f\) is called an algebraic function if \(f\) can be obtained by applying basic algebraic operations (addition, subtraction, multiplication, division, taking roots) to [[id:4b3a5c7d-3853-4222-b6d3-16e73c922303][polynomials]]
+
+* Example
+\begin{equation*}
+f(x) = \frac{x\sqrt{x^2+1}}{3x^3+4}
+\end{equation*}

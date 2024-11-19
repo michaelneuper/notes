@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       cf12a9a3-1d6d-443c-b25c-64fc0595a0bd
+:END:
+#+title: Coordination Test
+
+* Definition
+Used to determine whether two constituents belong to the same category.
+
+[[id:ecfd3087-af93-4584-8524-3723b4796ccd][Conjunctions]] can co-ordinate/conjoin
+
+A co-ordinate construction can contain two or more conjunctts but the conjuncts *must belong to the same [[id:18a6c1d4-46af-4fa4-9f17-3703208f5015][Word Class]]*.
+
+* Test
+Constituents that do not belog to the same category cannot be coordinated:
+- *I saw a bird (VP) or under the table (PP)
+
+* Note
+Two elements cannot be coordinated if they do not have the same function, even though they may be constituents of the same category.
+For example, if we tried to coordinate a PP that describes an NP with a PP that forms part of a VP, the result would be ungrammatical:
+- *the bishop shot the bank manager _with a moustache_ and _with a gun_.
+The PP “with a moustache” forms part of the NP “the bank manager with a moustache” and therefore cannot be coordinated with the PP “with a gun”.

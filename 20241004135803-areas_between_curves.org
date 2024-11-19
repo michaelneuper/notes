@@ -1,0 +1,39 @@
+:PROPERTIES:
+:ID:       6354ad65-7506-464e-9451-22ae114d9fa1
+:END:
+#+title: Areas Between Curves
+#+filetags: calculus
+
+* Definition
+#+begin_quote
+The area \(A\) of the region bounded by the curves \(y = f(x)\), \(y = g(x)\), and the lines \(x=a\), \(x=b\), where \(f\) and \(g\) are [[id:9f66f38c-1072-4146-9efe-5a90f984d480][continuous]] and \(f(x) \ge g(x)\), for all \(x \in [a,b]\), is the following [[id:7256d12e-eb3d-48d1-8f12-7168c6fe8522][integral]]
+\begin{equation*}
+A = \int_a^{b} \left[f(x) - g(x)\right] \, dx
+\end{equation*}
+#+end_quote
+
+[[file:images/area-curves.png]]
+
+* With Intersection
+The area between the curves \(y=f(x)\) and \(y=g(x)\) between \(x=a\) and \(x=b\) is
+\begin{equation*}
+A = \int_{a}^{b} |f(x) - g(x)| \, dx
+\end{equation*}
+
+[[file:images/curves-intersect.png]]
+
+* Note
+Sometimes it is easier to integrate w.r.t. \(y\), for example the line \(y = x - 1\) and \(y^2=2x + 6\).
+
+* Area of a Parametric Curve
+Given [[id:f3d337c4-5616-4dfa-91b2-58c7738b2473][parametric equations]] \(x(t)\) and \(y(t)\) where the curve is traced as \(t\) increases from \(\alpha\) to \(\beta\)
+\begin{equation*}
+A = \int_{a}^{b} y \, dx = \int_{\alpha}^{\beta}y \frac{dx}{dt} \, dt
+\end{equation*}
+where \(a = x(\alpha)\) and \(b = x(\beta)\).
+
+* Area with [[id:e173dcae-762b-43a3-9ca4-599e2ba6c76a][Polar Coordinates]]
+\begin{equation*}
+A = \int_{a}^{b}\frac{1}{2}r^{2} \, d\theta
+\end{equation*}
+where \(r = f(\theta)\)

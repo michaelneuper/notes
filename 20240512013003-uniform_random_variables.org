@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       688ea2df-c999-4b92-88c6-678d77f46e38
+:END:
+#+title: Uniform Random Variables
+#+filetags: continuous_random_variables
+
+* Definition
+#+begin_quote
+\(X\) is said to be a *uniform* random variable on the interval \((\alpha,\beta)\), if its [[id:c33b418c-6edd-4de3-9d73-6d5de459abe9][Probability Density Function]] is
+
+\begin{equation*}
+f(x) =
+\begin{cases}
+\frac{1}{\alpha-\beta}, \quad \alpha < x < \beta \\
+0, \quad \text{otherwise}
+\end{cases}
+\end{equation*}
+#+end_quote
+
+* The [[id:a5ec0598-39ea-42ee-a6e3-9427a3faa494][Cumulative Distribution Function]]
+\begin{equation*}
+F(a) =
+\begin{cases}
+0, \quad a\le\alpha \\
+\frac{a - \alpha}{\beta - \alpha}, \quad \alpha < a < \beta \\
+1, \quad a \ge \beta
+\end{cases}
+\end{equation*}

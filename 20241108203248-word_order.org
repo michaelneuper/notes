@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       f7c10b5b-0e00-4ac4-a60d-69ac5023d73a
+:END:
+#+title: Word Order
+
+Languages can be characterised according to the order of the subject (S), verb (V) and object (O) in a neutral [[id:a9ed1451-a177-4374-aa81-e7e8094353b0][declarative sentence]].
+
+* Example
+"The woman sees the cat."
+- Subject = the woman
+- Verb = sees
+- Object = the cat
+The word order is Subject-Verb-Object.
+Thus, English is an SVO language.

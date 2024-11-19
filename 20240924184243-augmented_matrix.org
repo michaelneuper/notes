@@ -1,0 +1,43 @@
+:PROPERTIES:
+:ID:       a15c1c29-91e3-4181-9901-95e772895731
+:END:
+#+title: Augmented Matrix
+#+filetags: linear_algebra matrices
+
+* Definition
+#+begin_quote
+Every system of [[id:de4c53ce-6aa5-4e56-a0e1-3918d18a17c4][Linear Equations]] can be written in the form \(\mathbf{Ax} = \mathbf{b}\) where \(\mathbf{A}\) is the coefficient [[id:a3e5a759-ca7d-46e2-a390-c3cb8f1cc823][matrix]] of the system and \(\mathbf{x}\) and \(\mathbf{b}\) are [[id:81c97780-c8a5-4652-a6eb-d33732c37f1e][vectors]].
+We can denote this augmented matrix \([\mathbf{A} \mid \mathbf{b}]\).
+#+end_quote
+
+* Example
+Consider the linear system
+\begin{align*}
+    x_1 - 2x_2 + 3x_3 &= 5 \\
+    -x_1 + 3x_2 + x_3 &= 1 \\
+    2x_1 - x_2 + 4x_3 &= 14
+\end{align*}
+This can be written as
+\begin{equation*}
+\begin{bmatrix}
+    1 & -2 & 3 \\
+    -1 & 3 & 1 \\
+    2 & -1 & 4
+\end{bmatrix}
+\begin{bmatrix}
+    x_1 \\
+    x_2 \\
+    x_3
+\end{bmatrix}
+=
+\begin{bmatrix}
+    5 \\
+    1 \\
+    14
+\end{bmatrix}
+\end{equation*}
+
+* Theorem
+Let \( A \) be an \( m \times n \) matrix, \( e_i \) a \( 1 \times m \) standard unit vector, and \( e_j \) an \( n \times 1 \) standard unit vector. Then
+- \( e_i A \) is the \( i \)-th row of \( A \) and
+- \( A e_j \) is the \( j \)-th column of \( A \).

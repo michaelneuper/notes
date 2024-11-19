@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       313eb7b7-226a-4df4-8872-0c06f5104cec
+:END:
+#+title: Diagonal of a Set
+#+filetags: relations_and_digraphs
+
+* Definition
+The *diagonal* of a set \(X\) is a [[id:72a5316f-9b83-4c20-aa2e-42ffe2813cfb][relation]], specifically, the set of all [[id:0c82b098-23b3-475e-961d-86cbb4b5bf38][pairs]] \((x,x)\) where \(x\in X\).
+\begin{equation*}
+\Delta_X \coloneqq \{(x,x) \mid x \in X\}
+\end{equation*}
+
+* Note
+The largest possible relation:
+\begin{equation*}
+\nabla_X \coloneqq \{(x,y) \in X^2 \mid x,y\in X\} = X^2
+\end{equation*}

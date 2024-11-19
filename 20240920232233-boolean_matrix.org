@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       27984177-d920-45da-acd2-362148b0e660
+:END:
+#+title: Boolean Matrices
+
+* Definition
+#+begin_quote
+A *Boolean matrix* is a [[id:a3e5a759-ca7d-46e2-a390-c3cb8f1cc823][matrix]] with [[id:4d6414f9-b619-4a2c-baa8-b980786f6087][boolean]] entries, denoted 0 or 1.
+#+end_quote
+
+* [[id:87704c09-b23d-4980-ab11-0a5f839ebf59][Operations]]
+- [[id:0d2844c1-3cc9-4de8-ab4d-13fbe622963e][Join]]
+- [[id:8112c919-97b7-4325-b9f3-32f303437286][Meet]]
+- [[id:6d8fa58c-11fe-46eb-a3ed-f1f1d0eac4a8][Boolean Product]]

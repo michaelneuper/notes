@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       c976dfcf-a201-4be6-bf7d-df9e245a86c7
+:ROAM_ALIASES: "Inflectional Morphemes"
+:END:
+#+title: Inflectional Affixes
+
+* Definition
+#+begin_quote
+Inflectional affixes are said to have a specific [[id:6f9cb5ec-c73f-434f-9e55-c7a0ac95120f][grammatical]] function, such as changing the:
+- tense
+- number
+- person
+- possession/case
+- aspect
+- degree of comparison
+#+end_quote
+
+* Examples
+- dog-/s/ - number (plural)
+- person-/'s/ - possession
+- teach-/ing/ - aspect

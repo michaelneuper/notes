@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       1271abaf-7986-467c-b2ca-c1c87d78abfa
+:ROAM_ALIASES: gcd
+:END:
+#+title: Greatest Common Divisor
+#+filetags: fundamentals
+
+* Definition
+#+begin_quote
+If \(a,b,c\in\mathbb{Z}^+\), then \(k\) is a common divisor of \(a\) and \(b\) if \(k\) [[id:8eace0e2-6a16-422e-a332-713fc01d4ea8][divides]] \(a\) and \(k\) divides \(b\).
+
+Then
+\begin{equation*}
+\gcd(a,b) = \max\{k : k\mid a \wedge k\mid b\}
+\end{equation*}
+#+end_quote
+
+* Theorem
+If \(d = \gcd(a,b)\), then
+- \(d = am + bn\) for some \(m,n\in\mathbb{Z}\).
+- If \(c\) is any other common divisor of \(a\) and \(b\), then \(c\mid d\).
+
+* Properties
+For any \(a,b\in\mathbb{N}\)
+- \(\gcd(a,b) = \gcd(b,a)\)
+- \(\gcd(a,0) = a\)
+- \(\gcd(a,b) = \gcd(a-b, b)\) if \(a \ge b\)

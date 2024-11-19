@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       c6e14bfb-89e2-4e81-8e64-a30c026e90e6
+:END:
+#+title: Compounding
+
+* Definition
+#+begin_quote
+Two or more independently meaningful [[id:8a1148be-ca0a-44cf-a140-c9e3191f8f90][roots]]/stems are combined to form a new word.
+#+end_quote
+
+* Examples
+- bed + room
+- green + house
+
+* Notes
+- No limit to the number of words in a compound e.g. /test-tube baby/
+- The meaning of a compound is not necessarily the sum of its parts e.g. /breadwinner/.

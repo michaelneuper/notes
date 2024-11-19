@@ -1,0 +1,43 @@
+:PROPERTIES:
+:ID:       48952d21-f707-4ee1-bcf4-80c9f3ee1235
+:END:
+#+title: Matrix Multiplication
+#+filetags: linear_algebra linear_equations
+
+* Definition
+#+begin_quote
+If \(\mathbf{A}\) is an \(m \times n\) [[id:a3e5a759-ca7d-46e2-a390-c3cb8f1cc823][matrix]] and \(\mathbf{B}\) is an \(n \times r\) matrix, then the *product* \(\mathbf{AB}\) is an \(m \times r\) matrix.
+The \((i,j)\) entry of the product is computed as follows:
+\begin{equation*}
+c_{ij} =
+\begin{bmatrix}
+a_{11} & a_{12} & \dots & \dots & a_{1n} \\
+\vdots & \vdots & \ddots & & \vdots \\
+\underline{a_{i1}} & \underline{a_{i2}} & \dots & \underline{a_{in}} \\
+\vdots & \vdots & & \ddots & \vdots \\
+a_{m1} & a_{m2} & \dots & \dots & a_{mn} \\
+\end{bmatrix}
+\quad
+\begin{bmatrix}
+b_{11} & \dots & \underline{b_{1j}} & \dots & b_{1r} \\
+b_{21} & \dots & \underline{b_{2j}} & \dots & b_{2r} \\
+\vdots & \ddots & \underline{\vdots} & \ddots & \vdots \\
+b_{n1} & \dots & \underline{b_{nj}} & \dots & b_{nr} \\
+\end{bmatrix}
+\end{equation*}
+
+\begin{equation*}
+= \underline{a_{i1}b_{1j}} + \underline{a_{i2}b_{2j}} + \dots + \underline{a_{in}b_{nj}}
+= \sum_{k=0}^n a_{ik}b_{kj}
+\end{equation*}
+#+end_quote
+
+* Properties
+- [[id:c8f00bb3-244d-4138-8a02-86934cf0103b][Associativity]]: \( A(BC) = (AB)C \)
+- Left [[id:441fae62-367a-4c7e-9c2c-3df0d1132fe7][Distributive Property]]: \( A(B + C) = AB + AC \)
+- Right distributivity: \( (A + B)C = AC + BC \)
+- Distributivity of Scalars: \( k(AB) = (kA)B = A(kB) \)
+- Multiplicative [[id:1a59f45c-c849-40c5-82e2-48b95050eecb][Identity Element]]: \( I_m A = A = A I_n \) if \( A \) is \( m \times n \)
+
+* Note
+Matrix multiplication is *NOT* [[id:d5b9323d-271b-428f-8028-1d63bb90a5b5][commutative]].

@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       19940836-dd0f-489c-b047-98eee71bb40a
+:END:
+#+title: Propositions of Probability
+#+filetags: axioms_of_probability
+
+* Proposition 1
+[[id:d633683f-d6eb-4271-9717-55fd95628cfc][Complement Rule]]
+
+* Proposition 2
+[[id:824b596d-399d-4047-8c98-4620e85c0119][Monotonicity of Probability]]
+
+* Proposition 3
+[[id:f9cfe2d4-3f37-42f7-82be-91105f5caeb0][Inclusion-exclusion Principle]]

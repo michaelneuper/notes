@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       77dc50d9-658f-4ff0-98f7-c06d435ac80a
+:END:
+#+title: Empirical Analysis
+#+filetags: performance
+
+* Definition
+#+begin_quote
+- Start with input size \(N\)
+- Measure and record running time
+- Double input size \(N\)
+- Repeat
+- Tabulate and plot results
+#+end_quote
+
+* Example (threesum)
+[[file:images/threesum-log-plot.png]]
+
+** log-log scale
+- if points are on a straight line, a power law holds
+  - often \(aN^{b}\) where \(b\) is the slope
+[[file:images/threesum-log-log.png]]

@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       94379655-bf47-4890-8f99-f2d105a3b891
+:END:
+#+title: Gauss-Jordan Elimination
+#+filetags: linear_algebra linear_equations
+
+* Algorithm
+1. Write the augmented [[id:a3e5a759-ca7d-46e2-a390-c3cb8f1cc823][matrix]] of the system of [[id:de4c53ce-6aa5-4e56-a0e1-3918d18a17c4][linear equations]].
+2. Use [[id:6dec1333-da8e-4cf2-b4f3-06002a3472ad][elementry row operations]] to reduce the augmented matrix to [[id:beb2e909-31d6-4abb-9622-e44fbfe5f6e0][reduced row echelon form]].
+3. If the resulting system is consistent, solve for the leading variables in terms of any remaining free variables.

@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       d0468b91-d8a9-40d8-8299-97d8910f0ae5
+:END:
+#+title: Loops
+
+* Definition
+Used to execute a block of code repetitively
+
+* Examples
+** [[id:777fcbf6-b68d-4bc7-a1ed-11c5c2845ce2][While Loop]]
+** [[id:08e3d37f-82d5-4fcc-9e62-1b9439ba8cb7][For Loop]]

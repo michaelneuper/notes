@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       b6476e30-2a8d-4c15-9cef-60797da2b22f
+:END:
+#+title: Place of Articulation
+#+filetags: phonetics
+
+* Definition
+#+begin_quote
+Place in the [[id:d693e2cf-a67f-4e14-a378-2a4ea40d5fbd][Vocal Tract]] where *constriction* of airflow takes place.
+#+end_quote
+[[file:images/place-constriction.png]]
+
+| Place       | Description                                                    |
+|-------------+----------------------------------------------------------------|
+| Bilabial    | Both lips are put together                                     |
+| Labiodental | Top teeth are pressed against lower lip                        |
+| Interdental | The tongue is placed between the teeth                         |
+| Alveolar    | The tip of the tongue is placed on the alveolar ridge          |
+| Palatal     | The tip and/or middle of the tongue is placed on the palate    |
+| Velar       | The back of the tongue is placed against the velum/soft palate |
+| Glottal     | Either air flows through the glottis all the way or the glottis is closed by the tightly closed vocal cords and the airflow is stopped completely |
+
+* Examples
+[[file:images/place-examples.png]]

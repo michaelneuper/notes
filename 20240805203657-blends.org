@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       b4315ecd-41ed-4527-80ea-3ffb72597d8b
+:END:
+#+title: Blends
+
+* Definition
+#+begin_quote
+A *blend* is a compound in which one or more words are [[id:727ef920-be25-4e8e-82d5-6353caa07759][clipped]] or abbreviated.
+#+end_quote
+
+* Examples
+- sitcom
+- cyborg
+- brunch

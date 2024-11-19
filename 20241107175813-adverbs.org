@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       6279d857-28c1-4a9f-8051-e53f5f619ee7
+:END:
+#+title: Adverbs
+
+* Definition
+Adverbs have a modifying function and include words like /quickly/, /slowly/, /sadly/
+
+* Usually indicate:
+** Time
+/Yesterday/ we took a nap.
+** Place
+We should stay /inside/.
+** Manner
+The cat runs /quickly/.
+** Degree/Intensity
+He's /very/ skilled.
+
+* Adverbs can modify:
+** [[id:d1cfe60a-53d4-470a-aea5-4b4bc9890d8f][Verbs]]
+They /usually/ forget the salt.
+** [[id:fea63701-9546-46b7-9e7e-5d09e30d1fe5][Adjectives]]
+The /extremely/ cold night.
+** [[id:6279d857-28c1-4a9f-8051-e53f5f619ee7][Adverbs]]
+Time passes /very/ fast.

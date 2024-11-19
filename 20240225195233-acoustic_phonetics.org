@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       f52575c7-b59a-4d6b-96a1-9d0a9db28657
+:END:
+#+title: Acoustic Phonetics
+
+[[file:images/waveform-spectogram.png]]

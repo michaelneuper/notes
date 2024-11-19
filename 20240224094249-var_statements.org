@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       ac356044-060c-4b67-84f2-6361c9c574bb
+:ROAM_ALIASES: Var-statements
+:END:
+#+title: Predicates
+#+filetags: fundamentals
+
+* Definition
+#+begin_quote
+The truth of the statement depends on the value the variable takes.
+#+end_quote
+
+* Examples
+- \(x^2-1=0\) depends on the value of \(x\). If \(x=\pm 1\) then the statement is =true=, otherwise it is =false=.
+
+- \(x^2 \ge 0\) is =true= for all real numbers of \(x\).

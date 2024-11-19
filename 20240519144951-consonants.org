@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       fc791ad0-6d5d-401f-a4d0-0cea9582a9ce
+:END:
+#+title: Consonants
+#+filetags: phonetics
+
+* Definition
+#+begin_quote
+Consonants are characterised by *constriction* in the [[id:d693e2cf-a67f-4e14-a378-2a4ea40d5fbd][Vocal Tract]] during production.
+#+end_quote
+
+* Classification
+Classified with 3 main parameters:
+- [[id:4d9ffad4-3673-4a9c-bd8f-06c2fec02b2a][Voicing]]
+- [[id:b6476e30-2a8d-4c15-9cef-60797da2b22f][Place of Articulation]] (columns)
+- [[id:1ed1bf1a-516d-4d6a-a3b2-84cadb8f3fbe][Manner of Articulation]] (rows)
+
+* Chart
+[[file:images/consonant-chart.png]]
+
+* Consonants (South African)
+[[file:images/consonants.png]]
+
+* Consonants (Clicks)
+[[file:images/clicks.png]]

@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       39dd3504-cf18-45e5-9ddb-6d1ef45970fb
+:END:
+#+title: Queue
+#+filetags: data_structures
+
+* Definition
+#+begin_quote
+A queue is an [[id:64ffa106-ed4a-4abf-983e-21f2fbe1852e][ADT]] which uses the FIFO (First In First Out) principle.
+#+end_quote
+
+* Operations
+*** Enqueue
+Add an item to the queue.
+*** Dequeue
+Remove an item to the queue.
+
+[[file:images/queue.png]]

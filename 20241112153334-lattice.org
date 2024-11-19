@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       23181ae0-1b33-4f38-ad20-a2b9f47ef856
+:END:
+#+title: Lattice
+
+* Definition
+A [[id:e64ef180-2fff-4790-bf03-1920ea80b239][poset]] \(L\) is called a *lattice* if every pair of elements has a [[id:8112c919-97b7-4325-b9f3-32f303437286][meet]] and a [[id:0d2844c1-3cc9-4de8-ab4d-13fbe622963e][join]].
+
+We say that a lattice is *bounded* if it has a minimum and maximum element.
+
+* Extrema
+** Maximum
+A maximum element of a lattice \(L\) is an element \(1_{L}\in L\) such that for any \(x\in L\) we have \(x \le 1_{L}\).
+** Minimum
+A minimum element of a lattice \(L\) is an element \(0_{L}\) such that for any \(x \in L\) we have \(0_{L} \le x\).
+
+* Example
+Every [[id:fd07fdd8-c9af-49c8-81c1-614d4d0be12a][chain]] is a lattice.

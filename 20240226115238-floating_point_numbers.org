@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       321d94dc-4d0a-479e-a0e8-8f5603f7915e
+:END:
+#+title: Floating-point Numbers
+
+* Values
+- Real numbers
+- =(sys.float_info, IEE 754)
+
+* Typical Literals
+- 3.14159
+- 2.0
+- 6.022e23
+
+* Operations
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Exponentiation
+
+* Operators
+- =+=
+- =-=
+- =*=
+- =/=
+- =**=
+
+* Examples
+- =3.141 + .03= -> =3.171=
+- =6.02e23 / 2= -> =3.01e23=

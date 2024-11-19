@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       bcab6ba6-de4b-4509-95fb-aee12584a1ed
+:END:
+#+title: Class
+
+* Definition
+#+begin_quote
+In [[id:045de827-7b9a-4212-82f9-e9e9869d0e94][OOP]], a [[id:72f40898-b06c-4c82-b670-b892182657a9][data type]] implementation is known as a *class*.
+It is a blueprint for an [[id:a971dde6-4766-41ea-9dd1-9de67a051aad][object]].
+#+end_quote
+
+* Creation
+** Constructor
+Create and initialize object.
+- In python special name like =__init__=
+- Creates instance of object
+- Initializes object's instance variable
+
+** Instance Variables
+- Set type of values
+- Belongs to particular instance of class
+
+** Methods
+- Similar to [[id:87d42439-b03b-48be-84ab-2215b4733dd7][functions]]
+- Defined in class, associated with object
+- Direct access to instance variables

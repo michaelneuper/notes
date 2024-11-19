@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       de4c53ce-6aa5-4e56-a0e1-3918d18a17c4
+:END:
+#+title: Linear Equations
+#+filetags: linear_algebra linear_equations
+
+* Definition
+A *linear equation* is an equation in the \(n\) variables \(x_1,x_2,\ldots,x_n\) is an equation that can be written in the form
+\begin{equation*}
+a_1x_1+a_2x_2+\cdots+a_nx_n=b
+\end{equation*}
+where \(a_1,a_2,\ldots,a_n\) and \(b\) are constants.
+
+* Notes
+- A system of linear equations with real coefficients has either
+  - a unique solution (a consistent system) or
+  - infinitely many solutions (a consistent system) or
+  - no solutions (an inconsistent system)
+
+- Two linear systems are called equivalent if they have the same solution sets

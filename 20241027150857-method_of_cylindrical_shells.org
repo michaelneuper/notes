@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       095567f7-5ebf-49e8-91e0-269f2f225296
+:END:
+#+title: Method of Cylindrical Shells
+
+* Definition
+#+begin_quote
+Let \(S\) be the solid obtained by rotating about the \(y\)-axis the region bounded by \(y=f(x)\) (where \(f(x) \ge 0\)), \(y=0\), \(x=a\) and \(x=b\), where \(0 \le a < b\).
+Then the [[id:fbd04568-95d7-4060-a639-515de38012fb][volume]] of the solid is
+\begin{equation*}
+V = \int_{a}^{b}
+\underbrace{(2\pi x)}_{\text{circumference}}
+\underbrace{[f(x)]}_{\text{height}}
+\underbrace{dx}_{\text{thickness}}
+\end{equation*}
+
+#+end_quote
+[[file:images/cylindrical-shells.png]]
+
+* Note
+Used to find the volume about the y-axis

@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       813a19d4-526d-465c-8f61-6bbb34bcf78e
+:END:
+#+title: Polysynthetic Languages
+
+* Generalisation
+Functional ([[id:f9efe42e-017f-4ede-9406-ab0526729e43][grammatical]]) information once again encoded in [[id:afd36133-0af4-41f7-a158-cc74636e0e6c][affixal]] form.
+
+* Notes
+- Lexical elements can also be productively incorporated
+  - i.e. both grammatical and lexical elements can constitute part of the internal structure of words (e.g. noun incorporation)
+
+* Example: Yucatec Mayan
+- /t-in-č'ak-ah če'/
+- (*COMP*)-I-chop-(*PERF*) tree
+- "I chopped a tree"

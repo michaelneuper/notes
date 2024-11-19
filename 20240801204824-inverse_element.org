@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       19ce9aa6-cd43-49ec-85c4-a5b0fadadca6
+:END:
+#+title: Inverse Element
+#+filetags: fundamentals
+
+* Definition
+#+begin_quote
+If \(\square\) is a binary [[id:87704c09-b23d-4980-ab11-0a5f839ebf59][operation]] on a [[id:56ae2cf4-a426-46fd-82eb-9acb3c8512ba][set]] \(X\) then an element \(i\in X\) is called an *inverse* if
+\begin{equation*}
+x \square i = e = i \square x
+\end{equation*}
+where \(e\) is the [[id:1a59f45c-c849-40c5-82e2-48b95050eecb][identity element]] of \(X\).
+#+end_quote

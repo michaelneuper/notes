@@ -1,0 +1,145 @@
+:PROPERTIES:
+:ID:       0aae2bca-217e-4ad6-ba31-d8371378a032
+:END:
+#+title: Mathematics 114
+#+filetags: module
+
+* Week 1 :numbers_geometry_trig:tut1:tut1mem:
+** Lecture 1 :w1l1:
+*** [[id:56ae2cf4-a426-46fd-82eb-9acb3c8512ba][Sets]]
+*** [[id:f9497f35-1b02-4489-84c3-a2b8c5465bc5][Numbers]]
+*** [[id:a995fc0e-d695-4662-a94f-4daad08de069][Intervals]]
+** Lecture 2 :w1l2:
+*** [[id:f333c6da-54a1-4d68-a197-888015126e73][Inequalities]]
+** Lectures 3 & 4 :w1l3a4:
+*** [[id:ae53c833-60af-401d-88b4-eea634debb0f][Absolute Values]]
+** Lecture 5 :w1l5:
+*** [[id:a1e222d8-ae4a-4487-986d-b39205f203be][Angles]]
+* Week 2 :sets_logic:tut2:tut2mem:
+** Lecture 1 :w2l1:
+*** [[id:6f0a6e37-8c3a-4b44-9f63-869e8deda483][Graphs of Trigonometric Functions]]
+** Lecture 2 :w2l2:
+*** [[id:56ae2cf4-a426-46fd-82eb-9acb3c8512ba][Sets]]
+** Lectures 3 & 4 :w2l3a4:
+*** [[id:56ae2cf4-a426-46fd-82eb-9acb3c8512ba][Sets]]
+*** [[id:675d2e38-6ee5-49a0-9c07-bb1b5291a2f7][Mathematical Statements]]
+** Lecture 5 :w2l5:
+*** [[id:597a548b-60b2-41e7-aae9-8b1328d06e65][Truth Tables]]
+*** [[id:244746aa-6a18-4c21-8010-6a9c5037aaee][Conditional Statements]]
+* Week 3 :functions:tut3:tut3mem:
+** Lecture 1 :w3l1:
+*** [[id:244746aa-6a18-4c21-8010-6a9c5037aaee][Conditionals]]
+*** [[id:131ece2d-0cf3-4894-9c46-bba36fa3a2d8][Quantifiers]]
+** Lecture 2 :w3l2:
+*** [[id:87d42439-b03b-48be-84ab-2215b4733dd7][Functions]]
+** Lectures 3 & 4 :w3l3a4:
+*** [[id:3500ef8a-ac1e-4542-b146-6e743a9acdde][Symmetry]]
+** Lecture 5 :w3l5:
+*** [[id:05164c1a-cde1-4621-b058-e74a492684df][Combinations of Functions]]
+*** [[id:f24146bb-8cc1-4635-b0e9-41ac969cde51][Composite Functions]]
+* Week 4 :limits:continuity:tut4:tut4mem:
+** Lecture 1 :w4l1:
+*** [[id:17d56a87-ff5e-4d0d-85f0-caa68750bb8f][Inverse of Functions]]
+*** [[id:6ffde4e8-a12d-4c3a-bc24-675b5a38433c][Limits]]
+** Lecture 2 :w4l2:
+*** [[id:6ffde4e8-a12d-4c3a-bc24-675b5a38433c][Limits]]
+** Lectures 3 & 4 :w4l3a4:
+*** [[id:bf3b5765-d746-46a4-b3c2-ab8b84dd1611][Squeeze Theorem]]
+*** [[id:9f66f38c-1072-4146-9efe-5a90f984d480][Continuity]]
+** Lecture 5 :w4l5:
+*** [[id:c2a0a137-858a-45c3-bc12-9f30800b3e24][Intermediate Value Theorem]]
+* Week 5 :proofs:derivatives:tut5:tut5mem:
+** Lecture 1 :w5l1:
+*** Test Revision
+** Lecture 2 :w5l2:
+*** [[id:a350707f-ba1b-4912-ad8d-60e80e1c5d47][Derivatives]]
+** Lecture 3 & 4 :w5l3a4:
+*** [[id:086cb8a0-bd8b-465a-8b0c-65d60f454421][Differentiability]]
+** Lecture 5 :w5l5:
+*** Proofs for Derivative Rules
+* Week 6 :binomial:tut6:tut6mem:
+** Lecture 1 :w6l1:
+*** [[id:e7d37178-46c5-4e45-9ccf-61712e012cca][Proofs]]
+** Lecture 2 :w6l2:
+*** [[id:c0407dfb-dd46-488d-88e3-25733c215325][Mathematical Induction]]
+** Lecture 3 :w6l3:
+*** [[id:f700704a-bb3b-4d75-ab4a-a1dc0698bda0][Pascal's Triangle]]
+*** [[id:6d130bdd-0096-4d4c-a150-2855608486f1][Summation Index Shift]]
+*** [[id:c0658aee-c790-4f84-a3c6-1a8bab831128][Binomial Theorem]]
+* Week 7 :chain_rule:trig_derivatives:tut7:tut7mem:
+** Lecture 1 :w7l1:
+*** [[id:3102c123-2020-4cc9-9914-4b9e0b6137bf][Trigonometric Derivatives]]
+** Lecture 2 :w7l2:
+** Lectures 3 & 4 :w7l3a4:
+*** TODO [[id:99f8249c-f8d2-4fb6-bcf4-381e24cd029a][Chain Rule]]
+* Week 8 :implicit:tut8:tut8mem:
+** Lecture 1 :w8l1:
+*** [[id:72a5316f-9b83-4c20-aa2e-42ffe2813cfb][Relations]]
+*** [[id:8ee70436-fddf-47f4-8510-56607eb6a8f1][Implicit Differentiation]]
+** Lecture 2 :w8l2:
+*** [[id:f4f8d2f6-a61b-4bb9-802e-4099615d7c98][Rates of Change]]
+** Lectures 3 & 4 :w8l3a4:
+*** Motion of a Particle
+*** Rates of Change
+*** Related Rates
+** Lecture 5 :w8l5:
+*** Relates Rates
+* Week 9 :max_min:tut9:tut9mem:
+** Lecture 1 :w9l1:
+*** [[id:8e80da2f-092f-476a-b5f8-08749dc9dc1e][Minimum and Maximum Values]]
+** Lecture 2 :w9l2:
+*** [[id:649d4eb8-7cf5-4535-836a-4bc87f6db646][Fermat's Theorem]]
+*** [[id:d279444f-e9ba-4aa9-b7d5-6429f6d552b1][Extreme Value Theorem]]
+** Lectures 3 & 4 :w9l3a4:
+*** [[id:f66472e4-0f97-494d-91e0-0e70cd6026ef][Critical Numbers]]
+*** [[id:27382aaf-7a33-4004-87ae-cb4f49ef2031][Closed Interval Method]]
+*** [[id:64ddcdb4-6a2c-4386-a114-4382ea26d02d][Rolle's Theorem]]
+*** [[id:9a2e8595-f01c-46f2-91f7-f736a335be27][Mean Value Theorem]]
+** Lecture 5 :w9l5:
+*** [[id:25f11b00-b9da-4f7c-9f98-ef341e232e38][Increasing/Decreasing Test]]
+* Week 10 :inifnite_limits:tut10:tut10mem:
+** Lecture 1 :w10l1:
+*** [[id:ca29a884-0d03-4f96-bd38-4282836c9e78][First Derivative Test]]
+*** [[id:1e635710-fe6e-40ef-914a-022e2b01eb9c][Concavity]]
+*** [[id:ccf028a5-ddc5-4ac3-8c50-7cb37e1d70c6][Concavity Test]]
+*** [[id:2ac2b7a3-bf51-4dc8-9f36-194e35030596][Second Derivative Test]]
+*** [[id:cdccfec7-05e6-452b-9f03-7c1353aff062][Infinite Limits]]
+** Lecture 2 :w10l2:
+*** [[id:37b5af67-26ee-4718-989d-73859ef92956][Vertical Asymptotes]]
+*** [[id:174608ab-bd8a-43b1-8690-76615e30c5c9][Limits at Infinity]]
+** Lectures 3 & 4 :w10l3a4:
+*** [[id:66fd2031-8280-4069-b668-76943d0c6ede][Horizontal Asymptotes]]
+*** [[id:86a89324-bab1-454c-a5a8-83c5b5d7f663][Infinite Limits at Infinity]]
+** Lecture 5 :w10l5:
+*** A2 Revision
+* Week 11 :log_exp_functions:tut11:tut11mem:
+** Lecture 1 :w11l1:
+*** [[id:9eaab080-a35f-4c62-bae7-e050c4d993b3][Curve Sketching]]
+** Lecture 2 :w11l2:
+*** [[id:c35cd352-7e53-4c69-bdce-29d0bc1d11aa][Injective Functions]]
+*** [[id:17d56a87-ff5e-4d0d-85f0-caa68750bb8f][Inverse Functions]]
+** Lectures 3 & 4 :w11l3a4:
+*** [[id:47d55655-5eb8-4f1e-98ed-84e025da3075][Derivatives of Inverse Functions]]
+*** [[id:7cc8b837-300f-4e53-8450-8f7cdb584868][Exponential Functions]]
+*** [[id:62595d13-d132-4577-8f64-240eb88c750f][The Natural Exponential Function]]
+** Lecture 5 :w11l5:
+*** [[id:af0f366c-775b-4905-af0a-8950764196ea][Logarithmic Functions]]
+*** [[id:3d7be50d-0765-42a1-a373-a1a45c726cec][The Natural Logarithm]]
+* Week 12 :integrals:tut12:tut12mem:
+** Lecture 1 :w12l1:
+*** [[id:85980e04-a581-4bca-8d89-4ad9f522b0c3][Logarithmic Differentiation]]
+*** [[id:e606e6fc-c0e4-4d39-ad9f-704161129f5c][Antiderivatives]]
+** Lecture 2 :w12l2:
+*** Examples
+** Lectures 3 & 4 :w12l3a4:
+*** [[id:7256d12e-eb3d-48d1-8f12-7168c6fe8522][Integration]]
+** Lecture 5 :w12l5:
+*** [[id:1cd265bf-f608-4ed4-a2f4-73def87f8eb2][The Fundamental Theorem of Calculus]]
+* Week 13 :optimisation_newton:tut13:tut13mem:
+** Lecture 1 :w13l1:
+*** [[id:1cd265bf-f608-4ed4-a2f4-73def87f8eb2][The Fundamental Theorem of Calculus]]
+** Lecture 2 :w13l2:
+*** [[id:b25fe0b9-0760-489d-87ff-2109238dd760][Newton's Method]]
+** TODO Lectures 3 & 4 :w13l3a4:
+** Lecture 5 :w13l5:
+*** Revision

@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       47d404cf-78f8-4898-809c-8d697e97b25a
+:END:
+#+title: L'Hôpital's Rule
+#+filetags: inverse_functions
+
+#+begin_quote
+If \(f\) and \(g\) are [[id:086cb8a0-bd8b-465a-8b0c-65d60f454421][differentiable]] and \(g'(x) \ne 0\) on an open [[id:a995fc0e-d695-4662-a94f-4daad08de069][interval]] \(I\) that contains \(a\) (except possibly at \(a\)) and
+
+\begin{equation}
+\lim_{x \to a}f(x) = 0 \quad \wedge \quad \lim_{x \to a}g(x) = 0
+\end{equation}
+or
+\begin{equation}
+\lim_{x \to a}f(x) = \pm\infty \quad \wedge \quad \lim_{x \to a}g(x) = \pm\infty
+\end{equation}
+then
+\begin{equation*}
+\lim_{x \to a}\frac{f(x)}{g(x)} = \lim_{x \to a}\frac{f'(x)}{g'(x)}
+\end{equation*}
+#+end_quote
+
+* Remarks
+- Verify that the limit give an [[id:56d82b46-7de0-468c-8368-1d4a3661e653][Indeterminate Form]]
+- L'Hôpital's rule is also valid for one-sided limits or [[id:174608ab-bd8a-43b1-8690-76615e30c5c9][Limits at Infinity]]

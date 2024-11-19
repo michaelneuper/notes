@@ -1,0 +1,46 @@
+:PROPERTIES:
+:ID:       6ffde4e8-a12d-4c3a-bc24-675b5a38433c
+:END:
+#+title: Limits
+#+filetags: calculus functions_and_limits
+
+We say a [[id:87d42439-b03b-48be-84ab-2215b4733dd7][function]] \(f\) is defined near \(a\) for some \(x \in \mathbb{R}\) if \(f(x)\) is defined for all \(x \in I \backslash \{a\}\) where \(I\) is some open [[id:a995fc0e-d695-4662-a94f-4daad08de069][interval]] containing \(a\)
+
+* Definition
+Suppose \(f\) is a function where \(f(x)\) is defined new a for some \(a \in \mathbb{R}\) and say \(L \in \mathbb{R}\).
+Then we say the limit of \(f(x)\) as \(x\) approaches \(a\) equals \(L\), denoted
+\begin{equation*}
+\lim_{x\to a}f(x) = L
+\end{equation*}
+if we can make the values of \(f(x)\) arbitrarily close to \(L\) by restricting \(x\) to be sufficiently close to \(a\) but not equal to \(a\)
+
+* Alternative Definition
+Given any distance \(\varepsilon\) we can find some \(\delta\) such that for all \(x\) closer than \(\delta\) units to \(a\) we have that \(f(x)\) is closer than \(\varepsilon\) units from \(L\).
+
+* One-sided Limits
+- Let \(a,L \in \mathbb{R}\) and \(f\) be a function where there exists some \(b\in\mathbb{R}\) such that \(f\) is defined on \((b,a)\). We say that the *left-handed limit of \(f(x)\) as \(x\) approaches \(a\)* is equal to \(L\), denoted
+\begin{equation*}
+\lim_{x \to a^{-}}f(x) = L
+\end{equation*}
+- Similarly, for the right-handed limit of \(f\), we have
+\begin{equation*}
+\lim_{x \to a^{+}}f(x) = L
+\end{equation*}
+
+* Limit Laws
+Let \(a, c \in \mathbb{R}\) and \(f, g\) be functions such that \(\lim_{x\to a}f(x)\) and \(\lim_{x\to a}g(x)\) exist. Then
+- \(\lim_{x\to a}(f(x) + g(x)) = \lim_{x\to a}f(x) + \lim_{x\to a}g(x)\)
+- \(\lim_{x\to a}(f(x) - g(x)) = \lim_{x\to a}f(x) - \lim_{x\to a}g(x)\)
+- \(\lim_{x\to a}(cf(x)) = c\lim_{x\to a}f(x)\)
+- \(\lim_{x\to a}(f(x)  g(x)) = \lim_{x\to a}f(x)  \lim_{x\to a}g(x)\)
+- \(\lim_{x\to a}\frac{f(x)}{g(x)} = \frac{\lim_{x\to a}f(x)}{\lim_{x\to a}g(x)}\) if \(\lim_{x\to a}g(x) \ne 0\)
+- \(\lim_{x\to a}\sqrt{f(x)} = \sqrt{\lim_{x\to a}f(x)}\)
+
+We also have
+- \(\lim_{x\to a}c = c\)
+- \(\lim_{x\to a}x = a\)
+
+As a consequence of these we have for any \(n\in \mathbb{N}\)
+- \(\lim_{x\to a}(f(x))^n = \left(\lim_{x\to a}f(x)\right)^n \rightarrow \lim_{x\to a}x^n = a^{n}\)
+
+And [[id:47d404cf-78f8-4898-809c-8d697e97b25a][L'Hôpital's Rule]]

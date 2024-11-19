@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       3b834bb8-657b-4f1d-a673-b0c2bb6dc572
+:ROAM_ALIASES: Running
+:END:
+#+title: Executing
+
+* Definition
+- When you transfer control of your computer from system to your program.
+- The python [[id:eedf8c81-3b7e-41e9-bdc3-2b9d991fa8c2][interpreter]] directs your computer to follow your instructions.

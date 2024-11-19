@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       3d7be50d-0765-42a1-a373-a1a45c726cec
+:END:
+#+title: The Natural Logarithm
+#+filetags: calculus
+
+* Definition
+#+begin_quote
+The inverse of the [[id:62595d13-d132-4577-8f64-240eb88c750f][The Natural Exponential Function]]
+#+end_quote
+
+* [[id:7256d12e-eb3d-48d1-8f12-7168c6fe8522][Integral]] Definition
+#+begin_quote
+The natural logarithm of a positive real number \(a\) can be defined as the area under the curve of the function \(y = 1/x\) between \(x = 1\) and \(x = a\).
+
+\begin{equation*}
+\ln a = \int_1^a\frac{1}{x} \, dx
+\end{equation*}
+#+end_quote

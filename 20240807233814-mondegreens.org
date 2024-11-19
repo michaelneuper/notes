@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       4477447f-9b10-4dc3-9132-d548c190bb78
+:END:
+#+title: Mondegreens
+
+* Definition
+#+begin_quote
+A mishearing or misinterpretation of a phrase in a way that gives it a new meaning.
+#+end_quote
+
+* Notes
+Similar to [[id:029fe728-573b-44c7-a74f-63574cdc03d8][Eggcorns]], usually in song or verse
+
+* Examples
+- “sweet dreams are made of cheese” = “sweet dreams are made of these”
+- “I guess it rains down in Africa” = “I blessed the rains down in Africa”

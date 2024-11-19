@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       f50ab6ae-9912-400a-9867-78e0943ac753
+:END:
+#+title: Synthetic Languages
+
+* Definition
+#+begin_quote
+Degree to which word-internal structure can be identified differs.
+
+[[id:19cd4f54-86ac-4d58-9999-f0c25e3e7527][Morphologically]] "rich" languages.
+#+end_quote
+
+* Types
+** [[id:29eda611-bf20-4fb5-91f0-61224da2e9bc][Agglutinating Languages]]
+** [[id:aa7a4d99-d1fc-47e9-8f72-d2a6e0d5984a][Fusional Languages]]
+** [[id:813a19d4-526d-465c-8f61-6bbb34bcf78e][Polysynthetic Languages]]

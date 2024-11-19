@@ -1,0 +1,36 @@
+:PROPERTIES:
+:ID:       f9cfe2d4-3f37-42f7-82be-91105f5caeb0
+:ROAM_ALIASES: "Addition Principle"
+:END:
+#+title: Inclusion-exclusion Principle
+#+filetags: probability_propositions fundamentals counting
+
+* Definition
+For any two events \(E\) and \(F\) in the sample space,
+\begin{equation*}
+P(E\cup F) = P(E) + P(F) - P(E\cap F)
+\end{equation*}
+and for any two finite sets \(E\) and \(F\) which are subsets of the universal set \(U\),
+\begin{equation*}
+|E\cup F| = |E| + |F| - |E\cap F|
+\end{equation*}
+
+** For 3 events
+\begin{equation*}
+P(E\cup F\cup G) = P(E) + P(F) + P(G) \\
+- P(E\cap F) - P(E\cap G) - P(F \cap G) + P(E \cap F \cap G)
+\end{equation*}
+
+* Proof
+$E \cup F = E \cup E^c \cap F$, with $E$ and $E^c \cap F$ [[id:b804e882-b52f-49fd-a577-bcae712bbb75][mutually exclusive]].
+\begin{equation*}
+P(E \cup F) = P(E) + P(E^c \cap F) \quad [\text{axiom 3}]
+\end{equation*}
+$F = EF \cup E^c \cap F$, with $EF$ and $E^c \cap F$ mutually exclusive.
+\begin{equation*}
+P(F) = P(EF) + P(E^c \cap F) \quad [\text{axiom 3}]
+\end{equation*}
+Therefore,
+\begin{equation*}
+P(E \cup F) = P(E) + P(F) - P(EF).
+\end{equation*}

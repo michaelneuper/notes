@@ -1,0 +1,35 @@
+:PROPERTIES:
+:ID:       a5ec0598-39ea-42ee-a6e3-9427a3faa494
+:END:
+#+title: Cumulative Distribution Function
+#+filetags: discrete_random_variables continuous_random_variables
+
+* Formula for [[id:d844373f-4fd9-4bdd-b621-101594827ab7][Discrete Random Variables]]
+#+begin_quote
+\(F(x) = P\{X \le x\} = \sum_{a \le x}p(a)\)
+#+end_quote
+
+* Formula for [[id:02a15daa-14ee-4057-ad3c-3ba5f15a150d][Continuous Random Variables]]
+#+begin_quote
+\begin{equation*}
+F(a) = P\{X\le a\} = \int_{-\infty}^af(x) \, dx
+\end{equation*}
+
+Note that \(P\{a \le X \le b\} = F(b) - F(a)\)
+#+end_quote
+
+* Example
+Suppose \(X\) had a [[id:ceca6e9c-8832-4d54-9442-d1675964ebca][probability mass function]]: \(p(1) = \frac{1}{4}, p(2) = \frac{1}{2}, p(3) = \frac{1}{8}, p(4) = \frac{1}{8}\)
+
+Then the *cumulative distribution function* of \(X\) is given by
+
+\begin{equation*}
+F(x) =
+\begin{cases}
+0 & \text{for } x < 1 \\
+1 & \text{for } 1 \leq x < 2 \\
+3 & \text{for } 2 \leq x < 3 \\
+4 & \text{for } 3 \leq x < 4 \\
+1 & \text{for } x \geq 4
+\end{cases}
+\end{equation*}

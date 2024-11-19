@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       bbdce7f9-b315-40d2-9eaa-434e3dbf8b06
+:END:
+#+title: Lateralisation
+#+filetags: neurolinguistics
+
+* Definition
+#+begin_quote
+Some brain functions performed (mainly) by one of the two hemispheres.
+#+end_quote
+
+* Language = left lateralised
+** Evidence
+- Children with brain lesions / hemispherectomies
+  - [[http://www.lookfordiagnosis.com/mesh_info.php?term=Hemispherectomy&lang=1]]
+- Split-brain patients
+  - [[http://utpa-srodriguezz.blogspot.com/2012/10/split-brain.html]]
+- Dichotic listening tasks
+- [[id:30c2c43a-9f97-44dd-a2d3-f3d8c9e0449f][Aphasia]]
+  - [[http://www.nidcd.nih.gov/health/voice/pages/aphasia.aspx]]

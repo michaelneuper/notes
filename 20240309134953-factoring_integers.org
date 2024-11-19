@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       551246d5-b08e-4eb1-b4dd-93a2c07a4b30
+:END:
+#+title: Factoring Integers
+#+filetags: important_programs
+
+* Code
+#+begin_src python :results output :var n=3757208
+import stdio
+
+factor = 2
+
+while factor ** 2 <= n:
+    while (n % factor) == 0:
+        # Cast out and write factor
+        n //= factor
+        stdio.write(f"{factor} ")
+
+    factor += 1
+    # Any factors of n are greater than or equal to factor
+
+if n > 1:
+    stdio.write(n)
+#+end_src
+
+#+RESULTS:
+: 2 2 2 7 13 13 397

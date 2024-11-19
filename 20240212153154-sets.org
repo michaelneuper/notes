@@ -1,0 +1,40 @@
+:PROPERTIES:
+:ID:       56ae2cf4-a426-46fd-82eb-9acb3c8512ba
+:END:
+#+title: Sets
+#+filetags: sets_and_logic fundamentals
+
+* Definition
+#+begin_quote
+Any well-defined collection of objects called the *elements* or *members of the set*.
+
+Well-defined means that it is possible to decide if a given object belongs to the collection or not.
+#+end_quote
+
+* Set-builder Notation
+$$\{x \in X | \text{ condition on }x\}$$
+A (some set) = { variable in larger set such that condition }
+
+** Examples
+- $\mathbb{N} = \{a \in \mathbb{Z} | a \ge 0\}$
+- $\mathbb{Q} = \{m/n \in \mathbb{R} | m, n \in \Z \text{ and } n \ne 0\}$
+- \([0,1]=\{x\in \mathbb{R} | 0\le x\le 1\}\)
+
+* Subsets
+- A set A is a subset of B means every elemnt of A is an element of B, denoted
+- $A \subseteq B$
+- If $x \in A$ then $x \in B$
+- For sets A, B we take \(A\subset B\) to mean that A is a *strict* subset of B.
+- This means that there is some \(x\in B\) which is not an element of A.
+- \(A\not\subseteq B\) means there is some element in A that is not in B.
+
+** Example
+$\mathbb{N} \subseteq \mathbb{Z}$
+
+* Basic Operations
+** [[id:3721aaf8-6e01-4a4d-a604-8e3a13ca5734][Complement]]
+** [[id:e6bea06c-1092-4db5-bd41-280fc955c166][Difference]]
+** [[id:196514bf-395b-4147-b6a6-917aeb283776][Intersection]]
+** [[id:d209d5ef-ceb6-4801-8488-40d19377bb64][Unions]]
+** [[id:f5d5e0c6-73d2-4195-8e93-e0d27c328223][Symmetric Difference]]
+** [[id:fd77c6f5-fa5d-4cc1-893a-31e9dbaa49df][Products]]

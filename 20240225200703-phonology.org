@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       f6cb0ecc-0219-49e4-868b-098b707113b6
+:END:
+#+title: Phonology
+
+* Definition
+#+begin_quote
+The study of the phonological compoenent of the language faculty.
+#+end_quote
+The study of *sound structure*, includes
+** Knowledge of Sound Combinations
+** Knowledge of Sound Processes
+*** [[id:ddde4468-1e4a-46e1-814c-de158423d9a9][Assimilation]]
+*** [[id:d17904bb-29e5-4182-8146-ed36db2d014c][Nasalisation]]
+** Knowledge of [[id:4a8a1a5e-0912-4cbf-b710-137db95a0c2c][Stress]], [[id:a1bede80-0335-44d7-8ba9-316c67a50c31][Intonation]], Tone Patterns

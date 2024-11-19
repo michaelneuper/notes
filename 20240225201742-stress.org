@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       4a8a1a5e-0912-4cbf-b710-137db95a0c2c
+:END:
+#+title: Stress
+
+Particular emphasis
+
+* Examples
+| Eng.     | Afr.      |
+|----------+-----------|
+| mínister | miníster  |
+| cátegory | kategoríé |

@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       d633683f-d6eb-4271-9717-55fd95628cfc
+:END:
+#+title: Complement Rule
+#+filetags: probability_propositions
+
+* Proposition
+For any [[id:33838eb4-aa50-4794-baa1-637ddea744ad][event]] \(E\) in a [[id:33838eb4-aa50-4794-baa1-637ddea744ad][sample space]] \(S\),
+\begin{equation*}
+P(E^{c}) = 1 - P(E)
+\end{equation*}
+
+* Proof
+We know that $S = E \cup E^c$, with $E$ and $E^c$ [[id:b804e882-b52f-49fd-a577-bcae712bbb75][mutually exclusive]].
+\begin{equation*}
+P(S) = P(E \cup E^c)
+\end{equation*}
+\begin{equation*}
+1 = P(E) + P(E^c) \quad [\text{axioms 2 and 3}]
+\end{equation*}
+\begin{equation*}
+\therefore P(E^c) = 1 - P(E).
+\end{equation*}

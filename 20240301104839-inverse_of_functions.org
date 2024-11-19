@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       17d56a87-ff5e-4d0d-85f0-caa68750bb8f
+:END:
+#+title: Inverse Functions
+#+filetags: functions_and_limits inverse_functions
+
+* Definition
+For any [[id:87d42439-b03b-48be-84ab-2215b4733dd7][function]] \(f: A \to B\), the inverse of \(f\) is denoted as \(f^{-1}: B \to A\) such that \((f^{-1} \circ f)(x) = x\) for every \(x \in A\)
+
+\begin{equation*}
+f^{-1}(x) = y \Leftrightarrow f(y) = x
+\end{equation*}
+
+* Alternative Definition
+Let \(f\) be an [[id:c35cd352-7e53-4c69-bdce-29d0bc1d11aa][injective function]] with domain \(A\) and range \(B\).
+Then we define the *inverse* of \(f\) as the function with domain \(B\) and range \(A\).
+
+\(f^{-1}(x) = y \Leftrightarrow f(y) = x\)
+
+* Notes
+The graph of the function \(y = f^{-1}(x)\) is given by reflecting the graph of \(x = f(y)\) about the line \(y=x\).
+
+* Conclusions
+For any function \(f\) we have that:
+- \((f \circ f^{-1})(x) = x\) for every \(x \in \text{Ran}(f)\)
+- \((f^{-1} \circ f)(x) = x\) for every \(x \in \text{Dom}(f)\)

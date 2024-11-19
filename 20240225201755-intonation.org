@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       a1bede80-0335-44d7-8ba9-316c67a50c31
+:END:
+#+title: Intonation
+
+* Definition
+The rise and fall of the voice in speaking
+
+* Example
+- We're leaving now. vs. We're leaving now?

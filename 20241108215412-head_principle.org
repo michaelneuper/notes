@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       b118965e-0532-4dd2-a992-619369f66766
+:END:
+#+title: Head Principle
+
+* Definition
+Every [[id:b2878066-2e8d-4d08-8ebf-4d6c3ed5a599][phrase]] contains an obligatory [[id:974ee49c-83af-410d-9a04-ec8e06b7f834][head]] that can optionally be merged/combined with a [[id:0ed530ac-7ee3-4521-8ef0-0e973b4c7814][complement]].

@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       7b389a98-ad6e-4514-83e2-5fa4b5fff869
+:END:
+#+title: Transitive Relations
+
+* Definition
+A [[id:72a5316f-9b83-4c20-aa2e-42ffe2813cfb][relation]] \(R\subseteq X^2\) is called *transitive* if for all \(x,y,z\in X\), if \(x \mathrel{R} y\) and \(y \mathrel{R} z\) then \(y \mathrel{R} x\).
+
+* Theorem
+A relation \(R\subseteq X^2\) is transitive iff the [[id:466d95e7-6aed-4ffd-a6b9-543cb1b03db1][composition]] of \(R\) with itself \(R\circ R \subseteq R\).
+
+* Example
+Let \( A = \{1, 2, 3\} \). A relation \( R \) on \( A \) is defined as follows:
+
+\(R = \{ (1, 2), (2, 3), (1, 3), (1, 1), (2, 2), (3, 3) \}\)
+
+This relation \( R \) is transitive because for all \( a, b, c \in A \), if \( (a, b) \in R \) and \( (b, c) \in R \), then \( (a, c) \in R \). Specifically:
+
+- \((1, 2) \in R\) and \((2, 3) \in R\) implies \((1, 3) \in R\)
+
+Additionally, the pairs \( (1, 1), (2, 2), (3, 3) \) are also in \( R \), which satisfy transitivity for self-relations.
+
+Thus, \( R \) satisfies the transitive property.

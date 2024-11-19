@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       c81ca294-1507-4716-891f-d641b6413b77
+:END:
+#+title: Conversion
+
+* Definition
+#+begin_quote
+Creation of a word (of a new part of speech) from an existing word (of a different part of speech) without any change in form.
+When a noun is used as a verb or vice versa.
+#+end_quote
+
+* Example
+- The noun green in golf (referring to a putting-green) is derived ultimately from the adjective green.
+- clean (adj -> verb)

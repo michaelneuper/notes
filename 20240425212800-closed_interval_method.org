@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       27382aaf-7a33-4004-87ae-cb4f49ef2031
+:END:
+#+title: Closed Interval Method
+#+filetags: calculus derivatives
+
+#+begin_quote
+To find the [[id:8e80da2f-092f-476a-b5f8-08749dc9dc1e][Absolute maximum and minimum values]] of a [[id:9f66f38c-1072-4146-9efe-5a90f984d480][continuous]] [[id:87d42439-b03b-48be-84ab-2215b4733dd7][function]] \(f\) on a closed [[id:a995fc0e-d695-4662-a94f-4daad08de069][interval]] \([a,b]\):
+
+1. Find the values of \(f\) at the [[id:f66472e4-0f97-494d-91e0-0e70cd6026ef][critical numbers]] of \(f\) in \((a,b)\).
+2. Find the values of \(f\) at the endpoints of the interval.
+3. The largest values of Steps 1. and 2. are the absolute maximum values while the smallest values are the aboslute minimum values.
+#+end_quote

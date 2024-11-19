@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       37b5af67-26ee-4718-989d-73859ef92956
+:END:
+#+title: Vertical Asymptotes
+#+filetags: calculus functions_and_limits
+
+* Definition
+#+begin_quote
+Let \(f\) be a function and \(a\in\mathbb{R}\).
+Then the line \(x = a\) is called a *vertical aymptote* of the curve \(y = f(x)\) if at least one of the following [[id:675d2e38-6ee5-49a0-9c07-bb1b5291a2f7][statements]] is true:
+
+- \(\lim_{x\to a}f(x) = \infty\)
+- \(\lim_{x\to a^{+}}f(x) = \infty\)
+- \(\lim_{x\to a^{-}}f(x) = \infty\)
+
+- \(\lim_{x\to a}f(x) = -\infty\)
+- \(\lim_{x\to a^{+}}f(x) = -\infty\)
+- \(\lim_{x\to a^{-}}f(x) = -\infty\)
+#+end_quote
+
+* Links
+[[id:cdccfec7-05e6-452b-9f03-7c1353aff062][Infinite Limits]]

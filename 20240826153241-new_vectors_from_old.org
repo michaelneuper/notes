@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       e8d5edf7-2d77-40ac-9a42-dc632e41b033
+:ROAM_ALIASES: "New Vectors from Old"
+:END:
+#+title: Vector Addition
+#+filetags: linear_algebra vectors
+
+* Definition
+#+begin_quote
+If we want to follow one [[id:81c97780-c8a5-4652-a6eb-d33732c37f1e][vector]] with another and are interested in calculating the total displacement of the two vectors, then this leads to the notion of *vector addition*.
+#+end_quote
+
+* The Head-to-tail Rule
+Given vectors \(\vec{u}\) and \(\vec{v}\) in \(\mathbb{R}^2\), translate \(\vec{v}\) so that its tail coincides with the head of \(\vec{u}\).
+The sum \(\vec{u} + \vec{v}\) is the vector from the tail of \(\vec{u}\) to the head of \(\vec{v}\).
+[[file:images/head-to-tail.png]]
+
+* The Parallelogram Rule
+Given vectors \(\vec{u}\) and \(\vec{v}\) in \(\mathbb{R}^2\) (in standard form), their sum \(\vec{u} + \vec{v}\) is the vector in standard position along the diagonal of the parallelogram determined by \(\vec{u}\) and \(\vec{v}\).
+[[file:images/parallelogram.svg]]

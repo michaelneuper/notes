@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       a1c13741-8e7c-4517-9b13-e0832d3c850d
+:END:
+#+title: Interrogative Mood
+
+* Definition
+Interrogative mood is associated with questions.
+
+/Why is it so cold here?/

@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       88121afc-9586-4032-9117-9ad61c761a28
+:END:
+#+title: The Fundamental Theorem of Invertible Matrices
+
+* Version 1
+#+begin_quote
+Let \( A \) be an \( n \times n \) matrix. The following statements are equivalent:
+- \( A \) is [[id:a6202f63-ca6f-4b31-ad25-4e57ec040e6e][invertible]].
+- \( A \mathbf{x} = \mathbf{b} \) has a unique solution for every \( \mathbf{b} \) in \( \mathbb{R}^n \).
+- \( A \mathbf{x} = 0 \) has only the trivial solution.
+- The reduced row echelon form of \( A \) is \( I_n \).
+- \( A \) is a product of elementary matrices.
+#+end_quote

@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       a3c59416-9311-47b4-bd97-58646fa02625
+:END:
+#+title: Transpose of a Matrix
+#+filetags: linear_algebra matrices
+
+* Definition
+#+begin_quote
+The *transpose* of an \(m \times n\) matrix \(\mathbf{A}\) is the \(n \times m\) matrix \(\mathbf{A}^T\) obtained by interchanging the rows and columns of \(\mathbf{A}\).
+\begin{equation*}
+(\mathbf{A}^T)_{ij} = \mathbf{A}_{ji} \quad \text{for all } i,j
+\end{equation*}
+#+end_quote
+
+* Theorem
+- If \(A\) is a square matrix, then \(A + A^T\) is a [[id:324ec34e-5418-4641-8fd8-1dda991fec9f][symmetric matrix]].
+- For any matrix \(A\), \(AA^T\) and \(A^TA\) are symmetric matrices.
+
+* Properties
+- \( \left( A^T \right)^T = A \)
+- \( \left( A + B \right)^T = A^T + B^T \)
+- \( \left( kA \right)^T = k \left( A^T \right) \)
+- \( \left( AB \right)^T = B^T A^T \)
+- \( \left( A^r \right)^T = \left( A^T \right)^r\) for all nonnegative integers \(r\)

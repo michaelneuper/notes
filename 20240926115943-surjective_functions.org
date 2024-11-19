@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       15f26b07-6053-4dcc-a782-cd27250ba38d
+:ROAM_ALIASES: "Onto Functions" "Surjection"
+:END:
+#+title: Surjective Functions
+#+filetags: functions
+
+* Definition
+A [[id:87d42439-b03b-48be-84ab-2215b4733dd7][function]] \(f : X \to Y\) is said to be *surjective* if for all \(y \in Y\) there exists an \(x\in X\) such that \(f(x) = y\).
+
+[[file:images/surjective.svg]]

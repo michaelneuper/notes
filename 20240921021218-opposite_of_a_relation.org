@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       6f2f494f-7730-4476-81c1-b7a129bcd374
+:ROAM_ALIASES: "Inverse Relations" "Converse of a Relation"
+:END:
+#+title: Opposite Relation
+
+* Definition
+If \(R\subseteq X \times Y\) then \(R^{op}\) is a [[id:72a5316f-9b83-4c20-aa2e-42ffe2813cfb][relation]]
+\begin{equation*}
+x^{op} \coloneqq \{(y,x) \in Y \times X \mid x \mathrel{R} y\}
+\end{equation*}
+* Example
+If \( X = \{1, 2\} \) and \( Y = \{a, b\} \), and the relation \( R \) is defined as
+\begin{equation*}
+R = \{ (1, a), (2, b) \},
+\end{equation*}
+then the opposite relation \( R^{\text{op}} \) would be
+\begin{equation*}
+R^{\text{op}} = \{ (a, 1), (b, 2) \}.
+\end{equation*}

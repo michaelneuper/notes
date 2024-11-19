@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       7f92cbd6-018a-4933-9481-399325a626b4
+:END:
+#+title: Allomorphs
+
+* Definition
+#+begin_quote
+Variants of a [[id:6520f76a-6137-4e67-bfb9-0e3fd7b8e628][morpheme]]. Vary in shape and pronunciation according to their conditions of use.
+#+end_quote
+
+* Reasons
+** [[id:f6cb0ecc-0219-49e4-868b-098b707113b6][Phonologically]] Conditioned Allomorphy
+The morpheme /in-/ has several allomorphs such as in /in/-capable, /im/-possible, /il/-logical and /ir/-relevant.
+
+** Lexically Conditioned Allomorphy
+Variations may be the result of historical processes.
+Such as some plural markers:
+- child-/dren/
+- ox-/en/
+- brother -> /bretheren/
+
+* Types
+- [[id:b3ef0549-4fe9-417f-9776-665d63546218][Irregularity]]
+- [[id:49794423-18e1-4aaa-b971-0b3947adc81b][Suppletion]]

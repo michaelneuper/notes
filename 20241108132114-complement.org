@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       0ed530ac-7ee3-4521-8ef0-0e973b4c7814
+:END:
+#+title: Complement (linguistics)
+
+* Definition
+The complement of a [[id:b2878066-2e8d-4d08-8ebf-4d6c3ed5a599][phrase]] is the [[id:0ea0ce4d-e70f-4f41-8c39-ae2fc7d06817][syntactic]] element that modifies/describes the [[id:974ee49c-83af-410d-9a04-ec8e06b7f834][head]].
+
+* Example
+In the [[id:8f34fe1c-acd6-4e4f-b609-7b73efea7336][noun phrase]] "students of linguistics", "of linguistics" is the complement of the head of the NP, namely "students".

@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       49794423-18e1-4aaa-b971-0b3947adc81b
+:END:
+#+title: Suppletion
+
+* Definition
+#+begin_quote
+An inflection technique where the morpheme changes instead of adding an [[id:afd36133-0af4-41f7-a158-cc74636e0e6c][affix]].
+#+end_quote
+
+* Total Supppletion
+- bad - worse
+- good - better
+- go - went
+- is - are
+
+* Partial Suppletion
+- was - were
+- teach - taught

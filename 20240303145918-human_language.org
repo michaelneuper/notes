@@ -1,0 +1,59 @@
+:PROPERTIES:
+:ID:       c6ab9aa1-b6b7-43cb-a755-bcd990db998d
+:END:
+#+title: Features of Human Language
+#+filetags: linguistics_foundations
+
+* Use of Vocal-auditory Channel
+- Communication possible while performing other actions
+- Communication possible over long distances
+- *NOT* a necessary feature
+  - Sign language
+  - Written language
+  - Braille
+- Not unique to humans
+
+* Total Feedback
+- Speakers hear their own speech and can monitor it
+- Different from other communication systems
+  - Traffic signs
+- Not found in animal languages
+
+* Arbitrariness
+- Human language = symbolic system
+  - Arbitrary relationship between form and meaning
+- 'Animal languages' *usually* natural relationship between form and meaning
+
+* Semanticity
+- Specific language signals refer to specififc objects/actions/states/etc.
+- Unclear whether animal sign refers to specific objects
+
+* Duality of Patterning
+- Seperate language units can be recombined in different orders
+- Evidence from language erros such as spoonerisms
+
+* Cultural transmission
+- Humans born with the capacity to acquire any language
+  - BUT must be exposed to (a) language to develop
+- Absent from almost all animal languages
+
+* Displacement
+- Makes it possible to communicate about things (events, objects, experiences) that are removed in terms of time and space
+  - past/present/future
+  - physically distant things
+  - imaginary things
+- Animals can only communicate about /here/ and /now/
+
+* Reflexivity
+- We use language to communicate about human language
+  - Metalinguistic [[id:e3f34a3e-5d74-4414-9ad7-93f381e576e3][function]]
+- Not found in animal languages
+
+* Creativity
+- Ability to produce and understand a potentially infinite number of [[id:d974a4cd-8904-4d95-9ca7-e5b1cbba41e8][utterances]]
+- Not dependent on / determined by external or internal stimuli
+- Unique to humans
+
+* Structure Dependency
+- Words are combined according to specific patterns or structures, expressed by means of specific language rules
+- Fluent speakers have subconscious knowledge of such structures and can manipulate specific units in a structure

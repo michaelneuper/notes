@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       79b002d8-3b3e-4b6e-ab3d-fc1c13a55012
+:END:
+#+title: Articulatory Phonetics
+
+[[file:images/articulatory-organs.jpg]]

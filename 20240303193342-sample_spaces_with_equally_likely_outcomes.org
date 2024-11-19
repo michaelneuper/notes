@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       e24fd5f1-d6ad-4f21-bfb2-6b17c8262edb
+:END:
+#+title: Sample Spaces with Equally Likely Outcomes
+#+filetags: axioms_of_probability
+
+Consider a [[id:33838eb4-aa50-4794-baa1-637ddea744ad][sample space]] with \(N\) outcomes that are all *equally likely* to occur:
+
+\(S = \{1, 2, \cdots N\}\), with \(P(\{1\}) = P(\{2\}) = \cdots P(\{N\})\)
+
+Then \(P(S) = P(\{1\} \cup \{2\} \cup \cdots \{N\})\)
+
+\begin{equation*}
+\sum_{i=1}^N P(\{i\}) = 1 \\
+\therefore P(\{i\}) = \frac{1}{N}
+\end{equation*}
+
+If all the outcomes of a certain experiment are equally likely, then for any event \(E\) in the sample space \(S\),
+
+\begin{equation*}
+P(E) = \frac{|E|}{|S|}
+\end{equation*}

@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       d146a663-e2c9-453a-b7f5-387284f7285a
+:ROAM_ALIASES: OR
+:END:
+#+title: Disjunction
+
+* Definition
+- For (var-)statements \(\alpha, \beta\) we have that "\(\alpha \text{ or } \beta\)" is a (var-)statement.
+
+* Notation
+- Mathematical language: \(\alpha \vee \beta\) or \(\alpha | \beta\) or \(\alpha + \beta\).
+
+* Gate
+[[file:images/OR.png]]
+
+* Interpretation
+** For [[id:675d2e38-6ee5-49a0-9c07-bb1b5291a2f7][Statement]]
+- \(\alpha \vee \beta\) is =true= iff \(\alpha\) is =true= \(\beta\) is =true= or both \(\alpha\) and \(\beta\) are =true=.
+** For [[id:ac356044-060c-4b67-84f2-6361c9c574bb][Var-statements]]
+- The values making \(\alpha \vee \beta\) true are the values that make at least one of \(\alpha\) or \(\beta\) true.
+
+* [[id:597a548b-60b2-41e7-aae9-8b1328d06e65][Truth Table]]
+| \(\alpha\) | \(\beta\) | \(\alpha \vee \beta\)   |
+|-------+-------+-----------|
+| T     | T     | T         |
+| T     | F     | T         |
+| F     | T     | T         |
+| F     | F     | F         |

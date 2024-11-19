@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       ddd6df0c-5d99-45d5-9b48-4e4610547fbf
+:ROAM_ALIASES: "Process of Linguistic Communication"
+:END:
+#+title: Message Model of Communication
+#+filetags: linguistics_foundations
+
+[[file:images/linguistic-comm.png]]
+
+* A - Encoding
+Makes *encoding* possible.
+i.e. "package" imperceptible ideas into perceptible code.
+* B - Decoding
+Makes *decoding* possible.
+i.e. "unpack" imperceptible ideas into perceptible code.
+
+* Assumptions
+Language is:
+- a mental system
+- which is used to convey information
+- through encoding and decoding of meaning.
+
+* "Container" Metaphor
+- Linguistic expressions = /containers/
+- We pack information into the containers (=encoding=)
+- The sender depacks them (=decoding=)

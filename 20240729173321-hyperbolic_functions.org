@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       af1d4635-8610-488c-81c1-639d79996615
+:END:
+#+title: Hyperbolic Functions
+#+filetags: calculus
+
+* Definition
+#+begin_quote
+Certain even and odd combinations of the [[id:62595d13-d132-4577-8f64-240eb88c750f][The Natural Exponential Function]] arise to frequently that they derive special names.
+
+They have the same relationship to the hyperbola that the [[id:d29f8fa1-bce7-4d4e-8592-edbab6d30395][Trigonometric Functions]] have to the circle.
+
+\begin{equation*}
+\sinh{x} = \frac{e^x-e^{-x}}{2}
+\end{equation*}
+\begin{equation*}
+\cosh{x} = \frac{e^x+e^{-x}}{2}
+\end{equation*}
+\begin{equation*}
+\tanh{x} = \frac{\sinh{x}}{\cosh{x}}
+\end{equation*}
+#+end_quote
+
+* Identities
+- \(\cosh^2{x} - \sinh^2{x} = 1\)
+- \(1 - \tanh^2{x} = \text{sech}^2{x}\)
+- \(\sinh(x+y) = \sinh{x}\cosh{y} + \cosh{x}\sinh{y}\)
+- \(\cosh(x+y) = \cosh{x}\cosh{y} + \sinh{x}\sinh{y}\)
+
+* [[id:a350707f-ba1b-4912-ad8d-60e80e1c5d47][Derivatives]]
+[[file:images/hyperbolic-derivates.png]]

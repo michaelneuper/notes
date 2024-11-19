@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       3cb1ee5c-b875-4c88-b2ee-dbb6a21aaa78
+:END:
+#+title: Backformations
+
+* Definition
+#+begin_quote
+The process of creating a new word via [[id:c976dfcf-a201-4be6-bf7d-df9e245a86c7][inflected]], typically by removing or substituting [[id:afd36133-0af4-41f7-a158-cc74636e0e6c][affixes]] in a way that expands the number of [[id:9fab0955-2bbe-4552-ad9f-d4591a89def9][lexemes]] associated with a [[id:8a1148be-ca0a-44cf-a140-c9e3191f8f90][root word]].
+#+end_quote
+
+* Example
+For example, the noun resurrection was borrowed from Latin, and the verb resurrect was then back-formed hundreds of years later from it by removing the -ion suffix.
+This segmentation of resurrection into resurrect + ion was possible because English had examples of Latin words in the form of verb and verb+-ion pairs, such as opine/opinion.

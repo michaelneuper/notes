@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       1a59f45c-c849-40c5-82e2-48b95050eecb
+:END:
+#+title: Identity Element
+#+filetags: fundamentals
+
+* Definition
+#+begin_quote
+If \(\square\) is a binary [[id:87704c09-b23d-4980-ab11-0a5f839ebf59][operation]] on a [[id:56ae2cf4-a426-46fd-82eb-9acb3c8512ba][set]] \(X\) then an element \(e\in X\) is called an *identity* (or unit) if
+\begin{equation*}
+x \square e = x = e \square x
+\end{equation*}
+#+end_quote
+
+* Examples
+- 1 for multiplication \(\cdot\)
+- 0 for addition \(+\)
+- \(\emptyset\) for union \(\cup\)

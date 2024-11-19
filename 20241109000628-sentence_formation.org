@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       d013aef0-7f85-4433-8c69-df1ee6417475
+:END:
+#+title: Sentence Formation
+
+- [[id:76abe154-3c50-40ed-896b-69bb6ccc7592][Lexicon]]
+  - Selection of lexical elemnts (numeration)
+    - Syntactic component serves as input to two further components.
+      - [[id:f6cb0ecc-0219-49e4-868b-098b707113b6][Phonological]] component (sound form)
+      - [[id:0d486aeb-8483-48d6-a6f1-44313bbc5eb4][Semantic]] component (meaning)
+
+* Example
+"The police arrested a suspect"
+- Numeration: { the (D); police (N); arrested (V); a (D); suspect (N) }
+- Phrases: (The police)NP [arrested (a suspect)NP]VP

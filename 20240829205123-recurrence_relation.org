@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       66883f88-f866-4679-b415-59dcb81ab17d
+:END:
+#+title: Recurrence Relation
+#+filetags: combinatorics
+
+* Definition
+#+begin_quote
+A recurrence relation (for a [[id:d1a18e96-d26e-4ec0-85be-596c9d8a64a7][sequence]]) is an equation
+\begin{equation}
+x_n=f(x_{n-1}, x_{n-2},\ldots,x_{n-k})
+\end{equation}
+where \(x_i\) are variables, \(k\in\mathbb{N}\) and \(f\) is a [[id:87d42439-b03b-48be-84ab-2215b4733dd7][function]].
+The \(k\) is called the order of the recurrence relation.
+#+end_quote
+#+begin_quote
+A [[id:df63dd67-8a44-4ccc-a54a-61fc272aede0][recursive sequence]] \((a_n)_{n=0}^{\infty}\) satisfies the recurrence relation (1) if for any \(n\in\mathbb{N}\), when \(n\ge k\) we have
+\begin{equation*}
+a_n=f(a_{n-1}, a_{n-2}, \ldots, a_{n-k})
+\end{equation*}
+#+end_quote
+
+* Theorem 1
+If \(x_n=f(x_{n-1}, x_{n-2},\ldots,x_{n-k})\) is a recurrence relation of order \(k\), then for every sequence \(a_0,a_1,\ldots,a_{k-1}\) of real numbers (initial values) there exists a unique solution to \((a_n)_{n=0}^{\infty}\).
+
+* Theorem 2
+ 1. The characteristic equation \(x^2 - r_1x - r_2=0\) of the recurrence relation \(a_n=r_1a_{n-1}+r_2a_{n-2}\) has two distinct roots, \(s_1\) and \(s_2\), then \(a_n=us_1^n+vs_2^n\), where \(u\) and \(v\) depend on the intitial conditions, is the explicit formula for the sequence.
+ 2. If the characteristic equation \(x^2 - r_1x - r_2=0\) has a single root \(s\), the explicit formula is \(a_n=us^n + vns^n\), where \(u\) and \(v\) depend on the initial conditions.

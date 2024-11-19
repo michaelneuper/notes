@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       df63dd67-8a44-4ccc-a54a-61fc272aede0
+:END:
+#+title: Recursive Sequence
+#+filetags: combinatorics
+
+* Definition
+#+begin_quote
+A [[id:25af17fb-fb34-4bc4-961f-8e5e6bd138f9][recursive]] [[id:d1a18e96-d26e-4ec0-85be-596c9d8a64a7][sequence]] \((a_n)_{n=0}^{\infty}\) is a sequence such that \(a_n\) can be determined from \(a_{n-1}, a_{n-2},\ldots,a_{n-k}\), where \(n\ge k\) and \(k\in\mathbb{N}\) and \(k>0\).
+#+end_quote

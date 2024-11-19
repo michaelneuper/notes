@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       df08f629-a330-4c1f-a1e1-f2c8ed10ed09
+:END:
+#+title: Computer Languages
+
+* Machine Language
+- Easy for computer
+- [[id:53d4580b-834f-47fe-8e29-3ec8fbe03a78][Error]]-prone for humans
+
+* [[id:c6ab9aa1-b6b7-43cb-a755-bcd990db998d][Natural Language]]
+- Easy for humans
+- Ambiguous and hard for computer to parse
+
+* High-level Language
+- Some difficultly for both
+- An acceptable tradeoff

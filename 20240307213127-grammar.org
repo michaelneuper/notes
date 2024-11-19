@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       6f9cb5ec-c73f-434f-9e55-c7a0ac95120f
+:END:
+#+title: Grammar
+#+filetags: linguistics_foundations
+
+* Types of Grammar
+** [[id:4499736c-21c1-4556-80bf-6bb8f543ef83][Internalised Grammar]]
+** [[id:9026f333-80b7-47cb-863c-d4935a0356c7][Descriptive Grammar]]
+** [[id:0b5055a4-2f1d-4c9a-9fc0-73bd55b42c4f][Universal Grammar]]
+** [[id:eaf0a9dc-7472-4b80-bef6-ff2bbb15ff84][Pedagogical Grammar]]
+** [[id:e9792673-5a42-4b20-996d-8dc901a23aeb][Prescriptive Grammar]]

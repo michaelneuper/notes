@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       f9497f35-1b02-4489-84c3-a2b8c5465bc5
+:END:
+#+title: Numbers
+#+startup: latexpreview
+
+* Operations
+- For any $a, b \in \mathbb{N}$ we have $a + b \in \mathbb{N}$
+- For any $a, b \in \mathbb{N}$ we have $ab \in \mathbb{N}$
+- For any $a, b \in \mathbb{Z}$ we have $a - b \in \mathbb{Z}$
+- For any $a, b \in \mathbb{Q}$ we have $a / b \in \mathbb{Q}$
+- For any $a, b \in \mathbb{N}$ we have $a^{b} \in \mathbb{N}$
+  but $a, b \in \mathbb{Z}$ we have $a^{b} \not\in \mathbb{Z}$

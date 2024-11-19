@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       308c85d7-01a5-44c1-94c5-9c4c75d6d63b
+:END:
+#+title: Tongue Position
+#+filetags: phonetics
+
+* Horizonally
+front <-> back
+
+* Vertically
+high <-> low

@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       6dec1333-da8e-4cf2-b4f3-06002a3472ad
+:END:
+#+title: Elementry Row Operations
+#+filetags: linear_algebra linear_equations
+
+* Definition
+#+begin_quote
+The following elementary row operations can be performed on a matrix:
+- Interchange two rows.
+- Multiply a row by a nonzero constant.
+- Add a multiple of a row to another row.
+#+end_quote
+
+* Notation
+- \(R_i\leftrightarrow R_j\) means interchange rows \(i\) and \(j\)
+- \(kR_i\) means multiply row \(i\) by \(k\)
+- \(R_i + kR_j\) means add \(k\) times row \(j\) to row \(i\) (and replace row \(i\) with the result).
+
+The process of applying elementary row operations to bring a matrix into row echelon form, called *row reduction*, is used to reduce a matrix to echelon form.

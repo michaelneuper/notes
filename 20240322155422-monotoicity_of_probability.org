@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       824b596d-399d-4047-8c98-4620e85c0119
+:END:
+#+title: Monotonicity of Probability
+#+filetags: probability_propositions
+
+* Definition
+If \(E\subset F\), then
+\begin{equation*}
+P(E) \le P(F)
+\end{equation*}
+
+* Proof
+Suppose $E \subset F$.
+Then $F = E \cup E^c \cap F$, with $E$ and $E^c \cap F$ [[id:b804e882-b52f-49fd-a577-bcae712bbb75][mutually exclusive]].
+\begin{equation*}
+P(F) = P(E) + P(E^c \cap F) \quad [\text{axiom 3}]
+\end{equation*}
+But $P(E^c \cap F) \geq 0$ [\text{axiom 1}]
+\begin{equation*}
+\therefore P(F) \geq P(E).
+\end{equation*}

@@ -1,0 +1,44 @@
+:PROPERTIES:
+:ID:       e3f34a3e-5d74-4414-9ad7-93f381e576e3
+:END:
+#+title: Functions of Language
+#+filetags: linguistics_foundations
+
+* Representational
+Describe thins or states of affairs or to report or record events.
+Statements that can be =true= or =false=.
+
+* Persuasive
+=Persuade= someone to think, believe, decide or accept something.
+Try to influence someone's attitude towards something.
+
+* Intrumental / Performative
+Use language to =do something= that can result in a new situation.
+e.g. Use formal language to change reality.
+
+* Regulating
+=Regulate= someone's physical, non-linguistic behaviour.
+
+* Conceptual / Denotative
+=Form concepts= / metal representations of things, making it possible to refer / think about such things.
+
+* Metalinguistic
+Refer to and talk about elements of language itself.
+
+* Social / Phatic
+Create, confirm or sever social relationships.
+
+* Expressive / Emotive
+Express emotions, sensations or try to influence those of someone else.
+
+* Aesthetic
+Create linguistic things that others find pleasing/thought-provoking.
+
+* Playful / Ludic
+Take part in amusing language games.
+
+* Identifying / Personative
+Express your identity (geographical, social, age, beliefs, etc.)
+
+* Questioning
+Attempt to elicit information from others.

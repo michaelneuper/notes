@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       8f34fe1c-acd6-4e4f-b609-7b73efea7336
+:END:
+#+title: Noun Phrase
+
+* Definition
+The [[id:974ee49c-83af-410d-9a04-ec8e06b7f834][head]] of a noun phrase (NP) is a [[id:c35e1ea9-8b8a-40ee-8b18-dd7169825658][noun]], which tells use "what the phrase is about".
+
+* Example
+Consider the NP: "the big tree"
+- The phrase is about the noun "tree", which forms the head of NP.
+- The [[id:15bcc6ee-22d3-4ea2-b702-025182c24c2a][Determiner]] "the" modifies the noun by stating that it is a specific tree.
+- The [[id:fea63701-9546-46b7-9e7e-5d09e30d1fe5][Adjective]] "big" also modifies the noun by describing the length of the tree.

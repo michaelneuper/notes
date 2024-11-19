@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       777fcbf6-b68d-4bc7-a1ed-11c5c2845ce2
+:END:
+#+title: While Loop
+
+* Definition
+Execute certain statements repeatedly until certain conditions are met
+
+* Example
+#+begin_src python :results output
+i = 1
+while i < 5:
+    print(i)
+    i += 1
+#+end_src
+
+#+RESULTS:
+: 1
+: 2
+: 3
+: 4

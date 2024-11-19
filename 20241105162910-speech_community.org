@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       78a4678e-ccab-4e23-9bae-115766f3abad
+:END:
+#+title: Speech Community
+
+* Definitions
+#+begin_quote
+Community sharing rules for the conduct and interpretation of speech, and rules for the interpretation of at least one speech variety.
+- Hymes
+#+end_quote
+
+Unit of analysis is [[id:90a6e349-4585-4be1-a6d7-15506f435125][Communicative Competence]]
+** Units of analysis
+- [[id:fef705aa-50cb-465d-b71b-ad1f1a01d0b0][Communicative Situations]]
+- [[id:b7efa13c-55f4-4f45-b321-8e93aefb7d2a][Communicative Events]]
+- [[id:e2de34d1-4ac6-44ea-89ca-e5b79c111867][Communicative Acts]]
+
+#+begin_quote
+A group of people who interact frequently and regularly using the same linguistic varieties (languages, dialects or special codes) and communicative norms.
+- Gumperz
+#+end_quote

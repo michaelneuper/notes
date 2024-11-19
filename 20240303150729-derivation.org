@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       0dd03b4c-dabe-42f3-9626-10c8e16def52
+:ROAM_ALIASES: Derivation
+:END:
+#+title: Derivational Morphemes
+
+* Definition
+#+begin_quote
+Can change the meaning of a word.
+Can (but doesn't always) change the class of a word.
+#+end_quote
+
+* Examples
+- motive - noun
+- motiv-/ate/ - verb
+- motivatino-/al/ - adjective

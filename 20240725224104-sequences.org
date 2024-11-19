@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       d1a18e96-d26e-4ec0-85be-596c9d8a64a7
+:END:
+#+title: Sequences
+#+filetags: fundamentals
+
+* Definition
+#+begin_quote
+A list of objects arranged in a definite order.
+The list may stop after \(n\) steps, \(n \in \mathbb{N}\) (*finite*), or it may go on forever (*infintite*).
+#+end_quote
+
+* Defining Sequences
+** Regular Formula
+\(T_{n} = 4n + 1\)
+** [[id:25af17fb-fb34-4bc4-961f-8e5e6bd138f9][Recursive]] Formula
+\(T_{n} = T_{n-1} + T_{n-2}, \, T_0 = 1, T_{1} = 1\)
+
+* Note
+- Sequences of letters or symbols, written without commas, are also referred to as [[id:2f8faf02-c178-4881-86b1-5f9c5f646d6a][strings]].
+- The [[id:56ae2cf4-a426-46fd-82eb-9acb3c8512ba][set]] corresponding to a sequence is the set of all distinct elements in the sequence.

@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       18c8f4a8-af5b-4c4e-8b9b-3ae0f9ce5b37
+:END:
+#+title: Word Formation
+
+* Definition
+#+begin_quote
+The process by which new words enter a language.
+#+end_quote
+
+* [[id:0dd03b4c-dabe-42f3-9626-10c8e16def52][Derivation]]
+* [[id:c6e14bfb-89e2-4e81-8e64-a30c026e90e6][Compounding]]
+* [[id:e0fa678c-9ba7-43ab-821d-50d51daf9904][Onomatopoeia]]
+* [[id:265de3a9-f803-4fbe-b144-f95b69da17b5][Reduplication]]
+* [[id:c81ca294-1507-4716-891f-d641b6413b77][Conversion]]
+* [[id:ea36d9d8-8cb2-4868-a4d1-adfa538e95b8][Borrowing]]
+* [[id:727ef920-be25-4e8e-82d5-6353caa07759][Clipping]]
+* [[id:b4315ecd-41ed-4527-80ea-3ffb72597d8b][Blends]]
+* [[id:3cb1ee5c-b875-4c88-b2ee-dbb6a21aaa78][Backformations]]
+* [[id:9053c2ec-d1de-4761-885d-470e069dda2b][Eponyms]]
+* [[id:3e8cfeb8-c3ee-4465-956d-24f065ea114d][Neologisms]]
+* [[id:20b6443b-50db-44a8-b227-1723f4c3eafe][Folk Etymology]]

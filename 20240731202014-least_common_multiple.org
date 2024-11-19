@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       fb01fae9-a2b6-4385-a6e1-b514c1a4c441
+:ROAM_ALIASES: lcm
+:END:
+#+title: Least Common Multiple
+#+filetags: fundamentals
+
+* Definition
+#+begin_quote
+If \(a,b,k\in\mathbb{Z}^+\) then \(k\) is a common multiple if \(a\) [[id:8eace0e2-6a16-422e-a332-713fc01d4ea8][divides]] \(k\) and \(b\) divides \(k\).
+
+\begin{equation*}
+\text{lcm}(a,b) = \min\{k: a \mid k \wedge b \mid k\}
+\end{equation*}
+#+end_quote
+
+* Computation
+lcm can be computed using [[id:1271abaf-7986-467c-b2ca-c1c87d78abfa][gcd]]
+\begin{equation*}
+\gcd(a,b)\cdot\text{lcm}(a,b) = ab
+\end{equation*}

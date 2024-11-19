@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       eaf0a9dc-7472-4b80-bef6-ff2bbb15ff84
+:ROAM_ALIASES: "Teaching Grammar"
+:END:
+#+title: Pedagogical Grammar
+
+- Used to teach people a foreign language
+- Assumes the learner is already fluent in another language, and uses comparisons with such a language to teach the target audience
+- Can be useful if based on good [[id:9026f333-80b7-47cb-863c-d4935a0356c7][descriptive grammar]]

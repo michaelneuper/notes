@@ -1,0 +1,40 @@
+:PROPERTIES:
+:ID:       19cd4f54-86ac-4d58-9999-f0c25e3e7527
+:END:
+#+title: Morphology
+#+filetags: linguistics_foundations
+
+* Definition
+#+begin_quote
+Morphology is the study of the structure of words. (pg. 152)
+#+end_quote
+- Complex words are built up out of smaller units with linguistic meaning or grammatical function - [[id:6520f76a-6137-4e67-bfb9-0e3fd7b8e628][morphemes]]
+- Morphemes occur in *fixed orders*
+- Knowledge of existing words stored in speaker's [[id:76abe154-3c50-40ed-896b-69bb6ccc7592][lexicon]]
+** Knowledge of Formation Processes
+*** [[id:c0eceaf3-cb33-49de-b28a-edc7fb8b6d4f][Plurals]]
+*** [[id:a92e4042-d07a-4eb5-97b3-a8bf094d14b7][Dimunition]]
+*** [[id:0dd03b4c-dabe-42f3-9626-10c8e16def52][Derivation]]
+*** [[id:c6e14bfb-89e2-4e81-8e64-a30c026e90e6][Compounding]]
+
+* Functions of Morphological Operations
+- Creation of new words
+  - Labelling
+  - Syntactic recategorization
+    - play + er -> player
+    - read + able -> readable
+  - Evaluative morphology
+- Spelling out the appropriate form in a particular syntactic context
+  - Subject-verb agreement
+    - I speak
+    - He/She speaks
+  - Case
+    - Nominative: I, He, She, We
+    - Accusative: Me, Him, Her, Us
+    - Possessive: Mine, His, Hers, Ours
+
+* Examples
+- friend
+- friend + ly
+- friend + li + ness
+- un + friend + li + ness

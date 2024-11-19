@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       6f2fc187-643f-42b8-968a-ceac5e3508d7
+:END:
+#+title: Imitation
+
+- Children listen to what is said around them and imitate that
+- Word labels and formulaic utterances are learnt in this manner
+- but children are *not* good imitators

@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       2e5939e3-7aae-4020-88ed-1604ecb14ac5
+:END:
+#+title: Substitution Test
+
+Constituents can often be replaced by another element.
+
+* [[id:8f34fe1c-acd6-4e4f-b609-7b73efea7336][Noun Phrase]]
+Substitute with a [[id:ff791d4d-4b8d-4619-891e-f8106e3154af][pronoun]] like "they/them" or "it":
+- _The cats_ played with the yarn.  ->  _They_ played with the yarn.
+
+* [[id:22dabe8b-5aec-443f-88eb-c23a4e8c728c][Verb Phrase]]
+Substitute with the phrase "do so":
+- The students will _wear ties_.  ->  The students will _do so_.
+
+* [[id:3c3dde56-ed04-4c2b-ae3c-37637a3be182][Prepositional Phrase]]
+Substitute with a sinlge phrase like "there":
+- They stopped _at the corner_.  ->  They stopped _there_.

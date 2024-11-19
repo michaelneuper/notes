@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       cdc899a6-38b5-46bb-9fb2-e21e30fa2de8
+:END:
+#+title: Ellipses
+#+filetags: conic_sections
+
+* Definition
+#+begin_quote
+An *ellipse* is the set of points in a plane the sum of whose distances from two fixed points \(F_1\) and \(F_2\) (foci) is a constant.
+[[file:images/ellipse.png]]
+#+end_quote
+
+* Equation 1
+The ellipse
+\begin{equation*}
+\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \qquad 0 < b \le a
+\end{equation*}
+has foci \((\pm c, 0)\), where \(c^2=a^2 - b^2\), and vertices \((\pm a, 0)\)
+[[file:images/ellipse-1.png]]
+
+* Equation 2
+The ellipse
+\begin{equation*}
+\frac{x^2}{b^2} + \frac{y^2}{a^2} = 1\qquad 0 < b \le a
+\end{equation*}
+has foci \((0, \pm c)\), where \(c^2=a^2 - b^2\), and vertices \((0, \pm a)\)
+[[file:images/ellipse-2.png]]

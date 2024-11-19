@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       fedd08c1-e143-46b8-8180-69d3cb44e12c
+:END:
+#+title: Constituency Tests
+
+Inside a [[id:1a3a4f9c-8567-40c1-9da9-1540139d5899][sentence]], words group together to form *constituents*.
+Words may group into constituents in different ways, even withing a single sentence.
+
+* Definition
+A test to determine whether one or more words that occur together act as a syntactic unit.
+
+* Constituency Tests
+- [[id:2e5939e3-7aae-4020-88ed-1604ecb14ac5][Substitution Test]]
+- [[id:cf12a9a3-1d6d-443c-b25c-64fc0595a0bd][Coordination Test]]
+- [[id:65def905-fb71-48c3-b95e-ff4180fba51f][Sentence Fragment Test]]

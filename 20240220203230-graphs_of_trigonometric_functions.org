@@ -1,0 +1,105 @@
+:PROPERTIES:
+:ID:       6f0a6e37-8c3a-4b44-9f63-869e8deda483
+:END:
+#+title: Graphs of [[id:d29f8fa1-bce7-4d4e-8592-edbab6d30395][Trigonometric Functions]]
+#+startup: hideblocks
+
+* Sine
+#+begin_src python :results file link
+import matplotlib, numpy
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+fig = plt.figure(figsize=(4,2))
+x = numpy.linspace(-2*numpy.pi,2*numpy.pi,1000)
+plt.plot(x, numpy.sin(x))
+fig.tight_layout()
+plt.savefig('images/sine.png')
+return 'images/sine.png'
+#+end_src
+
+#+RESULTS:
+[[file:images/sine.png]]
+
+* Cosine
+#+begin_src python :results file link
+import matplotlib, numpy
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+fig = plt.figure(figsize=(4,2))
+x = numpy.linspace(-2*numpy.pi,2*numpy.pi,1000)
+plt.plot(x, numpy.cos(x))
+fig.tight_layout()
+plt.savefig('images/cosine.png')
+return 'images/cosine.png'
+#+end_src
+
+#+RESULTS:
+[[file:images/cosine.png]]
+
+* Tangent
+#+begin_src python :results file link
+import matplotlib, numpy
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+fig = plt.figure(figsize=(4,2))
+x = numpy.linspace(-2*numpy.pi,2*numpy.pi,1000)
+plt.plot(x, numpy.tan(x))
+plt.ylim(-5, 5)
+fig.tight_layout()
+plt.savefig('images/tangent.png')
+return 'images/tangent.png'
+#+end_src
+
+#+RESULTS:
+[[file:images/tangent.png]]
+
+* Cosecant
+#+begin_src python :results file link
+import matplotlib, numpy
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+fig = plt.figure(figsize=(4,2))
+x = numpy.linspace(-2*numpy.pi,2*numpy.pi,1000)
+plt.plot(x, 1/numpy.sin(x))
+plt.ylim(-5, 5)
+fig.tight_layout()
+plt.savefig('images/cosecant.png')
+return 'images/cosecant.png'
+#+end_src
+
+#+RESULTS:
+[[file:images/cosecant.png]]
+
+* Secant
+#+begin_src python :results file link
+import matplotlib, numpy
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+fig = plt.figure(figsize=(4,2))
+x = numpy.linspace(-2*numpy.pi,2*numpy.pi,1000)
+plt.plot(x, 1/numpy.cos(x))
+plt.ylim(-5, 5)
+fig.tight_layout()
+plt.savefig('images/secant.png')
+return 'images/secant.png'
+#+end_src
+
+#+RESULTS:
+[[file:images/secant.png]]
+
+* Cotangent
+#+begin_src python :results file link
+import matplotlib, numpy
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+fig = plt.figure(figsize=(4,2))
+x = numpy.linspace(-2*numpy.pi,2*numpy.pi,1000)
+plt.plot(x, 1/numpy.tan(x))
+plt.ylim(-5, 5)
+fig.tight_layout()
+plt.savefig('images/cotangent.png')
+return 'images/cotangent.png'
+#+end_src
+
+#+RESULTS:
+[[file:images/cotangent.png]]

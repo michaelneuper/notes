@@ -1,0 +1,73 @@
+:PROPERTIES:
+:ID:       fdc2dbe7-d134-4b80-a687-407ac36f637f
+:END:
+#+title: Determinant
+#+filetags: linear_algebra determinants
+
+* Definition
+#+begin_quote
+Let \(A = [a_{ij}]\) be an \(n \times n\) [[id:a3e5a759-ca7d-46e2-a390-c3cb8f1cc823][matrix]], where \(n \ge 2\).
+Then the *determinant* of \(A\) denoted \(\det(A)\) or \(|A|\) is the scalar
+\begin{equation*}
+\begin{align*}
+\det(A) &= \left| A \right| = a_{11} \det(A_{11}) - a_{12} \det(A_{12}) + \cdots + (-1)^{1+n} a_{1n} \det(A_{1n}) \\
+&= \sum_{j=1}^{n} (-1)^{1+j} a_{1j} \det(A_{1j})
+\end{align*}
+\end{equation*}
+#+end_quote
+
+* Determinant of a \(2 \times 2\) Matrix
+\begin{equation*}
+\left| \begin{array}{cc}
+a & b \\
+c & d
+\end{array} \right| = ad - bc
+\end{equation*}
+
+* Determinant of a \(3 \times 3\) Matrix
+If \(A = \begin{bmatrix} a_{11} & a_{12} & a_{13} \\ a_{21} & a_{22} & a_{23} \\ a_{31} & a_{32} & a_{33} \end{bmatrix}\) is a \(3 \times 3\) matrix, then the determinant of \(A\) is the scalar
+\begin{equation*}
+\begin{align*}
+\left| A \right| &= a_{11} \left| \begin{array}{cc}
+a_{22} & a_{23} \\
+a_{32} & a_{33}
+\end{array} \right|
+- a_{12} \left| \begin{array}{cc}
+a_{21} & a_{23} \\
+a_{31} & a_{33}
+\end{array} \right|
++ a_{13} \left| \begin{array}{cc}
+a_{21} & a_{22} \\
+a_{31} & a_{32}
+\end{array} \right| \\
+&= a_{11}\det(A_{11}) - a_{12}\det(A_{12}) + a_{13}\det(A_{13})
+\end{align*}
+\end{equation*}
+
+* Theorem
+The determinant of a [[id:97011425-33ab-45f3-8577-4c35dd0d8a06][Triangular Matrix]] is the product of the entries on its main diagonal.
+Specifically, if \(A = [a_{ij}]\) is an \(n \times n\) triangular matrix triangular matrix, then
+\begin{equation*}
+\det(A) = a_{11}a_{22}\cdots a_{nn}
+\end{equation*}
+
+* Lemma
+A square matrix \(A\) is [[id:a6202f63-ca6f-4b31-ad25-4e57ec040e6e][invertible]] iff \(\det(A) \ne 0\).
+
+* Properties
+Let \( A = [a_{ij}] \) be a square matrix.
+- If \( A \) has a zero row (column), then \( \text{det } A = 0 \).
+- If \( B \) is obtained by interchanging two rows (columns) of \( A \), then \( \text{det } B = -\text{det } A \).
+- If \( A \) has two identical rows (columns), then \( \text{det } A = 0 \).
+- If \( B \) is obtained by multiplying a row (column) of \( A \) by \( k \), then \( \text{det } B = k \text{det } A \).
+- If \( A \), \( B \), and \( C \) are identical except that the \( i \)-th row (column) of \( C \) is the sum of the \( i \)-th rows (columns) of \( A \) and \( B \), then \( \text{det } C = \text{det } A + \text{det } B \).
+- If \( B \) is obtained by adding a multiple of one row (column) of \( A \) to another row (column), then \( \text{det } B = \text{det } A \).
+
+* Note
+- \(\det(A_{ij})\) is called the \(ij\)-minor of \(A\)
+  - if we combine it with the sign, we call it the  \(ij\)-cofactor of \(A\), so the definition becomes
+    \begin{equation*}
+        \det(A) = \sum_{j=1}^n a_{1j} C_{1j}
+    \end{equation*}
+- \(A_{ij}\) is submatrix we obtain by removing the row and column that \(a_{ij}\) is in
+- the signs of the terms in the determinant alternate

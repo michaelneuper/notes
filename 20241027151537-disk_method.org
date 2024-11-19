@@ -1,0 +1,4 @@
+:PROPERTIES:
+:ID:       816a9de0-9bf5-4186-b34b-b118c5d9ac96
+:END:
+#+title: Disk Method

@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       3721aaf8-6e01-4a4d-a604-8e3a13ca5734
+:END:
+#+title: Complement (set theory)
+
+* Definition
+- For sets \(A\) and \(U\), the complement of \(A\) is defined as all the elements [[id:86afe72f-5d27-4bd7-8ccc-1d599ee00835][NOT]] in \(A\)
+  \begin{equation*}
+        A^c = \{x\in U | x\not\in A\}
+  \end{equation*}
+- Also denoted \(\bar A\)
+
+* Example
+- If \(A = \{1,2,3\}\) and \(U = \{3,4\}\) then
+- \(A^{c} = \{4\}\)
+
+* Visualisation
+[[file:images/complement.svg]]

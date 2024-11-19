@@ -1,0 +1,45 @@
+:PROPERTIES:
+:ID:       436f54b5-16ec-4f0c-aac1-94637d34f65f
+:END:
+#+title: Stack
+#+filetags: data_structures
+
+* Definition
+#+begin_quote
+A stack is an [[id:64ffa106-ed4a-4abf-983e-21f2fbe1852e][ADT]] which uses the LIFO (Last In First Out) principle.
+#+end_quote
+
+* Operations
+** Push
+Add an item to stack.
+** Pop
+Pop an item off the stack and return it.
+
+[[file:images/stack.png]]
+
+* Implementation (Using [[id:62282d8d-bb16-4e49-bc3c-82abf080860b][Linked List]])
+#+begin_src python
+class Stack:
+    def __init__(self):
+        self._first: _Node = None
+        self._size: int = 0
+
+    def push(self, item):
+        self._first = _Node(item, self._first)
+        self._size += 1
+
+    def pop(self):
+        item = self._first.item
+        self._first = self._first.next
+        self._size -= 1
+        return item
+
+    def __len__(self):
+        return self._size
+
+
+class _Node:
+    def __init__(self, item: Any, next: _Node):
+        self.item = item  # Reference to an item
+        self.next = next  # Reference to next _Node
+#+end_src

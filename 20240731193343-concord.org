@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       29c262ab-2215-4868-8b89-26a3e272400d
+:END:
+#+title: Concord
+
+* Definition
+#+begin_quote
+Agreement between [[id:6f9cb5ec-c73f-434f-9e55-c7a0ac95120f][grammatical]] elements.
+#+end_quote
+
+* Example
+- _She_ sing-*s* a song
+- *She sing a song
+- _They sing_ a song
+
+  When the subject is 3rd person singular, the verb must take the 3rd person singular ending -s in order to agree with the subject.

@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       f700704a-bb3b-4d75-ab4a-a1dc0698bda0
+:END:
+#+title: Pascal's Triangle
+
+Using [[id:191ab052-9880-4ccb-be2d-85e052fe32bc][combinations]], we can compute the \(n\)'th row (where \(n \ge 0\)) of Pascal's Triangle.
+\begin{equation*}
+{n \choose 0} {n \choose 1} \cdots {n \choose n-1}{n \choose n}
+\end{equation*}
+
+[[file:images/pascals-triangle.jpg]]

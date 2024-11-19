@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       e3030b04-3d74-4d8c-b4f0-a59cf1b2afb8
+:END:
+#+title: Poset
+
+* Definition
+An *order-reflecting map* of [[id:e64ef180-2fff-4790-bf03-1920ea80b239][posets]] \(P\) and \(Q\) is a function \(f: P \to Q\) which satisfies
+\begin{equation*}
+\forall x, y \in P,\, f(x) \le_{Q} f(y) \Longrightarrow x\le_{P} y
+\end{equation*}

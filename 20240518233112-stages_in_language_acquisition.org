@@ -1,0 +1,39 @@
+:PROPERTIES:
+:ID:       8061aa34-feb3-4456-96f1-82c9203cf780
+:END:
+#+title: Stages in Language Acquisition
+#+filetags: language_acquisition
+
+* Perception and Production of Speech Sounds
+- All languages contain a subset of all possible sounds
+  - Only certain pairs are phonetic
+- By 6 months, children only recognise speech sounds and phonemic distinctions
+
+* Acquisition of [[id:f6cb0ecc-0219-49e4-868b-098b707113b6][Phonology]]
+Fixed order in terms of
+- [[id:1ed1bf1a-516d-4d6a-a3b2-84cadb8f3fbe][Manner of Articulation]]
+- [[id:b6476e30-2a8d-4c15-9cef-60797da2b22f][Place of Articulation]]
+
+* Acquisition of [[id:19cd4f54-86ac-4d58-9999-f0c25e3e7527][Morphology]]
+Errors show acquisition of morphological rules, e.g. "holded"
+- Acquire rule, overgeneralise ("foots")
+- Knowledge of exceptions ("feet")
+
+* Acquisition of [[id:0ea0ce4d-e70f-4f41-8c39-ae2fc7d06817][Syntax]]
+Function words + content words + syntactic rules (word order)
+
+* Acquisition of Sign Language
+Same as spoken languages
+
+* Types of Errors
+- Omission
+  - There two boy
+- Insertion
+  - Shoeses
+- Overextension of meaning
+- Underextension of meaning
+- Overregularising
+  - goodest (best)
+
+* [[id:e15d6060-a6e8-4118-953a-3aacbd0db501][Holophrastic Stage]]
+* [[id:cc402477-aa30-48ec-9c95-d637479b7238][Telegraphic Stage]]

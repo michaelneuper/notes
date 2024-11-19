@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       4ce1967b-3611-47d1-ba7b-9b989d86ce8e
+:END:
+#+title: Quotient Set
+#+filetags: relations_and_digraphs
+
+* Definition
+The *quotient* of a [[id:56ae2cf4-a426-46fd-82eb-9acb3c8512ba][set]] \(X\) by an [[id:392c7fec-581b-457b-a42a-c0f2ee2bfbb4][equivalence relation]] \(E\subseteq X^2\) is \(A/E\).
+\begin{equation*}
+A/E \coloneqq \{[x]_E \mid x \in X\}
+\end{equation*}

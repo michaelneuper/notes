@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       597a548b-60b2-41e7-aae9-8b1328d06e65
+:END:
+#+title: Truth Tables
+
+* Definition
+- A table that lists all possible truth values for [[id:675d2e38-6ee5-49a0-9c07-bb1b5291a2f7][logical statements]].
+
+* Example
+Example for \(P \vee (\neg Q)\)
+
+| \(P\) | \(Q\) | \(\neg Q\) | \(P \vee (\neg Q)\) |
+|-------+-------+------------+---------------------|
+| T     | T     | F          | T                   |
+| T     | F     | T          | T                   |
+| F     | T     | F          | F                   |
+| F     | F     | T          | T                   |

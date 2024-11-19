@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       25af17fb-fb34-4bc4-961f-8e5e6bd138f9
+:END:
+#+title: Recursion
+
+* Definition
+#+begin_quote
+When something is specified in terms of itself.
+#+end_quote
+
+* Example
+- [[id:ec3693ee-4076-4d1e-a833-97300629d151][Factorial Function]]
+
+* Links
+[[id:c0407dfb-dd46-488d-88e3-25733c215325][Mathematical Induction]]

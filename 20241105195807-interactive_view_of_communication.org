@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       1ad2d10a-6b4e-4fdb-a2c0-2f1a91771267
+:END:
+#+title: Interactive View of Communication
+
+* Definition
+Communication is a complex social process and should be viewed as a 'meaning-making'
+process which takes place during interaction between participants in social contexts.
+
+Both the sender and receiver play an active roll.

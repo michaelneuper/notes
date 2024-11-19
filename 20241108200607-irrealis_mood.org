@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       e8a02730-b848-4dc3-bcc5-6a3a1b793078
+:END:
+#+title: Irrealis Mood
+
+* Definition
+Irrealis mood refers to an event or state of affairs which is hypothetical / not real / not (yet) existing.
+Indicated by the [[id:ef763776-f9dd-4598-98c8-ce473c306db8][infinite]] marker "to" and are optionally introduced by "for".
+
+/I prefer _(for) John to come_./
+
+* Note
+Infinite clauses are always associated with the irrealis mood.

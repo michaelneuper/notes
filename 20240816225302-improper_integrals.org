@@ -1,0 +1,45 @@
+:PROPERTIES:
+:ID:       b8ae174b-6090-4a10-9ec7-718f217e145e
+:END:
+#+title: Improper Integrals
+#+filetags: calculus integration_techniques
+
+* Definition
+#+begin_quote
+An extension of the notion of a [[id:7256d12e-eb3d-48d1-8f12-7168c6fe8522][definite integral]] to cases where the interval is infinite and also to the case where the integrand has an infinite discontinuity in the interval.
+#+end_quote
+
+* Type 1: Infinite Intervals
+1. If \(\int_a^tf(x) \, dx\) exists for every number \(t\ge a\), then
+    \begin{equation*}
+    \int_a^{\infty}f(x) \, dx = \lim_{t\to\infty}\int_a^tf(x) \, dx
+    \end{equation*}
+    provided the [[id:174608ab-bd8a-43b1-8690-76615e30c5c9][limit]] exists (as a finite number).
+
+2. If \(\int_t^bf(x) \, dx\) exists for every number \(t\le a\), then
+    \begin{equation*}
+    \int_{-\infty}^{b}f(x) \, dx = \lim_{t\to-\infty}\int_{-\infty}^bf(x) \, dx
+    \end{equation*}
+    provided the [[id:174608ab-bd8a-43b1-8690-76615e30c5c9][limit]] exists (as a finite number).
+
+3. If both \(\int_a^{\infty}f(x) \, dx\) and \(\int_{-\infty}^af(x) \, dx\) are convergent (their corresponding limits exist), then we define
+   \begin{equation*}
+   \int_{-\infty}^{\infty}f(x) \, dx = \int_{-\infty}^af(x) \, dx + \int_a^{\infty}f(x) \, dx
+   \end{equation*}
+   where \(a\) is any real number.
+
+* Type 2: Discontinuous Integrands
+1. If \(f\) is [[id:9f66f38c-1072-4146-9efe-5a90f984d480][continuous]] on \([a, b)\) and is discontiuous at \(b\), then
+   \begin{equation*}
+   \int_a^bf(x) \, dx = \lim_{t\to b^{-}} \int_a^tf(x) \, dx
+   \end{equation*}
+
+2. If \(f\) is [[id:9f66f38c-1072-4146-9efe-5a90f984d480][continuous]] on \((a, b]\) and is discontiuous at \(a\), then
+   \begin{equation*}
+   \int_a^bf(x) \, dx = \lim_{t\to a^{+}} \int_t^bf(x) \, dx
+   \end{equation*}
+
+3. If \(f\) has a discontinuity at \(c\), where \(a < c < b\), and both \(\int_a^cf(x) \, dx\) and \(\int_c^bf(x) \, dx\) are convergent, then we define
+   \begin{equation*}
+   \int_a^bf(x) \, dx = \int_a^cf(x) \, dx + \int_c^bf(x) \, dx
+   \end{equation*}

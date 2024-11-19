@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       fea63701-9546-46b7-9e7e-5d09e30d1fe5
+:END:
+#+title: Adjectives
+
+* Definition
+Adjectives are used to describe [[id:c35e1ea9-8b8a-40ee-8b18-dd7169825658][nouns]]:
+- The /caring/ friend; The /green/ pillow; My /interesting/ hobby.
+
+They can be used to express degrees of comparison:
+- He is /taller/ than she is; This cat is the /best/.
+
+* Uses
+** Attributive Use
+Precedes the noun as part of the [[id:8f34fe1c-acd6-4e4f-b609-7b73efea7336][Noun Phrase]]
+- The /beautiful/ picture.
+** Predicative Use
+Follows the noun as part of the [[id:22dabe8b-5aec-443f-88eb-c23a4e8c728c][Verb Phrase]]
+- The picture is /beautiful/.
+
+* Note
+Adjectives can be followed by the [[id:cfc40864-219f-4fbe-95b0-6fe72f803b2e][preposition]] /about/, /to/, /of/:
+- curious /about the mystery/
+- obvious /to the student/
+- fond /of chocolate/

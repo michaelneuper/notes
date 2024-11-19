@@ -1,0 +1,42 @@
+:PROPERTIES:
+:ID:       fe20cbc0-3044-4520-8078-2a32ed086cf1
+:END:
+#+title: Converting to Binary
+#+filetags: important_programs
+
+* Code
+#+begin_src python :results output :var n=19
+import stdio
+
+"""
+v: current power of 2
+n: current excess
+"""
+
+# Compute v as the largest power of 2 <= n
+v = 1
+while v <= n // 2:
+    v *= 2
+
+# Cast out powers of 2 in decreasing order
+while v > 0:
+    if n < v:
+        stdio.write(0)
+    else:
+        stdio.write(1)
+        n -= v
+    v //= 2
+#+end_src
+
+#+RESULTS:
+: 10011
+
+* [[id:103ed052-83c8-4f4a-9ffb-62a2bdd56637][Object Trace]]
+|  n | bin(n) |  v | v > 0 | bin(v) | n < v | out |
+|----+--------+----+-------+--------+-------+-----|
+| 19 |  10011 | 16 | true  |  10000 | false |   1 |
+|  3 |   0011 |  8 | true  |   1000 | true  |   0 |
+|  3 |    011 |  4 | true  |    100 | true  |   0 |
+|  3 |     01 |  2 | true  |     10 | false |   1 |
+|  1 |      1 |  1 | true  |      1 | false |   1 |
+|  0 |        |  0 | false |        |       |     |

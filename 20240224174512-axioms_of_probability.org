@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       dc5f0d7c-34f1-46fc-bfe8-9f159ecd189c
+:END:
+#+title: Axioms of Probability
+#+filetags: axioms_of_probability
+
+* Definition
+** Relative Frequency Definition ([[id:6ffde4e8-a12d-4c3a-bc24-675b5a38433c][Limits]])
+- Suppose an experiment with [[id:33838eb4-aa50-4794-baa1-637ddea744ad][sample space]] \(S\) is repeated \(n\) times.
+- We may define the probability of event \(E\) as
+\begin{equation*}
+P(E) = \lim_{n\to\infty}\frac{n(E)}{n}
+\end{equation*}
+
+** Definition by Axioms
+Assume that for any event \(E\) in a sample space \(S\), there exists a value \(P(E)\), such that the following is satisfied:
+- *Axiom 1*: \(0\le P(E)\le 1\)
+- *Axiom 2*: \(P(S) = 1\)
+- *Axiom 3*: for any sequence of [[id:b804e882-b52f-49fd-a577-bcae712bbb75][mutually exclusive]] events \(E_1, E_2, E_3,\cdots\)
+\begin{equation*}
+P\left(\bigcup_{i=1}^{\infty}E_{i}\right) = \sum_{i=1}^{\infty}P(E_{i}) \newline
+\end{equation*}
+
+\begin{equation*}
+\Leftrightarrow P(E_1 \cup E_2 \cup E_3 \cdots) = P(E_1) + P(E_2) + P(E_3) + \cdots
+\end{equation*}

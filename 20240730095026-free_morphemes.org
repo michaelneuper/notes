@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       f1f0c1e3-2db3-4004-bbd9-e26b2e18698b
+:END:
+#+title: Free Morphemes
+
+* Definition
+#+begin_quote
+Free morphemes have meaning and can be used independently.
+
+They can stand alone as individual words.
+#+end_quote
+
+* Examples
+- dog
+- cat
+- person
+- a
+- the

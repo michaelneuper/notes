@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       99f8249c-f8d2-4fb6-bcf4-381e24cd029a
+:END:
+#+title: Chain Rule
+
+* Definition
+#+begin_quote
+\begin{equation}
+\frac{dy}{dx} = \frac{dy}{dt} \cdot \frac{dt}{dx}
+\end{equation}
+#+end_quote

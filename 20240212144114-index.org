@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       e4a35e52-30f9-48e1-8f7c-cb04005a0b9b
+:END:
+#+title: Index
+
+* Year 1
+** Year
+*** [[id:dcd2bb15-a146-44e8-be03-bdaa03f00b07][Science in Context 178]]
+*** [[id:2859be0e-01f9-496b-9574-99c30122c6d2][General Linguistics 178]]
+** Semester 1
+*** [[id:e5d2803f-85b1-4bc7-abeb-832aa3d2721d][Computer Science 114]]
+*** [[id:0aae2bca-217e-4ad6-ba31-d8371378a032][Mathematics 114]]
+*** [[id:b59ccf5d-ef62-476f-8148-e86cee3c4ab3][Probability Theory and Statistics 114]]
+** Semester 2
+*** [[id:e957b21b-0338-4020-b270-038f6b9f7b4a][Computer Science 144]]
+*** [[id:c822f4b8-fecf-4aac-9bba-d90b2612a12a][Mathematics 144]]
+*** [[id:2eef0ac6-fd57-4b6e-91d5-de0bf9b20e59][Mathematics 154]]

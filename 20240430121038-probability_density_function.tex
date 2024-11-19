@@ -1,0 +1,52 @@
+% Created 2024-04-30 Tue 23:32
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\author{Michael Neuper}
+\date{\today}
+\title{Probability Density Function}
+\hypersetup{
+ pdfauthor={Michael Neuper},
+ pdftitle={Probability Density Function},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 29.1 (Org mode 9.7)}, 
+ pdflang={English}}
+\usepackage{biblatex}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\section{Definition}
+\label{sec:org97f85ed}
+\begin{quote}
+A \textbf{probability density \href{../../../../Notes/20240301082717-functions.org}{function} \(f(x)\)} associates with a \href{20240430120241-continuous_random_variables.org}{continuous random variable} \(X\) has the following properties:
+\begin{itemize}
+\item \(f(x) \ge 0\) for all \(x\in(-\infty,\infty)\)
+\item \(P\{a\le X \le b\} = \int_a^{b} f(x) \, dx\)
+\item \(P\{-\infty\le X \le  \infty\} = \int_{-\infty}^{\infty} f(x) \, dx = 1\)
+\end{itemize}
+
+Similar to the \href{../../../../Notes/20240224174512-axioms_of_probability.org}{Axioms of Probability}
+\end{quote}
+\section{Note}
+\label{sec:org8f7ce66}
+\begin{itemize}
+\item \(P\{X=a\} = \int_a^af(x) \, dx = 0\)
+\item \(P\left\{a-\frac{1}{2} \varepsilon \leq X \leq a+\frac{1}{2} \varepsilon\right\}=\int_{a-\frac{1}{2} \varepsilon}^{a+\frac{1}{2} \varepsilon} f(x) d x \approx \varepsilon f(a)\)
+\end{itemize}
+\end{document}

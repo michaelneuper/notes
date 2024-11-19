@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       1ed1bf1a-516d-4d6a-a3b2-84cadb8f3fbe
+:END:
+#+title: Manner of Articulation
+#+filetags: phonetics
+
+* Defintion
+#+begin_quote
+Referes to the manner in which the air is obstructed, impeded or left unhindered.
+#+end_quote
+
+- (Oral) Stop → the airflow through the oral cavity (mouth) is blocked for a moment. (p, b, t,
+g, k, d, ʔ)
+- Nasal → the airflow through the mouth is blocked and the air is forced through the nose.
+(m,n, ŋ)
+- Fricative → the airflow is partially blocked, leading to friction btw. the air and your mouth.
+(f, v, s, z, x, h, θ, ð, ʃ, ʒ )
+- Affricate → the airflow is first blocked / stop and is then slowly released. [t ͜ ʃ], [d ͜ ʒ]
+- Glide → sounds that are produced with only a little ebit of obstruction in the airflow. (w, j)
+- Liquid → the airflow is a bit constructed, but not enough to cause friction btw. the air and
+the mouth. [r], [ɹ], [R], [l]

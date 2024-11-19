@@ -1,0 +1,46 @@
+:PROPERTIES:
+:ID:       c0658aee-c790-4f84-a3c6-1a8bab831128
+:END:
+#+title: Binomial Theorem
+#+filetags: theorem proof
+
+* Definition
+#+begin_quote
+For any \(n\in\mathbb{N}\cup\{0\}\) we have that
+\begin{equation*}
+(x + y)^n = \sum_{k=0}^n{n \choose k}x^{n-k}y^k
+\end{equation*}
+#+end_quote
+
+* Example
+\begin{align*}
+(x + y)^n &= \sum_{k=0}^3{3 \choose k}x^{3-k}y^k \\
+&= {3 \choose 0}x^3 + {3 \choose 1}x^2y + {3 \choose 2}xy^2 + {3 \choose 3}y^3 \\
+&= x^3 + 3x^2y + 3xy^2 + y^3
+\end{align*}
+
+* Proof (by [[id:c0407dfb-dd46-488d-88e3-25733c215325][induction]] on \(n\))
+[[file:images/binomial-theorem.png]]
+# ** Base Case (\(n=0\)):
+# \((x+y0^0 = 1\)
+
+# \(\sum_0^0{0 \choose k}x^{0-k}y^k = {0 \choose 0}x^0y^0=1\)
+
+# ** Induction Step:
+# Let \(m\in\mathbb{N}\cup\{0\}\) and suppose \((x+y)^m = \sum_{i=0}^m{m \choose k}x^{m-k}y^k\)
+# \begin{align*}
+# (x+y)^{m+1} &= (x+y)^m(x+y) \\
+# &= x(x+y)^m + y(x+y)^m \\
+# &= x\left( \sum_{k=0}^m{m \choose k}x^{m-k}y^k\right) + y\left( \sum_{k=0}^m{m \choose k}x^{m-k}y^k\right)\\
+
+# &= \sum_{k=0}^m{m \choose k}x^{m-k+1}y^k + \sum_{k=0}^m{m \choose k}x^{m-k}y^{k+1} \\
+
+# &= \sum_{k=0}^{m+1}{m \choose k}x^{m-k+1}y^k + \sum_{k=0}^{m+1}{m \choose k}x^{m-k}y^{k+1}\) \\
+
+# &=  \sum_{k=0}^{m+1}{m \choose k}x^{m-k+1}y^k + \sum\(_{k=1}^{m+1} {m \choose {k-1} \) \\
+
+# &= \sum\(_{}\)
+# \end{align*}
+
+* Links
+See [[id:ec3693ee-4076-4d1e-a833-97300629d151][Permutations]], [[id:191ab052-9880-4ccb-be2d-85e052fe32bc][Combinations]], [[id:6d130bdd-0096-4d4c-a150-2855608486f1][Summation Index Shift]]

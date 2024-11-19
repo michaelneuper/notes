@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       462c1ea5-476d-4da3-8754-6e10cc1b0677
+:END:
+#+title: Lines in R2
+#+filetags: linear_algebra vectors
+
+* Normal Form
+The *normal form of the equation of a line \(\ell\)* in \(\mathbb{R}^2\) is
+\begin{equation*}
+\mathbf{n} \cdot (\mathbf{x} - \mathbf{p}) = 0 \quad \text{or} \quad \mathbf{n} \cdot \mathbf{x} = \mathbf{n}\cdot \mathbf{p}
+\end{equation*}
+where \(\mathbf{p}\) is a specific point on \(\ell\) and \(\mathbf{n} \ne \mathbf{0}\) is a normal [[id:81c97780-c8a5-4652-a6eb-d33732c37f1e][vector]] for \(\ell\).
+
+* General Form
+The *general form of the equation of a line \(\ell\)* in \(\mathbb{R}^2\) is
+\begin{equation*}
+ax + by = c
+\end{equation*}
+where \(\mathbf{n} = \begin{bmatrix} a \\ b \end{bmatrix}\) is a normal vector for \(\ell\).
+
+* Vector Form
+The *vector form of the equation of a line \(\ell\)* in \(\mathbb{R}^2\) is
+\begin{equation*}
+\mathbf{x} = \mathbf{p} + t\mathbf{d}
+\end{equation*}
+where \(\mathbf{p}\) is a specific point on \(\ell\) and \(\mathbf{d} \ne \mathbf{0}\) is a direction vector of \(\ell\).
+The equations corresponding to the components of the vector form of the equation are called [[id:f3d337c4-5616-4dfa-91b2-58c7738b2473][Parametric Equations]] of \(\ell\).

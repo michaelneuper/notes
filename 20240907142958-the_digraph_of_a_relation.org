@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       c74e80c4-c4dd-4df8-bfca-cc15c2048419
+:END:
+#+title: The Digraph of a Relation
+#+filetags: relations_and_digraphs
+
+* Definition
+If \( A \) is a finite [[id:56ae2cf4-a426-46fd-82eb-9acb3c8512ba][set]] and \( R \) is a [[id:72a5316f-9b83-4c20-aa2e-42ffe2813cfb][relation]] on \( A \), we can also represent \( R \) pictorially as follows.
+Draw a small circle for each element of \( A \) and label the circle with the corresponding element of \( A \).
+These circles are called *vertices*.
+Draw an arrow, called an *edge*, from vertex \( a_i \) to vertex \( a_j \) if and only if \( a_i \, R \, a_j \).
+The resulting pictorial representation of \( R \) is called a *directed graph* or *digraph* of \( R \).
+
+Thus, if \( R \) is a relation on \( A \), the edges in the digraph of \( R \) correspond exactly to the pairs in \( R \), and the vertices correspond exactly to the elements of the set \( A \).
+Sometimes, when we want to emphasize the geometric nature of some property of \( R \), we may refer to the pairs of \( R \) themselves as edges and the elements of \( A \) as vertices.
+
+* Notes
+Given an element \(x\in X\)
+- The *in-degree* of \(x\) (relative to \(R\)) is the number of elements \(y\) such that \(y \mathrel{R} x\).
+  \begin{equation*}
+  | \{y \in X \mid y \mathrel{R} x\} |
+  \end{equation*}
+- The *out-degree* of \(x\) (relative to \(R\)) is the number of elements \(y\) such that \(x \mathrel{R} y\).
+  \begin{equation*}
+  | \{y \in X \mid x \mathrel{R} y\} |
+  \end{equation*}
+
+* Example
+Let \(A = \{1, 2, 3, 4\} \)
+and
+\(R = \{(1, 1), (1, 2), (2, 1), (2, 2), (2, 3), (2, 4), (3, 4), (4, 1)\}.\)
+Then the digraph of \( R \) is as shown in below.
+[[file:images/digraph.png]]

@@ -1,0 +1,36 @@
+:PROPERTIES:
+:ID:       a3e5a759-ca7d-46e2-a390-c3cb8f1cc823
+:END:
+#+title: Matrices
+#+filetags: linear_algebra matrices
+
+* Definition
+#+begin_quote
+A *matrix* is a rectangular [[id:3c151f03-1a4a-4df2-9ef2-a70d81b4bfe6][array]] of numbers called entries/elements of the matrix.
+#+end_quote
+
+* Size
+The size of a matrix is defined by the number of rows and columns it contains.
+An \(m \times n\) matrix has \(m\) rows and \(n\) columns.
+
+A \(1\times m\) matrix is called a row matrix (or row [[id:81c97780-c8a5-4652-a6eb-d33732c37f1e][vector]]) and an \(n \times 1\) matrix is called a column matrix (or column vector).
+
+* Notation
+\begin{equation*}
+\mathbf{A} =
+\begin{bmatrix}
+a_{11} & a_{12} & \cdots & a_{1n} \\
+a_{21} & a_{22} & \cdots & a_{2n} \\
+\vdots & \vdots & \ddots & \vdots \\
+a_{m1} & a_{m2} & \cdots & a_{mn}
+\end{bmatrix}
+= [a_{ij}]
+\end{equation*}
+where \(i\) is the row and \(j\) is the column.
+
+* [[id:87704c09-b23d-4980-ab11-0a5f839ebf59][Operations]]
+** [[id:1c110ee1-3707-400a-ac2c-3cb39385e761][Matrix Addition]]
+** [[id:48952d21-f707-4ee1-bcf4-80c9f3ee1235][Matrix Multiplication]]
+** [[id:4bfb5337-baa6-4491-84d1-2e91ca3f141b][Matrix Powers]]
+** [[id:a3c59416-9311-47b4-bd97-58646fa02625][Transpose of a Matrix]]
+

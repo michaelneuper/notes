@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       ff7d0cc5-4b60-461f-9aab-7bdfd417c10f
+:END:
+#+title: Analogy
+
+Children use Sentence 1 as a template for Sentence 2

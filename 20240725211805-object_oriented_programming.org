@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       045de827-7b9a-4212-82f9-e9e9869d0e94
+:ROAM_ALIASES: OOP
+:END:
+#+title: Object Oriented Programming
+
+Allows you to create your own [[id:72f40898-b06c-4c82-b670-b892182657a9][Data Types]]

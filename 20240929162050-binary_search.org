@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       18af34be-095f-491f-b142-b410c890ab25
+:END:
+#+title: Binary Search
+#+filetags: search_n_sort algorithm
+
+* [[id:25af17fb-fb34-4bc4-961f-8e5e6bd138f9][Recursive]] Approach
+#+begin_src python
+def binary_search(arr, target, lo, hi):
+    if lo > hi:
+        return -1
+
+    mid = (hi + lo) // 2
+
+    if arr[mid] == target:
+        return mid
+    elif arr[mid] > target:
+        return binary_search(arr, target, lo, mid)
+    else:
+        return binary_search(arr, target, mid + 1, hi)
+
+#+end_src
+
+* [[id:2606eefb-295e-4afc-8942-9bbea33f66ed][Order of Growth]]
+\(T_N \sim \log N\)

@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       d844373f-4fd9-4bdd-b621-101594827ab7
+:END:
+#+title: Discrete Random Variables
+#+filetags: discrete_random_variables
+
+* Definition
+#+begin_quote
+A discrete random variable \(X\) is defined by
+- a *discrete (countable) [[id:56ae2cf4-a426-46fd-82eb-9acb3c8512ba][set]] of possible values* it can assume, and
+- a *probability associated with each* of those values.
+#+end_quote
+
+* Types
+- [[id:a437fdc4-d141-485b-af6a-90cdbf58f859][Bernoulli Random Variable]]
+- [[id:7201e00a-eca0-40d9-a70e-0ce26ee655da][Binomial Random Variable]]
+- [[id:bb6cbd7b-4ef3-4eb2-803b-8799e6b8c90c][Poisson Random Variables]]
+
+* Example
+Flip a coin thrice.
+
+\(S = \{HHH, HHT , HTH, HTT , THH, THT , TTH, TTT\}\)
+
+Let \(X\) be the number of heads in one execution of this experiment.
+
+\(X\) is a random variable, with possible values 0, 1, 2, 3.
+Then,
+
+\(P\{X = 0\} = P(\{TTT\}) = \frac{1}{8}\)

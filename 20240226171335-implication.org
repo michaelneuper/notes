@@ -1,0 +1,35 @@
+:PROPERTIES:
+:ID:       2ac0fab0-14bb-4555-8f72-9f6e3c6e3dc8
+:END:
+#+title: Implication
+
+* Definition
+- For (var-)statements \(\alpha, \beta\) we have "\(\alpha \text{ implies } \beta\)" is a (var-)statement.
+
+* Notation
+- Mathematical language: \(\alpha\Rightarrow \beta\)
+
+* Interpretation
+** For [[id:675d2e38-6ee5-49a0-9c07-bb1b5291a2f7][Statement]]
+- Given by the truth table
+** For [[id:ac356044-060c-4b67-84f2-6361c9c574bb][Var-statements]]
+- A value makes \(\alpha\Rightarrow\beta\) true iff \(\alpha\Rightarrow\beta\) substituted with this value is the same as a statement (works for any [[id:c320994c-b8c2-4d38-8954-d75f1c8aa022][operations]])
+** Verbal Interpretations
+- If \(\alpha\) then \(\beta\)
+- \(\beta\) if \(\alpha\)
+- \(\alpha\) implies \(\beta\)
+- \(\alpha\) only if \(\beta\)
+
+* [[id:597a548b-60b2-41e7-aae9-8b1328d06e65][Truth Table]]
+| \(\alpha\) | \(\beta\) | \(\alpha\Rightarrow\beta\) |
+|-------+-------+---------|
+| T     | T     | T       |
+| T     | F     | F       |
+| F     | T     | T       |
+| F     | F     | T       |
+
+* Notes
+- Not the same as other var-statements
+- \(x\in\mathbb{N}\) is not inherently true or false
+- "\(x\in\mathbb{N}\Rightarrow x\in\mathbb{Z}\)" is however true because it is true for every value of \(x\)
+- "\(x\in\mathbb{Z}\Rightarrow x\in\mathbb{N}\)" is false because it is not true for every value of \(x\)

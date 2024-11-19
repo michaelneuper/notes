@@ -1,0 +1,4 @@
+:PROPERTIES:
+:ID:       ec941d41-81f5-42ce-b6c5-2faaccd5d55d
+:END:
+#+title: Cofactor Matrix

@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       364662e7-fb14-4b67-9af5-d487eaf3c929
+:END:
+#+title: Grammaticality and Acceptability
+
+* Grammatical Sentence
+A sentence that does not contain any [[id:19cd4f54-86ac-4d58-9999-f0c25e3e7527][morphological]] or [[id:0ea0ce4d-e70f-4f41-8c39-ae2fc7d06817][syntactic]] errors.
+
+Ungrammatical sentences are indicated with an asterisk (*).
+- * Elephant the sky bought blue.
+
+* Acceptable Sentence
+A sentence that is [[id:6f9cb5ec-c73f-434f-9e55-c7a0ac95120f][grammaticall]] and [[id:0d486aeb-8483-48d6-a6f1-44313bbc5eb4][semantically]] well-formed.
+
+A semantically unacceptable sentence is indicated with a hash (#).
+- # The elephant bought the sky.
+
+* Note
+An ungrammatical sentence is automatically unacceptable.
+However, a sentence can be grammatical and still (semantically) unacceptable.

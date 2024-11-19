@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       e15d6060-a6e8-4118-953a-3aacbd0db501
+:END:
+#+title: Holophrastic Stage
+#+filetags: language_acquisition
+
+- Occurs at around 1yr
+- First "words"
+- One word [[id:d974a4cd-8904-4d95-9ca7-e5b1cbba41e8][utterances]]
+- Initially: overgeneralisation

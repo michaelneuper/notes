@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       e3e3bd1d-d925-45af-9c3d-879be83ca876
+:END:
+#+title: Proof by Contradiction
+
+* Definition
+#+begin_quote
+To prove \(\alpha\Rightarrow\beta\), assume \(\alpha\) and \(\neg\beta\) and dry derive a contradiction (deduce a statement that is false).
+#+end_quote
+
+* Example
+[[file:images/proof-by-contradiction.png]]

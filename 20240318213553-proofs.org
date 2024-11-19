@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       e7d37178-46c5-4e45-9ccf-61712e012cca
+:END:
+#+title: Methods of Proof
+#+filetags: logic
+
+* Definition
+An explantion for why a [[id:675d2e38-6ee5-49a0-9c07-bb1b5291a2f7][proposition]] is always true under certain conditions
+
+* Proofs for [[id:2ac0fab0-14bb-4555-8f72-9f6e3c6e3dc8][Implication Statements]]
+** [[id:881a723b-86ee-484c-8558-6cdddf11c110][Direct Proof]]
+** [[id:e3e3bd1d-d925-45af-9c3d-879be83ca876][Proof by Contradiction]]
+** [[id:7c520643-d169-4201-b90d-7e6466b94373][Proof by Contrapositive]]
+** [[id:64e2ae97-4877-44aa-bab5-db4eef5f43e9][Proof by Cases]]
+** [[id:c0407dfb-dd46-488d-88e3-25733c215325][Mathematical Induction]]
+
+* Proof for [[id:584329a2-63ec-47b3-bdb6-a3c86e37e30e][Equivalence Statements]]
+** [[id:9a4dc9db-ad79-4215-842d-57d59b3fcdb6][Biconditionals]]
+
+* Proof for [[id:e6724be8-3518-4b0c-a233-f31f593b453b][Universal Quantifier]]
+** [[id:b8c10ba4-a0d4-410b-bd33-e22f037980d1][Proof by Counter-example]]
+
+* Proof for [[id:dc892d93-3f41-415a-a0cf-f1a669d0bbb7][Existential Quantifier]]
+** [[id:bfc43bae-f641-420a-9341-1eb162ae8a4c][Existence Proofs]]

@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       16d534b3-abd7-4ef7-bbfe-f809c6061618
+:END:
+#+title: Average Value of a Function
+
+* Definition
+#+begin_quote
+We define the average value of a [[id:87d42439-b03b-48be-84ab-2215b4733dd7][function]] \(f\) on an interval \([a,b]\) as
+\begin{equation*}
+f_{\text{avg}} \coloneqq \frac{1}{b - a} \int_a^{b} f(x) \, dx
+\end{equation*}
+#+end_quote

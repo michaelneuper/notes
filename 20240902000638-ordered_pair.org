@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       0c82b098-23b3-475e-961d-86cbb4b5bf38
+:END:
+#+title: Ordered Pairs
+#+filetags: relations_diagraphs
+
+* Defintion
+An *ordered pair* \((a,b)\) is a listing of the objects \(a\) and \(b\) in a prescribed order, with \(a\) appearing first and \(b\) appearing second.
+Thus an ordered pair is merely a [[id:d1a18e96-d26e-4ec0-85be-596c9d8a64a7][sequence]] of length 2.
+It follows that the ordered pairs \((a_1,b_1)\) and \((a_2,b_2)\) are equal iff \(a_1=a_2\) and \(b_1=b_2\).

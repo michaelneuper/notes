@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       f3d337c4-5616-4dfa-91b2-58c7738b2473
+:END:
+#+title: Parametric Equations
+
+* Definition
+#+begin_quote
+Suppose \(x\) and \(y\) are both given as [[id:87d42439-b03b-48be-84ab-2215b4733dd7][functions]] of a third variable \(t\), called a *parameter* by the equations
+\begin{equation*}
+x = f(t) \qquad y = g(t)
+\end{equation*}
+which are called *parametric equations*.
+
+Each value of \(t\) determines a point \((x,y)\) in a coordinate plane.
+As \(t\) varies, the point \((x,y) = (f(t), g(t))\) varies and traces out a curve called a *parametric curve*.
+#+end_quote
+
+* Tangents
+Using the [[id:99f8249c-f8d2-4fb6-bcf4-381e24cd029a][Chain Rule]], we get the following formula
+\begin{equation*}
+\frac{dy}{dx} = \frac{dy/dt}{dx/dt} \qquad \text{if}\qquad \frac{dx}{dt} \ne 0
+\end{equation*}

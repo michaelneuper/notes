@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       0baf7425-1ecf-451e-8d80-32609370fbee
+:END:
+#+title: Wh Principle
+
+Content questions are formed by means of questions words.

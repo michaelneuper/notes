@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       69ce5a94-663d-4546-8c21-69061d856fb5
+:END:
+#+title: Identifiers
+
+* Definition
+A code representation of a name

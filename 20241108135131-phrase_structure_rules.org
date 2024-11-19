@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       664fe9a9-e62c-4fcb-8980-0a66c3ce76b6
+:END:
+#+title: Phrase Structure Rules
+
+* Definition
+The arrangement of the elements that make up a [[id:b2878066-2e8d-4d08-8ebf-4d6c3ed5a599][phrase]] is regulated by a special type of [[id:6f9cb5ec-c73f-434f-9e55-c7a0ac95120f][grammatical]] mechanism called a *phrase structure rule* (PSR).
+
+* General Rules
+1. Identify the [[id:18a6c1d4-46af-4fa4-9f17-3703208f5015][word class]] of each element
+2. Identify the type of phrase
+3. Write down the phrase type, followed by an arrow
+4. Add the phrase [[id:974ee49c-83af-410d-9a04-ec8e06b7f834][head]] and the phrasal [[id:0ed530ac-7ee3-4521-8ef0-0e973b4c7814][complement]]
+5. Repeat this pattern for the phrasal complement
+
+* Example
+Consider the phrase structure rule for "understand the work"
+1. Identify the word class of each element
+   - understand: verb [head]
+   - the: determiner [part of the complement]
+   - work: noun [part of the complement]
+2. Identify the type of phrase
+   - The phrase is a [[id:22dabe8b-5aec-443f-88eb-c23a4e8c728c][verb phrase]] (VP)
+3. Write down the phrase type, followed by an arrow
+   - =VP ->=
+4. Add the phrase head and the phrasal complement
+   - =VP -> V NP=
+5. Repeat this pattern for the phrasal complement
+   - =VP -> V NP=
+   - =NP -> Det N=

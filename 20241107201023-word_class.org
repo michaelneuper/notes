@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       18a6c1d4-46af-4fa4-9f17-3703208f5015
+:ROAM_ALIASES: "Parts of Speech"
+:END:
+#+title: Word Class

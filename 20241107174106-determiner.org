@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       15bcc6ee-22d3-4ea2-b702-025182c24c2a
+:END:
+#+title: Determiners
+
+* Definition
+Words like /the/this/that/ are typically used to modify a [[id:c35e1ea9-8b8a-40ee-8b18-dd7169825658][noun]], but which have no descriptive content of their own.
+
+* Types
+** [[id:eea1e25a-7935-421a-92aa-9b83d061b0f7][Articles]]
+*** Definite
+/the/
+*** Indefinite
+/a/an/
+** Demonstrative [[id:ff791d4d-4b8d-4619-891e-f8106e3154af][Pronouns]]
+Refer to things that are far away or near, identified from the discourse context or by pointing.
+- /this/, /these/, /that/, /those/
+** Quantifiers
+Specifiy the quantity, amount, size, range, or scope of a set of things.
+- /all/, /both/, /no/, /some/, /five/
+
+* Use
+** Prenominal
+In front of the noun they modify.
+- She sees /the/ book.
+** Pronominal
+Used on their own without a following noun.
+- He heard /that/.

@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       670ecdbd-4bb2-4a1a-ab06-7d5ff2b364d7
+:END:
+#+title: Ethnography
+
+* Definition
+Seeks to understand how groups of people understand and perceive their own social realities.
+
+* Formalist Approach
+Study sentences in isolation from their contexts.
+
+The study of language should focus on how people use language in social contexts for real communication.
+Knowing how to speak a langauge requires
+- [[id:f9efe42e-017f-4ede-9406-ab0526729e43][Linguistic Competence]]
+- [[id:90a6e349-4585-4be1-a6d7-15506f435125][Communicative Competence]]

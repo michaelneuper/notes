@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       f1ee3d2c-a8cd-4f79-8153-e8268be284d5
+:END:
+#+title: Conditional Probability
+#+filetags: conditional_probability
+
+* Definition
+The *conditional probability* of an event \(E\), given an event \(F\) with \(P(F) > 0\), is
+
+\begin{equation*}
+P(E|F) = \frac{P(E\cap F)}{P(F)}
+\end{equation*}

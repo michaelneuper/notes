@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       0ec7ad12-2526-479c-b9b4-0dcb7f0020a3
+:END:
+#+title: Complex Conjugate
+
+* Definition
+#+begin_quote
+The *complex conjugate* of the [[id:d59a3705-6045-4b74-8e99-a42b4cbacbbe][complex number]] \(z = a + bi\) is defined as
+\begin{equation*}
+\overline{z} \coloneqq a - bi
+\end{equation*}
+
+also sometimes denoted \(z^{*}\).
+#+end_quote
+
+* Properties
+For complex numbers \(z\) and \(w\), the following hold
+- \(\overline{z + w} = \overline{z} + \overline{w}\)
+- \(\overline{z \cdot w} = \overline{z} \cdot \overline{w}\)
+- \(\overline{z^{n}} = \overline{z}^n\)
+
+Additionally:
+- \(z + \overline{z} = 2\text{Re}(z)\)
+- \(z - \overline{z} = 2i\text{Im}(z)\)
+- \(z \cdot \overline{z} = a^{2} + b^{2}\)

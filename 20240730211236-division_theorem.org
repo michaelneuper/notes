@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       c977d405-bd76-410c-bada-8cc025f39597
+:END:
+#+title: Division Theorem
+#+filetags: theorem fundamentals
+
+* Definition
+#+begin_quote
+If \(n,m\in\mathbb{Z}\), where \(n>0\) then \(\exists q,r \in \mathbb{Z}\) such that \(m = qn + r\) where \(0\le r < n\).
+#+end_quote
+
+\(q\) is called the quotient and \(r\) is called the remainder.
+
+* Examples
+- If \(n = 7, m = 23\) then \(m = 3n+2\)
+- If \(n = 5, m = -18\) then \(m = -4n + 2\)

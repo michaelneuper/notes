@@ -1,0 +1,99 @@
+:PROPERTIES:
+:ID:       b59ccf5d-ef62-476f-8148-e86cee3c4ab3
+:END:
+#+title: Probability Theory and Statistics 114
+#+filetags: module
+
+* Week 1 :tut1:tut1mem:
+** Lecture 1 :w1l1:
+*** [[id:acdaaefc-3e5c-4bbb-bf05-40fe6de963c9][The Basic Principle of Counting]]
+** Lecture 2 :w1l2:
+*** [[id:ec3693ee-4076-4d1e-a833-97300629d151][Permutations]]
+** Lecture 3 :w1l3:
+*** [[id:191ab052-9880-4ccb-be2d-85e052fe32bc][Combinations]]
+* Week 2 :tut2:tut2mem:
+** Lecture 4 :w2l4:
+*** [[id:10b7d095-6ee4-4b1b-94a4-5f24fb09763e][Multinomial Coefficients]]
+** Lecture 5 :w2l5:
+*** [[id:33838eb4-aa50-4794-baa1-637ddea744ad][Sample Spaces and Events]]
+** Lecture 6 :w2l6:
+*** [[id:dc5f0d7c-34f1-46fc-bfe8-9f159ecd189c][Axioms of Probability]]
+*** [[id:f9192a67-8de6-484c-8a43-091ce706555a][Laws of Sets]]
+* Week 3 :tut3:tut3mem:
+** Lecture 7 :w3l7:
+*** [[id:19940836-dd0f-489c-b047-98eee71bb40a][Propositions of Probability]]
+** Lecture 8 :w3l8:
+*** [[id:e24fd5f1-d6ad-4f21-bfb2-6b17c8262edb][Sample Spaces with Equally Likely Outcomes]]
+** Lecture 9 :w3l9:
+*** Examples
+* Week 4 :tut4:tut4mem:
+** Lecture 10 :w4l10:
+*** Problems
+** Lecture 11 :w4l11:
+*** [[id:f1ee3d2c-a8cd-4f79-8153-e8268be284d5][Conditional Probability]]
+** Lecture 12 :w4l12:
+*** [[id:116e901f-b06c-4ab7-9793-6f1445edac41][Multiplication Rule]]
+*** [[id:57884b57-bec0-4369-88e5-0af24fe9cc58][Bayes's Formula]]
+* Week 5 :tut5:tut5mem:
+** Lecture 13 :w4l13:
+*** Examples
+** Lecture 14 :w5l14:
+*** [[id:57884b57-bec0-4369-88e5-0af24fe9cc58][Bayes's Formula]]
+** Lecture 15 :w5l15:
+*** Riddles
+* Week 6 :tut6:tut6mem:
+** Lecture 16 :w6l16:
+*** [[id:cfdcb584-4895-41eb-9c8a-d9dc66e2bd2c][Independent Events]]
+** Lecture 17 :w6l17:
+*** [[id:04d55fa3-bc61-4762-af94-97ea87d1b084][Trials]]
+** Lecture 18 :w6l18:
+*** [[id:3c65422f-9353-4842-8038-6bf8b96c3226][Conditional Probability is a Probability]]
+* Week 7 :tut7:tut7mem:
+** Lecture 19 :w7l19:
+*** [[id:def4b996-3bc7-4c4b-8653-93162bb785ab][Conditional Independence]]
+** Lecture 20 :w7l20:
+*** [[id:d844373f-4fd9-4bdd-b621-101594827ab7][Discrete Random Variables]]
+* Week 8 :tut8:tut8mem:
+** Lecture 21 :w8l21:
+*** [[id:ceca6e9c-8832-4d54-9442-d1675964ebca][Probability Mass Function]]
+*** [[id:a5ec0598-39ea-42ee-a6e3-9427a3faa494][Cumulative Distribution Function]]
+*** [[id:ec08bf1f-90a5-429a-94f5-fb027476fb8e][Expected Value]]
+** Lecture 22 :w8l22:
+*** [[id:3c1c1ebc-8580-4a58-b6f9-8d5fd1b1b33e][Variance]]
+*** [[id:1b201796-b047-4d6a-83ce-6e455ff52454][Standard Deviation]]
+** Lecture 23 :w8l23:
+*** [[id:a437fdc4-d141-485b-af6a-90cdbf58f859][Bernoulli Random Variable]]
+*** [[id:7201e00a-eca0-40d9-a70e-0ce26ee655da][Binomial Random Variable]]
+* Week 9 :tut9:tut9mem:
+** Lecture 24 :w9l24:
+*** [[id:7201e00a-eca0-40d9-a70e-0ce26ee655da][Binomial Random Variables]]
+** Lecture 25 :w9l25:
+*** [[id:bb6cbd7b-4ef3-4eb2-803b-8799e6b8c90c][Poisson Random Variables]]
+*** [[id:62595d13-d132-4577-8f64-240eb88c750f][The Exponential Function]]
+** Lecture 26 :w9l26:
+*** [[id:bb6cbd7b-4ef3-4eb2-803b-8799e6b8c90c][Poisson Random Variables]]
+* Week 10 :tut10:tut10mem:
+** Lecture 27 :w10l27:
+*** Other Discrete Random Variables
+** Lecture 28 :w10l28:
+*** Examples
+** Lecture 29 :w10l29:
+*** [[id:7256d12e-eb3d-48d1-8f12-7168c6fe8522][Integration]]
+* Week 11 :tut11:tut11mem:
+** Lecture 30 :w11l30:
+*** [[id:02a15daa-14ee-4057-ad3c-3ba5f15a150d][Continuous Random Variables]]
+*** [[id:c33b418c-6edd-4de3-9d73-6d5de459abe9][Probability Density Function]]
+** Lecture 31 :w11l31:
+*** [[id:ec08bf1f-90a5-429a-94f5-fb027476fb8e][Expected Value]]
+* Week 12 :tut12:tut12mem:
+** Lecture 32 :w12l32:
+*** [[id:3c1c1ebc-8580-4a58-b6f9-8d5fd1b1b33e][Variance]]
+** Lecture 33 :w12l33:
+*** [[id:688ea2df-c999-4b92-88c6-678d77f46e38][Uniform Random Variables]]
+** Lecture 34 :w12l34:
+*** [[id:47914a94-e4b1-485d-a380-c4e4f269f49d][Normal Random Variables]]
+* Week 13 :tut13:tut13mem:
+** Lecture 35 :w12l34:
+*** [[id:47914a94-e4b1-485d-a380-c4e4f269f49d][Normal Random Variables]]
+** Lecture 36 :w12l36:
+*** [[id:2d687582-f4ad-425d-a114-ac447a122ac1][Normal Approximation to Binomial Distribution]]

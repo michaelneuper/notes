@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       086cb8a0-bd8b-465a-8b0c-65d60f454421
+:END:
+#+title: Differentiability
+
+* Definition
+- Let \(f\) be a function, \(a\in\mathbb{R}\) and \(I\) some open [[id:a995fc0e-d695-4662-a94f-4daad08de069][interval]].
+- \(f\) is differentiable at \(a\) if \(f'(a)\) exists.
+- \(f\) is differentiable on \(I\) if \(f\) is differentiable at \(c\) for every \(c\in I\).
+- \(f\) is differentiable if \(f\) is differentiable at all \(c\in\text{dom}(f)\)
+
+* Theorem
+For any function \(f\) and any \(a\in\mathbb{R}\), if \(f\) is differentiable at \(a\), then \(f\) is [[id:9f66f38c-1072-4146-9efe-5a90f984d480][continuous]] at \(a\)
+
+* Not Differentiable
+- \(f\) has a discontinuity at \(a\)
+- \(f\) has a vertex at \(a\)
+- \(f\) has a vertical tangent at \(a\)

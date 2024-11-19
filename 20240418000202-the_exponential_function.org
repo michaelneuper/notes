@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       62595d13-d132-4577-8f64-240eb88c750f
+:END:
+#+title: The Natural Exponential Function
+
+* Definition
+#+begin_quote
+\begin{equation*}
+e^x = \sum_{i=0}^{\infty}\frac{x^i}{i!}
+\end{equation*}
+
+or
+
+\begin{equation*}
+e^x = \lim_{n\to\infty}\left(1 + \frac{x}{n}\right)^{n}
+\end{equation*}
+#+end_quote
+
+* Alternative Definition
+#+begin_quote
+The unique-valued function of a real variable whose [[id:a350707f-ba1b-4912-ad8d-60e80e1c5d47][derivative]] is itself
+#+end_quote
+
+* Links
+[[id:7cc8b837-300f-4e53-8450-8f7cdb584868][Exponential Functions]]

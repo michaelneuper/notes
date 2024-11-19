@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       d1cfe60a-53d4-470a-aea5-4b4bc9890d8f
+:END:
+#+title: Verbs
+
+* Definition
+Verbs express actions, events, states.
+
+* Categorisation
+** Transitive
+Combine with a direct object (noun phrase complement)
+- I /wash/ the dishes; Thomas /reads/ the book.
+** Intransitive
+Cannot combine with a direct object.
+Can be followed by a [[id:3c3dde56-ed04-4c2b-ae3c-37637a3be182][Prepositional Phrase]]
+- I /sleep/ in my bed; They /smile/ at the girl.
+** Ditransitive
+Combine with a direct object and an indirect object.
+- I /sent/ her the letter
+Direct object: "the letter"
+Indirect object: "her"

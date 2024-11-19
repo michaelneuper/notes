@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       e9792673-5a42-4b20-996d-8dc901a23aeb
+:END:
+#+title: Prescriptive Grammar
+
+- Standards that specify the "correct" use of a given language
+- Prescribes rules which speakers ought to use, rather than describing rules which speakers actually use
+- Unscientific - based on naive ideas of what "pure" or "logical" is in a language
+- Mainly influences written language

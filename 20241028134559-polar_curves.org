@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       0c955ff3-2fcf-4067-9eed-46554c290bb7
+:END:
+#+title: Polar Curves
+
+* Definition
+#+begin_quote
+The graph of the [[id:e173dcae-762b-43a3-9ca4-599e2ba6c76a][polar]] equation \(r = f(\theta)\), or more generally,
+\begin{equation*}
+F(r, \theta) = 0
+\end{equation*}
+consists of all points \(P\) that have at least one polar representation \((r,\theta)\) whose coordinates satisfy the equation.
+#+end_quote
+
+* Common Polar Curves
+[[file:images/common-polar-curves.png]]
+
+https://www.desmos.com/calculator/adk3l4hrsm

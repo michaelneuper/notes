@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       3c151f03-1a4a-4df2-9ef2-a70d81b4bfe6
+:END:
+#+title: Arrays
+
+* Definition
+- An indexed sequence of values
+- Of the same [[id:72f40898-b06c-4c82-b670-b892182657a9][data type]].
+- Fixed-length
+
+* Notes
+Python does not have arrays, but [[id:5dd16ee4-a99e-495e-b0ed-e5cbcc42a6b4][lists]] which are similar

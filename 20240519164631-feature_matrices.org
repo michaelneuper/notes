@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       88f16dc4-bd0b-43de-b2c2-6f4ceea68383
+:END:
+#+title: Feature Matrices
+#+filetags: phonetics
+
+* Definition
+#+begin_quote
+Aims to *distinguish* sounds using as few features as possible.
+#+end_quote
+
+* Maximal Feature Matrix
+|       | [i] | [u] |
+|-------+-----+-----|
+| front | +   | -   |
+| back  | -   | +   |
+| high  | -   | -   |
+| low   | +   | +   |
+| round | -   | +   |
+
+Note rows 3-4 do not help distinguish the sounds, and row 2 is redundant.
+
+* Minimal Feature Matrix
+|       | [i] | [u] |
+|-------+-----+-----|
+| front | +   | -   |
+
+* Note
+A feature matrix with \(n\) columns will need to have \(n-1\) rows to uniquely distinguish the features.

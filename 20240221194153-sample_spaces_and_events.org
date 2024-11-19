@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       33838eb4-aa50-4794-baa1-637ddea744ad
+:END:
+#+title: Sample Spaces and Events
+#+filetags: axioms_of_probability
+
+* Sample Space
+A [[id:56ae2cf4-a426-46fd-82eb-9acb3c8512ba][set]] S of all possible outcomes of an experiment.
+
+* Event
+Subset E of sample space \(E\subset S\).
+
+* Examples
+- Flip a coin twice: \(S = \{HH, HT, TH, TT\}\)
+- Define two events: \(E = \{HH, HT\}\), \(F = \{HT, TH\}\)
+- \(E\cup F= \{HH, HT, TH\}\)
+- \(E\cap F= \{HT\}\)
+
+* Conclusions
+- \(E\cup E^{c} = S\)
+- \(E\cap E^{c} = \varnothing\)
+- \(S^{c}= \varnothing\)
+- \(E\cup S = S\)
+- \(E\cap S = E\)

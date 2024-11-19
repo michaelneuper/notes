@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       e6724be8-3518-4b0c-a233-f31f593b453b
+:END:
+#+title: Universal Quantifier
+
+* Definition
+- For a [[id:ac356044-060c-4b67-84f2-6361c9c574bb][var-statement]] \(\alpha(x_1, \cdots x_n)\) and set \(X\) we have that *for all* (for every) \(x_1\) in \(X\), \(\alpha(x_1, \cdots x_n)\) is a var-statement
+
+* Notation
+- Mathematical language: \(\forall x_1 \in X\), \(\alpha(x_1, \cdots x_n)\)
+
+* Interpretation
+- If \(x\) is the only variable appearing in \(\alpha\) then \(\forall x\in X\), \(\alpha(x)\) is true iff \(\alpha(x)\) is true for every \(a\in X\)
+- The values making \(\forall x_1 \in X\), \(\alpha(x_1, \cdots x_n)\) are the values making \(\alpha(x_1, \cdots x_n)\) true for every \(a\in X\)
+
+* Exmaples
+- Take \(x\in\mathbb{R}\) and \(\alpha\) to be \(x<1\)
+- Then \(\forall x \in \mathbb{R},\, \alpha\) is false (does not hold for \(x\ge 1\))
+
+- Taking \(\alpha\) to be \(x<1 \vee x\ge 1\)
+- Then \(\forall x \in \mathbb{R},\, \alpha\) is true (holds for all \(x\in \mathbb{R}\))

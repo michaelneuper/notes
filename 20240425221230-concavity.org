@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       1e635710-fe6e-40ef-914a-022e2b01eb9c
+:END:
+#+title: Concavity
+#+filetags: calculus
+
+* Definition
+#+begin_quote
+Let \(f\) be a function [[id:086cb8a0-bd8b-465a-8b0c-65d60f454421][differentiable]] on an [[id:a995fc0e-d695-4662-a94f-4daad08de069][interval]] \(I\).
+- If the graph of \(f\) lies above all of its tangents on \(I\) then it is called *concave upward* on \(I\).
+- If the graph of \(f\) lies below all of its tangents on \(I\) then it is called *concave downward* on \(I\).
+#+end_quote

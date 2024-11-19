@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       ff791d4d-4b8d-4619-891e-f8106e3154af
+:END:
+#+title: Pronouns
+
+* Definition
+[[id:9a810397-113e-4503-ad81-aac930a71673][Function Words]] which stand in the place of a [[id:c35e1ea9-8b8a-40ee-8b18-dd7169825658][noun]].
+
+* Examples
+** Personal
+/I/ like /you/.
+
+Differ [[id:19cd4f54-86ac-4d58-9999-f0c25e3e7527][morphologically]] from nouns and other pronouns in that they have (partially) distinct [[id:65377891-8afc-4522-981a-18e4d99b0289][Case Forms]].
+This means that they change their form according to the position they occupy in the sentence.
+** Possessive
+This is /mine/.
+** Relative
+The book /which/ I'm reading, is interesting.
+** Demonstrative
+/This/ is beautiful.
+** Interrogative
+/Which/ did you see?

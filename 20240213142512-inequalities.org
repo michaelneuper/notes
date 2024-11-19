@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       f333c6da-54a1-4d68-a197-888015126e73
+:END:
+#+title: Inequalities
+#+startup: latexpreview
+
+Statements involving <
+
+* Rules
+Let \(a, b, c, d \in \mathbb{R}\), then we have:
+1. If \(a<b\) then \(a + c < b + c\)
+2. If \(a<b\) and \(c<d\) then \(a + c < b + d\)
+3. If \(a<b\) and \(c>0\) then \(ac < bc\)
+4. If \(a<b\) and \(c<0\) then \(ac > bc\)
+5. If \(0 < a < b\) then \(1/b < 1/a\)

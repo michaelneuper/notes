@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       288f582c-2b0d-4948-9823-9f93c32ec17e
+:END:
+#+title: Subposets
+
+* Definition
+If \(P\) is a [[id:e64ef180-2fff-4790-bf03-1920ea80b239][poset]], then a poset \(S\) where \(S\subseteq P\) is called a *subposet* of \(P\) if the following property holds:
+- for any \(x, y \in S\) if \(x\le_{S} y\) then \(x\le_{P} y\)
+
+A subposet \(S\) of \(P\) is said to be *regular* (or an *embedding*) if we have that:
+- for any \(x, y \in S\) if \(x\le_{S} y\) iff \(x\le_{P} y\)
+
+* Theorem
+Given any subset \(S\) of \(P\) then there exists a unique partial order [[id:72a5316f-9b83-4c20-aa2e-42ffe2813cfb][relation]] \(\le_{S}\) on \(S\) such that \(S\) is a regular subposet of \(P\).
+This partial ordering is given by
+\begin{equation*}
+\le_{S} \quad =\quad \le_{P} \cap (S \times S)
+\end{equation*}

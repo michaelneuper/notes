@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       196514bf-395b-4147-b6a6-917aeb283776
+:END:
+#+title: Intersection
+
+* Definition
+- For any two sets \(A\) and \(B\) we define the intersection \(A\) and \(B\) to be all the elements in both \(A\) [[id:b6b3f983-2e80-4cd2-9167-b309c6156ccf][AND]] in \(B\)
+\begin{equation*}A\cap B = \{x\in A\cup B | x \in A \wedge x \in B\}\end{equation*}
+
+- If there is some larger set \(C\) with \(A,B\subseteq C\) then
+  \begin{equation*}A \cap B := \{x \in C | x \in A \wedge x \in B\}\end{equation*}
+
+- Also denoted \(AB\)
+
+** Intersection of Multiple Sets
+Suppose we have sets \(A_1, A_2, A_3,\cdots A_{n}\) then their intersection can be written as
+\begin{equation*}
+\bigcap_{i=1}^nA_i = \{x\in \bigcup_{i=1}^nA_i | x\in A_i \text{ for every } i\in\{1,2,\cdots 3\}\}
+\end{equation*}
+
+* Example
+- If \(A = \{1,2,3\}\) and \(B = \{3,4\}\) then
+- \(A\cap B = \{3\}\)
+
+* Visualisation
+[[file:images/intersection.svg]]

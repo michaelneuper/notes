@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       d09cc2f1-ffb7-4a02-aea0-92e7ffbceda3
+:END:
+#+title: Picture
+
+[[id:72f40898-b06c-4c82-b670-b892182657a9][Data Type]] in python that allows us to manipulate pictures.
+
+* Values
+2d [[id:3c151f03-1a4a-4df2-9ef2-a70d81b4bfe6][array]] of [[id:18e848db-e7c7-488b-839e-baaaae1106d0][colors]].
+
+* API
+[[file:images/color-api.png]]

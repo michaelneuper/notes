@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       15eb051f-1ad2-4d8a-8cb0-23f18d3c1d73
+:END:
+#+title: Imperative Mood
+
+* Definition
+Imperative mood is associated with commands.
+
+/Do your homework!/

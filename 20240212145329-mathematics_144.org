@@ -1,0 +1,139 @@
+:PROPERTIES:
+:ID:       c822f4b8-fecf-4aac-9bba-d90b2612a12a
+:END:
+#+title: Mathematics 144
+#+filetags: module
+
+* Week 1 :tut1:tut1mem:
+** Lecture 1 :substitution:
+*** [[id:7256d12e-eb3d-48d1-8f12-7168c6fe8522][Integration]]
+*** [[id:46460a58-2abd-4e04-aeb0-df9cc0cecb25][Integration by Substitution]]
+** Lecture 2 :inverses:
+*** [[id:17d56a87-ff5e-4d0d-85f0-caa68750bb8f][Inverse Functions]]
+*** [[id:d726dffb-c8f4-4605-aff1-59519cdaf1ac][Inverse Trigonometric Functions]]
+** Lecture 3 :inverse_trig:
+*** [[id:3102c123-2020-4cc9-9914-4b9e0b6137bf][Trigonometric Derivatives]]
+** Lecture 4 :hyperbolic_functions:
+*** [[id:af1d4635-8610-488c-81c1-639d79996615][Hyperbolic Functions]]
+* Week 2 :tut2:tut2mem:
+** Lecture 1 :indeterminite_forms:
+*** [[id:56d82b46-7de0-468c-8368-1d4a3661e653][Indeterminate Forms]]
+*** [[id:47d404cf-78f8-4898-809c-8d697e97b25a][L'Hôpital's Rule]]
+** Lecture 2
+*** [[id:56d82b46-7de0-468c-8368-1d4a3661e653][Indeterminate Forms]]
+** Lecture 3 :int_by_parts_1:
+*** [[id:d366228e-15a1-4f37-a326-ea5a051cb9fd][Integration by Parts]]
+* Week 3 :tut3:tut3mem:
+** Lecture 1 :int_by_parts_2:
+*** [[id:d366228e-15a1-4f37-a326-ea5a051cb9fd][Integration by Parts]]
+** Lecture 2 :trig_ints:
+*** [[id:460031ca-b2e0-4116-a522-391e3e4f37c0][Trigonometric Integrals]]
+** Lecture 3 :trig_sub_1:
+*** [[id:c446623b-ef25-417e-a47c-cf52e4f1affd][Trigonometric Substitution]]
+* Week 4 :tut4:tut4mem:
+** Lecture 1 :trig_sub_2:
+*** [[id:c446623b-ef25-417e-a47c-cf52e4f1affd][Trigonometric Substitution]]
+** Lecture 2 :partial_fractions:
+*** [[id:4c0b44e5-df9d-4676-b5a9-a689a18dcc4f][Partial Fraction Decomposition]]
+** Lecture 3 :improper_integrals:
+*** [[id:b8ae174b-6090-4a10-9ec7-718f217e145e][Improper Integrals]]
+*** [[id:3198739e-1ca8-4b43-be27-036c88c4bf30][Comparison Theorem]]
+** Lecture 4 :integration_summary:
+*** [[id:993131c6-ecec-4efa-8971-2c6d256c9c18][Guidelines for Integration]]
+* Week 5 :tut5:tut5mem:
+** Lecture 1 :modelling_de:
+*** [[id:7434ea42-2761-4665-979d-e8314e74fc3a][General Differential Equations]]
+** Lecture 2 :separable_de:
+*** [[id:511d69ae-9aae-4cfe-bed7-b56d4ca8cceb][Separable Equations]]
+** Lecture 3 :linear_de_1:
+*** [[id:4e8fbac2-f3c6-4df7-acbd-34ede5c35bee][Linear Differential Equations]]
+** Lecture 4 :linear_de_2:
+* Week 6 :tut6:tut6mem:
+** Lecture 1 :vectors:
+*** [[id:81c97780-c8a5-4652-a6eb-d33732c37f1e][Vectors]]
+*** [[id:e8d5edf7-2d77-40ac-9a42-dc632e41b033][New Vectors from Old]]
+*** [[id:cf2a9e8c-794b-4543-a5e7-a5b14263b04c][Algebraic Properties of Vectors]]
+** Lecture 2 :dot_product:length_angle:
+*** [[id:79687d36-b8f9-45a4-9ae7-774245073850][Dot Product]]
+*** [[id:833b0c16-2313-4189-9979-084727a461d9][Length of a Vector]]
+*** [[id:107d4f63-d278-4fc7-bf8c-426ffe038507][Unit Vector]]
+*** [[id:cc5029b6-e81e-4cd5-93b4-077e71b3a306][Angles Between Vectors]]
+*** [[id:e72ed228-459c-47da-abab-dbb8a457bd7e][Orthogonal Vectors]]
+*** [[id:4869273d-968b-4a44-a521-3540049dea65][Projections]]
+** Lecture 3 :lines_planes_1:
+***  [[id:462c1ea5-476d-4da3-8754-6e10cc1b0677][Lines in R2]]
+* Week 7 :tut7:tut7mem:
+** Lecture 1 :lines_planes_2:
+*** [[id:add8a012-7e54-4e3f-b115-1d23caeb9981][Planes in R3]]
+** Lecture 2 :linear_eqns:
+*** [[id:de4c53ce-6aa5-4e56-a0e1-3918d18a17c4][Linear Equations]]
+** Lecture 3 :solving_le_1:solving_le_2:
+*** [[id:ca814013-0b88-4d4c-9a6a-f0a685266229][Row Echelon Form]]
+*** [[id:6dec1333-da8e-4cf2-b4f3-06002a3472ad][Elementry Row Operations]]
+*** [[id:1cdeaabc-baf6-49b8-b8e3-b9e5bf901ec8][Gaussian Elimination]]
+* Week 8 :tut8:tut8mem:
+** Lecture 1 :solving_le_3:
+*** [[id:07a930b2-ae44-498b-91c4-9cb61a0bf9b5][Rank of a Matrix]]
+*** [[id:beb2e909-31d6-4abb-9622-e44fbfe5f6e0][Reduced Row Echelon Form]]
+*** [[id:94379655-bf47-4890-8f99-f2d105a3b891][Gauss-Jordan Elimination]]
+*** [[id:e507a481-793c-4461-a024-10bbc1bb0859][Homogeneous Systems]]
+** Lecture 2 :matrix_operations_1:
+*** [[id:a3e5a759-ca7d-46e2-a390-c3cb8f1cc823][Matrices]]
+*** [[id:1c110ee1-3707-400a-ac2c-3cb39385e761][Matrix Addition]]
+*** [[id:48952d21-f707-4ee1-bcf4-80c9f3ee1235][Matrix Multiplication]]
+** Lecture 3 :matric_operations_2:
+*** [[id:a15c1c29-91e3-4181-9901-95e772895731][Augmented Matrix]]
+*** [[id:4bfb5337-baa6-4491-84d1-2e91ca3f141b][Matrix Powers]]
+*** [[id:a3c59416-9311-47b4-bd97-58646fa02625][Transpose of a Matrix]]
+*** [[id:324ec34e-5418-4641-8fd8-1dda991fec9f][Symmetric Matrix]]
+** Lecture 4
+*** [[id:1c110ee1-3707-400a-ac2c-3cb39385e761][Matrix Addition]]
+*** [[id:48952d21-f707-4ee1-bcf4-80c9f3ee1235][Matrix Multiplication]]
+*** [[id:a3c59416-9311-47b4-bd97-58646fa02625][Transpose of a Matrix]]
+* Week 9 :tut9:tut9mem:
+** Lecture 1
+*** [[id:a6202f63-ca6f-4b31-ad25-4e57ec040e6e][Invertible Matrix]]
+** Lecture 2
+*** [[id:88121afc-9586-4032-9117-9ad61c761a28][The Fundamental Theorem of Invertible Matrices]]
+* Week 10 :tut10:tut10mem:
+** Lecture 1 :determinants_1:
+*** [[id:fdc2dbe7-d134-4b80-a687-407ac36f637f][Determinant]]
+*** [[id:92f33b54-329d-4f13-9bbc-11cb086f2b34][Laplace Expansion Theorem]]
+*** [[id:06e7ca44-527c-4e1a-970c-9e4a473c62ca][Determinants of Elementry Matrices]]
+** Lecture 2 :determinants_2:
+*** [[id:536965f9-d30b-4ab2-9f1a-fdb8be09d0cd][Determinants and Matrix Operations]]
+*** [[id:074cf42f-5189-4877-88a3-f668a85a4a37][Cramer's Rule]]
+*** [[id:0e4498e7-bdbb-46ef-8741-c07e7ad417fb][Adjoint of a Matrix]]
+** Lecture 3 :area:volume:
+*** [[id:6354ad65-7506-464e-9451-22ae114d9fa1][Areas Between Curves]]
+*** [[id:fbd04568-95d7-4060-a639-515de38012fb][Volume]]
+** Lecture 4
+*** [[id:095567f7-5ebf-49e8-91e0-269f2f225296][Method of Cylindrical Shells]]
+*** [[id:816a9de0-9bf5-4186-b34b-b118c5d9ac96][Disk Method]]
+* Week 11 :tut11:tut11mem:
+** Lecture 1
+*** [[id:16d534b3-abd7-4ef7-bbfe-f809c6061618][Average Value of a Function]]
+*** [[id:9a2e8595-f01c-46f2-91f7-f736a335be27][Mean Value Theorem]]
+** Lecture 2
+*** [[id:5afdfbe0-4869-48cd-8cfe-ae2e4131abae][Exponential Growth and Decay]]
+** Lecture 3
+*** [[id:d59a3705-6045-4b74-8e99-a42b4cbacbbe][Complex Number]]
+*** [[id:7d649ad4-02e8-4548-ba45-1b3dd92d81a6][Imaginary Unit]]
+*** [[id:ce6b0053-30a2-40ec-871f-dd0c96ab0956][Polar Form of Complex Numbers]]
+*** [[id:166be33a-d877-4103-a147-dabec5318a27][De Moivre's Theorem]]
+* Week 12 :tut12:tut12mem:
+** Lecture 1
+*** [[id:f3d337c4-5616-4dfa-91b2-58c7738b2473][Parametric Equations]]
+** Lecture 2
+*** [[id:6354ad65-7506-464e-9451-22ae114d9fa1][Areas Between Curves]]
+** Lecture 3
+*** [[id:e173dcae-762b-43a3-9ca4-599e2ba6c76a][Polar Coordinates]]
+*** [[id:0c955ff3-2fcf-4067-9eed-46554c290bb7][Polar Curves]]
+* Week 13 :tut13:tut13mem:
+** Lecture 1
+*** [[id:6354ad65-7506-464e-9451-22ae114d9fa1][Areas Between Curves]]
+** Lecture 2
+*** [[id:cdc899a6-38b5-46bb-9fb2-e21e30fa2de8][Ellipses]]
+*** [[id:c902730a-aa02-4718-99f5-37aa8d571a55][Hyperbolas]]
+** Lecture 3
+*** [[id:981cbc58-4c6b-4f66-89ce-7debafaf9c82][Parabolas]]

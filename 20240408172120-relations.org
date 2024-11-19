@@ -1,0 +1,44 @@
+:PROPERTIES:
+:ID:       72a5316f-9b83-4c20-aa2e-42ffe2813cfb
+:END:
+#+title: Relations
+#+filetags: calculus relations_digraphs
+
+* Definition
+A *relation \(R\) from [[id:56ae2cf4-a426-46fd-82eb-9acb3c8512ba][sets]] \(X\) to \(Y\)* is a subset of the [[id:fd77c6f5-fa5d-4cc1-893a-31e9dbaa49df][Cartesian product]] \(X\times Y\).
+If \(R \subseteq X \times Y\) and \((x,y)\in R\), we say that *\(x\) is related to \(y\) by \(R\)*, and we also write \(x \mathrel{R} y\).
+
+* Sets Arising from Relations
+** Domain
+\begin{equation*}
+\text{Dom}(R) = \{x\in X \mid \exists y \in Y [x \mathrel{R} y]\}
+\end{equation*}
+** Range
+\begin{equation*}
+\text{Ran}(R) = \{y \in Y \mid \exists x \in X [x \mathrel{R} y]\}
+\end{equation*}
+
+* Theorem
+Let \(R\) be a relation from \(A\) to \(B\), and let \(A_1\) and \(A_2\) be subsets of \(A\).
+Then:
+- If \(A_1\subseteq A_2\), then \(R(A_1) \subseteq R(A_2)\).
+- \(R(A_1 \cup A_{2}) = R(A_1) \cup R(A_{2})\).
+- \(R(A_1 \cap A_2) \subseteq R(A_1) \cap R(A_2)\).
+
+* Properties
+- [[id:f335aa45-3a2c-43e6-9d60-7e0e4cbe1e43][Reflexivity]]
+- [[id:d5865dc9-4394-40fd-add2-075fc6bd1aea][Symmetry]]
+- [[id:7b389a98-ad6e-4514-83e2-5fa4b5fff869][Transitivity]]
+- [[id:392c7fec-581b-457b-a42a-c0f2ee2bfbb4][Equivalence Relations]]
+
+* Examples
+- Equality: \( a = b \)
+- Inequality: \( a \neq b \)
+- Set membership: \( a \in B \)
+- [[id:8eace0e2-6a16-422e-a332-713fc01d4ea8][Divisibility]]
+- [[id:f333c6da-54a1-4d68-a197-888015126e73][Inequalities]]
+
+* Note
+- If \(x\) is not related to \(y\) we write \(x \not\mathrel{R} y\).
+- If \(X=Y\), we can say that \(R\) is a relation on \(X\), instead of a relation from \(X\) to \(X\).
+- The difference between a relation and a [[id:87d42439-b03b-48be-84ab-2215b4733dd7][function]].

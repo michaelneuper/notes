@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       22571345-57fd-4e3f-a387-ff155898dd7a
+:END:
+#+title: Partition of a Set
+
+* Definition
+A partition of a [[id:56ae2cf4-a426-46fd-82eb-9acb3c8512ba][set]] \(A\) is a collection \(\mathcal{P}\) of non-empty subsets of \(A\) such that every element \(a\in A\) is in exactly one of these subsets.
+
+[[file:images/partition.png]]
+
+* Equivalently
+A family of sets \(\mathcal{P}\) is a partition of \(X\) if and only if all of the following conditions hold:
+- \(\emptyset\not\in \mathcal{P}\)
+- \(\forall A, B \in \mathcal{P} [A\ne B \Rightarrow A \cap B = \emptyset]\)
+- \(\bigcup_{A\in \mathcal{P}}A = X\)

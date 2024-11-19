@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       dc892d93-3f41-415a-a0cf-f1a669d0bbb7
+:END:
+#+title: Existential Quantifier
+
+* Definition
+- For a [[id:ac356044-060c-4b67-84f2-6361c9c574bb][var-statement]] \(\alpha(x_1, \cdots x_n)\) and set \(X\) we have that *there exists* \(x_1\) in \(X\), \(\alpha(x_1, \cdots x_n)\) is a var-statement
+
+* Notation
+- Mathematical language: \(\exists x_1 \in X\), \(\alpha(x_1, \cdots x_n)\)
+
+* Interpretation
+- If \(x\) is the only variable appearing in \(\alpha\) then \(\exists x\in X\), \(\alpha(x)\) is true iff \(\alpha(x)\) is true for some \(a\in X\)
+- The values making \(\exists x_1 \in X\), \(\alpha(x_1, \cdots x_n)\) are the values making \(\alpha(x_1, \cdots x_n)\) true for some \(a\in X\)
+
+* Exmaples
+- Take \(x\in\mathbb{R}\) and \(\alpha\) to be \(x<1\)
+- Then \(\exists x \in \mathbb{R},\, \alpha\) is true (\(x<1\) is true for \(x=0\) for example)
+
+- Taking \(\alpha\) to be \(x<1 \wedge x\ge 1\)
+- Then \(\exists x \in \mathbb{R},\, \alpha\) is false (\(x<1 \wedge x\ge 1\) is false for all \(x\in \mathbb{R}\))

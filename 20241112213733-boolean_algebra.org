@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       5280cbcd-16c5-453c-a567-5fb9334c04bf
+:END:
+#+title: Boolean Algebra
+
+* Definition
+A *boolean algebra* is a bounded [[id:1e9d1801-01ef-4a38-be88-fde96d86907d][distributive lattice]] in which every element has a [[id:4d510a2a-b58f-4060-86d9-fcec807ec774][complement]].
+
+* Notation
+- We denote the top/max element of \(L\) by \(1\) and the bottom/min element of \(L\) by \(0\).
+- We denote the complement of an element \(x\) by \(\neg x\).

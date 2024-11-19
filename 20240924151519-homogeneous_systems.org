@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       e507a481-793c-4461-a024-10bbc1bb0859
+:END:
+#+title: Homogeneous Systems
+#+filetags: linear_algebra linear_equations
+
+* Definition
+#+begin_quote
+A system of [[id:de4c53ce-6aa5-4e56-a0e1-3918d18a17c4][linear equations]] is called *homogeneous* if the constant term in each equation is zero.
+
+A homogeneous system has either
+- a unique solution (the zero/trivial solution)
+- infinitely many solutions
+#+end_quote
+
+* Theorem
+If \([A \mid \mathbf{0}]\) is a homogeneous system of \(m\) linear equations with \(n\) variables, where \(m<n\), then the system has infinitely many solutions.

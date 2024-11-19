@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       a9ed1451-a177-4374-aa81-e7e8094353b0
+:END:
+#+title: Declarative Mood
+
+* Definition
+The declarative mood is associated with statements
+
+/I write with a pencil./

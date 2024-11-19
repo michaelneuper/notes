@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       9a2e8595-f01c-46f2-91f7-f736a335be27
+:END:
+#+title: Mean Value Theorem
+#+filetags: calculus derivatives theorem
+
+* Definition (For [[id:a350707f-ba1b-4912-ad8d-60e80e1c5d47][Derivatives]])
+#+begin_quote
+Let \(a,b\in\mathbb{R}\) and \(f\) be a [[id:87d42439-b03b-48be-84ab-2215b4733dd7][function]] that satisfies the following conditions:
+
+1. \(f\) is [[id:9f66f38c-1072-4146-9efe-5a90f984d480][continuous]] on \([a,b]\)
+2. \(f\) is [[id:086cb8a0-bd8b-465a-8b0c-65d60f454421][differentiable]] on \((a,b)\)
+
+Then there exists some \(c\in(a,b)\) such that
+\begin{equation*}
+f'(c) = \frac{f(b) -f(a)}{b - a}
+\end{equation*}
+#+end_quote
+
+* Definition (For [[id:7256d12e-eb3d-48d1-8f12-7168c6fe8522][Integrals]])
+#+begin_quote
+If \(f\) is continuous on \([a,b]\), then there exists a number \(c \in [a,b]\) such that
+\(f(c) = f_{\text{avg}}\) where \(f_{\text{avg}}\) is the [[id:16d534b3-abd7-4ef7-bbfe-f809c6061618][Average Value]] of \(f\).
+That is,
+\begin{equation*}
+\int_a^{b} f(x) \, dx = f(c)(b-a)
+\end{equation*}
+#+end_quote
+
+# * Intuition
+# For motion of a particle, M.V.T. can be interpreted as "average velocity over \(t\in[a,b]\) is equal to instantaneous velocity at some point in \((a,b)\)"

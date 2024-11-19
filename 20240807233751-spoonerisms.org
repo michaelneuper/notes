@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       344bb2c7-523a-4539-97b2-1d70691c17bb
+:END:
+#+title: Spoonerisms
+
+* Definition
+#+begin_quote
+An occurrence of speech in which corresponding [[id:fc791ad0-6d5d-401f-a4d0-0cea9582a9ce][consonants]], [[id:c7dc39d3-f617-4902-b909-8a378c4a1e6a][vowels]], or [[id:6520f76a-6137-4e67-bfb9-0e3fd7b8e628][morphemes]] are switched.
+
+- "Slips of the tongue"
+- Can be aciidental or intentional (a play on words)
+#+end_quote
+
+* Examples
+** Attributed to Spooner
+- “A well-boiled icicle.” (oiled bicycle)
+- "Fighting a liar." (lighting a fire)
+** Words already coined
+- belly jeans
+- better Nate than lever
+** Sound combinations not already assigned meaning ([[id:fed048c2-b009-44c5-b60c-23205278ec12][Accidental Gaps]])
+- cimmanon (cinnamon)
+- merote (remote)

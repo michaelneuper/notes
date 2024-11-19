@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       074cf42f-5189-4877-88a3-f668a85a4a37
+:END:
+#+title: Cramer's Rule
+#+filetags: linear_algebra
+
+* Definition
+#+begin_quote
+Let \(A\) be an [[id:a6202f63-ca6f-4b31-ad25-4e57ec040e6e][invertible]] \(n \times n\) [[id:a3e5a759-ca7d-46e2-a390-c3cb8f1cc823][matrix]] and let \(\mathbf{b}\) be a [[id:81c97780-c8a5-4652-a6eb-d33732c37f1e][vector]] in \(\mathbb{R}^n\).
+Then the unique solution \(\mathbf{x}\) of the system \(A\mathbf{x} = \mathbf{b}\) is given by
+\begin{equation*}
+x_i = \frac{\det(A_i(\mathbf{b}))}{\det(A)} \quad \text{for } i = 1, \ldots , n
+\end{equation*}
+
+where \(A_i(\mathbf{b})\) denotes the matrix obtained by replacing the \(i\)th column of \(A\) by \(\mathbf{b}\). i.e.
+\begin{equation*}
+A_i(\mathbf{b}) =
+\begin{bmatrix}
+a_{11} & \dots & a_{1(i-1)} & b_1 & a_{1(i+1)} & \dots & a_{1n} \\
+a_{21} & \dots & a_{2(i-1)} & b_2 & a_{2(i+1)} & \dots & a_{2n} \\
+\vdots & \dots & \vdots & \vdots & \vdots & \dots & \vdots \\
+a_{n1} & \dots & a_{n(i-1)} & b_n & a_{n(i+1)} & \dots & a_{nn}
+\end{bmatrix}
+\end{equation*}
+#+end_quote
+
+* Remark
+Cramer's rule is computationally inefficient for systems greater that \(2 \times 2\)'s.

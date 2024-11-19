@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       1b201796-b047-4d6a-83ce-6e455ff52454
+:END:
+#+title: Standard Deviation
+#+filetags: random_variables
+
+* Definition
+#+begin_quote
+The standard deviation is equal to the square root of [[id:3c1c1ebc-8580-4a58-b6f9-8d5fd1b1b33e][variance]], denoted
+
+\begin{equation*}
+\text{SD}(X) = \sqrt{\text{Var}(X)}
+\end{equation*}
+#+end_quote

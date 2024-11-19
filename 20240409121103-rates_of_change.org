@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       f4f8d2f6-a61b-4bb9-802e-4099615d7c98
+:END:
+#+title: Rates of Change
+#+filetags: calculus derivatives
+
+* Average Rate of Change
+#+begin_quote
+Let \(y\) be some quantity that can be expressed as a [[id:87d42439-b03b-48be-84ab-2215b4733dd7][function]] of another quantity \(x\).
+Say \([a,b]\in\text{dom}(f)\).
+The *average rate of change of \(y\) with respect to \(x\) on the [[id:a995fc0e-d695-4662-a94f-4daad08de069][interval]] \([a,b]\)* is defined as
+\begin{equation*}
+\frac{f(b) - f(a)}{b - a}
+\end{equation*}
+#+end_quote
+
+* Instantaneous Rate of Change
+#+begin_quote
+Let \(y\) be some quantity that can be expressed as a [[id:086cb8a0-bd8b-465a-8b0c-65d60f454421][differentiabe]] [[id:87d42439-b03b-48be-84ab-2215b4733dd7][function]] of another quantity \(x\).
+Let \(a\in\text{dom}(f)\)
+The *instantaneous rate of change of \(y\) with respect to \(x\) at the point \(a\)* is defined as \(f'(a)\)
+#+end_quote
+
+* Example
+Example of problems regarding the motion of a particle in a straigt line.
+
+- \(t\): Independent variable
+- Fix a poit where \(t=0\) (starting point)
+- \(s(t)\): distance of the particle from starting point
+- \(v(t) = s'(t)\): velocity of the particle at time \(t\) (instantaneous rate of change of \(s\) w.r.t. \(t\))
+- \(a(t) = v'(t) = s''(t)\): acceleration of out particle at time \(t\) (instantaneous rate of change of \(v\) w.r.t. \(t\))

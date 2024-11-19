@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       a74b122f-f5f0-4abc-b2b2-20f17997836d
+:END:
+#+title: Compound Sentence
+
+* Definition
+Contains two or more independent [[id:6855ed0e-8cd9-4f5e-ad8f-0b8dd3ec81e5][clauses]] which are seperated by punctuation or coordinating [[id:ecfd3087-af93-4584-8524-3723b4796ccd][conjunctions]].
+
+* Example
+Peter eats and John reads the newspaper.

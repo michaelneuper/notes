@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       029fe728-573b-44c7-a74f-63574cdc03d8
+:END:
+#+title: Eggcorns
+
+* Definition
+#+begin_quote
+Swapping a sound or word for a similar sounding one that is still plausible in the context.
+#+end_quote
+
+* Notes
+- Start with individual usebut usually catch on quickly
+- May be logical, sometimes more logical than the original term
+- May become common usage, to the extent that the original is forgotten
+
+* Examples
+- “ex-patriot” = “expatriate”
+- “old wise tale” = “old wives’ tale”
+- “Alzheimer’s disease” = “old-timers’ disease”
+- “all intensive purposes” = “all intents and purposes”;
+- “nerve-wrecking” = “nerve-wracking”

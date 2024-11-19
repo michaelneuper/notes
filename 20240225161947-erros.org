@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       53d4580b-834f-47fe-8e29-3ec8fbe03a78
+:ROAM_ALIASES: Bugs
+:END:
+#+title: Errors
+
+* Compile-time Errors
+- Caught when program is [[id:e8efe8bb-fb51-4b0c-9cf4-4d134d18fbdf][compiled]]
+- i.e. syntax error
+
+* Run-time Errors
+- Logical errors which only show up once the program is [[id:3b834bb8-657b-4f1d-a673-b0c2bb6dc572][executed]]

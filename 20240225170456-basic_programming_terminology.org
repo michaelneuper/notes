@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       a0d3280f-e065-4437-806b-c9d15fc8be18
+:END:
+#+title: Basic Programming Terminology
+
+* [[id:88fbf286-a581-45bf-a765-5d27d3472517][Variable]]
+* [[id:69ce5a94-663d-4546-8c21-69061d856fb5][Identifier]]
+* [[id:2d652309-1463-4f6d-ba03-c7026edf225f][Assignment Statement]]
+* [[id:e9fc1580-d8c2-48f8-8df6-8809b42bb1ad][Expression]]

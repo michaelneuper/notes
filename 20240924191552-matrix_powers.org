@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       4bfb5337-baa6-4491-84d1-2e91ca3f141b
+:END:
+#+title: Matrix Powers
+#+filetags: linear_algebra matrices
+
+* Definition
+#+begin_quote
+When \(\mathbf{A}\) and \(\mathbf{B}\) are two \(n \times n\) [[id:a3e5a759-ca7d-46e2-a390-c3cb8f1cc823][matrices]], their [[id:48952d21-f707-4ee1-bcf4-80c9f3ee1235][product]] \(\mathbf{AB}\) will be an \(n \times n\) matrix.
+
+A special case occurs when \(\mathbf{A} = \mathbf{B}\).
+Then we define \(\mathbf{A}^{2}= \mathbf{A} \cdot \mathbf{A}\), and in general, define
+\begin{equation*}
+\mathbf{A}^k = \underbrace{\mathbf{A} \cdot \mathbf{A}  \cdots  \mathbf{A}}_{k \text{ factors}}, \quad k \text{ positive integer}.
+\end{equation*}
+#+end_quote
+
+* Properties
+If \(\mathbf{A}\) is a square matrix and \(r\) and \(s\) are nonnegative integers, then
+- \(\mathbf{A}^r\mathbf{A}^s = \mathbf{A}^{r+s}\)
+- \((\mathbf{A}^{r})^s = \mathbf{A}^{rs}\)

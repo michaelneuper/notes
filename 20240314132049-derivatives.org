@@ -1,0 +1,44 @@
+:PROPERTIES:
+:ID:       a350707f-ba1b-4912-ad8d-60e80e1c5d47
+:END:
+#+title: Derivatives
+#+filetags: calculus
+
+* Definition
+Let \(f\) be a function, \(a\in\text{dom}(f)\).
+Then the tangent line to the curve \(y=f(x)\) at the point \(P(a, f(a))\) is defined as the line passing through \(P\) with slope \(m = \frac{f(x) - f(a)}{x-a}\) provided that this [[id:6ffde4e8-a12d-4c3a-bc24-675b5a38433c][limit]] exists.
+
+[[file:images/derivative-definition.png]]
+
+* Derivitive as a [[id:87d42439-b03b-48be-84ab-2215b4733dd7][Function]]
+Let \(f\) be a function.
+The [[id:a350707f-ba1b-4912-ad8d-60e80e1c5d47][derivative]] of \(f\), denoted \(f'\), is a new function defined by the rule
+\begin{equation*}
+f'(x) = \lim_{h\to0}\frac{f(x+h) - f(x)}{h}
+\end{equation*}
+and with domain the [[id:56ae2cf4-a426-46fd-82eb-9acb3c8512ba][set]] of all \(x\in\text{dom}(f)\) for which the above limit exists.
+
+* Notations
+\(y'\) \(\frac{\text{d}y}{\text{d}x}\) \(\frac{\text{d}f}{\text{d}x}\)
+\(\frac{\text{d}}{\text{d}x}f(x)\) \(Df(x)\) \(D_xf(x)\)
+
+* Notes
+See [[id:086cb8a0-bd8b-465a-8b0c-65d60f454421][differentiability]]
+
+* Formulae
+** Derivative of a Constant Function
+\(\frac{\text{d}}{\text{d}x}c = 0\)
+** Power Rule
+\(\frac{\text{d}}{\text{d}x}x^n = nx^{x-1}\)
+** Constant Multiple Rule
+\(\frac{\text{d}}{\text{d}x}(cf(x)) = c\frac{\text{d}}{\text{d}x}(f(x))\)
+** Sum Rule
+\(\frac{\text{d}}{\text{d}x}(f(x) + g(x) = \frac{\text{d}}{\text{d}x}f(x) + \frac{\text{d}}{\text{d}x}g(x)\)
+** Difference Rule
+\(\frac{\text{d}}{\text{d}x}(f(x) - g(x) = \frac{\text{d}}{\text{d}x}f(x) - \frac{\text{d}}{\text{d}x}g(x)\)
+** Product Rule
+\((fg)' = fg' + gf'\)
+** Quotient Rule
+\(\left(\frac{f}{g}\right) = \frac{f'g - fg'}{g^{2}}\)
+** Chain Rule
+\(\frac{\text{d}y}{\text{d}x} = \frac{\text{d}y}{\text{d}u} \times \frac{\text{d}u}{\text{d}x}\)

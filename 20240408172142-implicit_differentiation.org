@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       8ee70436-fddf-47f4-8510-56607eb6a8f1
+:END:
+#+title: Implicit Differentiation
+#+filetags: calculus derivatives
+
+* Method of Implicit Differentiation
+#+begin_quote
+To find the [[id:a350707f-ba1b-4912-ad8d-60e80e1c5d47][derivative]] of \(y\) with respect to \(x\) when \(x\) and \(y\) are [[id:72a5316f-9b83-4c20-aa2e-42ffe2813cfb][related]] by an equation \(F(x,y) = G(x,y)\)
+
+Differentiate both sides with respect to \(x\) and solve for \(\frac{\text{d}y}{\text{d}x}\)
+#+end_quote

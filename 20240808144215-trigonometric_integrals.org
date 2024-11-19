@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       460031ca-b2e0-4116-a522-391e3e4f37c0
+:END:
+#+title: Trigonometric Integrals
+#+filetags: calculus integration_techniques
+
+[[id:7256d12e-eb3d-48d1-8f12-7168c6fe8522][Integrals]] involving [[id:d29f8fa1-bce7-4d4e-8592-edbab6d30395][Trigonometric Functions]].
+
+* Integrals of Powers of Sine and Cosine
+[[file:images/sin-cos-int.png]]
+** Using \(\sin^2x + \cos^2x = 1\)
+In general, we try to write an integrand involving powers of sine and cosine in a form where we have only one sine factor (and the remainder of the expression in terms of cosine) or only one cosine factor (and the remainder of the expression in terms of sine).
+The identity \(\sin^2 x + \cos^2 x = 1\) enables us to convert back and forth between even powers of sine and cosine.
+
+[[file:images/pyth-int.png]]
+
+** Using \(\sin^2x = \frac{1}{2}(1- \cos{2x})\) and \(\cos^2x = \frac{1}{2}(1+ \cos{2x})\)
+An odd power of sine or cosine enabled us to separate a single factor and convert the remaining even power. If the integrand contains even powers of both sine and cosine, this strategy fails. In this case, we can take advantage of the half-angle identities.
+
+[[file:images/double-angle-int.png]]
+
+* Integrals of Powers of Secant and Tangent
+[[file:images/tan-sec-int.png]]
+
+We use similar reasoning to evaluate integrals of the form \(\int \tan^mx \sec^nx\,dx\).
+Because \((d/dx)\tan x = \sec^2x\), we can separate a \(\sec^2x\) factor and convert the remaining (even) power of secant to an expression involving tangent using the identity \(\sec^2x = 1 +\tan^2x\).
+Or, since \((d/dx) \sec x = \sec x \tan x\), we can separate a \(\sec x \tan x\) factor and convert the remaining (even) power of tangent to secant.
+
+* Using Product Identities
+[[file:images/product-identities.png]]

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       9a4dc9db-ad79-4215-842d-57d59b3fcdb6
+:END:
+#+title: Biconditionals
+
+* Definition
+To prove \(\alpha\Leftrightarrow\beta\), we can prove \(\alpha\Rightarrow\beta\) and \(\beta\Rightarrow\alpha\).

@@ -1,0 +1,32 @@
+:PROPERTIES:
+:ID:       993131c6-ecec-4efa-8971-2c6d256c9c18
+:END:
+#+title: Guidelines for Integration
+#+filetags: calculus integration_techniques
+
+Guidelines for solving difficult [[id:7256d12e-eb3d-48d1-8f12-7168c6fe8522][integrals]].
+
+* Prerequisites
+[[file:images/common-integrals.png]]
+
+* Steps
+** Simplify the Integrand If Possible
+Sometimes the use of algebraic manipulation or
+trigonometric identities will simplify the integrand and make the method of integration obvious.
+** Look for an Obvious [[id:46460a58-2abd-4e04-aeb0-df9cc0cecb25][Substitution]]
+Try to find some function \(u = g(x)\) in the integrand
+whose differential \(du = g'(x) \, dx\) also occurs, apart from a constant factor.
+** Classify the Integrand According to Its Form
+*** [[id:d29f8fa1-bce7-4d4e-8592-edbab6d30395][Trigonometric Functions]]
+If \(f(x)\) is a product of powers of *\(\sin x\) and \(\cos x\)*,
+of *\(\tan x\) and \(\sec x\)*, or of *\(\cot x\) and \(\csc x\)*, then we use [[id:460031ca-b2e0-4116-a522-391e3e4f37c0][substitutions]].
+*** [[id:c562099b-bc16-43f7-aa59-d24718f4e731][Rational Functions]]
+Use [[id:4c0b44e5-df9d-4676-b5a9-a689a18dcc4f][Partial Fraction Decomposition]] to simplify the integrand.
+*** Product of [[id:87d42439-b03b-48be-84ab-2215b4733dd7][Functions]]
+If \(f(x)\) is a power of \(x\) and a [[id:d39c040a-d7ce-40b5-9e47-e65070c00abf][transcendental function]] we can use [[id:d366228e-15a1-4f37-a326-ea5a051cb9fd][integration by parts]].
+*** Radicals
+**** \(\sqrt{x^2+a^2}\) or \(\sqrt{x^2-a^2}\) or \(\sqrt{a^2+x^2}\)
+Make a [[id:c446623b-ef25-417e-a47c-cf52e4f1affd][trigonometric substitution]].
+**** \(\sqrt[n]{g(x)}\)
+Make the substitution \(u = \sqrt[n]{g(x)}\)
+** Repeat

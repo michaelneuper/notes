@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       c446623b-ef25-417e-a47c-cf52e4f1affd
+:END:
+#+title: Trigonometric Substitution
+#+filetags: calculus integration_techniques
+
+* Definition
+#+begin_quote
+A trigonometric substitution replaces an expression with a [[id:d29f8fa1-bce7-4d4e-8592-edbab6d30395][Trigonometric Function]] to help simplify an [[id:7256d12e-eb3d-48d1-8f12-7168c6fe8522][integral]].
+#+end_quote
+
+* Case 1: Integrands containing \(\sqrt{a^2-x^2}\)
+Let \(x=a\sin \theta\) and so that \(dx = a\cos\theta \, d\theta\) use the identity \(\sin^2\theta + \cos^2\theta = 1\)
+
+[[file:images/Trig_Sub_Triangle_1.png]]
+
+* Case 2: Integrands containing \(\sqrt{a^2 + x^2}\)
+Let \(x = a\tan\theta\) and so that \(dx = a\sec^2\theta \, d\theta\) use the identity \(1 + \tan^2\theta = \sec^2\theta\)
+
+[[file:images/Trig_Sub_Triangle_2.png]]
+
+* Case 3: Integrands containing \(\sqrt{x^2 - a^2}\)
+Let \(x = a\sec\theta\) and so that \(dx = a\sec\theta \tan\theta \, d\theta\) use the identity \(\sec^2\theta - 1 = \tan\theta\)
+
+[[file:images/Trig_Sub_Triangle_3.png]]

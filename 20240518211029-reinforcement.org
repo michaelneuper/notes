@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       3e345d2e-e70e-40bf-a19e-d7a4504b1166
+:END:
+#+title: Reinforcement
+
+Parents offer positive reinforcement for [[id:6f9cb5ec-c73f-434f-9e55-c7a0ac95120f][grammatically]] correct sentences and negative reinforcement of ungrammatical sentences.

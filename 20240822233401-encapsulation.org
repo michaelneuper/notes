@@ -1,0 +1,47 @@
+:PROPERTIES:
+:ID:       6b7f9450-fbff-4901-ba2e-ab679464aef1
+:END:
+#+title: Encapsulation
+
+* Definition
+#+begin_quote
+The process of separating clients from implementations by hiding information.
+A fundamental principle of [[id:045de827-7b9a-4212-82f9-e9e9869d0e94][OOP]].
+#+end_quote
+
+* Protected Attributes/Methods
+These are only accesible to the [[id:bcab6ba6-de4b-4509-95fb-aee12584a1ed][class]] and subclasses.
+Indicated with an underscore (~_~) in python.
+This is a convention rather than an enforced rule.
+#+begin_src python
+class Example:
+    def __init__(self, value):
+        self._value = value  # Protected
+
+    def _display(self):  # Protected
+        print(self._value)
+
+obj = Example(42)
+print(obj._value)  # Accessible, but discouraged
+obj._display()  # Accessible, but discouraged
+#+end_src
+
+* Private Attributes/Methods
+These are only accessible from within the class.
+Indicated by a double underscore (~__~) in python.
+Python name mangles these attributes to make it harder to access them from outside the class.
+#+begin_src python
+class Example:
+    def __init__(self, value):
+        self.__value = value  # Private
+
+    def __display(self):  # Private
+        print(self.__value)
+
+obj = Example(42)
+# print(obj.__value)  # Not accessible directly
+# obj.__display()  # Not accessible directly
+
+print(obj._Example__value)  # Accessible via name mangling
+obj._Example__display()  # Accessible via name mangling
+#+end_src

@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       25f11b00-b9da-4f7c-9f98-ef341e232e38
+:END:
+#+title: Increasing/Decreasing Test
+#+filetags: calculus derivatives
+
+* Definition
+#+begin_quote
+Let \(f\) be any function and \(I\) and interval
+
+(a) If \(f'(x) > 0\) on \(I\) then \(f\) is increasing on \(I\)
+(b) If \(f'(x) < 0\) on \(I\) then \(f\) is decreasing on \(I\)
+#+end_quote

@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       c334bb72-194d-4b8c-84fe-bbe2f6a18783
+:END:
+#+title: Paths in Relations and Digraphs
+#+filetags: relations_and_digraphs
+
+* Definition
+Suppose that \( R \) is a [[id:72a5316f-9b83-4c20-aa2e-42ffe2813cfb][relation]] on a [[id:56ae2cf4-a426-46fd-82eb-9acb3c8512ba][set]] \( A \).
+A *path of length* \( n \) in \( R \) from \( a \) to \( b \) is a finite sequence \( \pi : a, x_1, x_2, \ldots, x_{n-1}, b \), beginning with \( a \) and ending with \( b \), such that
+\begin{equation*}
+a \, \mathrel{R} \, x_1, \, x_1 \, \mathrel{R} \, x_2, \, \ldots, \, x_{n-1} \, \mathrel{R} \, b.
+\end{equation*}
+
+* Notes
+- A path of length \( n \) involves \( n + 1 \) elements of \( A \), although they are not necessarily distinct.
+- It appears as a geometric path or succession of edges in such a [[id:c74e80c4-c4dd-4df8-bfca-cc15c2048419][digraph]], where the indicated directions of the edges are followed.
+- The length of a path is the number of edges in the path, where the vertices need not all be distinct.
+
+* Theorem
+If \(R\) is a relation on \(A = \{a_1,a_2,\ldots,a_n\}\), then the [[id:188f8b5d-ab65-4151-817f-ea1dd58a5545][matrix]] of the [[id:fd77c6f5-fa5d-4cc1-893a-31e9dbaa49df][product set]] of \(R\) with itself is the [[id:6d8fa58c-11fe-46eb-a3ed-f1f1d0eac4a8][boolean product]] of the matrix of \(R\) with itself.
+i.e.
+\begin{equation*}
+\mathbf{M}_{R^2} = \mathbf{M}_R\odot\mathbf{M}_R
+\end{equation*}
+
+In general, for \(n\ge 2\) and \(R\) a relation on a finite set \(A\) we have
+\begin{equation*}
+\mathbf{M}_{R^2} = \mathbf{M}_R\odot\mathbf{M}_R\odot\cdots\odot \mathbf{M}_R \quad \text{(}n \text{ factors}\text{)}
+\end{equation*}

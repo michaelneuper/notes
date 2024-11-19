@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       add8a012-7e54-4e3f-b115-1d23caeb9981
+:END:
+#+title: Planes in R3
+#+filetags: linear_algebra vectors
+
+* Normal Form
+The *normal form of the equation of a plane \(\mathscr{P}\)* in \(\mathbb{R}^3\) is
+\begin{equation*}
+\mathbf{n} \cdot (\mathbf{x} - \mathbf{p}) = 0 \quad \text{or} \quad \mathbf{n} \cdot \mathbf{x} = \mathbf{n}\cdot \mathbf{p}
+\end{equation*}
+where \(\mathbf{p}\) is a specific point on \(\mathscr{P}\) and \(\mathbf{n} \ne \mathbf{0}\) is a normal [[id:81c97780-c8a5-4652-a6eb-d33732c37f1e][vector]] for \(\mathscr{P}\).
+
+* General Form
+The *general form of the equation of a plane \(\mathscr{P}\)* in \(\mathbb{R}^3\) is
+\begin{equation*}
+ax + by + cz = d
+\end{equation*}
+where \(\mathbf{n} = \begin{bmatrix} a \\ b \\ c\end{bmatrix}\) is a normal vector for \(\mathscr{P}\).
+
+* Vector Form
+The *vector form of the equation of a plane \(\mathscr{P}\)* in \(\mathbb{R}^3\) is
+\begin{equation*}
+\mathbf{x} = \mathbf{p} + s\mathbf{u} + t\mathbf{v}
+\end{equation*}
+where \(\mathbf{p}\) is a specific point on \(\mathscr{P}\) and \(\mathbf{u}\) and \(\mathbf{v}\) are direction vectors for \(\mathscr{P}\) (\(\mathbf{u}\) and \(\mathbf{v}\) are nonzero and parallel to \(\mathscr{P}\), but not parallel to each other).
+
+The equations corresponding to the components of the vector form of the equation are called *parametric equations* of \(\mathscr{P}\).

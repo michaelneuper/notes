@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       306db8c7-c31f-4250-9ed7-63b6113e147e
+:END:
+#+title: Equivalence Class
+#+filetags: relations_and_digraphs
+
+* Definition
+Given an [[id:392c7fec-581b-457b-a42a-c0f2ee2bfbb4][equivalence relation]] \(E\) on a [[id:56ae2cf4-a426-46fd-82eb-9acb3c8512ba][set]] \(X\).
+Then for any \(x\in X\), we define the *\(E\)-equivalence class* of \(x\) as \([x]_{E}\subseteq X\):
+\begin{equation*}
+[x]_{E} \coloneqq \{y\in X \mid x \mathrel{E} y\}
+\end{equation*}
+
+* Theorem
+If \(E\subseteq X\) is an equivalence relation and \(x \mathrel{E} y\) then \([x]_E=[y]_{E}\), in fact
+\begin{equation*}
+x \mathrel{E} y \Leftrightarrow [x]_E=[y]_E
+\end{equation*}

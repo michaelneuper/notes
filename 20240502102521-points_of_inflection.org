@@ -1,0 +1,4 @@
+:PROPERTIES:
+:ID:       3faec3b0-f37d-4c1a-b779-e125f3bf1f06
+:END:
+#+title: Points of Inflection

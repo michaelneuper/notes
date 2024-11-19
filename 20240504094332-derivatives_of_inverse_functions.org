@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       47d55655-5eb8-4f1e-98ed-84e025da3075
+:END:
+#+title: Derivatives of Inverse Functions
+
+* Theorem
+#+begin_quote
+If \(f\) is a [[id:c35cd352-7e53-4c69-bdce-29d0bc1d11aa][One-to-one]] [[id:086cb8a0-bd8b-465a-8b0c-65d60f454421][differentiable]] function, \(a\in\text{dom}(f^{-1})\), and \(f'(f^{-1}(a)) \ne 0\) then \(f^{-1}\) is differentiable at \(a\) and
+\begin{equation*}
+(f^{-1})' (a) = \frac{1}{f'(f^{-1}(a))}
+\end{equation*}
+#+end_quote

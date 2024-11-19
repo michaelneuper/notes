@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       3b32c0ae-c4e1-4d99-9d41-39b84f235898
+:END:
+#+title: Knowledge of a Language
+#+filetags: linguistics_foundations
+
+* Types of Knowledge
+** [[id:f9efe42e-017f-4ede-9406-ab0526729e43][Grammatical Knowledge]]
+Knowledge of the *structure* of a language
+** [[id:2658e467-eada-4fa3-af91-b02dd21a7497][Pragmatic Knowledge]]
+Knowledge of the *use* of the language

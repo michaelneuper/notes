@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       2ac2b7a3-bf51-4dc8-9f36-194e35030596
+:END:
+#+title: Second Derivative Test
+#+filetags: calculus derivatives
+
+* Definition
+#+begin_quote
+Let \(f\) be a functino, \(c\in\mathbb{R}\).
+Suppose \(f''\) is [[id:9f66f38c-1072-4146-9efe-5a90f984d480][continuous]] near \(c\).
+
+(a) If \(f'(c) = 0\) and \(f''(c)>0\) then \(f\) has a [[id:8e80da2f-092f-476a-b5f8-08749dc9dc1e][local minimum]] at \(c\).
+(b) If \(f'(c) = 0\) and \(f''(c)<0\) then \(f\) has a [[id:8e80da2f-092f-476a-b5f8-08749dc9dc1e][local maximum]] at \(c\).
+#+end_quote

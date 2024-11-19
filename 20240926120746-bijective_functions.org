@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       0a6bf215-ca9b-4e86-be4d-e1de86243ca9
+:ROAM_ALIASES: "Bijection"
+:END:
+#+title: Bijective Functions
+#+filetags: functions
+
+* Definition
+#+begin_quote
+A [[id:87d42439-b03b-48be-84ab-2215b4733dd7][function]] is called a *bijection* if it is [[id:c35cd352-7e53-4c69-bdce-29d0bc1d11aa][injective]] and [[id:15f26b07-6053-4dcc-a782-cd27250ba38d][surjective]].
+#+end_quote
+
+[[file:images/bijection.png]]
+
+* Theorem
+If \(X\) and \(Y\) are finite [[id:56ae2cf4-a426-46fd-82eb-9acb3c8512ba][sets]] then \(|X| = |Y|\) if and only if there exists a bijection from \(X\) to \(Y\).

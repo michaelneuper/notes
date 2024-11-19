@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       aa7a4d99-d1fc-47e9-8f72-d2a6e0d5984a
+:END:
+#+title: Fusional Languages
+
+* Generalisation
+Functional ([[id:f9efe42e-017f-4ede-9406-ab0526729e43][grammatical]]) information once again encoded in [[id:afd36133-0af4-41f7-a158-cc74636e0e6c][affixal]] form.
+
+* Notes
+A 1:1 form:meaning, mapping is less straightforward to postulate than in the case of [[id:29eda611-bf20-4fb5-91f0-61224da2e9bc][agglutinating languages]].
+(some meanings appear to have 'fused' on a single form)
+
+* Example: Latin
+- /(ego) eam laudo/
+- I (*NOM*) her (*ACC*) praise (*1P.SING.PRES*)
+- "I am prasing her"

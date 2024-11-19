@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       39937c5a-c5a2-4b90-b87a-e6250150d607
+:END:
+#+title: Well-ordering Principle
+#+filetags: fundamentals
+
+* Definition
+#+begin_quote
+For any \(S\subseteq\mathbb{N}\) such that \(S\ne\emptyset\), then there is a minimum element of \(S\)
+i.e.
+
+\(\exists m \in S\) such that \(\forall x \in S\) we have that \(m\le x\).
+#+end_quote

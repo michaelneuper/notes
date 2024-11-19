@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       4499736c-21c1-4556-80bf-6bb8f543ef83
+:END:
+#+title: Internalised Grammar
+
+- Speaker's [[id:f9efe42e-017f-4ede-9406-ab0526729e43][grammatical competence]] (I-lang)
+- Abstract mental capacity, cannot be observed directly
+- Consists of finite number of rules and principles and a [[id:76abe154-3c50-40ed-896b-69bb6ccc7592][lexicon]]

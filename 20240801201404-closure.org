@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       c8c7c8e4-f393-4508-8378-c5df7145692f
+:END:
+#+title: Closure
+
+* Definition
+#+begin_quote
+If \(\square\) is a [[id:87704c09-b23d-4980-ab11-0a5f839ebf59][operation]] on a [[id:56ae2cf4-a426-46fd-82eb-9acb3c8512ba][set]] \(X\) then we say that \(X\) *is closed* under \(\square\) if given \(x,y\in X\) then \(x\square y \in X\).
+#+end_quote

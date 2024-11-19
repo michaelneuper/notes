@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       0ea0ce4d-e70f-4f41-8c39-ae2fc7d06817
+:END:
+#+title: Syntax
+#+filetags: linguistics_foundations
+
+* Reasons for Syntactic Knowledge
+** Linguistic Creativity
+- Creative aspect of a language
+- Every fluent speaker has ability to produce and understand new phrases and sentences
+- Cannot be stored in [[id:76abe154-3c50-40ed-896b-69bb6ccc7592][lexicon]] (by definition)
+** Infiniteness of Language
+- No (linguistic) constraint on *number of sentences* that can be formed
+- No (linguistic) constraint on *length of sentences* that can be formed
+
+* Syntactic Processes for Expanding Sentences
+** Complementation
+** Relativisation
+** Co-ordination

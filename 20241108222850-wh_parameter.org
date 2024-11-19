@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       29eb9cc4-0d8f-4279-a2cc-c6da92c1fba1
+:END:
+#+title: Wh Parameter
+
+In language X, the question word/phrase in a content question is:
+- either moved to the front of the sentence, or
+- not moved at all (/in situ/)

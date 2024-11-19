@@ -1,0 +1,51 @@
+:PROPERTIES:
+:ID:       7201e00a-eca0-40d9-a70e-0ce26ee655da
+:END:
+#+title: Binomial Random Variable
+#+filetags: discrete_random_variables
+
+* Definition
+#+begin_quote
+Suppose \(X\) indicates the *number of successes* in \(n\) [[id:04d55fa3-bc61-4762-af94-97ea87d1b084][trials]], where each trial results in a succes with probaility \(p\).
+Then \(X\) is called a *binomial* random variable, with parameters \((n,p)\), and
+
+\begin{equation*}
+P\{X=i\} = {n \choose i}p^i(1-p)^{n-i}, \quad i = 0, 1, 2, \cdots n
+\end{equation*}
+
+\begin{equation*}
+E[X] = np
+\end{equation*}
+
+\begin{equation*}
+\text{Var}(X) = np(1 - p)
+\end{equation*}
+#+end_quote
+
+* [[id:ec08bf1f-90a5-429a-94f5-fb027476fb8e][Expected Value]] of a BRV
+If \(X\) is a binomial random variable with parmeters \((n,p)\), then
+\begin{equation*}
+E[X] = np
+\end{equation*}
+** Proof
+[[file:images/expected-value.png]]
+[[file:images/expected-value-2.png]]
+
+* [[id:3c1c1ebc-8580-4a58-b6f9-8d5fd1b1b33e][Variance]] of a BRV
+If \(X\) is a binomial random variable with parameters \((n, p)\), then
+\begin{equation*}
+\text{Var}(X) = np(1 - p)
+\end{equation*}
+
+* Notes
+If \(X\) is binomial with parameters \((n,p)\), we may compute its [[id:ceca6e9c-8832-4d54-9442-d1675964ebca][probability mass function]] with the [[id:25af17fb-fb34-4bc4-961f-8e5e6bd138f9][recursion]] formula
+
+\begin{equation*}
+P\{X = 0\} = (1 - p)^n
+\end{equation*}
+\begin{equation*}
+P\{X = k + 1\} = \frac{p}{1 - p} \frac{n - k}{k+1}P\{X = k\}, \quad k = 0,1,\cdots,n-1
+\end{equation*}
+
+** Proof
+[[file:images/binom-variables.png]]

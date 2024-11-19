@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       d6052b36-8216-4630-8dc5-7ff7ddb5c6ec
+:END:
+#+title: The Build of a Sentence
+
+* Subject
+The person/thing performing the action.
+The subject [[id:8f34fe1c-acd6-4e4f-b609-7b73efea7336][noun phrase]] has the *nominative* [[id:65377891-8afc-4522-981a-18e4d99b0289][case]].
+* Object
+The person/thing to whom the action is being done.
+The object noun phrase has the *accusative* case.
+* Verb
+The action.
+* Adjunct
+An optional unit of language that provides additional information about the sentence.
+Adjuncts have an adverbial function and convey information about manner, time, place, instrument, etc.
+
+"I see him _in the street_."
+The adjunct "in the street" conveys where the action took place.

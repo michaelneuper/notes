@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       c35e1ea9-8b8a-40ee-8b18-dd7169825658
+:END:
+#+title: Nouns
+
+* Definition
+Nouns indicate persons, places, things (including abstract things)
+
+* Types
+** Common Noun
+Refers to something that you can see or touch
+- tree, cat, star, umbrella
+** Proper Noun
+The name of a specific person, place, etc.
+- James, Stellenbosch, Hudsons
+** Mass Noun
+A mass that cannot be counted individually
+- gold, silver, sand, weather
+** Abstract Noun
+Refers to concepts, ideas or emotions
+- love, hate, courage
+** Collective Noun
+Refers to a group or collection
+- flock, herd, school
+
+* Testing if a word is a noun
+- Nouns are often preceded by a [[id:15bcc6ee-22d3-4ea2-b702-025182c24c2a][determiner]] (which includes [[id:eea1e25a-7935-421a-92aa-9b83d061b0f7][Articles]])
+  - the tree, an apple, these cats
+- Most nouns can take the plural form
+  - frogs, candles, tables

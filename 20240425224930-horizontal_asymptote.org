@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       66fd2031-8280-4069-b668-76943d0c6ede
+:END:
+#+title: Horizontal Asymptotes
+#+filetags: calculus functions_and_limits
+
+* Definition
+#+begin_quote
+Let \(L\in\mathbb{R}\) and \(f\) be any function.
+Then the line \(y=L\) is called a *horizontal asymptote* of the curve \(y=f(x)\) if any of the following hold:
+
+- \(\lim_{x\to\infty}f(x) = L\)
+- \(\lim_{x\to-\infty}f(x) = L\)
+#+end_quote
+
+* Links
+[[id:174608ab-bd8a-43b1-8690-76615e30c5c9][Limits at Infinity]]

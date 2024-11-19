@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       3198739e-1ca8-4b43-be27-036c88c4bf30
+:ROAM_ALIASES: "Comparison Test"
+:END:
+#+title: Comparison Theorem
+#+filetags: theorem calculus integration_techniques
+
+* Definition
+#+begin_quote
+Suppose that \(f\) and \(g\) are [[id:9f66f38c-1072-4146-9efe-5a90f984d480][continuous]] functions with \(f(x) \ge g(x) \ge 0\) for \(x\ge a\).
+1. If \(\int_a^{\infty}f(x) \, dx\) is convergent, then \(\int_a^{\infty}g(x) \, dx\) is convergent.
+2. If \(\int_a^{\infty}g(x) \, dx\) is divergent, then \(\int_a^{\infty}f(x) \, dx\) is divergent.
+#+end_quote
+
+Used to find whether an [[id:b8ae174b-6090-4a10-9ec7-718f217e145e][improper integral]] is convergent or divergent without finding the value of the integral.
+
+* Example
+\begin{equation*}
+\int_1^{\infty}\frac{dx}{x^2+x}
+\end{equation*}
+
+Since \(\frac{1}{x^2 + x} < \frac{1}{x^2}\) on \([1, \infty)\) it follows that \(\int_1^{\infty}\frac{dx}{x^2 + x} < \int_1^{\infty}\frac{dx}{x^2}\).
+Since \(\int_1^{\infty}\frac{dx}{x^2}\) converges, \(\int_1^{\infty}\frac{dx}{x^2 + x}\) also converges.

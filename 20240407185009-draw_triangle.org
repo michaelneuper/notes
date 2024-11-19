@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       59fb8328-3fd0-4da8-98f8-490d01d141af
+:END:
+#+title: Draw Triangle
+
+#+begin_src python :results output :python "python3.8"
+import math
+import stddraw
+
+c = math.sqrt(3.) / 2.
+stddraw.setPenRadius(.01)
+stddraw.line(0., 0., 1., 0.)
+stddraw.line(1., 0., .5, c)
+stddraw.line(.5, c, 0., 0.)
+stddraw.point(.5, c / 3.)
+stddraw.show()
+#+end_src
+
+#+RESULTS:
+: pygame 2.5.2 (SDL 2.28.3, Python 3.8.18)
+: Hello from the pygame community. https://www.pygame.org/contribute.html
+
+[[file:images/triangle.png]]

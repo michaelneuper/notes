@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       324ec34e-5418-4641-8fd8-1dda991fec9f
+:END:
+#+title: Symmetric Matrix
+#+filetags: linear_algebra matrices
+
+* Definition
+#+begin_quote
+A square [[id:a3e5a759-ca7d-46e2-a390-c3cb8f1cc823][matrix]] \(\mathbf{A}\) is symmetric if \(\mathbf{A}^T = \mathbf{A}\).
+That is, if \(\mathbf{A}\) is equal to its own [[id:a3c59416-9311-47b4-bd97-58646fa02625][transpose]].
+In other words, a square matrix is symmetric if and only if \(\mathbf{A}_{ij} = \mathbf{A}_{ji}\) for all \(i,j\).
+#+end_quote

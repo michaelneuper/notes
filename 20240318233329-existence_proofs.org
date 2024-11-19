@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       bfc43bae-f641-420a-9341-1eb162ae8a4c
+:END:
+#+title: Existence Proofs
+
+* Definition
+To prove \(\exists x\in A, \alpha(x)\), demonstrate the existence of some \(a\in A\) such that \(\alpha(x)\) holds.

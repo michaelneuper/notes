@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       05164c1a-cde1-4621-b058-e74a492684df
+:END:
+#+title: Combinations of Functions
+
+* Definition
+For any [[id:87d42439-b03b-48be-84ab-2215b4733dd7][functions]] \(f,g\) we define functions
+- \(f+g\) to have domain \(\text{Dom}(f)\cap\text{Dom}(g)\) and rule \((f+g)(x) = f(x) + g(x)\)
+- \(f-g\) to have domain \(\text{Dom}(f)\cap\text{Dom}(g)\) and rule \((f-g)(x) = f(x) - g(x)\)
+- \(fg\) to have domain \(\text{Dom}(f)\cap\text{Dom}(g)\) and rule \((fg)(x) = f(x)  g(x)\)
+- \(\frac{f}{g}\) to have domain \(\{x\in \text{Dom}(f)\cap \text{Dom}(g)|g(x)\ne0\}\) and rule \(\left(\frac{f}{g}\right)(x) = \frac{f(x)}{g(x)}\)

@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       b5b95138-ea58-4d5a-8a7f-6aaf8715694c
+:END:
+#+title: Isomorphism
+
+* Definition
+A [[id:8e312bc0-0f98-4358-87c0-93aa32eeddef][monotone map]] \(f: P \to Q\) is called an *isomorphism* if it is [[id:0a6bf215-ca9b-4e86-be4d-e1de86243ca9][bijective]] and [[id:51adf20f-2c29-4950-86be-d7c2ed7ffd85][order-reflecting]].
+
+* Visual Intuinition
+Two [[id:e3030b04-3d74-4d8c-b4f0-a59cf1b2afb8][posets]] are isomorphic if they have their [[id:1ff8ebbd-d12a-4d94-90f8-678cfe355725][hasse diagrams]] are identical in shape, but with different labels.

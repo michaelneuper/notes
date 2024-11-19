@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       d59a3705-6045-4b74-8e99-a42b4cbacbbe
+:END:
+#+title: Complex Number
+
+* Definition
+#+begin_quote
+A complex number \(z\) can be represented by an expression in the form
+\begin{equation*}
+z = a + bi
+\end{equation*}
+where \(a,b \in \mathbb{R}\) and \(i\) is the [[id:7d649ad4-02e8-4548-ba45-1b3dd92d81a6][imaginary unit]].
+
+We call \(a\) the real part of \(z\) and \(b\) the imaginary part of \(z\).
+#+end_quote
+
+* Argand Diagram
+A complex number can be visually represented as the [[id:0c82b098-23b3-475e-961d-86cbb4b5bf38][ordered pair]] \((a,b)\) forming a [[id:81c97780-c8a5-4652-a6eb-d33732c37f1e][vector]] on a diagram called an *Argand Diagram*, representing the complex plane.
+[[file:images/argand diagram.png]]
+
+* [[id:87704c09-b23d-4980-ab11-0a5f839ebf59][Operations]]
+** [[id:0ec7ad12-2526-479c-b9b4-0dcb7f0020a3][Complex Conjugate]]
+** [[id:ae53c833-60af-401d-88b4-eea634debb0f][Absolute Values]]

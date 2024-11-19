@@ -1,0 +1,32 @@
+:PROPERTIES:
+:ID:       833b0c16-2313-4189-9979-084727a461d9
+:ROAM_ALIASES: "Norm of a Vector"
+:END:
+#+title: Length of a Vector
+#+filetags: linear_algebra vectors
+
+* Definition
+#+begin_quote
+The *length* (or *norm*) of a [[id:81c97780-c8a5-4652-a6eb-d33732c37f1e][vector]] \(\mathbf{v} = \begin{bmatrix} v_1 \\ v_2 \\ \vdots \\ v_n \end{bmatrix}\) in \(\mathbb{R}^n\) is the nonnegative scalar \(\|\mathbf{v}\|\) defined by
+
+\begin{equation*}
+\|\mathbf{v}\| \coloneqq \sqrt{\mathbf{v}\cdot\mathbf{v}} = \sqrt{v_1^2+v_2^2+\cdots+v_n^2}
+\end{equation*}
+#+end_quote
+
+* Properties
+- \(\|\mathbf{v}\| = 0\) iff \(\mathbf{v} = \mathbf{0}\)
+- \(\| c\mathbf{v}\| = |c| \|\mathbf{v}\|\)
+
+* Theorems
+** Cauchy-Schwarz Inequality
+For all vectors \(\mathbf{u}\) and \(\mathbf{v}\) in \(\mathbb{R}^n\),
+\begin{equation*}
+|\mathbf{u} \cdot \mathbf{v}| \leq \|\mathbf{u}\| \|\mathbf{v}\|
+\end{equation*}
+** Triangle Inequality
+For all vectors \(\mathbf{u}\) and \(\mathbf{v}\) in \(\mathbb{R}^n\),
+\begin{equation*}
+\|\mathbf{u} + \mathbf{v}\| \leq \|\mathbf{u}\| + \|\mathbf{v}\|
+\end{equation*}
+[[file:images/triangle-inequality.png]]

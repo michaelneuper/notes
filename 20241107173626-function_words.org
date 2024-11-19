@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       9a810397-113e-4503-ad81-aac930a71673
+:END:
+#+title: Function Words
+
+* Definition
+[[id:18a6c1d4-46af-4fa4-9f17-3703208f5015][Word Classes]] that are function words (rather than [[id:0b8544f2-06f0-4043-b2eb-1e1473f6fd8f][Content Words]])
+
+* Word Classes
+- [[id:15bcc6ee-22d3-4ea2-b702-025182c24c2a][Determiners]]
+- [[id:ecfd3087-af93-4584-8524-3723b4796ccd][Conjunctions]]
+- [[id:ff791d4d-4b8d-4619-891e-f8106e3154af][Pronouns]]
+- [[id:d0a42ea7-2e9d-486a-a458-d351b79c47b8][Auxiliary Verbs]]

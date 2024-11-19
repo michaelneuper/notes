@@ -1,0 +1,40 @@
+:PROPERTIES:
+:ID:       9f66f38c-1072-4146-9efe-5a90f984d480
+:END:
+#+title: Continuity
+#+filetags: calculus functions_and_limits
+
+* Definition
+Let \(f\) be any function and \(I\) an [[id:a995fc0e-d695-4662-a94f-4daad08de069][interval]] on which \(f\) is defined.
+We say *\(f\) is continuous on \(I\)* if \(f\) is continuous at \(a\) for all \(a\in I\).
+If \(I = [b,c]\) and \(f\) is not defined to the left of \(b\) then we require \(f\) to only be continuous from the right of \(b\), and if \(f\) is not defined to the right of \(c\) then we require \(f\) to be continuous from the left at \(c\).
+
+* Rules
+Let \(f\) be a [[id:87d42439-b03b-48be-84ab-2215b4733dd7][function]] and \(a\in \mathbb{R}\).
+Then we say *\(f\) is continuous at \(a\)* if:
+- \(f\) is defined near \(a\)
+- \(f\) must be defined at \(a\)
+- \(\lim_{x\to a}f(x)\) must exist
+- \(\lim_{x\to a}f(x) = f(a)\)
+
+* Discontinuities
+For a function \(f\) defined near some \(a\in\mathbb{R}\) we say *\(f\) is discontinuous* at \(a\) if \(f\) is not continuous at \(a\).
+
+** Removable Discontinuity
+- When \(\lim_{x\to a}f(x)\) exists but is not equal to \(f(a)\)
+- \(a\) might also not be defined
+** Jump Discontinuity
+- When \(\lim_{x\to a}f(x)\) DNE
+- i.e. \(\lim_{x\to a^{-}}f(x) \ne \lim_{x\to a^{+}}f(x)\)
+
+* Theorem
+Let \(f, g\) be continuous at \(a\in\mathbb{R}\) and let \(c\in\mathbb{R}\).
+Then the following functions are continuous at \(a\):
+- \(f+g\)
+- \(f-g\)
+- \(cf\)
+- \(fg\)
+- \(\frac{f}{g}\) if \(g(a)\ne0\)
+
+** Proof
+[[file:images/continuity-proof.png]]

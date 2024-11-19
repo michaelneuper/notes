@@ -1,0 +1,34 @@
+:PROPERTIES:
+:ID:       6d8fa58c-11fe-46eb-a3ed-f1f1d0eac4a8
+:END:
+#+title: Boolean Product
+
+* Definition
+#+begin_quote
+Let \( A = [a_{ij}] \) and \( B = [b_{kj}] \) be [[id:27984177-d920-45da-acd2-362148b0e660][Boolean Matrices]] with dimensions \( m \times p \) and \( p \times n \), respectively.
+Then the *Boolean Product* operation is defined by combining the logical [[id:b6b3f983-2e80-4cd2-9167-b309c6156ccf][AND]] across rows of \( A \) with the corresponding columns of \( B \), followed by a logical [[id:d146a663-e2c9-453a-b7f5-387284f7285a][OR]] of the results.
+
+Let  \( C = A \odot B = [c_{ij}] \), where each element \( c_{ij} \) is calculated as follows:
+\begin{equation*}
+c_{ij} =
+\begin{cases}
+1 & \text{if } a_{ik} = 1 \text{ and } b_{kj} = 1 \text{ for some } k, 1 \leq k \leq p \\
+0 & \text{otherwise}
+\end{cases}
+\end{equation*}
+which can also be denoted
+\begin{equation*}
+c_{ij} = \bigvee_{k=1}^p (a_{ik} \land b_{kj})
+\end{equation*}
+
+The resulting matrix \( E \) is an \( m \times n \) matrix.
+#+end_quote
+
+* Example
+\begin{equation*}
+A = \begin{bmatrix} 1 & 0 & 1 \\ 0 & 1 & 0 \end{bmatrix}, \quad
+B = \begin{bmatrix} 1 & 0 \\ 0 & 1 \\ 1 & 0 \end{bmatrix}
+\end{equation*}
+\begin{equation*}
+A \odot B = \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}
+\end{equation*}

@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       22dabe8b-5aec-443f-88eb-c23a4e8c728c
+:END:
+#+title: Verb Phrase
+
+The [[id:d1cfe60a-53d4-470a-aea5-4b4bc9890d8f][verb]] in a VP can occur before or after its [[id:8f34fe1c-acd6-4e4f-b609-7b73efea7336][noun phrase]] [[id:0ed530ac-7ee3-4521-8ef0-0e973b4c7814][complement]].
+
+* Before
+| /Noi/ | /parlioma/ | /francese/ |
+|-------+------------+------------|
+| we    | speak      | French     |
+"We speak french"
+- Head: /parliamo/ ("speak")
+- Complement: /francese/ ("French")
+
+* After
+| /Gudaa-ngun/ | /yarrga/ | /dyinday/ |
+|--------------+----------+-----------|
+| dog          | boy      | bit       |
+"The dog bit the boy."
+- Head: /dyinday/ ("bit")
+- Complement: /yarrga/ ("boy")

@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       959cd359-3951-4ae5-8433-65c4158e91f7
+:END:
+#+title: Complementisers
+
+* Definition
+Words that are used to introduce [[id:1a3a4f9c-8567-40c1-9da9-1540139d5899][sentences]] / [[id:6855ed0e-8cd9-4f5e-ad8f-0b8dd3ec81e5][clauses]].
+
+* Note
+In English, overt (observable) complementisers can only be used to introduce subordinate / embedded / complement clauses.
+In other languags overt complementisers are also used to introduce main clauses.
+
+* Examples
+- She said [ *that* they are going overseas ]
+- I doubt [ *if/whether* they will come ]
+- I prefer [ *for* him to do the work ]
+
+* Functions of Complementisers (C)
+1. The C specifies whether the [[id:ef763776-f9dd-4598-98c8-ce473c306db8][finite]] (express tense) or non-finite (without a tense).
+   | [ I prefer ] | [ for him to do the work ] |
+   |--------------+----------------------------|
+   | finite       | infinite                   |
+2. The C specifies the *pragmatic force* of the sentence. See [[id:6e2e5666-f4ae-4f10-ac53-f4015ee011a6][Grammatical Mood]].
+   - Declarative force [d-force] -> declarative sentences
+   - Interrogative force [q-force] -> questions
+   - Irrealis force [i-force] -> hypothetical events

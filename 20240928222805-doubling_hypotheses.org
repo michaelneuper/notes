@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       ffd614f6-3982-42dc-b912-d82a30dd950c
+:END:
+#+title: Doubling Hypotheses
+#+filetags: performance
+
+* Definition
+#+begin_quote
+For a great many programs, we can quickly formulate a hypothesis for the following question: /What is the effect on the running time of
+doubling the size of the input?/ For clarity, we refer to this hypothesis as a *doubling hypothesis*.
+#+end_quote
+
+* Example
+** Hypothesis
+The running time of my program is \(T_N \sim a N^b\).
+
+** Consequence
+As \(N\) increases, \(T_{2N}/T_N\) approaches \(2^{b}\).

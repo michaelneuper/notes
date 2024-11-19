@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       48b7b282-e1f3-4c80-b014-4868bb00b80e
+:END:
+#+title: Integers
+
+* Values
+- Python3 only limited by memory
+- Python2 has int (2^64-1) and long (arbitrary)
+
+* Typical Literals
+- 1234
+- 0
+- 99
+
+* Operations
+- Addition
+- Subtraction
+- Multiplication
+- Quotient
+- Remainder ([[id:a5a2ca3a-f512-41a4-a782-8ec27c0bfe44][Modulo]])
+- Exponentiation
+
+* Operators
+- =+=
+- =-=
+- =*=
+- =//= *NOTE*: Different from =/= with [[id:321d94dc-4d0a-479e-a0e8-8f5603f7915e][floats]]
+- =%=
+- =**=
+
+* Examples
+- =1 + 2= -> =3=
+- =7 // 3= -> =2=

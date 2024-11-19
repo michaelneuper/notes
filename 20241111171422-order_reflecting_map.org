@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       51adf20f-2c29-4950-86be-d7c2ed7ffd85
+:END:
+#+title: Order-reflecting Map
+
+* Definition
+An *order-reflecting map* of [[id:e64ef180-2fff-4790-bf03-1920ea80b239][posets]] \(P\) and \(Q\) is a function \(f: P \to Q\) which satisfies
+\begin{equation*}
+\forall x, y \in P,\, f(x)\le_{Q} f(y) \Longrightarrow x \le_{P} y
+\end{equation*}

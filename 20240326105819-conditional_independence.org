@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       def4b996-3bc7-4c4b-8653-93162bb785ab
+:END:
+#+title: Conditional Independence
+#+filetags: conditional_probability
+
+* Definition
+#+begin_quote
+Let \(Q(E) = P(E|G)\) for some fixed event \(G\).
+
+Two events \(E\) and \(F\) are said to be [[id:f1ee3d2c-a8cd-4f79-8153-e8268be284d5][conditionally]] [[id:cfdcb584-4895-41eb-9c8a-d9dc66e2bd2c][independent]] given \(G\)
+        if \(Q(EF) = Q(E)Q(F)\)
+
+Or in terms of \(P\) if \(P(EF|G) = P(E|G)P(F|G)\)
+#+end_quote
+
+* Conclusions
+\begin{align*}
+P(EF|G) &= P(E|G)P(F|G) \\
+\frac{P(EFG)}{P(G)} &=  \frac{P(EG)}{P(G)}\frac{P(FG)}{P(G)} \\
+\frac{P(EFG)}{P(FG)} &=  \frac{P(EG)}{P(G)} \\
+\therefore P(E|FG) &= P(E|G)
+\end{align*}

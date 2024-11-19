@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       fed048c2-b009-44c5-b60c-23205278ec12
+:END:
+#+title: Accidental Gap
+
+* Definition
+A sound or sequence that is [[id:f6cb0ecc-0219-49e4-868b-098b707113b6][phonologically]] and [[id:7edabb20-86fd-44fc-8552-0bb8d10663f8][phonetically]] *possible* but, *by accident*, is not part of the language's vocabulary
+
+* Examples
+- throp
+- bithis
+- frupi
+- stimp

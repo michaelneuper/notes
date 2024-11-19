@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       fe639bbe-54b0-4a46-ab02-fb2232fad248
+:END:
+#+title: Auditory Phonetics
+
+[[file:images/outer-ear.jpg]]

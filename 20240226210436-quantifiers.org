@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       131ece2d-0cf3-4894-9c46-bba36fa3a2d8
+:END:
+#+title: Quantifiers
+#+filetags: logic
+
+* Definition
+- For a [[id:ac356044-060c-4b67-84f2-6361c9c574bb][var-statement]] \(\alpha\) we write \(a(x_1,\cdots x_n\) to indicate that the variables \(x_1,\cdots x_2\) appear in \(\alpha\) and usually take this to mean that no other variables appear in \(\alpha\)
+
+* Example
+\(\alpha\) to be \(x<y\), \(\alpha(x,y)\)
+
+* [[id:e6724be8-3518-4b0c-a233-f31f593b453b][Universal Quantifier]]
+* [[id:dc892d93-3f41-415a-a0cf-f1a669d0bbb7][Existential Quantifier]]

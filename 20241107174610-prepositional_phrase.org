@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       3c3dde56-ed04-4c2b-ae3c-37637a3be182
+:END:
+#+title: Prepositional Phrase
+
+* Definition
+The [[id:974ee49c-83af-410d-9a04-ec8e06b7f834][head]] of a prepositional phrase (PP) is a [[id:cfc40864-219f-4fbe-95b0-6fe72f803b2e][preposition]].
+PPs often have a [[id:8f34fe1c-acd6-4e4f-b609-7b73efea7336][noun phrase]] as a [[id:0ed530ac-7ee3-4521-8ef0-0e973b4c7814][complement]].
+
+* Example
+Consider the PP: "behind the box".
+- The head of the PP is the preposition "behind".
+- The complement of the PP is the [[id:8f34fe1c-acd6-4e4f-b609-7b73efea7336][noun phrase]] "the box".
+
+* Note
+The head of a PP does not always occur to the left of the complement.
+- In a PP with a [[id:cfc40864-219f-4fbe-95b0-6fe72f803b2e][preposition]], the head occurs *before* the complement.
+- In a PP with a [[id:f3195900-cc1b-4a32-bf5c-258981ab5635][postposition]], the head occurs *after* the complement.

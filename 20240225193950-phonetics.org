@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       7edabb20-86fd-44fc-8552-0bb8d10663f8
+:END:
+#+title: Phonetics
+#+filetags: phonetics
+
+* Definition
+#+begin_quote
+The study of individual speech sounds (phones):
+- their physical properties
+- how they are produced
+- how they are perceived
+#+end_quote
+* [[id:79b002d8-3b3e-4b6e-ab3d-fc1c13a55012][Articulatory Phonetics]]
+* [[id:fe639bbe-54b0-4a46-ab02-fb2232fad248][Auditory Phonetics]]
+* [[id:f52575c7-b59a-4d6b-96a1-9d0a9db28657][Acoustic Phonetics]]
+
+* Links
+[[id:b7ec32a6-345f-49e7-a377-f41b43f16d71][International Phonetic Alphabet]]

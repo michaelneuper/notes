@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       24793cbe-0957-4625-9470-9a05126b3fe9
+:END:
+#+title: Speaking Framework
+
+* Definition
+A framework to analyse [[id:b7efa13c-55f4-4f45-b321-8e93aefb7d2a][Communicative Events]]
+
+* Setting
+When and where an event takes place
+* Participants
+Who is taking part in the interaction and what are their roles
+* Ends
+What is the purpose and intended outcome of the event
+* Act Sequence
+Which [[id:e2de34d1-4ac6-44ea-89ca-e5b79c111867][Communicative Acts]] make up the event and the order in which they are performed
+* Key
+Emotional tone and manner of speaking used in the interaction
+* Instrumentalities
+Which language varieties, styles and modes are used for communication
+* Norms
+The sociocultural rules and norms at play
+* Genre
+How the interaction is typically structured

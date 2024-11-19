@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       191ab052-9880-4ccb-be2d-85e052fe32bc
+:END:
+#+title: Combinations
+#+filetags: combinatorics
+
+* Definition
+#+begin_quote
+Number of *unique* permutations of \(n\) objects, where \(n_r\) are mutually identical:
+\(\frac{n!}{n_1!n_2!\cdots n_r!}\)
+#+end_quote
+
+* In General
+The number of ways to select \(r\) *distinct* objects from \(n\) *distinct* objects.
+\begin{equation*}
+\frac{n(n-1)(n-2)\cdots(n-r+1)}{r!}\cdot\frac{(n-r)(n-r-1)\cdots 1}{(n-r)(n-r-1)\cdots 1} = \frac{n!}{r!(n-r)!} = {n \choose r}
+\end{equation*}
+
+* Conventions
+- \(0! = 1\) so that \({n \choose 0} = 1\) and \({n \choose n} = 1\)
+- \({n \choose i} = 0\) if \(i<0\) or \(i>n\)
+
+* A Combinatorial Identity
+\({n \choose r} = {n-1 \choose r-1} + {n-1 \choose r}\) for \(1 \le r \le n-1\)

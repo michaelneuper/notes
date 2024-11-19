@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       1d69c29d-2fa6-4db2-8900-70c38d86fc2a
+:END:
+#+title: Insertion Sort
+#+filetags: search_n_sort algorithm
+
+* Python Implementatoin
+#+begin_src python
+def insertion_sort(arr):
+    for i in range(1, len(arr)):
+        j = i
+        while (j > 0) and (arr[j] < arr[j-1]):
+            arr[j], arr[j-1] = arr[j-1], arr[j]
+            j -= 1
+#+end_src
+
+* [[id:2606eefb-295e-4afc-8942-9bbea33f66ed][Order of Growth]]
+\(T_N \sim N^2\)
+
+* Resources
+- [[https://youtu.be/R_wDA-PmGE4?si=gKO1eLKbx6H8UZ6l][Insertion Sort In Python Explained (With Example And Code)]]

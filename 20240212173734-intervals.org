@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       a995fc0e-d695-4662-a94f-4daad08de069
+:END:
+#+title: Intervals
+
+Geometrically seen as line segments on $\mathbb{R}$.
+
+- $(a, b)$ means $\{x \in \mathbb{R} | a < x < b \}$
+- $[a, b]$ means $\{x \in \mathbb{R} | a \le x \le b \}$
+- $(a, \infty)$ means $\{x \in \mathbb{R} | a < x \}$
+- $(-\infty, b)$ means $\{x \in \mathbb{R} | x \le b \}$
+- $(-\infty, \infty)$ means $\mathbb{R}$

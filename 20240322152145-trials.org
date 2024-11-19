@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       04d55fa3-bc61-4762-af94-97ea87d1b084
+:END:
+#+title: Trials
+#+filetags: conditional_probability
+
+* Definition
+Trials are repeated executions of the same experiment, such that:
+- each execution has the same [[id:33838eb4-aa50-4794-baa1-637ddea744ad][sample space]] as all the others
+- the outcome of each execution is [[id:cfdcb584-4895-41eb-9c8a-d9dc66e2bd2c][independent]] of the other executions
+
+* Example
+Flip a coin repeatedly.
+Each trial has the sample space \(\{H, T\}\).
+
+Let \(E_i\) be the event of getting \(H\) on trial \(i\).
+
+Then events \(E_1, E_2, E_3,\cdots\) are all independent.
+
+For example, \(P(E_1E_2E_3) = P(E_1)P(E_2)P(E_3)\)

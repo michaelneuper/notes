@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       649d4eb8-7cf5-4535-836a-4bc87f6db646
+:END:
+#+title: Fermat's Theorem
+#+filetags: calculus theorem
+
+* Definition
+#+begin_quote
+Let \(f\) be any [[id:87d42439-b03b-48be-84ab-2215b4733dd7][function]].
+If \(f\) has a local [[id:8e80da2f-092f-476a-b5f8-08749dc9dc1e][maximum or minimum]] at \(c\), and if its [[id:a350707f-ba1b-4912-ad8d-60e80e1c5d47][derivative]], \(f'(c)\) exists, then \(f'(c) = 0\).
+#+end_quote

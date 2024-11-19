@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       ea36d9d8-8cb2-4868-a4d1-adfa538e95b8
+:END:
+#+title: Borrowing
+
+* Definition
+#+begin_quote
+When speakers use words from another language.
+
+Over time the word becomes a part of the vocabulary of the language.
+#+end_quote
+
+* Examples
+- boomslang (Afrikaans)
+- piano (Italian)

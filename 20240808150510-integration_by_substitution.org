@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       46460a58-2abd-4e04-aeb0-df9cc0cecb25
+:END:
+#+title: Integration by Substitution
+#+filetags: calculus integration
+
+* Definition
+#+begin_quote
+Integration by substitution, also known as u-substitution is a method for evaluating [[id:7256d12e-eb3d-48d1-8f12-7168c6fe8522][integrals]] and [[id:e606e6fc-c0e4-4d39-ad9f-704161129f5c][antiderivatives]].
+It is the counterpart to the chain rule for [[id:a350707f-ba1b-4912-ad8d-60e80e1c5d47][differentiation]], and can loosely be thought of as using the chain rule "backwards."
+#+end_quote
+
+* Example
+Compute \(\int (2x^{3}+1)^{7}(x^{2})\,dx.\)
+
+Let \(u=2x^{3}+1\).
+This means that \(\frac {du}{dx}=6x^{2}\) or as differential form, \(du=6x^{2}\,dx\)
+
+\begin{aligned}
+\int (2x^{3}+1)^{7}(x^{2})\,dx&={\frac {1}{6}}\int \underbrace {(2x^{3}+1)^{7}} _{u^{7}}\underbrace {(6x^{2})\,dx} _{du}\\&={\frac {1}{6}}\int u^{7}\,du\\&={\frac {1}{6}}\left({\frac {1}{8}}u^{8}\right)+C\\&={\frac {1}{48}}(2x^{3}+1)^{8}+C
+\end{aligned}

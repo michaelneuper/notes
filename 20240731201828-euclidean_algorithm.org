@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       d1fad8cf-4188-449f-8dc6-4743d8766a54
+:END:
+#+title: Euclidean Algorithm
+#+filetags: fundamentals
+
+Successively apply the properties of [[id:1271abaf-7986-467c-b2ca-c1c87d78abfa][gcd]] until the gcd can be determined.

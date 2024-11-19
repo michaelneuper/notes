@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       0043b143-e024-49f9-a2a0-b4dd97d91f0a
+:END:
+#+title: Elementry Matrix
+
+* Definition
+#+begin_quote
+An *elementry matrix* is any [[id:a3e5a759-ca7d-46e2-a390-c3cb8f1cc823][matrix]] that can be obtained by performing an [[id:6dec1333-da8e-4cf2-b4f3-06002a3472ad][Elementry Row Operation]] on an [[id:ea2c552e-9299-4fd3-9392-a801aae425a4][Identity Matrix]].
+#+end_quote

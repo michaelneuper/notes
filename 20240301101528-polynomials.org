@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       4b3a5c7d-3853-4222-b6d3-16e73c922303
+:END:
+#+title: Polynomials
+
+* Definition
+- A polynomial is a function of the form \(P(x) = a_nx^n + a_{n-1}x^{n-1}+\cdots +a_1x + a_0 \) where \(n\in\mathbb{N}\cup\{0\}\) and \(a_n,\cdots a_0\in \mathbb{R}\)
+- The values \(a_n,\cdots a_0\) are the *coefficients* of the polynomial and if \(a_n\ne0\) the polynomial has *degree \(n\)* and \(a_n\) is called the *leading coefficient*
+- \(\text{Dom}(P) = \mathbb{R}\)
+
+* Constant Functions
+- Degree 0
+- \(f(x) = a\) for some \(a\in\mathbb{R}\)
+
+* Linear Functions
+- Degree 1
+- \(f(x) = ax+b\) for \(a,b\in\mathbb{R}, a\ne 0\)
+
+* Quadratic Functions
+- Degree 2
+- \(f(x) = ax^2+bx+c\) for \(a,b,c\in\mathbb{R}, a\ne0\)
+
+* Cubic Functions
+- Degree 3
+- \(f(x) = ax^3+bx^2+cx+d\) for \(a,b,c,d\in\mathbb{R}, a\ne0\)

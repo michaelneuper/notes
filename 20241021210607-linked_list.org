@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       62282d8d-bb16-4e49-bc3c-82abf080860b
+:END:
+#+title: Linked List
+#+filetags: data_structures
+
+* Definition
+#+begin_quote
+A linked list is a [[id:25af17fb-fb34-4bc4-961f-8e5e6bd138f9][recursive]] [[id:143316f4-b2de-4b30-be41-b65293769948][linked data structure]] which is either null or a reference to a node.
+#+end_quote
+
+* Representation
+- Use a private nested [[id:bcab6ba6-de4b-4509-95fb-aee12584a1ed][class]] =Node= to implement the node abstaction.
+- Nodes have two values:
+  - an *item* (of any type)
+  - a next *node*
+
+* Standard Operations
+- Add node at the beginning.
+- Remove and return node at the beginning.
+- Add a node at the end (requires a regerence to the last node).

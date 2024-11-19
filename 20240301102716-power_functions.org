@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       24417979-df13-429a-8cb4-0778d1f50066
+:END:
+#+title: Power Functions
+
+* Definition
+- A function \(f\) is called a power function if it is of the form \(f(x) = x^a\) for some \(a\in\mathbb{R}\)
+
+* Case 1
+- \(a\in\mathbb{N}\cup\{0\}\)
+- Special [[id:4b3a5c7d-3853-4222-b6d3-16e73c922303][polynomials]]
+
+* Case 2
+- \(a=\frac{1}{n}\) for some \(n\in\mathbb{N}\)
+- Functions of roots
+
+* Case 3
+- \(a=-n\) for some \(n\in\mathbb{N}\)
+- Hyperbolas
+- \(\text{Dom}(f) = \mathbb{R}\backslash\{0\}\)

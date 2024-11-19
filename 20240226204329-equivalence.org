@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       584329a2-63ec-47b3-bdb6-a3c86e37e30e
+:END:
+#+title: Equivalence
+
+* Definition
+- For (var-)statements \(\alpha, \beta\) we have "\(\alpha \text{ if and only if } \beta\)" is a (var-)statement.
+
+* Notation
+- Mathematical language: \(\alpha \Leftrightarrow \beta\)
+
+* Interpretation
+** For [[id:675d2e38-6ee5-49a0-9c07-bb1b5291a2f7][Statement]]
+- \(\alpha \Leftrightarrow \beta\) is true iff both \(\alpha\) and \(\beta\) or true or both \(\alpha\) and \(\beta\) are false
+** For [[id:ac356044-060c-4b67-84f2-6361c9c574bb][Var-statements]]
+- The values making \(\alpha \Leftrightarrow \beta\) true are the values that make both \(\alpha\) and \(\beta\) true or both \(\alpha\) and \(\beta\) false
+** Verbal Interpretations
+- \(\beta\) is equivalent to \(\alpha\)
+- \(\alpha\) iff \(\beta\)
+- \(\alpha\) if and only if \(\beta\)
+
+* [[id:597a548b-60b2-41e7-aae9-8b1328d06e65][Truth Table]]
+| \(\alpha\) | \(\beta\) | \(\alpha\Leftrightarrow\beta\) |
+|------------+-----------+--------------------------------|
+| T          | T         | T                              |
+| T          | F         | F                              |
+| F          | T         | F                              |
+| F          | F         | T                              |

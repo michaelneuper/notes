@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       1a3a4f9c-8567-40c1-9da9-1540139d5899
+:END:
+#+title: Sentences
+
+* Definition
+Sentences are the largest unit of [[id:0ea0ce4d-e70f-4f41-8c39-ae2fc7d06817][syntactic]] analysis.
+
+* Types
+- [[id:b2d20853-ea9c-4614-bcb7-947a56b5b300][Simple Sentence]]
+- [[id:a74b122f-f5f0-4abc-b2b2-20f17997836d][Compound Sentence]]
+- [[id:781b729f-274e-48d9-8cfa-086dd29b446d][Complex Sentence]]
+
+* Note
+- Units of [[id:f9efe42e-017f-4ede-9406-ab0526729e43][grammatical competence]]
+- abstract
+- not influenced by non-linguistic factors

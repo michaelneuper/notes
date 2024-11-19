@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       0ec38573-de8e-4c51-a4b5-d7f728444692
+:END:
+#+title: If Statements
+
+* Definition
+- Evaluate a [[id:4d6414f9-b619-4a2c-baa8-b980786f6087][boolean]] expression
+- If =True=, execute a statement
+- Execute a different statement if =False= and an =else= clause is included
+
+* Example
+#+begin_src python :results output
+age = 22
+
+if age >= 18 and age <= 21:
+    print("You can drink outside the US")
+elif age >= 21:
+    print("You can drink anywhere")
+else:
+    print("You're too young to drink")
+#+end_src
+
+#+RESULTS:
+: You can drink anywhere

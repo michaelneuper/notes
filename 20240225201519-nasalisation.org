@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       d17904bb-29e5-4182-8146-ed36db2d014c
+:END:
+#+title: Nasalisation
+
+* Definition
+Pronounce with the breath resonating in the nose
+
+* Examples
+- meNs
+- kaNs
+- froNs

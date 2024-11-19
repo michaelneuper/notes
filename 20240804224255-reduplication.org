@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       265de3a9-f803-4fbe-b144-f95b69da17b5
+:END:
+#+title: Reduplication
+
+* Definition
+#+begin_quote
+When the [[id:8a1148be-ca0a-44cf-a140-c9e3191f8f90][root]] of a word, or the entire word is repeated.
+This can result in change of meaning, grammatical class, or tone.
+#+end_quote
+
+* Common Uses
+- To imitate sounds e.g. rat-a-tat (knocking on a door)
+- Suggest alternating movements e.g. see-saw, flip-flop
+- To disparage by suggesting instability, nonsense etc. e.g. hocus-pocus, willy-nilly
+- To intensify or emphasise e.g. teeny-weeny
+
+* Examples
+- bye-bye (full deduplication)
+- super-duper (rhyming reduplication)
+- tick-tock (ablaut reduplication)

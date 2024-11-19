@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       af0f366c-775b-4905-af0a-8950764196ea
+:END:
+#+title: Logarithmic Functions
+
+* Definition
+- A function \(f\) is called logarithmic if it is the [[id:17d56a87-ff5e-4d0d-85f0-caa68750bb8f][inverse]] of some [[id:7cc8b837-300f-4e53-8450-8f7cdb584868][exponential function]]
+- \(f(x) = \log_{b}x\)
+
+* [[id:a350707f-ba1b-4912-ad8d-60e80e1c5d47][Derivative]] of Logarithmic Functinos
+\begin{equation*}
+\frac{d}{dx} \log_{b}x = \frac{1}{x \ln b}
+\end{equation*}

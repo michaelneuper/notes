@@ -1,0 +1,59 @@
+:PROPERTIES:
+:ID:       30c2c43a-9f97-44dd-a2d3-f3d8c9e0449f
+:END:
+#+title: Aphasia
+#+filetags: neurolinguistics
+
+* Definition
+#+begin_quote
+Damage to different parts of the brain = different symptoms:
+- Sometimes language abilities not affected
+- Sometimes only language disabilities affected = Aphasia
+- Damage to different parts of the left hemisphere = different [[id:f631f113-3c91-4803-8ed8-50ab5dcd038d][Language Deficits]]
+#+end_quote
+
+* Types
+** Broca's Aphasia
+Diffilculty with language production
+- Function words
+- Morphemes
+- Syntax
+
+*** Example
+P: Cinderella...poor...um 'dopted her...scrubbed
+floor, um, tidy...poor, um...'dopted...Si-sisters
+and mother. . . ball. Ball, prince um, shoe . . .
+
+Dr: Keep going.
+
+P: Scrubbed and uh washed and un...tidy, uh,
+sisters and mother, prince, no, prince, yes.
+Cinderella hooked prince. (Laughs.) Um,
+um, shoes, um, twelve o'clock ball /pønaût/,
+finished.
+
+Dr: So what happened in the end?
+
+P: Married.
+
+** Wernicke's Aphasia
+Difficultly with language comprehension
+- Content words
+- Morphemes
+- [[id:0d486aeb-8483-48d6-a6f1-44313bbc5eb4][Semantics]]
+- Fluent but semantically incoherent
+
+*** Example
+P: Uh, well this is the ... the /dødøü/ of this.
+This and this and this and this. These
+things going in there like that. This is /sen/
+things here. This one here, these two things
+here. And the other one here, back in this
+one, this one /gÞ?/ look at this one.
+
+Dr: Yeah, what's happening there?
+
+P: I can't tell you what that is, but I know what
+it is, but I don't now where it is. But I don't
+know what's under. I know it's you couldn't
+say it's ... I couldn't say what it is.

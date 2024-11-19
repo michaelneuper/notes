@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       f9192a67-8de6-484c-8a43-091ce706555a
+:END:
+#+title: Laws of Sets
+#+filetags: fundamentals
+
+* [[id:d5b9323d-271b-428f-8028-1d63bb90a5b5][Commutative]] 
+* [[id:c8f00bb3-244d-4138-8a02-86934cf0103b][Associative]] 
+* [[id:441fae62-367a-4c7e-9c2c-3df0d1132fe7][Distributive]]
+* [[id:4a4be2c5-36c5-4aeb-a62a-3535901b6129][DeMorgan's Law]]

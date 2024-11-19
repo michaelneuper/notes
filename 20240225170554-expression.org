@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       e9fc1580-d8c2-48f8-8df6-8809b42bb1ad
+:END:
+#+title: Expression (programming)
+
+* Definition
+A combination of [[id:fcb4d637-613d-4d46-bf3a-cd98985e05de][literals]], [[id:88fbf286-a581-45bf-a765-5d27d3472517][variables]] and operators that is evaluated to produce a value
+
+* Example
+- a + b

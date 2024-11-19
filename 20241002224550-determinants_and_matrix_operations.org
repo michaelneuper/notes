@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       536965f9-d30b-4ab2-9f1a-fdb8be09d0cd
+:END:
+#+title: Determinants and Matrix Operations
+#+filetags: linear_algebra determinants
+
+What relationship exists between [[id:fdc2dbe7-d134-4b80-a687-407ac36f637f][determinants]] and basic [[id:a3e5a759-ca7d-46e2-a390-c3cb8f1cc823][matrix]] operations?
+
+If \(A\) and \(B\) are \(n \times n \) matrices, then
+- \(\det(kA) = k^n \det(A)\) for any scalar \(k\)
+- \(\det(AB) = \det(A)\det(B)\)
+- \(\det(A) = \det(A^T)\) where \(A^T\) is the [[id:a3c59416-9311-47b4-bd97-58646fa02625][transpose]] of \(A\)
+
+If \(A\) is [[id:a6202f63-ca6f-4b31-ad25-4e57ec040e6e][invertible]], then
+\begin{equation*}
+\det(A^{-1}) = \frac{1}{\det(A)}
+\end{equation*}

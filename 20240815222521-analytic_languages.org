@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       6368a865-e6f8-4e74-bc94-2ee073e00e9b
+:END:
+#+title: Analytic Languages
+
+* Definition
+#+begin_quote
+No word-internal structure/[[id:19cd4f54-86ac-4d58-9999-f0c25e3e7527][morphology]].
+
+Morphologically "poor" languages
+#+end_quote
+
+* Notes
+- Each [[id:6520f76a-6137-4e67-bfb9-0e3fd7b8e628][morpheme]] tends to occur as a seperate "word"
+- Very little or no [[id:c976dfcf-a201-4be6-bf7d-df9e245a86c7][inflectional affixation]]
+- Generalisation: both lexical (content) and funtional ([[id:f9efe42e-017f-4ede-9406-ab0526729e43][grammatical]]) information encoded by free morphemes
+
+* Example: Mandarin Chinese
+| Wǒ  | men | chī | le  | píngguǒ |
+|-----+-----+-----+-----+---------|
+| 1st | PL  | eat | PST | apple   |
+
+"We ate the apple."

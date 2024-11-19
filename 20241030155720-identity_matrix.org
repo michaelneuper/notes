@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       ea2c552e-9299-4fd3-9392-a801aae425a4
+:END:
+#+title: Identity Matrix
+
+* Definition
+#+begin_quote
+The *identity matrix* is the square [[id:a3e5a759-ca7d-46e2-a390-c3cb8f1cc823][matrix]] with ones on the main diagonal and zeros elsewhere.
+It is the [[id:1a59f45c-c849-40c5-82e2-48b95050eecb][identity element]] for [[id:48952d21-f707-4ee1-bcf4-80c9f3ee1235][matrix multiplication]].
+
+\begin{equation*}
+I_1 = [1], \quad I_2 = \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}, \quad I_3 = \begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix}, \quad \dots, \quad I_n = \begin{bmatrix} 1 & 0 & 0 & \cdots & 0 \\ 0 & 1 & 0 & \cdots & 0 \\ 0 & 0 & 1 & \cdots & 0 \\ \vdots & \vdots & \vdots & \ddots & \vdots \\ 0 & 0 & 0 & \cdots & 1 \end{bmatrix}
+\end{equation*}
+#+end_quote

@@ -1,0 +1,4 @@
+:PROPERTIES:
+:ID:       97011425-33ab-45f3-8577-4c35dd0d8a06
+:END:
+#+title: Triangular Matrix

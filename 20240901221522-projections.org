@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       4869273d-968b-4a44-a521-3540049dea65
+:END:
+#+title: Projections
+#+filetags: linear_algebra vectors
+
+* Definition
+If \(\mathbf{u}\) and \(\mathbf{v}\) are [[id:81c97780-c8a5-4652-a6eb-d33732c37f1e][vectors]] in \(\mathbb{R}^n\) and \(\mathbf{u} \ne \mathbf{0}\), then the *projection of \(\mathbf{v}\) onto \(\mathbf{u}\)* is the vector \(\text{proj}_{\mathbf{u}}(\mathbf{v})\) defined by
+\begin{equation*}
+\text{proj}_{\mathbf{u}}(\mathbf{v}) \coloneqq \left(\frac{\mathbf{u}\cdot\mathbf{v}}{\mathbf{u}\cdot\mathbf{u}}\right) \mathbf{u}
+\end{equation*}
+[[file:images/projection.png]]
+
+* Remarks
+- The term projection comes from the idea of projecting an image onto a wall (with a slide projector, for example).
+  Imagine a beam of light with rays parallel to each other and perpendicular to us shining down on \(\mathbf{v}\).
+  The projection of \(\mathbf{v}\) onto \(\mathbf{u}\) is just the shadow cast, or projected, by \(\mathbf{v}\) onto \(\mathbf{u}\).
+- It may be helpful to think of \(\text{proj}_{\mathbf{u}}(\mathbf{v})\) as a function with variable \(\mathbf{v}\).
+  Then the variable \(\mathbf{v}\) occurs only once on the right-hand side of the definition.
+  Also, it is helpful to remember Figure 1.38, which reminds us that \(\text{proj}_{\mathbf{u}}(\mathbf{v})\) is a scalar multiple of the vector \(\mathbf{u}\) (not \(\mathbf{v}\)).
+- If the angle between \(\mathbf{u}\) and \(\mathbf{v}\) is obtuse, as in Figure 1.38, then \(\text{proj}_{\mathbf{u}}(\mathbf{v})\) will be in the opposite direction from \(\mathbf{u}\); that is, \(\text{proj}_{\mathbf{u}}(\mathbf{v})\) will be a negative scalar multiple of \(\mathbf{u}\).
+- If \(\mathbf{u}\) is a unit vector, then \(\text{proj}_{\mathbf{u}}(\mathbf{v}) = (\mathbf{u} \cdot \mathbf{v}) \mathbf{u}\).

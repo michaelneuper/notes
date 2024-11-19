@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       85980e04-a581-4bca-8d89-4ad9f522b0c3
+:END:
+#+title: Logarithmic Differentiation
+#+filetags: calculus derivatives
+
+* Definition
+#+begin_quote
+Let \(f\) be a function. To find its [[id:a350707f-ba1b-4912-ad8d-60e80e1c5d47][derivative]]
+1. Let \(y = f(x)\). Then \(|y| = |f(x)|\)
+2. Take the [[id:3d7be50d-0765-42a1-a373-a1a45c726cec][The Natural Logarithm]] of both sides of \(|y| = |f(x)|\) and use properties of logrithms to simplify
+3. [[id:8ee70436-fddf-47f4-8510-56607eb6a8f1][Differentiate implicitly]] w.r.t. \(x\)
+4. Solve for \(\frac{dy}{dx}\)
+#+end_quote

@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       87704c09-b23d-4980-ab11-0a5f839ebf59
+:END:
+#+title: Operations
+#+filetags: fundamentals
+
+* Definition
+#+begin_quote
+An n-ary operation on a [[id:56ae2cf4-a426-46fd-82eb-9acb3c8512ba][set]] \(X\) is a [[id:87d42439-b03b-48be-84ab-2215b4733dd7][function]] which assigns a [[id:d1a18e96-d26e-4ec0-85be-596c9d8a64a7][sequence]] of length \(n\) to elements in \(X\).
+#+end_quote
+
+* Binary Operation
+A *binary operation* is a 2-ary operation for example \(+, \cdot, \times, \cap, \cup\).
+
+* Unary Operation
+A *unary operation* is a 1-ary operation, it assigns elements in \(X\) to elemenst in \(X\). For example the operation \(x\in\mathbb{Z}\) given by \(-x\) (taking the negative of a number).
+
+* Properties of Operations
+- [[id:c8c7c8e4-f393-4508-8378-c5df7145692f][Closure]]
+- [[id:d5b9323d-271b-428f-8028-1d63bb90a5b5][Commutativity]]
+- [[id:c8f00bb3-244d-4138-8a02-86934cf0103b][Associativity]]
+- [[id:441fae62-367a-4c7e-9c2c-3df0d1132fe7][Distributive Property]]
+- [[id:4a4be2c5-36c5-4aeb-a62a-3535901b6129][De Morgan's Laws]]

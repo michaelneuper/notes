@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       6e2e5666-f4ae-4f10-ac53-f4015ee011a6
+:END:
+#+title: Grammatical Mood
+
+* Definition
+Refers to the pragmatic force of a [[id:6855ed0e-8cd9-4f5e-ad8f-0b8dd3ec81e5][clause]] ("what type of clause" it is).
+
+* Types
+- [[id:a9ed1451-a177-4374-aa81-e7e8094353b0][Declarative Mood]]
+- [[id:a1c13741-8e7c-4517-9b13-e0832d3c850d][Interrogative Mood]]
+- [[id:15eb051f-1ad2-4d8a-8cb0-23f18d3c1d73][Imperative Mood]]
+- [[id:e8a02730-b848-4dc3-bcc5-6a3a1b793078][Irrealis Mood]]

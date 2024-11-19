@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       60e83175-8286-4cf8-8d40-aee5c8727578
+:END:
+#+title: Data Structure
+#+filetags: data_structures
+
+* Definition
+#+begin_quote
+Represent data and the relationships among the data.
+#+end_quote

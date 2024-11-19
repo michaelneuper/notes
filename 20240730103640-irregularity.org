@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       b3ef0549-4fe9-417f-9776-665d63546218
+:END:
+#+title: Irregularity
+
+* Irregular Forms
+- foot - feet
+- person - people
+- fish - fish
+- sheep - sheep

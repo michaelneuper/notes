@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       dee3591f-d6bb-4695-bf11-12ea39df0764
+:END:
+#+title: Algorithm
+
+* Definition
+A process or set of instructions to be followed
+
+* Example
+Develop an algorithm to pick the largest number from the following list: 1, 7, 9, 3, 5, 6
+
+1. Choose first number and assign to it the label of current number
+2. Compare the remaining numbers with the current number in the order given in the list.
+3. If a larger number is found make it the current number and then continue comparing as before (continue where you are in the list).
+4. Continue in this way until you have run through all the numbers in the list.
+5. The number labelled as current number will be the largest number in the list.

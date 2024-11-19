@@ -1,0 +1,40 @@
+:PROPERTIES:
+:ID:       c0407dfb-dd46-488d-88e3-25733c215325
+:END:
+#+title: Mathematical Induction
+#+filetags: logic
+
+* Definition
+#+begin_quote
+Given any [[id:ac356044-060c-4b67-84f2-6361c9c574bb][predicate]] over \(\mathbb{N}\), say \(P\) then if \(P(0)\) is true and \(P(n) \Rightarrow P(n+1)\) is true for any \(n\in\mathbb{N}\) then \(P(n)\) is true for all \(n\in\mathbb{N}\).
+
+\begin{equation*}
+P(0) \wedge \forall n\in\mathbb{N} \left[P(n) \Rightarrow P(n+1)\right] \equiv \forall n\in\mathbb{N} [P(n)]
+\end{equation*}
+#+end_quote
+
+* Principle of Mathematical Induction
+Suppose \(\alpha(n)\) is a [[id:ac356044-060c-4b67-84f2-6361c9c574bb][var-statement]] about natural numbers \(n\).
+If we can know that
+1. \(\alpha(1)\) is true
+2. for any \(k\in\mathbb{N}\), \(\alpha(k)\Rightarrow\alpha(k+1)\) is true
+
+  then \(\alpha(n)\) is true for all \(n\in\mathbb{N}\)
+
+This is equivalent to the [[id:39937c5a-c5a2-4b90-b87a-e6250150d607][Well-ordering Principle]] of \(\mathbb{N}\)
+
+** Motivation
+Say (1) and (2) hold for some statement \(\alpha(n)\) over \(\mathbb{N}\)
+- by (1) \(\alpha(1)\) true
+- by (2) \(\alpha(1)\Rightarrow\alpha(2)\) so \(\alpha(2)\) true
+- by (2) \(\alpha(2)\Rightarrow\alpha(3)\) so \(\alpha(3)\) true
+- \(\cdots\)
+
+* Proof by Induction
+- Prove \(\alpha(1)\) is true
+- We let \(k\in\mathbb{N}\), assume \(\alpha(k)\) is true
+- Prove that \(\alpha(k+1)\) is true
+
+* Examples
+[[file:images/induction-1.png]]
+[[file:images/induction-2.png]]

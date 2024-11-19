@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       ec3693ee-4076-4d1e-a833-97300629d151
+:END:
+#+title: Permutations
+#+filetags: combinatorics counting
+
+Number of permutations of \(n\) *distinct* objects.
+
+For any \(n\in\mathbb{N}\cup\{0\}\), we define \(n\) factorial, denoted \(n!\), [[id:25af17fb-fb34-4bc4-961f-8e5e6bd138f9][recursively]] by
+\begin{equation*}
+n! \coloneqq
+\begin{cases} 1 & \text{if } n = 0 \\
+n(n-1)! & \text{if } n\in\mathbb{N}
+\end{cases}
+\end{equation*}
+
+so \(n! = n(n-1)(n-2) \cdots 3 \cdot 2 \cdot 1\)

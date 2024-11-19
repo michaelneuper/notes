@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       1b5003f1-d27c-42da-b8d1-8eb238861fce
+:END:
+#+title: Binary Search Tree
+
+* Definition
+A [[id:25af17fb-fb34-4bc4-961f-8e5e6bd138f9][recursive]] [[id:60e83175-8286-4cf8-8d40-aee5c8727578][data structure]] containing distinct comparable keys that is /ordered/.
+A BST is a null or a reference to a BST node (the root).

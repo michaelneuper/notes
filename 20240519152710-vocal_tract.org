@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       d693e2cf-a67f-4e14-a378-2a4ea40d5fbd
+:END:
+#+title: Vocal Tract
+#+filetags: phonetics
+
+* The Vocal Tract
+[[file:images/vocal-tract.png]]
+
+* Resources
+** Interactive Labelling
+https://australianlinguistics.com/vocal-tract/human-speech-organs/
+** Produce Sounds
+https://smu-facweb.smu.ca/~s0949176/sammy/

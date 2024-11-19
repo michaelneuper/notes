@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       9eaab080-a35f-4c62-bae7-e050c4d993b3
+:END:
+#+title: Curve Sketching
+#+filetags: calculus derivatives
+
+* Summary of Curve Sketching
+1. Find the domain of \(f\)
+2. Find the \(x\)- and \(y\)-intercept(s) of \(f\)
+3. Determine if the graph of \(f\) possesses any [[id:3500ef8a-ac1e-4542-b146-6e743a9acdde][symmetry]]: even, odd or perdiodic?
+4. Find the [[id:66fd2031-8280-4069-b668-76943d0c6ede][Horizontal Asymptotes]] and [[id:37b5af67-26ee-4718-989d-73859ef92956][Vertical Asymptotes]]
+5. Find the intervals of [[id:8e312bc0-0f98-4358-87c0-93aa32eeddef][increase]] and [[id:1c0fe441-35a7-4a60-a0cb-7cbf30048abd][decrease]].
+6. Find the local [[id:8e80da2f-092f-476a-b5f8-08749dc9dc1e][Maximum and Minimum Values]] of \(f\)
+7. Find the [[id:1e635710-fe6e-40ef-914a-022e2b01eb9c][concavity]] and [[id:3faec3b0-f37d-4c1a-b779-e125f3bf1f06][Points of Inflection]]
+8. Sketch the curve

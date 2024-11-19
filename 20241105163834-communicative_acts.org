@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       e2de34d1-4ac6-44ea-89ca-e5b79c111867
+:END:
+#+title: Communicative Acts
+
+* Definition
+Individual utterances that make up the [[id:b7efa13c-55f4-4f45-b321-8e93aefb7d2a][Communicative Events]]
+e.g. requests, command, statements, laughter, jokes, etc.
+
+Can also be expressed non-verbally
+e.g. waving, nodding your head and even silence
+
+* Example
+In lecture context:
+** Verbal
+ verbal statements, questions and answers, joke, examples..
+** Non-verbal
+- Hand gestures (raising hand to ask a question)
+- Facial expressions (express confusion)

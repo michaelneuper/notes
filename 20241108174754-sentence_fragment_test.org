@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       65def905-fb71-48c3-b95e-ff4180fba51f
+:END:
+#+title: Sentence Fragment Test
+
+* Definition
+If a string of words can serve as the answer to a question, they form a constituent.
+
+* Example
+"A tired student drinks many cups of coffee in the morning?"
+- Who drinks many cups of coffee? -> "a tired student"
+- What does a tired student drink? -> "many cups of coffee"
+- What does a tired student do in the morning? -> "drinks many cups of coffee"
+- When does a tired student drink many cups of cofee? -> "in the morning"

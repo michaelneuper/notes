@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       81c97780-c8a5-4652-a6eb-d33732c37f1e
+:END:
+#+title: Vectors
+#+filetags: linear_algebra vectors
+
+* Definition
+#+begin_quote
+A *vector* is a _directed_ line segment that corresponds to a displacement from one point \(A\) to another point \(B\).
+#+end_quote
+
+* Notation
+- \(\overrightarrow{AB}\) denotes a vector from \(A\) to \(B\)
+- \(A\) - inital point or tail
+- \(B\) - terminal point or head
+- Can be denoted \(\vec{a}\) or \(\mathbf{a}\)
+
+[[file:images/vector.svg]]
+
+Suppose in above figure \(A=(1,1)\) and \(B=(4,4)\), then
+\begin{equation*}
+\vec{a} = [4-1,4-1] = [3,3]
+\end{equation*}
+
+* Notes
+- Sometimes said to be an ordered pair of real numbers.
+- Two vectors are equal if and only if their components are equal.
+- \([x,y] = [1,3] \Rightarrow x=1,y=3\)
+- Sometimes convenient to use column vectors, i.e.
+  \begin{bmatrix} 3 \\ 2 \end{bmatrix}
+- \(\mathbb{R}^n\) denotes the [[id:56ae2cf4-a426-46fd-82eb-9acb3c8512ba][set]] of all vectors with \(n\) components.

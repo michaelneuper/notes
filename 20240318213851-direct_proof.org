@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       881a723b-86ee-484c-8558-6cdddf11c110
+:END:
+#+title: Direct Proof
+
+* Definition
+To prove \(\alpha\Rightarrow\beta\), we assume \(\alpha\) and try deduce \(\beta\).
+
+* Example
+[[file:images/direct-proof.png]]

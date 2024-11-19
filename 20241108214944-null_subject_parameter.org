@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       7bb58b05-8104-498b-9414-2b21681f6a92
+:END:
+#+title: Null Subject Parameter
+
+* Definition
+The subject of a [[id:ef763776-f9dd-4598-98c8-ce473c306db8][finite]]/tensed declarative sentence in language X
+- can be phonetically empty (null subject, indicated as /pro/), or
+- must be phonetically realised (non-null subject)

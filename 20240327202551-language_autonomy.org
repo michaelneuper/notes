@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       69f01a4b-5c25-4392-a6c4-d59a57f01c21
+:END:
+#+title: Language Autonomy
+#+filetags: neurolingusitics
+
+#+begin_quote
+No direct correlation between a person's general intelligence and language skills.
+#+end_quote
+
+* Language Savants
+- Low IQ
+- No problems with language

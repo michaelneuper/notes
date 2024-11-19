@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       d974a4cd-8904-4d95-9ca7-e5b1cbba41e8
+:END:
+#+title: Utterances
+
+* Definition
+- Units of [[id:795ee61d-0a07-4bb8-8fd6-79a634ba0765][linguistic performance]]
+- Concrete realisation of an underlying sentence
+- Subject to non-linguistic factors
+- Limited in number and length
+- Can contain errors

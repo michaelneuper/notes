@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       0b5055a4-2f1d-4c9a-9fc0-73bd55b42c4f
+:END:
+#+title: Universal Grammar
+
+- Scientific description of those structural features that are found in all human languages
+- Describes the universal featuers of language in the form of generic principles
+- Model of biologically-based language faculty -> the genetic "programme" which enables a child to acquire a [[id:f9efe42e-017f-4ede-9406-ab0526729e43][grammatical competence]]
+- Also known as the general theory of language
+- Constructed by general linguists in the study area of (General) Linguistics
+
+* Required for an Adequate Theory UG
+1. Descriptively adequate theory
+2. Explanatorily adquate theory
+3. Adequately constrained theory (limited descriptive power)
+4. Requirement / condition of learnability
+5. UG theory must be economical
+
+* Parameters (parametric variation)
+- represent grammatical options
+- express language specific grammatical aspects
+- are in-born/innate
+- language-specific content acquired through exposure = unconsciously "learned"
+
+* Principles
+- [[id:45843a9e-1c97-4166-b370-4c872d14e0e0][Subject Principle]]
+- [[id:b118965e-0532-4dd2-a992-619369f66766][Head Principle]]

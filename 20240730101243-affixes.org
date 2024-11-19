@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       afd36133-0af4-41f7-a158-cc74636e0e6c
+:END:
+#+title: Affixes
+
+* Definition
+#+begin_quote
+[[id:09845b83-73a7-4e6a-941d-df1ecbdf32d8][Bound Morphemes]] that are attached to words and change their meaning or grammatical function.
+#+end_quote
+
+* Types
+- [[id:c976dfcf-a201-4be6-bf7d-df9e245a86c7][Inflectional Affixes]]
+
+* Prefix
+/un/ in /unbelievable/
+
+* Suffix
+/able/ in /unbelievable/
+
+* Infix
+/flipping/ in /unflippingbelievable/
+
+* Circumfix (archaic english)
+/a/ /ing/ in /awalking/

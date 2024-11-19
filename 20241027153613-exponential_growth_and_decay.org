@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       5afdfbe0-4869-48cd-8cfe-ae2e4131abae
+:END:
+#+title: Exponential Growth and Decay
+
+* Definition
+#+begin_quote
+In general, if \(y(t)\) is the value of a quantity \(y\) at time \(t\) and if the rate of change of \(y\) with respect to \(t\) is proportional to its size \(y(t)\) at any time, then
+\begin{equation*}
+\frac{dy}{dt} = ky
+\end{equation*}
+where \(k\) is a constant.
+
+This is sometimes called the *law of natural growth* if \(k > 0\) or the *law of natural decay* if \(k<0\).
+#+end_quote
+
+* Theorem
+The only solutions of the [[id:7434ea42-2761-4665-979d-e8314e74fc3a][differential equation]] above are the [[id:62595d13-d132-4577-8f64-240eb88c750f][exponential functions]]
+\begin{equation*}
+y(t) = y(0) e^{kt}
+\end{equation*}

@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       169dc982-0bb0-499a-a45b-887b0274890e
+:END:
+#+title: Context in Language
+
+* Physical Context
+The concrete environment in which the interaction takes place.
+
+This includes the environmental conditions and any details that may be important to the interaction.
+
+* Social Context
+Who the participants are and the nature of their relationships.
+
+* Cultural Context
+Norms shared by the society and culture.
+
+Ways of speaking, interacting, behaving and thinking that are considered appropriate and normal in that setting.

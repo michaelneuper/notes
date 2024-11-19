@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       174608ab-bd8a-43b1-8690-76615e30c5c9
+:END:
+#+title: Limits at Infinity
+#+filetags: calculus functions_and_limits
+
+* Intuitive Definition
+#+begin_quote
+Let \(f\) be a function defined on some interval \((a,\infty)\) and \(L\in\mathbb{R}\).
+Then
+\begin{equation*}
+\lim_{x\to\infty}f(x) = L
+\end{equation*}
+if the values of \(f(x)\) can be made arbitrarily close to \(L\) by choosing \(x\) to be sufficiently large.
+
+Let \(f\) be a function defined on some interval \((-\infty, a)\) and \(L\in\mathbb{R}\).
+Then
+\begin{equation*}
+\lim_{x\to-\infty}f(x) = L
+\end{equation*}
+if the values of \(f(x)\) can be made arbitrarily close to \(L\) by choosing \(x\) to be negative with sufficiently large magnitude.
+#+end_quote
+
+* Precise Definition
+[[file:images/limit-at-infty.png]]
+
+* Notes
+Most [[id:6ffde4e8-a12d-4c3a-bc24-675b5a38433c][Limit laws]] hold, except 9. and 10.

@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       64ddcdb4-6a2c-4386-a114-4382ea26d02d
+:END:
+#+title: Rolle's Theorem
+#+filetags: calculus derivatives theorem
+
+* Definition
+#+begin_quote
+Let \(a,b\in\mathbb{R}\) and \(f\) be any [[id:87d42439-b03b-48be-84ab-2215b4733dd7][function]] that satisfies the following conditions:
+
+1. \(f\) is [[id:9f66f38c-1072-4146-9efe-5a90f984d480][continuous]] on \([a,b]\)
+2. \(f\) is [[id:086cb8a0-bd8b-465a-8b0c-65d60f454421][differentiable]] on \((a,b)\)
+3. \(f(a) = f(b)\)
+
+Then there exists some \(c\in(a,b)\) such that \(f'(c) = 0\).
+#+end_quote

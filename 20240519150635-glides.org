@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       d3fcb290-8b15-45b3-b823-6678c40296af
+:ROAM_ALIASES: Semi-vowels
+:END:
+#+title: Glides
+#+filetags: phonetics
+
+* Definition
+#+begin_quote
+Halfway between [[id:c7dc39d3-f617-4902-b909-8a378c4a1e6a][vowels]] and [[id:fc791ad0-6d5d-401f-a4d0-0cea9582a9ce][consonants]].
+#+end_quote
+
+* Glides
+- [w] as in *w*hy
+- [j] as in *y*es

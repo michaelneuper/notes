@@ -1,0 +1,32 @@
+:PROPERTIES:
+:ID:       4a4be2c5-36c5-4aeb-a62a-3535901b6129
+:END:
+#+title: De Morgan's Laws
+#+filetags: logic
+
+* Definition
+#+begin_quote
+If \(\square\) and \(\triangle\) are [[id:87704c09-b23d-4980-ab11-0a5f839ebf59][operations]] on a set \(X\) and \({}^{\circ}\) is a unary operation on \(X\) then De Morgen's Law states that
+\begin{equation*}
+(x \square y)^{\circ} = x^{\circ}\triangle y^{\circ}
+\end{equation*}
+#+end_quote
+
+* Applied to [[id:56ae2cf4-a426-46fd-82eb-9acb3c8512ba][Sets]]
+\((E\cup F)^{c} = E^{c}\cap F^{c}\) and \((E \cap F)^{c} = E^{c}\cup F^{c}\)
+
+** In General
+#+begin_quote
+If \(U\) is a universal set then for any subsets \(A_1, A_2,\ldots,A_n\) then
+\begin{equation*}
+\overline{\bigcup_{k=1}^nA_k} = \bigcap_{k=1}^n\overline{A_{k}}
+\end{equation*}
+
+This can be proved by [[id:c0407dfb-dd46-488d-88e3-25733c215325][Mathematical Induction]] on \(n\).
+#+end_quote
+
+* Applied to [[id:c320994c-b8c2-4d38-8954-d75f1c8aa022][Logical Operators]]
+\(\neg(E \vee F) = (\neg E) \wedge (\neg F)\) and \(\neg(E \wedge F) = (\neg E) \vee (\neg F)\)
+
+** Example
+The statement "It is not the case that Bob ate pizza at lunch and then went for a walk", would be equivalent to "Either Bob didn't eat pizza for lunch or Bob didn't go for a walk".

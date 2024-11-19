@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       88fbf286-a581-45bf-a765-5d27d3472517
+:END:
+#+title: Variables
+
+* Definition
+A name that refers to the value of a specific [[id:72f40898-b06c-4c82-b670-b892182657a9][data type]]
+
+* Example
+- a
+- b

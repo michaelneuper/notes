@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       be555b01-d535-4963-8fb1-8c5e051b6c6c
+:END:
+#+title: Head-position Parameter
+
+In language X the head occurs:
+- before its complement, or
+- after its complement

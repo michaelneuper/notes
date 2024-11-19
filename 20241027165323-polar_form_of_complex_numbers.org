@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       ce6b0053-30a2-40ec-871f-dd0c96ab0956
+:END:
+#+title: Polar Form of Complex Numbers
+
+* Definition
+#+begin_quote
+For any [[id:d59a3705-6045-4b74-8e99-a42b4cbacbbe][complex number]] \(z\) with [[id:ae53c833-60af-401d-88b4-eea634debb0f][modulus]] \(r = \lvert z \rvert\) and we can write \(z\) in [[id:e173dcae-762b-43a3-9ca4-599e2ba6c76a][polar]] form:
+\begin{equation*}
+z = r(\cos\varphi + i \sin\varphi)
+\end{equation*}
+
+where \(\varphi\) is the [[id:21b4e0cf-cd16-41cd-a93a-d5b04b79e1ea][argument]] of \(z\).
+#+end_quote
+[[file:images/polar-form.png]]

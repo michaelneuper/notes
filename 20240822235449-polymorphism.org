@@ -1,0 +1,79 @@
+:PROPERTIES:
+:ID:       ccfca208-d47e-433d-86c9-10519fcab5f7
+:END:
+#+title: Polymorphism
+
+* Definition
+#+begin_quote
+Allows objects of different [[id:bcab6ba6-de4b-4509-95fb-aee12584a1ed][classes]] to be treated as objects of a common superclass.
+Key concept in [[id:045de827-7b9a-4212-82f9-e9e9869d0e94][OOP]].
+#+end_quote
+
+* Types
+** Duck Typing
+If an object implements the required methods, it can be used in place of any other object that implements those methods, regardless of their actual class.
+#+begin_quote
+“If it looks like a duck and quacks like a duck, it’s a duck.”
+#+end_quote
+
+#+begin_src python
+class Dog:
+    def speak(self):
+        return "Woof!"
+
+class Cat:
+    def speak(self):
+        return "Meow!"
+
+def make_animal_speak(animal):
+    print(animal.speak())
+
+dog = Dog()
+cat = Cat()
+
+make_animal_speak(dog)  # Outputs: Woof!
+make_animal_speak(cat)  # Outputs: Meow!
+#+end_src
+** Method Overriding
+Method overriding occurs when a subclass provides a specific implementation of a method that is already defined in its superclass.
+This allows the subclass to modify or extend the behavior of the method while maintaining the same method signature.
+#+begin_src python
+class Animal:
+    def speak(self):
+        return "Some sound"
+
+class Dog(Animal):
+    def speak(self):
+        return "Woof!"
+
+class Cat(Animal):
+    def speak(self):
+        return "Meow!"
+
+animals = [Dog(), Cat()]
+
+for animal in animals:
+    print(animal.speak())
+#+end_src
+** Method Overloading
+Python allows the same operator to have different meanings depending on the types of the operands.
+This is a form of polymorphism where operators like ~+~, ~*~, etc., are overloaded to work with different types.
+
+#+begin_src python
+class Point:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+    def __add__(self, other):
+        return Point(self.x + other.x, self.y + other.y)
+
+    def __repr__(self):
+        return f"Point({self.x}, {self.y})"
+
+p1 = Point(1, 2)
+p2 = Point(3, 4)
+p3 = p1 + p2  # Uses __add__ method
+
+print(p3)  # Outputs: Point(4, 6)
+#+end_src

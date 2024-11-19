@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       ef763776-f9dd-4598-98c8-ce473c306db8
+:END:
+#+title: Finiteness
+
+A [[id:6855ed0e-8cd9-4f5e-ad8f-0b8dd3ec81e5][clause]] can be either finite or infinite.
+
+* Finite Clause
+A clause containing an [[id:d0a42ea7-2e9d-486a-a458-d351b79c47b8][auxiliary verb]] or main [[id:d1cfe60a-53d4-470a-aea5-4b4bc9890d8f][verb]] which can have a nominative subject ("he/she/they"):
+/She remembers the interesting book./
+
+You can identify and change the tense in a finite clause.
+
+* Infinite Clause
+A clause containing a verb in the infinitive form ("to" + VERB):
+/I like *to bake* cookies./
+
+The subject of an infinite clause is either in the accusative form or not pronounced.

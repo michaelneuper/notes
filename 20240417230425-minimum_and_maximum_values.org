@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       8e80da2f-092f-476a-b5f8-08749dc9dc1e
+:END:
+#+title: Maximum and Minimum Values
+#+filetags: calculus derivatives
+
+* Absolute/Global Maximum/Minimum
+Let \(c\) be a number in the domain \(D\) of a function \(f\).
+Then \(f(c)\) is the
+
+- *absolute maximum* value of \(f\) on \(D\) if \(f(c) \ge f(x)\) for all \(x\) in \(D\).
+- *absolute minimum* value of \(f\) on \(D\) if \(f(c) \le f(x)\) for all \(x\) in \(D\).
+
+* Local Maximum/Minimum
+The value of \(f(c)\) is a
+
+- *local maximum* value of \(f\) if \(f(c) \ge f(x)\) when \(x\) is near \(c\).
+- *local minimum* value of \(f\) if \(f(c) \le f(x)\) when \(x\) is near \(c\).

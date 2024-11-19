@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       cfc40864-219f-4fbe-95b0-6fe72f803b2e
+:END:
+#+title: Prepositions
+
+* Definition
+Prepositions have the [[id:0d486aeb-8483-48d6-a6f1-44313bbc5eb4][semantic]] property of marking a spatial relationship between two elements.
+
+Examples: /in/, /under/, /behind/, /above/, /below/, /off/.
+
+* Can be followed by:
+** [[id:8f34fe1c-acd6-4e4f-b609-7b73efea7336][Noun Phrase]]
+in /the house/, under /the couch/, above /water/
+** [[id:3c3dde56-ed04-4c2b-ae3c-37637a3be182][Prepositional Phrase]]
+down /into the cellar/, up /against the wall/
+** No complement
+they went away __
+
+* Note
+- Prepositions cannot undergo inflection:
+  - no past tense: *offed
+  - no superlative form: *offest
+  - no plural form: *offs
+- Prepositions form a subclass of the larger lexical category of [[id:666b5a4b-b177-4aef-b97a-6a3e12270e82][Adpositions]]

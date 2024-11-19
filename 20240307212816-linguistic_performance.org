@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       795ee61d-0a07-4bb8-8fd6-79a634ba0765
+:ROAM_ALIASES: E-Language
+:END:
+#+title: Linguistic Performance
+
+* Definition
+A speaker's use of [[id:f9efe42e-017f-4ede-9406-ab0526729e43][grammatical knowledge]] in language behaviour

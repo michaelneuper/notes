@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       0d486aeb-8483-48d6-a6f1-44313bbc5eb4
+:END:
+#+title: Semantics
+#+filetags: linguistics_foundations
+
+* Definition
+- Semantic knowledge includes knowledge of which sound sequences are linked to or associated with which meanings.
+- Also includes knowledge of the *semantic relationships* between words, phrases and sentences.
+- Enables the fluent speaker to judge whether utterances are semantically well-formed / ill-formed.
+- Words, sentences, phrases comprise two essential aspects:
+** Linguistic Meaning
+** Observable Form
+
+* Examples
+- Quadroped
+- Carnivorous
+
+* Natural Relationship
+- Meaning *can* be deduced from the form and vice versa
+- This includes [[id:c6ab9aa1-b6b7-43cb-a755-bcd990db998d][human language]]
+[[file:images/natural-relationship.png]]
+
+* Arbitrary Relationship
+- Meaning *cannot* be deduced from the form and vice versa
+- Cf. sound made by a dove
+[[file:images/arbitrary-relationship.png]]

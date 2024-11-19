@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       a6cc5841-2c94-4f62-b1bd-5a25db05504d
+:END:
+#+title: Linear Technical Model of Communication
+
+* Definition
+Communication is viewed as a linear process which involves sending and receiving messages between a sender and a receiver.
+
+*Sender*: The person who formulates, encodes and send the message
+
+*Receiver*: The person who receives and decodes the message
+
+* Assumptions
+- The sender is the active participant while the receiver plays a passive role only
+- The process of encoding and decoding happens unproblematically
+- Not concerned with the complex ways in which people make meaning from word

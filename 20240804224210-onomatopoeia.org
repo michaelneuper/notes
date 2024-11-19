@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       e0fa678c-9ba7-43ab-821d-50d51daf9904
+:END:
+#+title: Onomatopoeia
+
+* Definition
+#+begin_quote
+Words that [[id:7edabb20-86fd-44fc-8552-0bb8d10663f8][phonetically]] imitate or resemble the sound that they describe.
+#+end_quote
+
+* Examples
+- splash

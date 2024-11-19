@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       ceca6e9c-8832-4d54-9442-d1675964ebca
+:END:
+#+title: Probability Mass Function
+#+filetags: discrete_random_variables
+
+* Formula
+#+begin_quote
+\(p(a) = P\{X = a\}\)
+#+end_quote
+
+* Note
+If \(X\) can take on the values \(x_1, x_2, x_3,\cdots\), then
+\begin{equation*}
+p(x)
+\begin{cases}
+> 0, \quad \text{if } x \in \{x_1, x_2, x_3,\cdots\} \\
+= 0, \quad \text{if } x \not\in \{x_1, x_2, x_3,\cdots\}
+\end{cases}
+\end{equation*}

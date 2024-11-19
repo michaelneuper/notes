@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       392c7fec-581b-457b-a42a-c0f2ee2bfbb4
+:END:
+#+title: Equivalence Relations
+
+* Definition
+An *equivalence relation* is a binary [[id:72a5316f-9b83-4c20-aa2e-42ffe2813cfb][relation]] that is [[id:f335aa45-3a2c-43e6-9d60-7e0e4cbe1e43][reflexive]], [[id:d5865dc9-4394-40fd-add2-075fc6bd1aea][symmetric]] and [[id:7b389a98-ad6e-4514-83e2-5fa4b5fff869][transitive]].
+
+* Examples
+- Equality: \( a = b \)
+- [[id:584329a2-63ec-47b3-bdb6-a3c86e37e30e][Equivalence]]

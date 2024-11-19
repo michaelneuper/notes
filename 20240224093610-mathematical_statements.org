@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       675d2e38-6ee5-49a0-9c07-bb1b5291a2f7
+:ROAM_ALIASES: "Mathematical Statement"
+:END:
+#+title: Propositions
+#+filetags: sets_and_logic logic
+
+* Definition
+#+begin_quote
+- Mathematical statements are claims about mathematical objects which are either true or false.
+
+- These can be written using mathematical symbols, but must be able to be rewritten in English as full sentences, including a *verb* and ending with a full stop.
+
+- Statements that contain variables are called [[id:ac356044-060c-4b67-84f2-6361c9c574bb][predicates]].
+
+- Statements can be [[id:c320994c-b8c2-4d38-8954-d75f1c8aa022][combined]] to form new statements.
+
+- See also: [[id:244746aa-6a18-4c21-8010-6a9c5037aaee][Conditional Statements]]
+#+end_quote
+
+* Examples
+- "\(7\) is a real number" is a true statement.
+- "\(\pi \in \mathbb{Z}\)" is a false statement.
+- "\(2^3 - 1\)" is not a statement. (there is no verb)

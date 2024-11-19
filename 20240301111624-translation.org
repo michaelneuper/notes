@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       39171c2e-036b-4b31-9b08-ae4fdb5da56c
+:END:
+#+title: Translations
+
+Let \(c\in\mathbb{R}\) with \(c>0\) and let \(f\) be any function. Then the graph of:
+- \(y=f(x) + c\) is given by translating the graph of \(y=f(x)\) \(c\) units *upward*
+- \(y=f(x) - c\) is given by translating the graph of \(y=f(x)\) \(c\) units *downward*
+- \(y=f(x + c)\) is given by translating the graph of \(y=f(x)\) \(c\) units to the *right*
+- \(y=f(x - c)\) is given by translating the graph of \(y=f(x)\) \(c\) units to the *left*

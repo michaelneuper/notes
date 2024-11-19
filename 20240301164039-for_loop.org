@@ -1,0 +1,42 @@
+:PROPERTIES:
+:ID:       08e3d37f-82d5-4fcc-9e62-1b9439ba8cb7
+:END:
+#+title: For Loop
+
+* Definition
+- Alternative to the [[id:08e3d37f-82d5-4fcc-9e62-1b9439ba8cb7][for loop]]
+- Evaluates a statement for a set number of iterations
+
+* Example
+** Range
+#+begin_src python :results output
+for i in range(5):
+    print(i, end='')
+#+end_src
+
+#+RESULTS:
+: 01234
+** [[id:5dd16ee4-a99e-495e-b0ed-e5cbcc42a6b4][List]]
+#+begin_src python :results output
+fruits = ['apple', 'orange', 'banana']
+
+for fruit in fruits:
+    print(fruit)
+#+end_src
+
+#+RESULTS:
+: apple
+: orange
+: banana
+
+#+begin_src python :results output
+fruits = ['apple', 'orange', 'banana']
+
+for index, element in enumerate(fruits):
+    print(f'{index}: {element}')
+#+end_src
+
+#+RESULTS:
+: 0: apple
+: 1: orange
+: 2: banana

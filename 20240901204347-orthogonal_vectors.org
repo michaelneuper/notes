@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       e72ed228-459c-47da-abab-dbb8a457bd7e
+:END:
+#+title: Orthogonal Vectors
+#+filetags: linear_algebra vectors
+
+* Definition
+#+begin_quote
+Two [[id:81c97780-c8a5-4652-a6eb-d33732c37f1e][vectors]] \(\mathbf{u}\) and \(\mathbf{v}\) in \(\mathbb{R}^n\) are *orthogonal* to each other if
+\begin{equation*}
+\mathbf{u} \cdot \mathbf{v} = 0
+\end{equation*}
+#+end_quote
+
+* Notes
+- Orthogonalality is the concept of perpendicularity generalised to vectors in \(\mathbb{R}^n\).
+- Two vectors are perpendicular if \(\theta=\pi/2\), thus \(\frac{\mathbf{u}\cdot\mathbf{v}}{\|\mathbf{u}\|\|\mathbf{v}\|} = 0 \Rightarrow \mathbf{u}\cdot\mathbf{v} = 0\)

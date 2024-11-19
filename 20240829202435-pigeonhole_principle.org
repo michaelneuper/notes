@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       e11d231c-a032-4c84-9285-a7544a1b7832
+:END:
+#+title: Pigeonhole Principle
+#+filetags: combinatorics theorem
+
+* Definition
+#+begin_quote
+If \(n\) pigeons are assigned to \(m\) pigeonholes, and \(m<n\), then at least one pigeonhole contains two or more pigeons.
+#+end_quote
+
+* For Functions
+#+begin_quote
+For any [[id:87d42439-b03b-48be-84ab-2215b4733dd7][function]] \(f:X\to Y\), if \(|Y|<|X|\) then are two elements \(x_1,x_2\in X\) such that \(x_1=x_2\) and \(f(x_1)=f(x_2)\)
+#+end_quote
+
+* Example
+Show that if any five numbers from 1 to 8 are chosen, then two of them will add to 9.
+
+** Solution
+Construct four different sets, each containing two numbers that add up to 9 as follows: \(A_1 = \{1,8\}, A_2 = \{2,7\}, A_3 = \{3,6\}, A_4 = \{4,5\}\).
+Each of the five numbers chosen must belong to one of these sets.
+Since there are only four sets, the pigeonhole principle tells us that two of the chosen numbers belong to the same set.
+These numbers add up to 9.

@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       b7efa13c-55f4-4f45-b321-8e93aefb7d2a
+:END:
+#+title: Communicative Events
+
+Refers to *activities which involve language* within a [[id:fef705aa-50cb-465d-b71b-ad1f1a01d0b0][communicative situation]]
+
+e.g. In a lecture context:
+Greeting, announcements, course admin and enquiries about the lecture

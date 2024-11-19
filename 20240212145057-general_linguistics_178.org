@@ -1,0 +1,179 @@
+:PROPERTIES:
+:ID:       2859be0e-01f9-496b-9574-99c30122c6d2
+:END:
+#+title: General Linguistics 178
+#+filetags: module
+
+* Foundations
+** Lecture 1 :l1:
+** Lecture 2 :l2:
+*** [[id:ddd6df0c-5d99-45d5-9b48-4e4610547fbf][Message Model of Communication]]
+*** [[id:e3f34a3e-5d74-4414-9ad7-93f381e576e3][Functions of Language]]
+** Lecture 3 :l3:
+*** [[id:e3f34a3e-5d74-4414-9ad7-93f381e576e3][Functions of Language]]
+** Lecture 4.1 :l4_1:
+*** [[id:3b32c0ae-c4e1-4d99-9d41-39b84f235898][Knowledge of a Language]]
+** Lecture 4.2 :l4_2:
+** Lecture 5 :l5:
+*** [[id:0d486aeb-8483-48d6-a6f1-44313bbc5eb4][Semantics]]
+** Lecture 6 :l6:
+*** [[id:19cd4f54-86ac-4d58-9999-f0c25e3e7527][Morphology]]
+** Lecture 7 :l7:
+*** [[id:0ea0ce4d-e70f-4f41-8c39-ae2fc7d06817][Syntax]]
+** Lecture 8 :l8:
+** Lecture 9 :l9:
+*** [[id:1a3a4f9c-8567-40c1-9da9-1540139d5899][Sentences]]
+*** [[id:d974a4cd-8904-4d95-9ca7-e5b1cbba41e8][Utterances]]
+** Lecture 10 :l10:
+*** [[id:6f9cb5ec-c73f-434f-9e55-c7a0ac95120f][Grammar]]
+** Lecture 11 :l11:
+*** [[id:c6ab9aa1-b6b7-43cb-a755-bcd990db998d][Features of Human Language]]
+** Lecture 12 :l12:
+*** [[id:c6ab9aa1-b6b7-43cb-a755-bcd990db998d][Features of Human Language]]
+* Neurolinguistics
+** Lecture 1 :nl1:
+*** [[id:6afc397c-237e-4450-ac85-abb945da30bf][Localisation]]
+*** [[id:5b182033-4b47-42d0-92c8-b23ca8dd7f20][Modularity]]
+*** [[id:bbdce7f9-b315-40d2-9eaa-434e3dbf8b06][Lateralisation]]
+*** [[id:30c2c43a-9f97-44dd-a2d3-f3d8c9e0449f][Aphasia]]
+** Lecture 2 :nl2:
+*** [[id:69f01a4b-5c25-4392-a6c4-d59a57f01c21][Language Autonomy]]
+** Lecture 3 :nl3:
+*** [[id:9cc5e382-efad-4d61-9796-b7ce99d9e8a7][Language in the Brain]]
+* Language Acquisition
+** Lecture 1 :la1:
+*** [[id:4e487449-8485-4fb3-84ab-c96c8285c95b][Theories of Language Acquisition]]
+*** [[id:a15b4a0f-1f70-4b2c-824e-67841bd8b44b][The Innateness Hypothesis]]
+** Lecture 2 :la2:
+*** [[id:6f2fc187-643f-42b8-968a-ceac5e3508d7][Imitation]]
+*** [[id:3e345d2e-e70e-40bf-a19e-d7a4504b1166][Reinforcement]]
+*** [[id:ff7d0cc5-4b60-461f-9aab-7bdfd417c10f][Analogy]]
+*** [[id:1f322dd1-05be-482e-bd91-a22ac64b3c58][Social Interactionism]]
+** Lecture 3 :la3:
+*** [[id:8061aa34-feb3-4456-96f1-82c9203cf780][Stages in Language Acquisition]]
+** Lecture 4 :la4:
+** Lecture 5 :la5:
+* Phonetics
+** Lecture 1 :p1:
+*** [[id:f6cb0ecc-0219-49e4-868b-098b707113b6][Phonology]]
+*** [[id:7edabb20-86fd-44fc-8552-0bb8d10663f8][Phonetics]]
+** Lecture 2 :p2:
+*** [[id:b7ec32a6-345f-49e7-a377-f41b43f16d71][IPA]]
+** Lecture 3 :p3:
+*** [[id:fc791ad0-6d5d-401f-a4d0-0cea9582a9ce][Consonants]]
+** Lecture 4 :p4:
+*** [[id:c7dc39d3-f617-4902-b909-8a378c4a1e6a][Vowels]]
+*** [[id:d3fcb290-8b15-45b3-b823-6678c40296af][Glides]]
+*** [[id:b1839aa5-ae20-4579-b049-04d2cbe75380][Dipthongs]]
+** Lecture 5 :p5:
+*** [[id:d693e2cf-a67f-4e14-a378-2a4ea40d5fbd][Vocal Tract]]
+*** [[id:b6476e30-2a8d-4c15-9cef-60797da2b22f][Place of Articulation]]
+** Lecture 6 :p6:
+*** [[id:fc791ad0-6d5d-401f-a4d0-0cea9582a9ce][Consonants]]
+** Lecture 7 :p7:
+*** [[id:c7dc39d3-f617-4902-b909-8a378c4a1e6a][Vowels]]
+*** [[id:cf14ed21-9e20-4930-b344-f71ab95b99d5][Feature Bundles]]
+*** [[id:88f16dc4-bd0b-43de-b2c2-6f4ceea68383][Feature Matrices]]
+** Lecture 8 :p8:
+*** Revision/practice
+** Lecture 9 :p9:
+*** [[id:3f7dc694-9c9e-470b-9c66-838def9c830b][Main Class Features]]
+** Lecture 10 :p10:
+*** Revision
+* Morphology
+** Lecture 1 :ml1:
+*** [[id:19cd4f54-86ac-4d58-9999-f0c25e3e7527][Morphology]]
+** Lecture 2 :ml2:
+*** [[id:9fab0955-2bbe-4552-ad9f-d4591a89def9][Lexemes and Word Forms]]
+*** [[id:6520f76a-6137-4e67-bfb9-0e3fd7b8e628][Morphemes]]
+*** [[id:8a1148be-ca0a-44cf-a140-c9e3191f8f90][Root Words]]
+*** [[id:afd36133-0af4-41f7-a158-cc74636e0e6c][Affixes]]
+** Lecture 3 :ml3:
+*** [[id:7f92cbd6-018a-4933-9481-399325a626b4][Allomorphs]]
+*** [[id:b3ef0549-4fe9-417f-9776-665d63546218][Irregularity]]
+*** [[id:49794423-18e1-4aaa-b971-0b3947adc81b][Suppletion]]
+** Lecture 4 :ml4:
+*** [[id:c976dfcf-a201-4be6-bf7d-df9e245a86c7][Inflectional Morphemes]]
+*** [[id:29c262ab-2215-4868-8b89-26a3e272400d][Concord]]
+** Lecture 5 :ml5:
+*** [[id:18c8f4a8-af5b-4c4e-8b9b-3ae0f9ce5b37][Word Formation]]
+*** [[id:0dd03b4c-dabe-42f3-9626-10c8e16def52][Derivation]]
+*** [[id:c6e14bfb-89e2-4e81-8e64-a30c026e90e6][Compounding]]
+** Lecture 6 :ml6:
+*** [[id:18c8f4a8-af5b-4c4e-8b9b-3ae0f9ce5b37][Word Formation]]
+*** [[id:e0fa678c-9ba7-43ab-821d-50d51daf9904][Onomatopoeia]]
+*** [[id:265de3a9-f803-4fbe-b144-f95b69da17b5][Reduplication]]
+*** [[id:c81ca294-1507-4716-891f-d641b6413b77][Conversion]]
+** Lecture 7 :ml7:
+*** [[id:18c8f4a8-af5b-4c4e-8b9b-3ae0f9ce5b37][Word Formation]]
+*** [[id:ea36d9d8-8cb2-4868-a4d1-adfa538e95b8][Borrowing]]
+*** [[id:727ef920-be25-4e8e-82d5-6353caa07759][Clipping]]
+*** [[id:b4315ecd-41ed-4527-80ea-3ffb72597d8b][Blends]]
+*** [[id:3cb1ee5c-b875-4c88-b2ee-dbb6a21aaa78][Backformations]]
+** Lecture 8 :ml8:
+*** [[id:18c8f4a8-af5b-4c4e-8b9b-3ae0f9ce5b37][Word Formation]]
+*** [[id:9053c2ec-d1de-4761-885d-470e069dda2b][Eponyms]]
+*** [[id:3e8cfeb8-c3ee-4465-956d-24f065ea114d][Neologisms]]
+*** [[id:20b6443b-50db-44a8-b227-1723f4c3eafe][Folk Etymology]]
+** Lecture 9 :ml9:
+*** [[id:6520f76a-6137-4e67-bfb9-0e3fd7b8e628][Morphemes]]
+** Lecture 10 :ml10:
+*** [[id:6520f76a-6137-4e67-bfb9-0e3fd7b8e628][Morphemes]]
+** Lecture 11 :ml11:
+*** [[id:6368a865-e6f8-4e74-bc94-2ee073e00e9b][Analytic Languages]]
+*** [[id:f50ab6ae-9912-400a-9867-78e0943ac753][Synthetic Languages]]
+** Lecture 12
+*** Revision
+* TODO Multilingual & Multimodal Communication
+** Lecture 1 :mmcl1:
+*** [[id:ddd6df0c-5d99-45d5-9b48-4e4610547fbf][Process of Linguistic Communication]]
+*** [[id:670ecdbd-4bb2-4a1a-ab06-7d5ff2b364d7][Ethnography]]
+** Lecture 2 :mmcl2:
+*** [[id:169dc982-0bb0-499a-a45b-887b0274890e][Context in Language]]
+*** [[id:78a4678e-ccab-4e23-9bae-115766f3abad][Speech Community]]
+*** [[id:90a6e349-4585-4be1-a6d7-15506f435125][Communicative Competence]]
+** Lecture 3 :mmcl3:
+*** [[id:24793cbe-0957-4625-9470-9a05126b3fe9][Speaking Framework]]
+*** [[id:01f98bd6-a120-404a-a3ff-ae91a85d5306][Senders and Receivers]]
+** Lecture 4 :mmcl4:
+*** [[id:a6cc5841-2c94-4f62-b1bd-5a25db05504d][Linear Technical Model of Communication]]
+*** [[id:1ad2d10a-6b4e-4fdb-a2c0-2f1a91771267][Interactive View of Communication]]
+* Syntax
+** Lecture 1
+*** [[id:f9efe42e-017f-4ede-9406-ab0526729e43][Grammatical Knowledge]]
+*** [[id:364662e7-fb14-4b67-9af5-d487eaf3c929][Grammaticality and Acceptability]]
+*** [[id:fca0aeee-2d7c-4b1b-ab64-f0908dc31816][Glossing]]
+** Lecture 2
+*** [[id:18a6c1d4-46af-4fa4-9f17-3703208f5015][Word Class]]
+*** [[id:0b8544f2-06f0-4043-b2eb-1e1473f6fd8f][Content Words]]
+** Lecture 3
+*** [[id:9a810397-113e-4503-ad81-aac930a71673][Function Words]]
+** Lecture 4
+*** [[id:b2878066-2e8d-4d08-8ebf-4d6c3ed5a599][Phrases]]
+** Lecture 5
+*** [[id:664fe9a9-e62c-4fcb-8980-0a66c3ce76b6][Phrase Structure Rules]]
+** Lecture 6 & 7
+*** [[id:fedd08c1-e143-46b8-8180-69d3cb44e12c][Constituency Tests]]
+** Lecture 8
+*** [[id:6855ed0e-8cd9-4f5e-ad8f-0b8dd3ec81e5][Clauses]]
+*** [[id:ef763776-f9dd-4598-98c8-ce473c306db8][Finiteness]]
+*** [[id:1a3a4f9c-8567-40c1-9da9-1540139d5899][Sentences]]
+*** [[id:6e2e5666-f4ae-4f10-ac53-f4015ee011a6][Mood]]
+*** [[id:959cd359-3951-4ae5-8433-65c4158e91f7][Complementisers]]
+** Lecture 9
+*** [[id:d6052b36-8216-4630-8dc5-7ff7ddb5c6ec][The Build of a Sentence]]
+*** [[id:f7c10b5b-0e00-4ac4-a60d-69ac5023d73a][Word Order]]
+** Lecture 10
+*** [[id:0b5055a4-2f1d-4c9a-9fc0-73bd55b42c4f][Universal Grammar]]
+*** [[id:a15b4a0f-1f70-4b2c-824e-67841bd8b44b][The Innateness Hypothesis]]
+** Lecture 11
+*** [[id:45843a9e-1c97-4166-b370-4c872d14e0e0][Subject Principle]]
+*** [[id:7bb58b05-8104-498b-9414-2b21681f6a92][Null-Subject Parameter]]
+** Lecture 12
+*** [[id:b118965e-0532-4dd2-a992-619369f66766][Head Principle]]
+*** [[id:be555b01-d535-4963-8fb1-8c5e051b6c6c][Head-position Parameter]]
+** Lecture 13
+*** [[id:0baf7425-1ecf-451e-8d80-32609370fbee][Wh Principle]]
+*** [[id:29eb9cc4-0d8f-4279-a2cc-c6da92c1fba1][Wh Parameter]]
+** Lecture 14
+*** [[id:d013aef0-7f85-4433-8c69-df1ee6417475][Sentence Formation]]

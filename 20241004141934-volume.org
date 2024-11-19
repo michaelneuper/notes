@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       fbd04568-95d7-4060-a639-515de38012fb
+:END:
+#+title: Volume
+#+filetags: calculus
+
+* Definition
+#+begin_quote
+Let \(S\) be a solid that lies between \(x=a\) and \(x=b\).
+If the cross-sectional [[id:6354ad65-7506-464e-9451-22ae114d9fa1][area]] of \(S\) in the [[id:add8a012-7e54-4e3f-b115-1d23caeb9981][plane]] \(P_x\), through \(x\) and perpendicular to the \(x\)-axis, is \(A(x)\), where \(A\) is a [[id:9f66f38c-1072-4146-9efe-5a90f984d480][continuous]] [[id:87d42439-b03b-48be-84ab-2215b4733dd7][function]], then the *volume* of \(S\) is the following [[id:7256d12e-eb3d-48d1-8f12-7168c6fe8522][integral]]
+\begin{equation*}
+V = \lim_{n \to \infty} \sum_{i=1}^n A(x_i^{*}) \Delta x = \int_a^{b} A(x) \, dx
+\end{equation*}
+#+end_quote
+[[file:images/volume.png]]
+
+* Volumes of Solids of Revolution
+If we revolve a function \(f(x)\) about a line, we obtain a *solid of revolution*.
+In this case \(A(x) = \pi f(x)^2\)
+

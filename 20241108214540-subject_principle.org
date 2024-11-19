@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       45843a9e-1c97-4166-b370-4c872d14e0e0
+:END:
+#+title: Subject Principle
+
+* Definition
+Every complete sentence must have a subject.
+
+/ *The dog* saw the squirrel./
+
+* Note
+In English, the subject must be pronounced. A subject that is pronounced is called a *perceptible/overt subject*.
+In some other languages, the subject can be pronounced, but it is not necessary.
+In the sentences where the subject is not pronounced, the subject is *imperceptible/covert*.

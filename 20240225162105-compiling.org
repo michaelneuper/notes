@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       e8efe8bb-fb51-4b0c-9cf4-4d134d18fbdf
+:END:
+#+title: Compiling
+
+* Definition
+"Translates" high-level languages into machine language.
+See: [[id:df08f629-a330-4c1f-a1e1-f2c8ed10ed09][Computer Languages]]
+
+* The Compilation Chain
+*editor* -> hello_world.py -> *compiler* -> primitive language -> *interpreter* -> "Hello, World!"

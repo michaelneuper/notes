@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       2007b6de-cbac-4c83-98d0-4278a638b43b
+:END:
+#+title: Sequential Data Structure
+#+filetags: data_structures
+
+* Definition
+#+begin_quote
+A Sequential [[id:60e83175-8286-4cf8-8d40-aee5c8727578][Data Structure]] is a DT that stores [[id:a971dde6-4766-41ea-9dd1-9de67a051aad][objects]] next to each other.
+Fixed size with arbitrary access.
+#+end_quote
+
+- Machine: Consecutive memory cells
+- Python: Array of objects

@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       c35cd352-7e53-4c69-bdce-29d0bc1d11aa
+:ROAM_ALIASES: "One-to-one Functions" "Injection"
+:END:
+#+title: Injective Functions
+#+filetags: functions_and_limits functions
+
+* Definition
+A [[id:87d42439-b03b-48be-84ab-2215b4733dd7][function]] \(f : X\to Y\) is said to be *injective* if we have that for all \(x_1, x_2 \in X\), if \(f(x_1) = f(x_{2})\), then \(x_1 = x_2\).
+Equivalently, if \(x_1 \ne x_2\), then \(f(x_1) \ne f(x_2)\) in the [[id:7c520643-d169-4201-b90d-7e6466b94373][contrapositive]].
+
+[[file:images/injective.png]]
+
+* Theorem
+If \(f : \mathbb{R} \to \mathbb{R}\) is [[id:086cb8a0-bd8b-465a-8b0c-65d60f454421][differentiable]] and for any \(x \in \mathbb{R}\) we have that \(f'(x) > 0\) then \(f\) is injective.
+
+* Horizontal Line Test
+A function is one-to-one/injective iff no horizontal line intersects its graph more than once.

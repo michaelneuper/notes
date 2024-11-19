@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       cc5029b6-e81e-4cd5-93b4-077e71b3a306
+:END:
+#+title: Angles Between Vectors
+#+filetags: linear_algebra vectors
+
+* Definition
+#+begin_quote
+The [[id:79687d36-b8f9-45a4-9ae7-774245073850][Dot Product]] can also be used to calculate the [[id:a1e222d8-ae4a-4487-986d-b39205f203be][angle]] between two [[id:81c97780-c8a5-4652-a6eb-d33732c37f1e][vectors]].
+In \(\mathbb{R}^2\) or \(\mathbb{R}^3\), the angle between the nonzero vectors \(\mathbf{u}\) and \(\mathbf{v}\) will refer to the angle \(\theta\) determined by these two vectors that satisfies \(0\le\theta\le\pi\).
+[[file:images/angle-vectors.png]]
+
+\begin{equation*}
+\cos\theta = \frac{\mathbf{u}\cdot\mathbf{v}}{\|\mathbf{u}\|\|\mathbf{v}\|}
+\end{equation*}
+
+For vectors in \(\mathbb{R}^n\), \(n>3\), the formula can be taken as /definition/.
+#+end_quote

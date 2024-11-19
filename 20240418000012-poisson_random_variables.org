@@ -1,0 +1,40 @@
+:PROPERTIES:
+:ID:       bb6cbd7b-4ef3-4eb2-803b-8799e6b8c90c
+:END:
+#+title: Poisson Random Variables
+#+filetags: discrete_random_variables
+
+* Definition
+#+begin_quote
+We call \(X\) a Poisson random variable, with parameter \(\lambda > 0\), if \(X\)can take on values \(0,1,2,\cdots\) and
+
+\begin{equation*}
+P\{X=i\} = e^{-\lambda}\frac{\lambda^i}{i!}, \quad i = 0, 1, 2, \cdots
+\end{equation*}
+#+end_quote
+
+* [[id:ec08bf1f-90a5-429a-94f5-fb027476fb8e][Expected Value]] of a PRV
+#+begin_quote
+If \(X\) is a Poisson Random Variable with paramenter \(\lambda\), then
+\(E[X] = \lambda\)
+#+end_quote
+
+** Proof
+[[file:images/expected-value-poisson.png]]
+
+* [[id:3c1c1ebc-8580-4a58-b6f9-8d5fd1b1b33e][Variance]] of a PRV
+#+begin_quote
+If \(X\) is a Poisson Random Variable with paramenter \(\lambda\), then
+\(\text{Var}(X) = \lambda\)
+#+end_quote
+
+** Proof
+[[file:images/var-poisson.png]]
+
+
+* Connection Between [[id:7201e00a-eca0-40d9-a70e-0ce26ee655da][Binomial Random Variables]]
+If we have a situation with *many* [[id:cfdcb584-4895-41eb-9c8a-d9dc66e2bd2c][independent]] [[id:04d55fa3-bc61-4762-af94-97ea87d1b084][trials]] (\(n\) of them, with \(n\) large), and each trial results in a success with a *small∗ probability \(p\), then the number of successes can be approximated well with a Poisson random variable, where \(\lambda = np\).
+[[file:images/poisson-variable.png]]
+
+* Links
+[[id:62595d13-d132-4577-8f64-240eb88c750f][The Exponential Function]]

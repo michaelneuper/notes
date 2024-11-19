@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       fef705aa-50cb-465d-b71b-ad1f1a01d0b0
+:END:
+#+title: Communicative Situations
+
+- The *total context* within which communication occurs
+- Includes language used, activities, and behaviours
+
+  e.g. lecture, party, a taxi ride

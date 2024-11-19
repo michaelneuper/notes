@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       ca814013-0b88-4d4c-9a6a-f0a685266229
+:END:
+#+title: Row Echelon Form
+#+filetags: linear_algebra linear_equations
+
+* Defintion
+#+begin_quote
+A [[id:a3e5a759-ca7d-46e2-a390-c3cb8f1cc823][matrix]] is in row echelon form if it satisfies the following properties:
+1. Any rows consisting entirely of zeros are at the bottom.
+2. In each nonzero row, the first nonzero entry (called the leading entry) is in a column to the left of any leading entries below it.
+#+end_quote
+
+* Example
+\begin{bmatrix}
+1 & 2 & 3 & 4 \\
+0 & 1 & 5 & 6 \\
+0 & 0 & 1 & 7 \\
+0 & 0 & 0 & 0
+\end{bmatrix}

@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       02a15daa-14ee-4057-ad3c-3ba5f15a150d
+:END:
+#+title: Continuous Random Variables
+#+filetags: continuous_random_variables
+
+* Definition
+#+begin_quote
+A continuous random variable \(X\) is defined by
+- a *[[id:9f66f38c-1072-4146-9efe-5a90f984d480][continuous]] (uncountable) [[id:56ae2cf4-a426-46fd-82eb-9acb3c8512ba][set]] of possible values* it can assume, and
+- a *[[id:c33b418c-6edd-4de3-9d73-6d5de459abe9][probability density function]]* associates with that set.
+#+end_quote
+
+* Types
+- [[id:688ea2df-c999-4b92-88c6-678d77f46e38][Uniform Random Variables]]
+- [[id:47914a94-e4b1-485d-a380-c4e4f269f49d][Normal Random Variables]]
+
+* Examples
+- the time a train arrives at a specific train station
+- the lifetime of a transistor
+- the weight of a cat

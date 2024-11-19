@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       fca0aeee-2d7c-4b1b-ab64-f0908dc31816
+:END:
+#+title: Glossing
+
+* Convention
+Lines:
+1. Source expression in the original language (in italics)
+2. Gloss -> literal, word-for-word translation of the source expression
+3. Idiomatic English translation of the expression (in double quotation marks)
+
+* Example
+| /Ek/ | /is/ | /lief/ | /vir/ | /jou./ |
+|------+------+--------+-------+--------|
+| I    | is   | love   | for   | you    |
+"I love you"

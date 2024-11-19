@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       3e8cfeb8-c3ee-4465-956d-24f065ea114d
+:END:
+#+title: Neologisms
+
+* Definition
+#+begin_quote
+New words that are in common use but have not been "accepted" as mainstream or entered into a dictionary.
+
+May be new words for existing concepts or phenomena or words for new ones.
+#+end_quote
+
+* Examples
+- saddict (n.)
+- figital (adj.)

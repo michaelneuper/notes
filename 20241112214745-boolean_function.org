@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       41377ae5-45ae-4d90-942c-7430d1355170
+:END:
+#+title: Boolean Function
+
+* Definition
+A *boolean function* of \(n\) variables is a [[id:87d42439-b03b-48be-84ab-2215b4733dd7][function]] \(f: B^{n} \to B\), where \(B=\{0,1\}\) is the two-element [[id:5280cbcd-16c5-453c-a567-5fb9334c04bf][boolean algebra]].
+
+* Representing Boolean Functions by [[id:efc4e0a4-6336-4927-b7ea-1a6752e7454a][Boolean Polynomials]]
+Given a function \(f: B^{n} \to B\), for each \(b = (b_{1}, \ldots, b_{2}) \in B^{n}\) such that \(f(b) = 1\), we can associate the *min-term* of \(f\) corresponding to \(b\).
+A min-term is the [[id:b6b3f983-2e80-4cd2-9167-b309c6156ccf][conjunction]] of all variables \(y_{1} \wedge y_{2} \wedge \cdots \wedge y_{n}\) where
+\begin{equation*}
+y_{i} =
+\begin{cases}
+x_i \, &\text{if } b_{i} = 1 \\
+\neg x_i \, &\text{if } b_{i} = 0 \\
+\end{cases}
+\end{equation*}
+
+Then, if \(f_{1}, f_{2}, \ldots f_{k}\) are all min-terms of \(f\) the boolean function \(f\) is represented by
+\begin{equation*}
+f = f_{1} \vee f_{2} \vee \cdots \vee f_{k}
+\end{equation*}

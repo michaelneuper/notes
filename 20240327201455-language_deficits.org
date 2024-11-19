@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       f631f113-3c91-4803-8ed8-50ab5dcd038d
+:END:
+#+title: Language Deficits
+
+* Types
+** Dysgraphia
+Writing more problematic than reading
+** Dyslexia
+Reading more problematic than writing

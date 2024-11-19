@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       166be33a-d877-4103-a147-dabec5318a27
+:END:
+#+title: De Moivre's Theorem
+
+* Powers
+#+begin_quote
+De Moivre's theorem states that the \(n\)-th power of a [[id:d59a3705-6045-4b74-8e99-a42b4cbacbbe][complex number]] is given by the formula
+\begin{equation*}
+z^{n} = r^{n}(\cos n\varphi + i\in n\varphi)
+\end{equation*}
+#+end_quote
+
+* Roots
+#+begin_quote
+The \(n\)-th roots of a complex number \(z\) are given by
+\begin{equation*}
+z^{1/n} = \sqrt[n]{r}\left(\cos\left(\frac{\varphi + 2k\pi}{n}\right) + i\sin\left(\frac{\varphi + 2k\pi}{n}\right)\right)
+\end{equation*}
+where \(k=0,1,2,\ldots,n-1\)
+#+end_quote
+
+For \(k = 0,1,2,\ldots,n-1\), we obtain \(n\) distinct roots with the same [[id:ae53c833-60af-401d-88b4-eea634debb0f][modulus]], but different [[id:21b4e0cf-cd16-41cd-a93a-d5b04b79e1ea][arguments]].
+
+For \(k \ge n\), we obtain the same roots since sine and cosine are \(2\pi\)-periodic.

@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       7434ea42-2761-4665-979d-e8314e74fc3a
+:END:
+#+title: General Differential Equations
+#+filetags: calculus differential_equations
+
+* Definition
+#+begin_quote
+A *differential equation* is an equation that contains an unknown [[id:87d42439-b03b-48be-84ab-2215b4733dd7][function]] and one or more of its [[id:a350707f-ba1b-4912-ad8d-60e80e1c5d47][derivatives]].
+#+end_quote
+
+* Notes
+The *order* of a differential equation is the order of the highest derivative that occurs in the equation.
+
+* Example
+An equation to model population growth
+\begin{equation*}
+\frac{dP}{dt} = k P \left(1 - \frac{P}{M}\right)
+\end{equation*}

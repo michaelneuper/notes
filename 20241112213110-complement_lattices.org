@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       4d510a2a-b58f-4060-86d9-fcec807ec774
+:END:
+#+title: Complement (lattices)
+
+* Definition
+If \(L\) is a bouned [[id:23181ae0-1b33-4f38-ad20-a2b9f47ef856][lattice]], where \(1_{L}\) is its max element and \(0_{L}\) is its min element then a complement of an element \(x\in L\) is another element \(x' \in L\) such that
+\begin{equation*}
+x \wedge x' = 0_{L} \text{ and } x \vee x' = 1_{L}
+\end{equation*}

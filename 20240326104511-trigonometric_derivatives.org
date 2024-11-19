@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       3102c123-2020-4cc9-9914-4b9e0b6137bf
+:END:
+#+title: Trigonometric Derivatives
+#+filetags: calculus proof derivatives
+
+* Prove \(\lim_{x\to 0}\frac{\sin x}{x} = 1\) :proof:
+
+[[file:images/limit-sinx.png]]
+
+* Prove \(\lim_{\theta\to 0}\frac{\cos\theta -1}{\theta} = 0\)
+
+[[file:images/limit-cosx.png]]
+
+* Prove \((\sin x)' = \cos x\)
+
+[[file:images/derivative-sinx.png]]
+
+* [[id:a350707f-ba1b-4912-ad8d-60e80e1c5d47][Derivatives]] of [[id:17d56a87-ff5e-4d0d-85f0-caa68750bb8f][Inverse]] [[id:d29f8fa1-bce7-4d4e-8592-edbab6d30395][Trigonometric Functions]]
+** Prove \(\frac{d}{dx}\arcsin(x) = \frac{1}{\sqrt{1 - x^{2}}}\)
+\begin{align*}
+\frac{d}{dx}\sin y &= \frac{d}{dx}x \\
+\cos y \frac{dy}{dx} &= 1 \\
+\frac{dy}{dx} &= \frac{1}{\cos y} \\
+&= \frac{1}{\sqrt{1 - x^{2}}}
+\end{align*}

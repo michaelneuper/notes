@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       d5865dc9-4394-40fd-add2-075fc6bd1aea
+:END:
+#+title: Symmetric Relation
+
+* Symmetry
+A [[id:72a5316f-9b83-4c20-aa2e-42ffe2813cfb][relation]] \(R\subseteq X^2\) is called *symmetric* if for all \(x,y\in X\), if \(x \mathrel{R} y\) then \(y \mathrel{R} x\).
+
+* Antisymmetry
+For all \(x, y \in X\) we have that \(x \mathrel{R} y\) and \(y \mathrel{R} x\) implies \(x=y\).
+That is, no two elements precede each other.
+[[file:images/symmetry.svg]]
+
+* Theorem
+A relation \(R\subseteq X^2\) is symmetric iff the [[id:6f2f494f-7730-4476-81c1-b7a129bcd374][opposite]] of \(R\), denoted \(R^{op}\subseteq R\).
+
+* Example
+Let \( A = \{1, 2, 3\} \). A relation \( R \) on \( A \) is defined as follows:
+
+\(R = \{ (1, 2), (2, 1), (2, 3), (3, 2), (1, 1), (2, 2), (3, 3) \}\)
+
+This relation \( R \) is symmetric because for every pair \( (a, b) \in R \), the pair \( (b, a) \) is also in \( R \). Specifically:
+
+- \((1, 2) \in R\) implies \((2, 1) \in R\)
+- \((2, 3) \in R\) implies \((3, 2) \in R\)
+
+Thus, \( R \) satisfies the symmetric property.

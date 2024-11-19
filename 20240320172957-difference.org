@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       e6bea06c-1092-4db5-bd41-280fc955c166
+:END:
+#+title: Set Difference
+
+* Definition
+- For sets \(A\) and \(B\) the *relative [[id:3721aaf8-6e01-4a4d-a604-8e3a13ca5734][complement]]* of \(B\) in \(A\) is defined as all the elements in \(A\) [[id:b6b3f983-2e80-4cd2-9167-b309c6156ccf][AND]] [[id:86afe72f-5d27-4bd7-8ccc-1d599ee00835][NOT]] in \(B\)
+\begin{equation*}
+A \setminus B := \{x\in A | x\not\in B\}
+\end{equation*}
+
+- If there is some larger set \(C\) with \(A, B\subseteq C\) then
+\begin{equation*}
+A\setminus B := \{x \in C | x \in A \wedge x \not\in B\}
+\end{equation*}
+
+- Also denoted \(A - B\)
+
+* Example
+- If \(A = \{1,2,3\}\) and \(B = \{3,4\}\) then
+- \(A\backslash B = \{1,2\}\)
+
+* Visualisation
+[[file:images/set-difference.svg]]

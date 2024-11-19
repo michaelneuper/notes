@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       441fae62-367a-4c7e-9c2c-3df0d1132fe7
+:END:
+#+title: Distributive Property
+
+* Definition
+If we are given two binary [[id:87704c09-b23d-4980-ab11-0a5f839ebf59][operations]] \(\square\) and \(\triangle\) on a set \(X\) then we say that \(\square\) *distributes over* \(\triangle\) if
+\begin{equation*}
+x \square (y \triangle z) = (x \square y) \triangle (x \square z)
+\end{equation*}
+for all \(x,y,z\in X\)
+
+* Applied to [[id:56ae2cf4-a426-46fd-82eb-9acb3c8512ba][Sets]]
+\((E \cup F) \cap G = (E \cap G) \cup (F \cap G)\) and \((E \cap F) \cup G = (E \cup G)\cap(F \cup G)\)
+
+* Applied to [[id:c320994c-b8c2-4d38-8954-d75f1c8aa022][Logical Operators]]
+\((E \vee F) \wedge G = (E \wedge G) \vee (F \wedge G)\) and \((E \wedge F) \vee G = (E \vee G)\wedge(F \vee G)\)
+
+* Applied to [[id:81c97780-c8a5-4652-a6eb-d33732c37f1e][Vectors]]
+\(c(\vec{u} + \vec{v}) = c\vec{u} + c\vec{v}\) and \((c+d)\vec{u} = c\vec{u} + d\vec{u}\)

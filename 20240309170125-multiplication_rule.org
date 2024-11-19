@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       116e901f-b06c-4ab7-9793-6f1445edac41
+:END:
+#+title: Multiplication Rule
+#+filetags: conditional_probability
+
+* Definition
+The *conditional probability* of an event \(E\), given an event \(F\) with \(P(F)>0\) is \(P(E|F)=\frac{P(EF)}{P(F)}\)
+
+Then:
+\begin{equation*}
+P(EF) = P(F)P(E|F)
+\end{equation*}
+and
+\begin{equation*}
+P(EF) = P(E)P(F|E)
+\end{equation*}
+
+* In General
+If \(E_1E_2\cdots E_n\) are events in a [[id:33838eb4-aa50-4794-baa1-637ddea744ad][sample space]] S, then
+\begin{equation*}
+P(E_1E_2\cdots E_n)=P(E_1)P(E_2|E_1)P(E_3|E_1E_2)\cdots P(E_n|E_1E_2\cdots E_{n-1})
+\end{equation*}

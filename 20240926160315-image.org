@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       b91be08c-04fd-4514-a8b6-3c1344356832
+:END:
+#+title: Image
+#+filetags: functions
+
+* Definition
+Given a [[id:87d42439-b03b-48be-84ab-2215b4733dd7][function]] \(f : X \to Y\):
+** Image of an element
+If \(x\in X\) then, then the image of \(x\) under \(f\), denoted \(f(x)\), is the value of \(f\) when applied to \(x\).
+** Image of a subset
+The image under \(f\) of a [[id:56ae2cf4-a426-46fd-82eb-9acb3c8512ba][subset]] \(A \subseteq X\) is the set off all \(f(a)\) for \(a \in A\), denoted \(f(A)\).
+\begin{equation*}
+f(A) = \{f(x) \mid x \in A\}
+\end{equation*}
+
+* Inverse Image / Preimage
+Let \(f : X \to Y\). The *preimage* of a set \(B \subseteq Y\) under \(f\), denoted \(f^{-1}(B)\), is the subset of \(X\) defined by
+\begin{equation*}
+f^{-1}(B) = \{x \in X \mid f(x) \in B\}
+\end{equation*}

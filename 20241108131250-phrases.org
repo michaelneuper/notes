@@ -1,0 +1,37 @@
+:PROPERTIES:
+:ID:       b2878066-2e8d-4d08-8ebf-4d6c3ed5a599
+:END:
+#+title: Phrases
+
+* Definition
+A phrase is a part of a [[id:1a3a4f9c-8567-40c1-9da9-1540139d5899][sentence]] or clause which holds together as a meaningful unit on its own, and contributes in a unified way to the meaning of the whole sentence or clause.
+Often consist of several words clustered around a particular *head* word, which in some cases carries the central meaning of the whole phrase.
+
+Sentences are formed by combining words into phrases, and phrases into larger phrases.
+
+* Key Features
+- They usually consist of *several* words (but in some cases only one)
+- They function as *meaningful* units
+- The most important word in a phrase is the head,  which determines the category of the phrase
+
+A phrase therefore consists of an *obligatory [[id:974ee49c-83af-410d-9a04-ec8e06b7f834][head]]* that can be combined with an *optional [[id:0ed530ac-7ee3-4521-8ef0-0e973b4c7814][complement]]*.
+| /on/   | /the table/  |
+|--------+--------------|
+| *head* | *complement* |
+
+* Structure
+The complement of a phrase is a phrase as well, with its own head and (optional) complement.
+
+** Example
+Consider the [[id:8f34fe1c-acd6-4e4f-b609-7b73efea7336][noun phrase]] "students of linguistics".
+- The head is the [[id:c35e1ea9-8b8a-40ee-8b18-dd7169825658][noun]] "students"
+- The complement is the [[id:3c3dde56-ed04-4c2b-ae3c-37637a3be182][prepositional phrase]] "of linguistics"
+  - The head is the [[id:cfc40864-219f-4fbe-95b0-6fe72f803b2e][preposition]] "of".
+  - The complement is the noun phrase "linguistics"
+    - The head is the noun "linguistics"
+    - There is no complement
+
+* Types
+- [[id:8f34fe1c-acd6-4e4f-b609-7b73efea7336][Noun Phrase]]
+- [[id:3c3dde56-ed04-4c2b-ae3c-37637a3be182][Prepositional Phrase]]
+- [[id:22dabe8b-5aec-443f-88eb-c23a4e8c728c][Verb Phrase]]

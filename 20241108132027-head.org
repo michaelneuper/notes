@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       974ee49c-83af-410d-9a04-ec8e06b7f834
+:END:
+#+title: Head (linguistics)
+
+* Definition
+The head of a [[id:b2878066-2e8d-4d08-8ebf-4d6c3ed5a599][phrase]] is the compulsory key word/element that determined the [[id:6f9cb5ec-c73f-434f-9e55-c7a0ac95120f][grammatical]] and [[id:0d486aeb-8483-48d6-a6f1-44313bbc5eb4][semantic]] properties of the overall phrase.
+
+* Examples
+"They are students of linguistics", the phrase "students of linguistics" is a [[id:8f34fe1c-acd6-4e4f-b609-7b73efea7336][noun phrase]] (NP) of which the head is the [[id:c35e1ea9-8b8a-40ee-8b18-dd7169825658][noun]] "students."
+The NP "students of linguistics" denotes a type of student, not a type of linguistics.

@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       c2a0a137-858a-45c3-bc12-9f30800b3e24
+:END:
+#+title: Intermediate Value Theorem
+#+filetags: theorem
+
+Let \(f,g\) be any [[id:87d42439-b03b-48be-84ab-2215b4733dd7][function]] [[id:9f66f38c-1072-4146-9efe-5a90f984d480][continuous]] on some [[id:a995fc0e-d695-4662-a94f-4daad08de069][interval]] \([a,b]\) where \(f(a)\ne f(b)\) and let \(N\in\mathbb{R}\) be any number between \(f(a)\) and \(f(b)\).
+Then there exists some \(c\in(a,b)\) such that \(f(c)=N\).
+
+[[file:images/intermediate-value-theorem.png]]

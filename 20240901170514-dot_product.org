@@ -1,0 +1,42 @@
+:PROPERTIES:
+:ID:       79687d36-b8f9-45a4-9ae7-774245073850
+:ROAM_ALIASES: "Scalar Product"
+:END:
+#+title: Dot Product
+#+filetags: linear_algebra vectors
+
+* Definition
+#+begin_quote
+If
+\begin{array}{cc}
+\mathbf{u} =
+\begin{bmatrix}
+u_1 \\
+u_2 \\
+\vdots \\
+u_n
+\end{bmatrix}
+\quad\text{and}\quad
+\mathbf{v} =
+\begin{bmatrix}
+v_1 \\
+v_2 \\
+\vdots \\
+v_n
+\end{bmatrix}
+\end{array}
+
+then the *dot product* [[id:87704c09-b23d-4980-ab11-0a5f839ebf59][operation]] \(\mathbf{u}\cdot\mathbf{v}\) of [[id:81c97780-c8a5-4652-a6eb-d33732c37f1e][vectors]] \(\mathbf{u}\) and \(\mathbf{v}\) is defined by
+\begin{equation*}
+\mathbf{u}\cdot\mathbf{v} \coloneqq u_1v_1+u_2v_2+\cdots+u_nv_n
+\end{equation*}
+#+end_quote
+
+* Properties
+- \(\mathbf{u} \cdot \mathbf{v} = \mathbf{v} \cdot \mathbf{u}\)
+- \(\mathbf{u} \cdot (\mathbf{v} + \mathbf{w}) = \mathbf{u} \cdot \mathbf{v} + \mathbf{u} \cdot \mathbf{w}\)
+- \((c\mathbf{u}) \cdot \mathbf{v} = c(\mathbf{u} \cdot \mathbf{v})\)
+- \(\mathbf{u} \cdot \mathbf{u} \ge 0\) and \(\mathbf{u} \cdot \mathbf{u} = 0\) iff \(\mathbf{u} = \mathbf{0}\)
+
+* Note
+\(\mathbf{u}\) and \(\mathbf{v}\) are vectors and their dot product is a scalar.

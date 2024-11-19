@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       781b729f-274e-48d9-8cfa-086dd29b446d
+:END:
+#+title: Complex Sentence
+
+* Definition
+A combination of an independent main [[id:6855ed0e-8cd9-4f5e-ad8f-0b8dd3ec81e5][clause]] and a dependent subordinate [[id:6855ed0e-8cd9-4f5e-ad8f-0b8dd3ec81e5][clause]].
+
+Complex sentences make use of subordinating [[id:ecfd3087-af93-4584-8524-3723b4796ccd][conjunctions]].

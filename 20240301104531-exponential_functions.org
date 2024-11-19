@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       7cc8b837-300f-4e53-8450-8f7cdb584868
+:END:
+#+title: Exponential Functions
+
+* Definition
+- A function \(f\) is said to be exponential if it has the form \(f(x) = b^x\) for some positive real \(b\)
+- \(b\) is referred to as the *base*
+
+[[file:images/exponential-function.png]]
+
+* Graph
+[[file:images/exp-graph.png]]
+
+* [[id:a350707f-ba1b-4912-ad8d-60e80e1c5d47][Derivative]] of Exponential Functions
+\begin{equation*}
+\frac{d}{dx}b^x = b^x \ln b
+\end{equation*}

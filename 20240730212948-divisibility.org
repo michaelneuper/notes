@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       8eace0e2-6a16-422e-a332-713fc01d4ea8
+:END:
+#+title: Divisibility
+#+filetags: fundamentals
+
+* Definition
+#+begin_quote
+Given \(a,b\in\mathbb{Z}\), we say "\(a\) divides \(b\)" (\(a\mid b\)) if \(\exists d \in \mathbb{Z}\) such that \(ad = b\).
+#+end_quote
+
+* Properties
+- If \(a \mid b\) and  \(a \mid c\), then \(a \mid (mb+nc)\) where \(m,n\in\mathbb{Z}\).
+- If \(a \mid b\) and  \(a \mid c\), where \(b>c\), \(a\mid (b-c)\).
+- If \(a \mid b\) or  \(a \mid c\), then \(a\mid bc\).
+- If \(a \mid b\) and  \(b \mid c\), then \(a\mid c\).

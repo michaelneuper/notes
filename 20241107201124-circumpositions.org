@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       2e216708-b028-49f2-b1bb-45fab837b489
+:END:
+#+title: Circumpositions
+
+Stand on both sides of their complement.
+
+_from_ now _on_

@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       b7ec32a6-345f-49e7-a377-f41b43f16d71
+:ROAM_ALIASES: IPA
+:END:
+#+title: International Phonetic Alphabet
+#+filetags: phonetics
+
+* Definition
+#+begin_quote
+Universal set of symbols which have a [[id:c35cd352-7e53-4c69-bdce-29d0bc1d11aa][One-to-one]] correspondence with the sounds they represent.
+#+end_quote
+
+* Main Sounds
+** [[id:fc791ad0-6d5d-401f-a4d0-0cea9582a9ce][Consonants]]
+*** [[id:d3fcb290-8b15-45b3-b823-6678c40296af][Glides]]
+** [[id:c7dc39d3-f617-4902-b909-8a378c4a1e6a][Vowels]]
+*** [[id:b1839aa5-ae20-4579-b049-04d2cbe75380][Dipthongs]]
+
+* Examples
+Words can be pronounced differently
+- *scone* as [skɐn] (rhymes with gone) or [skoʊn] (rhymes with gone)
+- *vase* as [veɪs] or [vaːz]
+- *tomato* as [təmeɪtoʊ] or [təmaːtoʊ]

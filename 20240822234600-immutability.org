@@ -1,0 +1,38 @@
+:PROPERTIES:
+:ID:       21b66b5c-8ae8-49c2-b2e2-f1f39c1484a3
+:END:
+#+title: Immutability
+
+* Definition
+#+begin_quote
+A [[id:bcab6ba6-de4b-4509-95fb-aee12584a1ed][class]] is considered *immutable* if its attributes should not change once created.
+
+If any attribute (instance variable) can be changed after creating, the class is *mutable*.
+#+end_quote
+
+* Advantages
+- Easier to use
+- [[id:a971dde6-4766-41ea-9dd1-9de67a051aad][Objects]] contain consistent state
+* Disadvantages
+- Create new object for every value
+- Some expression generate a large number of intermediate objects
+
+* Designing an Immutable Class
+#+begin_src python
+class Vector:
+    def __init__(self, x):
+        # array of coordinates
+        self._coords = x[:] # make copy
+#+end_src
+
+* Examples in Python
+** Immutable [[id:72f40898-b06c-4c82-b670-b892182657a9][Types]]
+Tuples
+#+begin_src python
+t = (1, 2, 3)
+#+end_src
+** Mutable [[id:72f40898-b06c-4c82-b670-b892182657a9][Types]]
+[[id:5dd16ee4-a99e-495e-b0ed-e5cbcc42a6b4][Lists]]
+#+begin_src python
+l = [1, 2, 3]
+#+end_src

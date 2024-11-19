@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       1e9d1801-01ef-4a38-be88-fde96d86907d
+:END:
+#+title: Distributive Lattice
+
+* Definition
+A [[id:23181ae0-1b33-4f38-ad20-a2b9f47ef856][lattice]] \(L\) is said to be *distributive* if the [[id:441fae62-367a-4c7e-9c2c-3df0d1132fe7][distributive property]] holds.
+That is, for any three elements \(x,y,z\in L\) we have
+\begin{equation*}
+x \wedge (y \vee z) = (x \wedge y) \vee (x \wedge z)
+\end{equation*}
+
+where \(\wedge\) and \(\vee\) are the [[id:8112c919-97b7-4325-b9f3-32f303437286][meet]] and [[id:0d2844c1-3cc9-4de8-ab4d-13fbe622963e][join]] operations, respectively.

@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       19b56635-aa2c-43b8-86fa-18fdb4759369
+:END:
+#+title: Stretching
+
+Let \(c\in\mathbb{R}\) with \(c>1\) and let \(f\) be any function. Then the graph of:
+
+- \(y=cf(x)\) is given by *stretching* the graph of \(y=f(x)\) *vertically* by \(c\) units
+- \(y=\frac{1}{c}f(x)\) is given by *shrinking* the graph of \(y=f(x)\) *vertically* by \(c\) units
+- \(y=f(cx)\) is given by *shrinking* the graph of \(y=f(x)\) *horizontally* by \(c\) units
+- \(y=f\left(\frac{1}{c}x\right)\) is given by *stretching* the graph of \(y=f(x)\) *horizontally* by \(c\) units

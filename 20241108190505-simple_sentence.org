@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       b2d20853-ea9c-4614-bcb7-947a56b5b300
+:END:
+#+title: Simple Sentence
+
+* Definition
+A sentence that contains only one [[id:6855ed0e-8cd9-4f5e-ad8f-0b8dd3ec81e5][clause]] and one [[id:22dabe8b-5aec-443f-88eb-c23a4e8c728c][verb phrase]].
+
+* Example
+He packs the books onto the bookshelf.

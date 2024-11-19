@@ -1,0 +1,35 @@
+:PROPERTIES:
+:ID:       f9efe42e-017f-4ede-9406-ab0526729e43
+:ROAM_ALIASES: "Grammatical Competence" I-Language
+:END:
+#+title: Grammatical Knowledge
+
+* Characterisation
+- Mental capacity
+- Represents 4 types of unconscious knowledge
+  - Unconsciously acquired
+  - Unconsciously used
+  - Speaker subconscious about content
+- Portrayed as system of rules and principles
+- Enables speaker to make grammatical judgements about words, phrases or sentences
+- Enables speaker to be linguistically creative
+
+* Notes
+- Grammatical competence: a speaker's grammatical knowledgde of a language (I-Language)
+- [[id:795ee61d-0a07-4bb8-8fd6-79a634ba0765][Linguistic Performance]]: a speaker's use of this knowledge in language behaviour (E-Language)
+
+* Sub-types
+** Phonetic Knowledge
+Speech sounds and sound system
+*** Includes
+- Knowledge of the seperate speech sounds that occur (see [[id:7edabb20-86fd-44fc-8552-0bb8d10663f8][phonetics]])
+- Knowledge of the permissible sound distribution patterns (see [[id:f6cb0ecc-0219-49e4-868b-098b707113b6][phonology]])
+
+** [[id:0d486aeb-8483-48d6-a6f1-44313bbc5eb4][Semantic]] Knowledge
+Meaning system
+
+** [[id:19cd4f54-86ac-4d58-9999-f0c25e3e7527][Morphological]] Knowledge
+Structure and formation of complex words
+
+** [[id:0ea0ce4d-e70f-4f41-8c39-ae2fc7d06817][Syntactic]] Knowledge
+Structure and formation of phrases and sentences

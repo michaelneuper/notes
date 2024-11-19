@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       fe3a256c-337e-4c2e-8474-f638315272f5
+:END:
+#+title: Malapropisms
+
+* Definition
+#+begin_quote
+The incorrect use of a word in place of a word with a similar sound.
+#+end_quote
+
+* Notes
+Simliar to [[id:029fe728-573b-44c7-a74f-63574cdc03d8][Eggcorns]] but without logic
+
+* Examples
+- “He's the pineapple of politeness” = “He's the pinnacle of politeness”
+- “dance a flamingo” = “dance a flamenco”
+- “pacifically” = “specifically”

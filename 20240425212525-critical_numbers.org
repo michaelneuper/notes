@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       f66472e4-0f97-494d-91e0-0e70cd6026ef
+:END:
+#+title: Critical Numbers
+
+* Definition
+#+begin_quote
+Let \(f\) be a function and \(c\in\mathbb{R}\).
+\(c\) is said to be a *critical number* of \(f\) if \(f'(c)=0\) or \(f'(c)\) does not exist.
+#+end_quote

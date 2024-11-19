@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       21b4e0cf-cd16-41cd-a93a-d5b04b79e1ea
+:END:
+#+title: Argument
+
+* Definition
+#+begin_quote
+The argument \(\theta\) of a [[id:d59a3705-6045-4b74-8e99-a42b4cbacbbe][complex number]] \(z = a + bi\), denoted \(\arg(z)\), is the angle between the positive real axis and the line joining the origin and \(z\).
+It can be computed using the following formula:
+\begin{equation*}
+\tan\theta = \frac{b}{a}
+\end{equation*}
+#+end_quote
+
+* Note
+The argument is not unique since any two arguments of \(z\) differ by an integer multiple of \(2\pi\).

@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       3824b1bb-8add-4c60-9558-66a2caa65781
+:END:
+#+title: Modular Arithmetic
+#+filetags: fundamentals
+
+* Definition
+#+begin_quote
+See [[id:c977d405-bd76-410c-bada-8cc025f39597][Division Theorem]].
+
+The \(\mod n\) function: \(f_n(m) = r\)
+#+end_quote
+
+Also denoted \(m\mod n\) or \(m\%n\)
+
+* The Clock
+A familiar use of modular arithmetic is in the 12-hour clock, in which the day is divided into two 12-hour periods.
+If the time is 7:00 now, then 8 hours later it will be 3:00.
+Simple addition would result in 7 + 8 = 15, but 15:00 reads as 3:00 on the clock face because clocks "wrap around" every 12 hours and the hour number starts over at zero when it reaches 12.
+
+[[file:images/clock.svg]]

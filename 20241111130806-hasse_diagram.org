@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       1ff8ebbd-d12a-4d94-90f8-678cfe355725
+:END:
+#+title: Hasse Diagram
+
+Given a finite [[id:e64ef180-2fff-4790-bf03-1920ea80b239][poset]] \(P\), and element \(b\in P\) is said to *cover* an element \(a \in P\) if \(a \le_{P} b\) and \(a\ne b\) and there is no element in \(P\) which is strictly between \(a\) and \(b\).
+That is, for any \(x\in P\), if we have \(a\le_{P} x\le_{P} b\) then \(x=a\) or \(x=b\).
+We can give a bottom-to-top visual representation of \(P\) the following way:
+- for each \(p \in P\) assign the element \(p\) a label
+- for any element \(a,b\in P\) if \(b\) covers \(a\), then draw an arrow from the label of \(a\) to the label of \(b\)
+- draw arrows in such a way that they are always pointing in an upward direction
+
+* Example
+The power set \(\mathcal{P}(\{x, y\}) = \{\emptyset, \{x\}, \{y\}, \{x, y\}\}\) forms a poset ordered by \(\subseteq\) with the following hasse diagram:
+[[file:images/hasse-diagram.png]]

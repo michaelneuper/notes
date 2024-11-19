@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       b8c10ba4-a0d4-410b-bd33-e22f037980d1
+:END:
+#+title: Proof by Counter-example
+
+* Definition
+To disprove \(\forall x\in A, \alpha(x)\) (or equivalently, to prove \(\neg\forall x\in A, \alpha(x)\)), we demonstrate the existance of some \(a\in A\) for which \(\alpha(x)\) does not hold.
+
+* Example
+[[file:images/counter-example.png]]

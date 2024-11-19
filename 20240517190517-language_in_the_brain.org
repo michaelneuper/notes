@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       9cc5e382-efad-4d61-9796-b7ce99d9e8a7
+:END:
+#+title: Language in the Brain
+#+filetags: neurolinguistics
+
+* Broca's Area
+- Language production
+- Grammar processing
+
+* Wernicke's Area
+- Almost opposite symptoms

@@ -1,0 +1,72 @@
+:PROPERTIES:
+:ID:       69a42a04-d280-4ff0-9ec7-56675fab86f7
+:END:
+#+title: Advanced Class 1
+
+* Euclidean Distance
+Write a program that takes 2 integer command line arguments (x & y) and prints the distance from the point (x, y) to the origin (0, 0).
+
+#+begin_src python :results output :var x=5 y=2 :python "python3.8"
+import sys
+import math
+
+distance = math.sqrt(x**x + y**y)
+print(distance)
+#+end_src
+
+#+RESULTS:
+: 55.937465083787984
+
+* Dice
+Write a program that prints the sum of 2 randomly generated integers between 1 and 6 to produce an output with the same probabilities as rolling 2 dice.
+Extension: Could you generate a large set of numbers using your dice program and check that numbers occur with approximately the correct probability? Does the probability of a number occurring get better if the size of the data set is increased?
+
+#+begin_src python :results output :python "python3.8"
+import stdio
+from random import random
+
+rand_num_1 = int(random() * 6) + 1
+rand_num_2 = int(random() * 6) + 1
+
+dice_outcomes = [0, 0, 0, 0, 0, 0]
+
+for i in range(1000):
+    rand_num = int(random() * 6) + 1
+    if rand_num == 1:
+        dice_outcomes[0] += 1
+    elif rand_num == 2:
+        dice_outcomes[1] += 1
+    elif rand_num == 3:
+        dice_outcomes[2] += 1
+    elif rand_num == 4:
+        dice_outcomes[3] += 1
+    elif rand_num == 5:
+        dice_outcomes[4] += 1
+    elif rand_num == 6:
+        dice_outcomes[5] += 1
+
+# stdio.writeln(rand_num_1 + rand_num_2)
+print(dice_outcomes)
+
+#+end_src
+
+#+RESULTS:
+: [162, 166, 158, 177, 174, 163]
+
+* Gaussian Random Numbers
+Write a program that prints a random number r drawn from the Gaussian distribution.
+You can do this using the Box-Muller formula: r = √sin(2πv) −2 ln u where u & v are real numbers between 0 & 1.
+
+#+begin_src python :results output :python "python3.8"
+from math import sqrt, sin, log, pi
+from random import random
+
+u = random()
+v = random()
+r = sqrt(sin(2 * pi * v) * sqrt(-2 * log(u)))
+
+print(v)
+#+end_src
+
+#+RESULTS:
+: 0.3834382827871087

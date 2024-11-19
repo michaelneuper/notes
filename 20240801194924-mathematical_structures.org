@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       79aa2ef1-fe99-4915-9303-72d135d635f0
+:END:
+#+title: Mathematical Structures
+#+filetags: fundamentals
+
+* Definition
+#+begin_quote
+A mathematical structure is a [[id:56ae2cf4-a426-46fd-82eb-9acb3c8512ba][set]] \(X\) together with some [[id:87704c09-b23d-4980-ab11-0a5f839ebf59][operations]] on \(X\).
+#+end_quote
+
+* Example
+Let \(X = \{(n,m) : n,m\in\mathbb{N}\}\).
+
+Define \(\square, \triangle, ()^{\circ}\):
+- \((n,m)\square(n',m') := (n + n', m + m')\)
+- \((n,m)\triangle(n',m') := (n\cdot n', m\cdot m')\)
+- \((n,m)^{\circ} := (m,n)\)
+
+Then \(X\) together with \(\square, \triangle, ()^{\circ}\) forms a mathematical structure.

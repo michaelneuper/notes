@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       1c0fe441-35a7-4a60-a0cb-7cbf30048abd
+:END:
+#+title: Decreasing Functions
+
+* Definition
+Let \(f\) a [[id:87d42439-b03b-48be-84ab-2215b4733dd7][function]] and \(I\) be an [[id:a995fc0e-d695-4662-a94f-4daad08de069][interval]] which is a subset of the domain of \(f\).
+
+- \(f\) is said to be *decreasing* on \(I\) if \(f(x_1 > f(x_2\) whenever \(x_1 < x_2\) in \(I\)
+- \(\forall x_1 \in I\, \forall x_2 \in I,\, x_1<x_2\Rightarrow f(x_1) > f(x_2)\)

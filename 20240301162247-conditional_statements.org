@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       9280e877-a023-4954-980b-fb970828c43f
+:END:
+#+title: Conditional Statements
+
+* Definition
+Used to control the flow of a program based on certain conditions
+
+* Examples
+** [[id:0ec38573-de8e-4c51-a4b5-d7f728444692][If Statements]]

@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       99b60b9a-28d9-4260-8fad-adb86476f60b
+:END:
+#+title: Product Order
+
+* Definition
+Given two [[id:e64ef180-2fff-4790-bf03-1920ea80b239][posets]] \(P_{1}\) and \(P_{2}\) we can construct a new poset \(P_{1} \times P_{2}\) called the [[id:fd77c6f5-fa5d-4cc1-893a-31e9dbaa49df][product]] of \(P_{1}\) with \(P_{2}\) together with the [[id:72a5316f-9b83-4c20-aa2e-42ffe2813cfb][relation]] \(\le_{P_1 \times P_2}\) defined by
+\begin{equation*}
+(x_1, x_2) \le_{P_1 \times P_2} (y_1, y_2) \quad \Leftrightarrow \quad x_1 \le_{P_1} y_1 \wedge x_2 \le_{P_2} y_2
+\end{equation*}
+The order defined above is called the *product order* of \(P_1 \times P_2\).

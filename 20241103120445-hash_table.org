@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       e7f4222e-43ce-484a-9ca2-b202a84105d0
+:END:
+#+title: Hash Table
+
+* Definition
+- Use an array to hold keys and another corresponding array for values
+- Both keys and values array are of size m
+- Get hash code from key object, has function converts value between [0,m)
+
+* Links
+[[id:24c88caf-5f08-4700-a495-05684b9b615d][Hashable Object]]

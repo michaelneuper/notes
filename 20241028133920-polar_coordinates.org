@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       e173dcae-762b-43a3-9ca4-599e2ba6c76a
+:END:
+#+title: Polar Coordinates
+
+* Definition
+#+begin_quote
+Polar coordinates represent a point in a plane by its distance from a fixed point (called the origin) and an angle from a fixed direction (usually the positive \( x \)-axis). A point \( (r, \theta) \) in polar coordinates is defined by:
+\begin{equation*}
+x = r \cos \theta, \quad y = r \sin \theta
+\end{equation*}
+where \( r \) is the radial distance from the origin, and \( \theta \) is the angle.
+#+end_quote
+
+[[file:images/polar-axis.png]]
+
+* Finding Polar Coordinates
+To find polar coordinates \((r, \theta)\), when the Cartesian coordinates \((x,y)\) are known, we use the equations
+\begin{equation*}
+r^2 = x^2 + y^2
+\end{equation*}
+and
+\begin{equation*}
+\tan\theta = \frac{y}{x}
+\end{equation*}

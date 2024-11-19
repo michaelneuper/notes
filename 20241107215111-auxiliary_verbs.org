@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       d0a42ea7-2e9d-486a-a458-d351b79c47b8
+:END:
+#+title: Auxiliary Verbs
+
+* Definition
+Contributes [[id:6f9cb5ec-c73f-434f-9e55-c7a0ac95120f][grammatical]] information to the main [[id:d1cfe60a-53d4-470a-aea5-4b4bc9890d8f][verb]].
+
+* Types
+** Aspectual Auxiliaries
+Specify whether the action/event/state expressed by the main verb is in progress, completed, habitual, momentary or repeated.
+*** Perfect (or perfective)
+Represented by different forms of /have/:
+- /has/, /had/, /have/
+*** Progressive (or continuous)
+Represented by different forms of /be/ that co-occur with a verb that takes the --ing [[id:afd36133-0af4-41f7-a158-cc74636e0e6c][suffix]].
+- She /is/ sleeping.
+** Modal Auxiliaries
+Specify the speaker's attitude regarding the event expressed by the verb:
+certainty, definiteness, vagueness, possibility, probability, etc.
+- /can/could/, /may/might/, /shall/should/, /will/would/, /must/
+** Voice Auxiaries
+Involved in expressing the [[id:ed81dff2-7dc2-4c1a-8248-9e4bd16a737f][Passive Voice]].

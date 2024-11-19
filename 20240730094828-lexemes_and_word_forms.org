@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       9fab0955-2bbe-4552-ad9f-d4591a89def9
+:END:
+#+title: Lexemes and Word Forms
+
+* Lexeme
+#+begin_quote
+Abstract unit that represents the common properties of all the forms of a word.
+#+end_quote
+
+* Word Form
+#+begin_quote
+An infelctional form of a lexeme.
+#+end_quote

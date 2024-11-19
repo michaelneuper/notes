@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       ed81dff2-7dc2-4c1a-8248-9e4bd16a737f
+:END:
+#+title: Passive Voice
+
+The passive voice is used when we want to emphasise the action ([[id:d1cfe60a-53d4-470a-aea5-4b4bc9890d8f][verb]]) and the object of a sentence rather than subject.
+
+This means that the subject is either less important than the action itself or that we don't know who or what the subject is.

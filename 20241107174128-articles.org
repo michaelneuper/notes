@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       eea1e25a-7935-421a-92aa-9b83d061b0f7
+:END:
+#+title: Articles
+
+Type of [[id:15bcc6ee-22d3-4ea2-b702-025182c24c2a][Determiner]]

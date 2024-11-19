@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       d39c040a-d7ce-40b5-9e47-e65070c00abf
+:END:
+#+title: Transcendental Function
+
+* Definition
+#+begin_quote
+A [[id:87d42439-b03b-48be-84ab-2215b4733dd7][function]] who does not satisfy a [[id:4b3a5c7d-3853-4222-b6d3-16e73c922303][polynomial]] equation whose coefficients are functions of the independent variable that can be written using the basic operations of addition, subtraction, multiplication, and division.
+
+This is in contrast to [[id:03560687-d9a8-4929-b202-ec17351bb4e1][Algebraic Functions]].
+#+end_quote
+
+* Examples
+- [[id:d29f8fa1-bce7-4d4e-8592-edbab6d30395][Trigonometric Functions]]
+- [[id:7cc8b837-300f-4e53-8450-8f7cdb584868][Exponential Functions]]
+- [[id:af0f366c-775b-4905-af0a-8950764196ea][Logarithmic Functions]]

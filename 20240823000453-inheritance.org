@@ -1,0 +1,41 @@
+:PROPERTIES:
+:ID:       0d7eb97d-ec74-4a1e-88ca-c1bf49bc8cb1
+:END:
+#+title: Inheritance
+
+* Definition
+#+begin_quote
+Allows a new [[id:bcab6ba6-de4b-4509-95fb-aee12584a1ed][class]] (child class) to inherit attributes and methods from an existing class (parent class).
+This promotes code reuse and establishes a natural hierarchy between classes.
+
+A fundamental concept in [[id:045de827-7b9a-4212-82f9-e9e9869d0e94][OOP]].
+#+end_quote
+
+* Example
+#+begin_src python
+# Parent Class (Superclass)
+class Animal:
+    def __init__(self, name):
+        self.name = name
+
+    def speak(self):
+        return "Some generic animal sound"
+
+# Child Class (Subclass)
+class Dog(Animal):
+    def speak(self):
+        return "Woof!"
+
+# Another Child Class (Subclass)
+class Cat(Animal):
+    def speak(self):
+        return "Meow!"
+
+# Creating instances of the subclasses
+dog = Dog("Buddy")
+cat = Cat("Whiskers")
+
+# Accessing the inherited attribute and methods
+print(f"{dog.name} says: {dog.speak()}")  # Outputs: Buddy says: Woof!
+print(f"{cat.name} says: {cat.speak()}")  # Outputs: Whiskers says: Meow!
+#+end_src

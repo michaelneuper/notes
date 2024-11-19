@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       6855ed0e-8cd9-4f5e-ad8f-0b8dd3ec81e5
+:END:
+#+title: Clauses
+
+* Definition
+A clause is a meaningful unit of language.
+Can be a [[id:1a3a4f9c-8567-40c1-9da9-1540139d5899][sentence]] ("I see the dog"), but sometimes two or more clauses need to combine to form a sentence ("I know" + "that you are here").
+
+The main element of a clause is the [[id:22dabe8b-5aec-443f-88eb-c23a4e8c728c][verb phrase]]: each clause must contain a VP.
+The VP is usually accompanied by a subject [[id:8f34fe1c-acd6-4e4f-b609-7b73efea7336][noun phrase]].
+
+You can determine the number of clauses in a sentence by counting the number of verb phrases.

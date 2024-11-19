@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       511d69ae-9aae-4cfe-bed7-b56d4ca8cceb
+:END:
+#+title: Separable Equations
+#+filetags: calculus differential_equations
+
+* Definition
+#+begin_quote
+A separable equation is a first-order [[id:7434ea42-2761-4665-979d-e8314e74fc3a][General Differential Equation]] in which the expression for \(dy/dx\) can be factored as a function of \(x\) times a function of \(y\).
+i.e. it can be written in the form
+
+\begin{equation*}
+\frac{dy}{dx} = g(x)h(y) \quad \text{or} \quad \frac{dy}{dx} = \frac{g(x)}{h(y)}
+\end{equation*}
+#+end_quote
+
+* Method for Solving
+- Seperate the variables so that all \(y\)'s are on one side and all \(x\)'s are on the other side.
+- Integrate both sides.

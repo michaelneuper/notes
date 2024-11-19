@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       64e2ae97-4877-44aa-bab5-db4eef5f43e9
+:END:
+#+title: Proof by Cases
+
+* Definition
+To prove \(\alpha_1\vee\alpha_2\vee\cdots\alpha_n\Rightarrow\beta\), prove \(\alpha_i\Rightarrow\beta\) for each \(1\le i \le n\).
+
+* Example
+[[file:images/proof-by-cases.png]]

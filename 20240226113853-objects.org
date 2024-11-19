@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       a971dde6-4766-41ea-9dd1-9de67a051aad
+:END:
+#+title: Objects
+
+* Characterisation
+** Identity
+The location in memory where the object is stored.
+** Type
+Specifies the behaviour - the set of operations the object supports.
+** Value (State)
+The data type value that it currently represents.
+
+* Creating Objects
+
+#+begin_src python
+c1 = Charge(0.51, 0.63, 21.3)
+c2 = Charge(0.13, 0.94, 85.9)
+c3 = Charge(0.51, 0.63, 21.3)
+c4 = c2
+#+end_src
+
+- c1 and c3 are distinct. They are equal but NOT identical.
+- c2 and c4 refer to the same object (aliased), they are equal and identical.

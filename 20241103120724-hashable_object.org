@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       24c88caf-5f08-4700-a495-05684b9b615d
+:END:
+#+title: Hashable Object
+
+* Properties
+- The [[id:a971dde6-4766-41ea-9dd1-9de67a051aad][object]] can be compared for equality with other objects
+- Whenever two objects compare as equal, they have the same hash code
+- The object's hash code does not change during its lifetime

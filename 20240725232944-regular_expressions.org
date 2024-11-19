@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       134c3d5d-a33e-4224-9c77-f727f24bf485
+:END:
+#+title: Regular Expressions
+#+filetags: fundamentals
+
+* Definition
+Given a [[id:56ae2cf4-a426-46fd-82eb-9acb3c8512ba][set]]  \(A\), we can contruct the set \(A*\) consisting of all finite [[id:d1a18e96-d26e-4ec0-85be-596c9d8a64a7][sequences]] of elements of \(A\).
+Often, the set \(A\) is not a set of numbers, but some set of symbols.
+In this case, \(A\) is called an alphabet, and finite sequences in \(A*\) are called *words* from \(A\).
+We assume that \(A*\) contains the empty sequence or empty [[id:2f8faf02-c178-4881-86b1-5f9c5f646d6a][string]], containing no symbols, denoted \(\Lambda\).
+
+* Rules
+Regular expressions are defined [[id:25af17fb-fb34-4bc4-961f-8e5e6bd138f9][recursively]].
+A regular expression over \(A\) is a string constructed from the elements of \(A\) and the symbols \((\), \()\), \(\vee\), \(*\), \(\Lambda\), according to the following definition.
+
+- \(\Lambda\) is a regular expression.
+- If \(x\in A\), then \(x\) is a regular expression.
+- If \(\alpha\) and \(\beta\) are regular expressions, then \(\alpha\beta\) is regular.
+- If \(\alpha\) and \(\beta\) are regular expressions, then \(\alpha\vee\beta\) is regular.
+- If \(\alpha\) is a regular expression, then \((\alpha)*\) is regular.

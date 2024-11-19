@@ -1,0 +1,37 @@
+:PROPERTIES:
+:ID:       0d2844c1-3cc9-4de8-ab4d-13fbe622963e
+:END:
+#+title: Join
+
+* Definition
+Given a [[id:e64ef180-2fff-4790-bf03-1920ea80b239][poset]] \(P\) and given two elements \(x, y\in P\) the *join* [[id:87704c09-b23d-4980-ab11-0a5f839ebf59][operation]] of \(x\) and \(y\) is an element \(x \vee_{P}y\) of \(P\) such that \(x \le_{P} (x\vee_{P}y)\) and \(y \le_{P} (x\vee_{P}y)\) and which satisfies the following property:
+\begin{equation*}
+\forall z \in P, \, x \le_{P} z \text{ and } y \le_{P} z \Longrightarrow (x \vee_{P} y) \le_{P} z
+\end{equation*}
+
+** Properties
+- [[id:d5b9323d-271b-428f-8028-1d63bb90a5b5][Commutativity]]
+- [[id:c8f00bb3-244d-4138-8a02-86934cf0103b][Associativity]]
+
+* For Boolean Matrices
+Let \( A = [a_{ij}] \) and \( B = [b_{ij}] \) be \( n \times n \) [[id:27984177-d920-45da-acd2-362148b0e660][Boolean Matrices]].
+Then the *join* operation is the element-wise logical [[id:d146a663-e2c9-453a-b7f5-387284f7285a][OR]] operation.
+
+Let  \( C = A \lor B = [c_{ij}] \). \( C \) is then said to be the \textbf{join} of \( A \) and \( B \).
+\begin{equation*}
+c_{ij} =
+\begin{cases}
+1 & \text{if } a_{ij} = 1 \text{ or } b_{ij} = 1 \\
+0 & \text{if } a_{ij} = 0 \text{ and } b_{ij} = 0
+\end{cases}
+\end{equation*}
+The resulting matrix \(C\) is also adn \(n \times n\) matrix.
+
+* Example
+\begin{equation*}
+A = \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}, \quad
+B = \begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix}
+\end{equation*}
+\begin{equation*}
+A \lor B = \begin{bmatrix} 1 & 1 \\ 1 & 1 \end{bmatrix}
+\end{equation*}

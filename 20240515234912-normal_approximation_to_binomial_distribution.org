@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       2d687582-f4ad-425d-a114-ac447a122ac1
+:END:
+#+title: DeMoivre-Laplace Theorem
+#+filetags: continuous_random_variables
+
+* Definition
+#+begin_quote
+Let \(X\) be the number of successes in \(n\) independent trials, where the probability of a success in one trial is \(p\).
+Then, for any \(a\) and \(b\),
+\begin{equation*}
+\lim_{n\to\infty} P\{a<X<b\} = \Phi\left(\frac{b - np}{\sqrt{np(1-p)}}\right) - \Phi\left(\frac{a - np}{\sqrt{np(1-p)}}\right)
+\end{equation*}
+#+end_quote
+
+* Notes
+As \(n \to \infty\), the [[id:7201e00a-eca0-40d9-a70e-0ce26ee655da][binomial]] distribution converges to a [[id:47914a94-e4b1-485d-a380-c4e4f269f49d][normal]] distribution with mean \(np\) and variance \(np(1-p)\).
+It can be shown that the approximation is good when \(np(1-p)\) is large.

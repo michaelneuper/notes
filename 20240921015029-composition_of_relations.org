@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       466d95e7-6aed-4ffd-a6b9-543cb1b03db1
+:END:
+#+title: Composition of Relations
+#+filetags: relations_and_digraphs
+
+* Definition
+Given [[id:72a5316f-9b83-4c20-aa2e-42ffe2813cfb][relations]] \(R\subseteq X \times Y\) and \(S\subseteq Y \times Z\) then the *composite* of \(R\) with \(S\) is a relation \(R \circ S \subseteq X \times Z\) defined
+\begin{equation*}
+R \circ S \coloneqq \{(x,z) \in X \times Z \mid \exists y \in Y [x \mathrel{R} y \land y \mathrel{S} z]\}
+\end{equation*}
+
+* Properties
+- [[id:c8f00bb3-244d-4138-8a02-86934cf0103b][Associativity]]

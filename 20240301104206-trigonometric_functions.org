@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       d29f8fa1-bce7-4d4e-8592-edbab6d30395
+:END:
+#+title: Trigonometric Functions
+
+* Definition
+- A function \(f\) is said to be trigonometric if it is one of the following:
+  - \(f(x) = \sin(x)\)
+  - \(f(x) = \cos(x)\)
+  - \(f(x) = \sec(x)\)
+  - \(f(x) = \csc(x)\)
+  - \(f(x) = \tan(x)\)
+  - \(f(x) = \cot(x)\)

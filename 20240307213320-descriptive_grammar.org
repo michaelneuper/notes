@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       9026f333-80b7-47cb-863c-d4935a0356c7
+:END:
+#+title: Descriptive Grammar
+
+- Scientific description of speaker's [[id:f9efe42e-017f-4ede-9406-ab0526729e43][grammatical competence]]
+- Concrete model of mental capacity
+- Consists of finite number of rules and principles and a [[id:76abe154-3c50-40ed-896b-69bb6ccc7592][lexicon]]
+- Describes the characteristics of a given language, those which distinguish that language from others
+- Describes the rules and principles that are spontaneously acquired
+- Constructed by grammarians in the study field of (Descriptive) Grammar

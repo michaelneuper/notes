@@ -1,0 +1,40 @@
+:PROPERTIES:
+:ID:       e5d2803f-85b1-4bc7-abeb-832aa3d2721d
+:END:
+#+title: Computer Science 114
+#+filetags: module
+
+* Advanced Class
+** Week 2 :advanced1:
+*** [[id:69a42a04-d280-4ff0-9ec7-56675fab86f7][Advanced Class 1]]
+** Week 3 :advanced2:
+*** [[id:8b4ca88a-6795-4da5-b4c6-e003241a5748][Advanced Class 2]]
+** Week 4 :advanced3:
+*** [[id:21e9220f-47d8-47cb-b5a2-3f14119a7ae9][Advanced Class 3]]
+** Week 5 :advanced4:wordle:
+*** [[id:5bdcdc7a-df2e-45d6-811c-e4c28c79d8d9][Advanced Class 4]]
+** Week 6 :advanced5:
+*** [[id:72744a79-43a9-46dd-ba64-f7fc6d5e8872][Advanced Class 5]]
+* Syntax and Variables :syntax_and_variables:
+** [[id:cca5f6cf-dddb-4e8a-8681-f793fd552697][hello_world]]
+** [[id:53d4580b-834f-47fe-8e29-3ec8fbe03a78][Errors]]
+** [[id:c18c76bf-0c46-4c68-9199-0e30a07a08e9][Command-line Arguments]]
+** [[id:dee3591f-d6bb-4695-bf11-12ea39df0764][Algorithm]]
+** [[id:72f40898-b06c-4c82-b670-b892182657a9][Data Types]]
+** [[id:a0d3280f-e065-4437-806b-c9d15fc8be18][Basic Programming Terminology]]
+** [[id:103ed052-83c8-4f4a-9ffb-62a2bdd56637][Object Trace]]
+* Conditionals and Loops :conditionals_and_loops:
+** [[id:5c0c52b1-dffb-4bd3-ba8e-3f6e935da2e5][Control Structures]]
+** [[id:b25fe0b9-0760-489d-87ff-2109238dd760][Newton-Raphson Method]]
+** [[id:fe20cbc0-3044-4520-8078-2a32ed086cf1][Converting to Binary]]
+** [[id:551246d5-b08e-4eb1-b4dd-93a2c07a4b30][Factoring Integers]]
+* Input and Output :input_output:
+** [[id:59fb8328-3fd0-4da8-98f8-490d01d141af][Draw Triangle]]
+** [[id:8fa11927-e786-40ca-843a-5eceeff7ad08][Sierpinski Triangle]]
+* Arrays :arrays:
+** [[id:3c151f03-1a4a-4df2-9ef2-a70d81b4bfe6][Arrays]]
+* Functions :functions:
+* TODO Case-study: Random-web surfer :random_surfer:
+* TODO Libraries and Modules :libs_and_modules:
+* Recursion :recursion:
+** [[id:25af17fb-fb34-4bc4-961f-8e5e6bd138f9][Recursion]]

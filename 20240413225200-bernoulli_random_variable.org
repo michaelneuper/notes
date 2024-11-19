@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       a437fdc4-d141-485b-af6a-90cdbf58f859
+:END:
+#+title: Bernoulli Random Variable
+#+filetags: discrete_random_variables
+
+* Definition
+#+begin_quote
+The Bernoulli random variable \(Y\):
+- \(P\{Y = 1\} = p\) (probability of succes)
+- \(P\{Y = 0\} = 1 - p\) (probability of failure)
+#+end_quote

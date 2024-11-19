@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       bf3b5765-d746-46a4-b3c2-ab8b84dd1611
+:END:
+#+title: Squeeze Theorem
+#+filetags: theorem
+
+* Definition
+Let \(f, g, h\) be any [[id:87d42439-b03b-48be-84ab-2215b4733dd7][function]] and \(a, L\in \mathbb{R}\).
+If \(f(x)\le g(x) \le h(x)\) near \(a\) (except possibly at \(a\)) and \(\lim_{x\to a}f(x) = \lim_{x\to a}h(x) = L\) then \(\lim_{x\to a}g(x) = L\)
+
+[[file:images/squeeze-theorem.png]]
+
+* Corollary
+Let \(f,g\) be functions and \(a,L\in \mathbb{R}\).
+If \(f(x) = g(x)\) for all \(x\) near \(a\) (except possibly at \(a\)) and \(\lim_{x\to a}f(x) = L\) then \(\lim_{x\to a}g(x) = L\)
+
+Then for every \(x\) near \(a\), \(f(x)\le g(x) \le h(x)\) and \(\lim_{x\to a} f(x) = \lim_{x\to a}f(x) = L\).
+
+Therefore for any \(f,g\) functoins \(a,L\in\mathbb{R}\) when \(f(x)=g(x)\) for all \(x\) near \(a\) and \(\lim_{x\to a}f(x) = L\), we have \(\lim_{x\to a}g(x) = L\)
+
+* Example
+[[file:images/limit-exercise.png]]

@@ -1,0 +1,32 @@
+:PROPERTIES:
+:ID:       107d4f63-d278-4fc7-bf8c-426ffe038507
+:END:
+#+title: Unit Vector
+#+filetags: linear_algebra vectors
+
+* Definition
+#+begin_quote
+A [[id:81c97780-c8a5-4652-a6eb-d33732c37f1e][vector]] of [[id:833b0c16-2313-4189-9979-084727a461d9][length]] \(1\) is called a *unit vector*.
+In \(\mathbb{R}^2\), the [[id:56ae2cf4-a426-46fd-82eb-9acb3c8512ba][set]] of all unit vectors can be identified with the /unit/ circle.
+
+Given any nonzero vector \(\mathbf{v}\), we can always find a unit vector \(\mathbf{u}\) in the same direction as \(\mathbf{v}\) by dividing by its length.
+\begin{equation*}
+\mathbf{u} = \left(\frac{1}{\lVert\mathbf{v}\rVert}\right)\mathbf{v}
+\end{equation*}
+This is referred to as *normalizing* a vector.
+#+end_quote
+[[file:images/normalizing-vector.png]]
+
+
+* Unit Vectors in \(\mathbb{R}^2\)
+\begin{align*}
+\mathbf{i} = \mathbf{e}_1 &= \begin{bmatrix} 1 \\ 0 \end{bmatrix} \\
+\mathbf{j} = \mathbf{e}_2 &= \begin{bmatrix} 0 \\ 1 \end{bmatrix}
+\end{align*}
+
+* Unit Vectors in \(\mathbb{R}^3\)
+\begin{align*}
+\mathbf{i} = \mathbf{e}_1 &= \begin{bmatrix} 1 \\ 0 \\ 0 \end{bmatrix} \\
+\mathbf{j} = \mathbf{e}_2 &= \begin{bmatrix} 0 \\ 1 \\ 0 \end{bmatrix} \\
+\mathbf{k} = \mathbf{e}_3 &= \begin{bmatrix} 0 \\ 0 \\ 1 \end{bmatrix}
+\end{align*}

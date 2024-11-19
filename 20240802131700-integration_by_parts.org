@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       d366228e-15a1-4f37-a326-ea5a051cb9fd
+:END:
+#+title: Integration by Parts
+#+filetags: calculus integration_techniques
+
+* Definition
+#+begin_quote
+A process that finds the [[id:7256d12e-eb3d-48d1-8f12-7168c6fe8522][integral]] of a product of two [[id:87d42439-b03b-48be-84ab-2215b4733dd7][functions]] in terms of the product of their [[id:a350707f-ba1b-4912-ad8d-60e80e1c5d47][derivative]] and [[id:e606e6fc-c0e4-4d39-ad9f-704161129f5c][antiderivative]].
+\begin{equation*}
+\int_{a}^{b}u(x)v'(x) \, dx = \Big[u(x)v(x)\Big]_{a}^{b} - \int_{a}^{b}u'(x)v(x) \, dx
+\end{equation*}
+
+Or, letting \(u = u(x)\) and \(du = u'(x) \, dx\) while \(v = v(x)\) and \(dv = v'(x) \, dx\), the formula can be written more compactly:
+
+\begin{equation*}
+\int u \, dv = uv - \int v \, du
+\end{equation*}
+#+end_quote
+
+* Tabular Method
+[[file:images/table-int-parts.png]]

@@ -1,0 +1,4 @@
+:PROPERTIES:
+:ID:       8b4ca88a-6795-4da5-b4c6-e003241a5748
+:END:
+#+title: Advanced Class 2

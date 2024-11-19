@@ -1,0 +1,36 @@
+:PROPERTIES:
+:ID:       188f8b5d-ab65-4151-817f-ea1dd58a5545
+:END:
+#+title: The Matrix of a Relation
+#+filetags: relations_and_digraphs
+
+* Defintion
+If \(A = \{a_1, a_2, \ldots, a_m\}\) and \(B = \{b_1,b_2,\ldots,b_n\}\) are finite [[id:56ae2cf4-a426-46fd-82eb-9acb3c8512ba][sets]] containing \(m\) and \(n\) elements, respectively, and \(R\) is a [[id:72a5316f-9b83-4c20-aa2e-42ffe2813cfb][relation]] from \(A\) to \(B\), we represent \(R\) by the \(m\times n\) [[id:27984177-d920-45da-acd2-362148b0e660][boolean matrix]] as \(\mathbf{M}_{R} = [ \; m_{ij} \; ]\), which is defined by
+\begin{equation*}
+m_{ij} =
+\begin{cases}
+1 \quad \text{if } (a_i,b_j)\in R \\
+0 \quad \text{if } (a_i,b_j)\not\in R
+\end{cases}
+\end{equation*}
+
+* Properties
+Given relations \(R,S\subseteq A \times B\)
+- The matrix of the [[id:196514bf-395b-4147-b6a6-917aeb283776][intersection]] of \(R\) and \(S\) is the [[id:8112c919-97b7-4325-b9f3-32f303437286][meet]] of the matrix of \(R\) with the matrix of \(S\).
+
+  \(\mathbf{M}_{R\cap S} = \mathbf{M}_R \land \mathbf{M}_S\)
+
+- The matrix of the [[id:d209d5ef-ceb6-4801-8488-40d19377bb64][union]] of \(R\) and \(S\) is the [[id:0d2844c1-3cc9-4de8-ab4d-13fbe622963e][join]] of the matrix of \(R\) with the matrix of \(S\).
+
+  \(\mathbf{M}_{R\cup S} = \mathbf{M}_R \lor \mathbf{M}_S\)
+
+* Example
+Let \( A = \{1, 2, 3\} \) and \( B = \{r, s\} \). Then \( R = \{(1, r), (2, s), (3, r)\} \) is a relation from \(A\) to \( B \).
+\begin{equation*}
+\mathbf{M}_{R} =
+\begin{bmatrix}
+1 & 0 \\
+0 & 1 \\
+1 & 0
+\end{bmatrix}
+\end{equation*}

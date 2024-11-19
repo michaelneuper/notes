@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       86aa731a-f0c3-4ace-9c10-6feec4586986
+:END:
+#+title: Lip Shape
+#+filetags: phonetics
+
+Lips can be either rounded or spread

@@ -1,0 +1,53 @@
+:PROPERTIES:
+:ID:       4c0b44e5-df9d-4676-b5a9-a689a18dcc4f
+:END:
+#+title: Partial Fraction Decomposition
+#+filetags: calculus integration_techniques
+
+* The Method of Partial Fractions
+#+begin_quote
+Consider a [[id:c562099b-bc16-43f7-aa59-d24718f4e731][rational function]]
+\begin{equation*}
+f(x) = \frac{P(x)}{Q(x)}
+\end{equation*}
+where \(P\) and \(Q\) are [[id:4b3a5c7d-3853-4222-b6d3-16e73c922303][polynomials]].
+
+If \(f\) is an *improper* fraction, we must take the preliminary step of dividing \(Q\) into \(P\) (by long division) until a remainder \(R(x)\) is obtained such that \(\text{deg}(R) < \text{deg}(Q)\).
+The result is
+\begin{equation*}
+f(x) = \frac{P(x)}{Q(x)} = S(x) + \frac{R(x)}{Q(x)}
+\end{equation*}
+#+end_quote
+
+* Case 1: \(Q(x)\) is a product of distinct linear factors (none of which are repeated)
+This means we can write
+\begin{equation*}
+Q(x) = (a_1x + b_1)(a_2x + b_2)\cdots(a_kx + b_k)
+\end{equation*}
+where no factor is repeated (and no factor is a constant multiple of another).
+In this case the partial fraction theorem states that there exists constants \(A_1,A_2,\ldots,A_k\)
+\begin{equation}
+\frac{R(x)}{Q(x)} = \frac{A_1}{a_1x + b_1} + \frac{A_2}{a_2x + b_2} + \cdots + \frac{A_k}{a_kx + b_k}
+\end{equation}
+
+* Case 2: \(Q(x)\) is a product of distinct linear factors (some of which are repeated)
+Suppose the first linear factor \((a_1x + b_1)\) is repeated \(r\) times: that is, \((a_1x + b_1)^r\) occurs in the factorization of \(Q(x)\).
+Then instead of the sinlge term \(A_1/(a_1x + b_1)\) in Equation 1, we would use
+
+\begin{equation}
+\frac{A_1}{a_1x + b_1} + \frac{A_1}{(a_1x + b_1)^2} + \cdots + \frac{A_r}{(a_1x + b_1)^r}
+\end{equation}
+
+* Case 3: \(Q(x)\) contains irreducible quadratic fractors (none of which are repeated)
+If \(Q(x)\) has the factor \(ax^2 + bx + c\) where \(b^2-4ac < 0\) then, in addition to the partial fractions in Equations 1 and 2, the expression for \(R(x)/Q(x)\) will have a term of the form
+\begin{equation}
+\frac{Ax + B}{ax^2+bx+c}
+\end{equation}
+where \(A\) and \(B\) are constants to be determined.
+
+* Case 4: \(Q(x)\) contains irreducible quadratic fractors (some of which are repeated)
+If \(Q(x)\) has the factor \((ax^2+bx+c)^r\) where  \(b^2-2ac < 0\), then instead of the single partial fraction (3), the sum
+\begin{equation}
+\frac{A_1x+B_1}{ax^2+bx+c} + \frac{A_2x+B_2}{(ax^2+bx+c)^{2}} + \cdots + \frac{A_rx+B_r}{(ax^2+bx+c)^{r}}
+\end{equation}
+occurs in the partial fraction decomposition of \(R(x)/Q(x)\).

@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       90a6e349-4585-4be1-a6d7-15506f435125
+:END:
+#+title: Communicative Competence
+
+* Definition
+Knowing how to use language appropriately in different contexts.
+
+To show respect, politeness, disagreement, etc.
+
+- Speech communities
+- Communicative situations
+- Communicative events
+- Communicative acts

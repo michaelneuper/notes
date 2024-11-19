@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       2d652309-1463-4f6d-ba03-c7026edf225f
+:END:
+#+title: Assignment Statement
+
+* Definition
+Using the = operator to associate a [[id:72f40898-b06c-4c82-b670-b892182657a9][data type]] with a [[id:88fbf286-a581-45bf-a765-5d27d3472517][variable]]
+
+* Notes
+The meaning of = in programming is NOT the same as in a mathematical equation
+
+* Example
+- a = 123

@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       1cd265bf-f608-4ed4-a2f4-73def87f8eb2
+:END:
+#+title: The Fundamental Theorem of Calculus
+#+filetags: calculus theorem
+
+* First Fundamental Theorem of Calculus
+#+begin_quote
+Let \(f\) be a function continuous on an interval \([a,b]\).
+Then the function defined by
+\begin{equation*}
+F(x) = \int_a^{b} f(t) \, dt
+\end{equation*}
+
+with \(\text{Dom}(F) = [a,b]\) is continuous on \([a,b]\) and differentiable on \((a,b)\) with \(F'(x) = f(x)\) for all \(x\in (a,b)\).
+#+end_quote
+
+* Second Fundamental Theorem of Calculus
+#+begin_quote
+Let \(f\) be a function continuous on \([a,b]\).
+Then
+\begin{equation*}
+\int_a^{b} f(x) \, dx = F(b) - F(a)
+\end{equation*}
+where \(F\) is any [[id:e606e6fc-c0e4-4d39-ad9f-704161129f5c][antiderivative]] of \(f\).
+#+end_quote
+
+** Proof
+[[file:images/ftc21.png]]
+[[file:images/ftc22.png]]
+
+* Notes
+Links the concept of [[id:a350707f-ba1b-4912-ad8d-60e80e1c5d47][differentiating]] a function with [[id:7256d12e-eb3d-48d1-8f12-7168c6fe8522][integrating]] a function.

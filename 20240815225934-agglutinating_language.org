@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       29eda611-bf20-4fb5-91f0-61224da2e9bc
+:END:
+#+title: Agglutinating Languages
+
+* Generalisation
+Functional ([[id:f9efe42e-017f-4ede-9406-ab0526729e43][grammatical]]) information, unlike lexical (content) information, is encoded via [[id:afd36133-0af4-41f7-a158-cc74636e0e6c][affixes]] which combine with the latter in a regular manner.
+
+* Notes
+- Agglutinating (from Latin /agglutinare/, meaning 'to glue together')
+- [[id:6520f76a-6137-4e67-bfb9-0e3fd7b8e628][Morphemes]] tend to 'glue' together but hold their shape
+- Each morpheme tends to convery one piece of information
+
+* Example: Quenchua
+- wasi-n-ku
+- house-3P-PL
+- "their house"

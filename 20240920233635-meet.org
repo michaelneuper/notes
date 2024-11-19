@@ -1,0 +1,37 @@
+:PROPERTIES:
+:ID:       8112c919-97b7-4325-b9f3-32f303437286
+:END:
+#+title: Meet
+
+* Definition
+Given a [[id:e64ef180-2fff-4790-bf03-1920ea80b239][poset]] \(P\) and given two elements \(x, y\in P\) the *meet* [[id:87704c09-b23d-4980-ab11-0a5f839ebf59][operation]] of \(x\) and \(y\) is an element \(x \wedge_{P}y\) of \(P\) such that \((x\wedge_{P}y) \le_{P} x\) and \((x\vee_{P}y) \le_{P} y\) and which satisfies the following property:
+\begin{equation*}
+\forall z\in P, \, z \le_{P} x \text{ and } z \le_{P} y \Longrightarrow z \le_{P} (x \wedge_{P} y)
+\end{equation*}
+
+** Properties
+- [[id:d5b9323d-271b-428f-8028-1d63bb90a5b5][Commutativity]]
+- [[id:c8f00bb3-244d-4138-8a02-86934cf0103b][Associativity]]
+
+* For Bolean Matrices
+Let \( A = [a_{ij}] \) and \( B = [b_{ij}] \) be \( n \times n \) [[id:27984177-d920-45da-acd2-362148b0e660][Boolean Matrices]].
+Then the *meet* operation is the element-wise logical [[id:b6b3f983-2e80-4cd2-9167-b309c6156ccf][AND]] operation.
+
+Let  \( C = A \land B = [c_{ij}] \). \( C \) is then said to be the *meet* of \( A \) and \( B \).
+\begin{equation*}
+c_{ij} =
+\begin{cases}
+1 & \text{if } a_{ij} = 1 \text{ and } b_{ij} = 1 \\
+0 & \text{if } a_{ij} = 0 \text{ or } b_{ij} = 0
+\end{cases}
+\end{equation*}
+The resulting matrix \( C \) is also an \( n \times n \) matrix.
+
+* Example
+\begin{equation*}
+A = \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}, \quad
+B = \begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix}
+\end{equation*}
+\begin{equation*}
+A \land B = \begin{bmatrix} 0 & 0 \\ 0 & 0 \end{bmatrix}
+\end{equation*}

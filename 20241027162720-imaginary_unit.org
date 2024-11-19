@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       7d649ad4-02e8-4548-ba45-1b3dd92d81a6
+:END:
+#+title: Imaginary Unit
+
+* Definition
+#+begin_quote
+The imaginary unit \(i\) is the solution to the equation \(i^2+1=0\).
+#+end_quote

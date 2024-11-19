@@ -1,0 +1,51 @@
+:PROPERTIES:
+:ID:       56d82b46-7de0-468c-8368-1d4a3661e653
+:END:
+#+title: Indeterminate Forms
+#+filetags: calculus inverse_functions
+
+* Indeterminate Forms (Types \(0/0, \infty/\infty\))
+#+begin_quote
+In general, the [[id:6ffde4e8-a12d-4c3a-bc24-675b5a38433c][limits]] of the following forms are considered to be *indeterminate*
+
+\begin{equation}
+\lim_{x\to a}\frac{f(x)}{g(x)}
+\end{equation}
+where \(f(x) \to 0\) AND \(g(x) \to 0\) as \(x \to a\)
+
+\begin{equation}
+\lim_{x\to a}\frac{p(x)}{q(x)}
+\end{equation}
+where \(f(x) \to \pm\infty\) AND \(g(x) \to \pm\infty\) as \(x \to a\)
+#+end_quote
+
+* Indeterminate Products (Type \(0\cdot\infty\))
+#+begin_quote
+If \(\lim_{x\to a}f(x)=0\) and \(\lim_{x\to a}g(x)=\pm\infty\) then it isn't clear what the value of \(\lim_{x\to a}f(x)g(x)\) is.
+We can deal with this by writing the product \(fg\) as a quotient.
+
+\(fg = \frac{f}{1/g}\) or \(fg = \frac{g}{1/f}\)
+#+end_quote
+
+* Indeterminate Differences (Type \(\infty - \infty\))
+#+begin_quote
+If \(\lim_{x\to a}f(x) = \infty\) and \(\lim_{x\to a}g(x) = \infty\) then \(\lim_{x\to a}f(x) - g(x)\) is called an indeterminate form of type \(\infty-\infty\).
+
+We can try and convert the difference into a quotient (for instance, by using a common denominator, rationalization or factoring out a common factor).
+#+end_quote
+
+* Indeterminate Powers (Types \(0^0, \infty^0, 1^{\infty}\))
+#+begin_quote
+Several indeterminate forms arise from the limit \(\lim_{x\to a}f(x)^{g(x)}\).
+
+Each case can be treated by either taking the [[id:3d7be50d-0765-42a1-a373-a1a45c726cec][The Natural Logarithm]]:
+
+let \(y = f^{g}\) then \(\ln y = g\cdot\ln f\)
+
+or by writing the function as an exponential:
+
+\(f^{g} = e^{g\cdot\ln f}\)
+#+end_quote
+
+* Note
+- The forms \(0/\infty\) and \(\infty/0\) are not indeterminate
