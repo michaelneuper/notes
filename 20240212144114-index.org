@@ -15,3 +15,14 @@
 *** [[id:e957b21b-0338-4020-b270-038f6b9f7b4a][Computer Science 144]]
 *** [[id:c822f4b8-fecf-4aac-9bba-d90b2612a12a][Mathematics 144]]
 *** [[id:2eef0ac6-fd57-4b6e-91d5-de0bf9b20e59][Mathematics 154]]
+* Year 2
+** Year
+*** [[id:2f68b589-c5ee-488e-bb61-76b627cd8897][Mathematics 278]]
+** Semester 1
+*** [[id:720aa1ed-7d13-4a25-ad9f-9f188c7cbb15][Computer Science 214]]
+*** [[id:b8dd6a8f-24b0-4e50-b048-51fc41739520][Mathematics 214]]
+*** [[id:05cab256-f461-4fa0-9897-ca8dbc61e2df][Operations Research 214]]
+** Semester 2
+*** [[id:aed56daf-ec66-4b0a-951e-e2df587eb686][Computer Science 244]]
+*** [[id:80dd8b32-d4cf-477b-9e46-ccf306fc8dcf][Mathematics 244]]
+*** [[id:8d6daf8d-b916-4ee5-a6ef-9d31bfa66f55][Operations Research 244]]
