@@ -12,12 +12,12 @@ Well-defined means that it is possible to decide if a given object belongs to th
 #+end_quote
 
 * Set-builder Notation
-$$\{x \in X | \text{ condition on }x\}$$
-A (some set) = { variable in larger set such that condition }
+- $\{x \in X | \text{ condition on }x\}$
+- A (some set) = { variable in larger set such that condition }
 
 ** Examples
 - $\mathbb{N} = \{a \in \mathbb{Z} | a \ge 0\}$
-- $\mathbb{Q} = \{m/n \in \mathbb{R} | m, n \in \Z \text{ and } n \ne 0\}$
+- $\mathbb{Q} = \{m/n \in \mathbb{R} | m, n \in \mathbb{Z} \text{ and } n \ne 0\}$
 - \([0,1]=\{x\in \mathbb{R} | 0\le x\le 1\}\)
 
 * Subsets
