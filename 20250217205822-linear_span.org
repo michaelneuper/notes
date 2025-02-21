@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       a76e4790-b665-46b5-a02f-2970b0f1196c
+:END:
+#+title: Linear Span
+
+* Definition
+The span of a [[id:56ae2cf4-a426-46fd-82eb-9acb3c8512ba][set]] \(X\) of [[id:81c97780-c8a5-4652-a6eb-d33732c37f1e][vectors]] in some [[id:9bbf878c-2d8f-45ad-8bc3-5f5066b6ca06][vector space]] \(V\) is the set of all vectors in \(V\) which can be expressed as a linear combination of vectors from \(X\).
+
+\begin{equation*}
+\operatorname{span}{X} = \{a_1\mathbf{v}_1 + \cdots + a_n\mathbf{v}_n : a_n \in \mathbb{R} \text{ and } \mathbf{v}_n \in V \text{ and } n \in \mathbb{N}\}
+\end{equation*}

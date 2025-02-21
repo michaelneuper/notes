@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       41b9dca8-794f-4c73-9062-8d4937f271bd
+:ROAM_ALIASES: Digraph
+:END:
+#+title: Directed Graph
+
+* Definition
+A [[id:6bc62b33-2126-4f09-a380-3b05d6efa5c2][graph]] that is made up of a set of vertices connected by directed edges (arcs).

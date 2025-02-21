@@ -2,3 +2,17 @@
 :ID:       05cab256-f461-4fa0-9897-ca8dbc61e2df
 :END:
 #+title: Operations Research 214
+
+* Week 1 :w1:tut1:
+** Undirected Graphs
+*** [[id:6bc62b33-2126-4f09-a380-3b05d6efa5c2][Graph]]
+*** [[id:a79f8536-1e29-4f68-8021-e3a07bb71731][The Fundamental Theorem of Graph Theory]]
+*** [[id:122888f6-681b-4b2f-985b-4f5638c42da2][Adjacency Matrix]]
+*** [[id:92476867-dac9-4c35-906f-e47167f06801][Types of Graphs]]
+*** [[id:bb178225-779f-4612-b826-b1dd90d032f3][Partite Graph]]
+** TODO Lecture 2
+*** [[id:41b9dca8-794f-4c73-9062-8d4937f271bd][Directed Graph]]
+* Week 2
+** Lecture 1
+*** [[id:a617ddaf-21a5-4afc-b9d5-6ee3e4faecf4][Subgraph]]
+** Lecture 2

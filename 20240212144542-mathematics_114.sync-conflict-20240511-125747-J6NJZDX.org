@@ -3,55 +3,50 @@
 :END:
 #+title: Mathematics 114
 
-* Resources
-** :TEXTBOOK:
-** Lecturer: Roy Ferguson
-
-* Course
-** Week 1 :numbers_geometry_trig:
-*** Lecture 1 :w1l1:
-**** [[id:56ae2cf4-a426-46fd-82eb-9acb3c8512ba][Sets]]
-**** [[id:f9497f35-1b02-4489-84c3-a2b8c5465bc5][Numbers]]
-**** [[id:a995fc0e-d695-4662-a94f-4daad08de069][Intervals]]
-*** Lecture 2 :w1l2:
-**** [[id:f333c6da-54a1-4d68-a197-888015126e73][Inequalities]]
-*** Lectures 3 & 4 :w1l3a4:
-**** [[id:ae53c833-60af-401d-88b4-eea634debb0f][Absolute Values]]
-*** Lecture 5 :w1l5:
-**** [[id:a1e222d8-ae4a-4487-986d-b39205f203be][Angles]]
-** Week 2 :tut1:tut1mem:sets_logic:
-*** Lecture 1 :w2l1:
-**** [[id:6f0a6e37-8c3a-4b44-9f63-869e8deda483][Graphs of Trigonometric Functions]]
-*** Lecture 2 :w2l2:
-**** [[id:56ae2cf4-a426-46fd-82eb-9acb3c8512ba][Sets]]
-*** Lectures 3 & 4 :w2l3a4:
-**** [[id:56ae2cf4-a426-46fd-82eb-9acb3c8512ba][Sets]]
-**** [[id:675d2e38-6ee5-49a0-9c07-bb1b5291a2f7][Mathematical Statements]]
-*** Lecture 5 :w2l5:
-**** [[id:597a548b-60b2-41e7-aae9-8b1328d06e65][Truth Tables]]
-**** [[id:244746aa-6a18-4c21-8010-6a9c5037aaee][Conditional Statements]]
-** Week 3 :tut2:tut2mem:functions:
-*** Lecture 1 :w3l1:
-**** [[id:244746aa-6a18-4c21-8010-6a9c5037aaee][Conditionals]]
-**** [[id:131ece2d-0cf3-4894-9c46-bba36fa3a2d8][Quantifiers]]
-*** Lecture 2 :w3l2:
-**** [[id:87d42439-b03b-48be-84ab-2215b4733dd7][Functions]]
-*** Lectures 3 & 4 :w3l3a4:
-**** [[id:3500ef8a-ac1e-4542-b146-6e743a9acdde][Symmetry]]
-*** Lecture 5 :w3l5:
-**** [[id:05164c1a-cde1-4621-b058-e74a492684df][Combinations of Functions]]
-**** [[id:f24146bb-8cc1-4635-b0e9-41ac969cde51][Composite Functions]]
-** Week 4 :tut3:tut3mem:limits:continuity:
-*** Lecture 1 :w4l1:
-**** [[id:17d56a87-ff5e-4d0d-85f0-caa68750bb8f][Inverse of Functions]]
-**** [[id:6ffde4e8-a12d-4c3a-bc24-675b5a38433c][Limits]]
-*** Lecture 2 :w4l2:
-**** [[id:6ffde4e8-a12d-4c3a-bc24-675b5a38433c][Limits]]
-*** Lectures 3 & 4 :w4l3a4:
-**** [[id:bf3b5765-d746-46a4-b3c2-ab8b84dd1611][Squeeze Theorem]]
-**** [[id:9f66f38c-1072-4146-9efe-5a90f984d480][Continuity]]
-*** Lecture 5 :w4l5:
-**** [[id:c2a0a137-858a-45c3-bc12-9f30800b3e24][Intermediate Value Theorem]]
-** Week 5 :tut4:
-*** Lecture 1 :w5l1:
-**** Revision
+* Week 1 :numbers_geometry_trig:
+** Lecture 1 :w1l1:
+*** [[id:56ae2cf4-a426-46fd-82eb-9acb3c8512ba][Sets]]
+*** [[id:f9497f35-1b02-4489-84c3-a2b8c5465bc5][Numbers]]
+*** [[id:a995fc0e-d695-4662-a94f-4daad08de069][Intervals]]
+** Lecture 2 :w1l2:
+*** [[id:f333c6da-54a1-4d68-a197-888015126e73][Inequalities]]
+** Lectures 3 & 4 :w1l3a4:
+*** [[id:ae53c833-60af-401d-88b4-eea634debb0f][Absolute Values]]
+** Lecture 5 :w1l5:
+*** [[id:a1e222d8-ae4a-4487-986d-b39205f203be][Angles]]
+* Week 2 :tut1:tut1mem:sets_logic:
+** Lecture 1 :w2l1:
+*** [[id:6f0a6e37-8c3a-4b44-9f63-869e8deda483][Graphs of Trigonometric Functions]]
+** Lecture 2 :w2l2:
+*** [[id:56ae2cf4-a426-46fd-82eb-9acb3c8512ba][Sets]]
+** Lectures 3 & 4 :w2l3a4:
+*** [[id:56ae2cf4-a426-46fd-82eb-9acb3c8512ba][Sets]]
+*** [[id:675d2e38-6ee5-49a0-9c07-bb1b5291a2f7][Mathematical Statements]]
+** Lecture 5 :w2l5:
+*** [[id:597a548b-60b2-41e7-aae9-8b1328d06e65][Truth Tables]]
+*** [[id:244746aa-6a18-4c21-8010-6a9c5037aaee][Conditional Statements]]
+* Week 3 :tut2:tut2mem:functions:
+** Lecture 1 :w3l1:
+*** [[id:244746aa-6a18-4c21-8010-6a9c5037aaee][Conditionals]]
+*** [[id:131ece2d-0cf3-4894-9c46-bba36fa3a2d8][Quantifiers]]
+** Lecture 2 :w3l2:
+*** [[id:87d42439-b03b-48be-84ab-2215b4733dd7][Functions]]
+** Lectures 3 & 4 :w3l3a4:
+*** [[id:3500ef8a-ac1e-4542-b146-6e743a9acdde][Symmetry]]
+** Lecture 5 :w3l5:
+*** [[id:05164c1a-cde1-4621-b058-e74a492684df][Combinations of Functions]]
+*** [[id:f24146bb-8cc1-4635-b0e9-41ac969cde51][Composite Functions]]
+* Week 4 :tut3:tut3mem:limits:continuity:
+** Lecture 1 :w4l1:
+*** [[id:17d56a87-ff5e-4d0d-85f0-caa68750bb8f][Inverse of Functions]]
+*** [[id:6ffde4e8-a12d-4c3a-bc24-675b5a38433c][Limits]]
+** Lecture 2 :w4l2:
+*** [[id:6ffde4e8-a12d-4c3a-bc24-675b5a38433c][Limits]]
+** Lectures 3 & 4 :w4l3a4:
+*** [[id:bf3b5765-d746-46a4-b3c2-ab8b84dd1611][Squeeze Theorem]]
+*** [[id:9f66f38c-1072-4146-9efe-5a90f984d480][Continuity]]
+** Lecture 5 :w4l5:
+*** [[id:c2a0a137-858a-45c3-bc12-9f30800b3e24][Intermediate Value Theorem]]
+* Week 5 :tut4:
+** Lecture 1 :w5l1:
+*** Revision

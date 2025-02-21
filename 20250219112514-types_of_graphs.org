@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       92476867-dac9-4c35-906f-e47167f06801
+:END:
+#+title: Types of Graphs
+
+* Types of [[id:6bc62b33-2126-4f09-a380-3b05d6efa5c2][Graphs]]
+** \(r\)-regular
+The degree of each vertex is equal to some natural number \(r\).
+\begin{equation*}
+\deg(v) = r  \forall\, v \in V(G),  r \in \mathbb{N},  r \le p
+\end{equation*}
+** Complete
+Each vertex is connected to every other vertex.
+
+\(K_{n}\): an \((n-1)\)-regular graph
+** Empty
+A graph with no edges.
+** [[id:bb178225-779f-4612-b826-b1dd90d032f3][Partite]]

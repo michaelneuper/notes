@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       a617ddaf-21a5-4afc-b9d5-6ee3e4faecf4
+:END:
+#+title: Subgraph
+
+* Definition
+A subgraph \(H \subseteq G\) is a [[id:6bc62b33-2126-4f09-a380-3b05d6efa5c2][graph]]  such that \(V(H) \subseteq V(G)\) and \(E(H) \subseteq E(G)\).

@@ -9,7 +9,7 @@ If \( A \) is a finite [[id:56ae2cf4-a426-46fd-82eb-9acb3c8512ba][set]] and \( R
 Draw a small circle for each element of \( A \) and label the circle with the corresponding element of \( A \).
 These circles are called *vertices*.
 Draw an arrow, called an *edge*, from vertex \( a_i \) to vertex \( a_j \) if and only if \( a_i \, R \, a_j \).
-The resulting pictorial representation of \( R \) is called a *directed graph* or *digraph* of \( R \).
+The resulting pictorial representation of \( R \) is called a *directed graph* or [[id:41b9dca8-794f-4c73-9062-8d4937f271bd][digraph]] of \( R \).
 
 Thus, if \( R \) is a relation on \( A \), the edges in the digraph of \( R \) correspond exactly to the pairs in \( R \), and the vertices correspond exactly to the elements of the set \( A \).
 Sometimes, when we want to emphasize the geometric nature of some property of \( R \), we may refer to the pairs of \( R \) themselves as edges and the elements of \( A \) as vertices.

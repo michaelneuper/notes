@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       bb178225-779f-4612-b826-b1dd90d032f3
+:END:
+#+title: Partite Graph
+
+* Definition
+A [[id:6bc62b33-2126-4f09-a380-3b05d6efa5c2][graph]] \(G\) is referred to as \(k\)-partite if \(v(G)\) can be partitioned into \(k\) subsets, \(V_{1},\ldots, V_{k}\), such that no two vertices of \(V_{i}\) are adjacent to each other (\(i=1, \ldots, k\)).
+
+* Complete \(k\)-partite
+\(K_{n_{1}, \ldots, n_{k}}\): a complete \(k\)-partite graph such that each pair of vertices NOT in the same subset are adjacent.
+
+* Complete balanced \(k\)-partitite
+\(K_{k \times n}\): a complete \(k\)-partite graph such that each subset contains \(n\) vertices.

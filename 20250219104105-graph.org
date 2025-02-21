@@ -1,0 +1,46 @@
+:PROPERTIES:
+:ID:       6bc62b33-2126-4f09-a380-3b05d6efa5c2
+:END:
+#+title: Graph
+
+* Definition
+A graph \(G = (V, E)\) is a finite nonempty [[id:56ae2cf4-a426-46fd-82eb-9acb3c8512ba][set]] of vertices/nodes \(V(G)\) connected with a possibly empty set of edges \(E(G)\).
+
+* Terminology
+** Graph order
+\begin{equation*}
+p(G) = \lvert V(G) \rvert
+\end{equation*}
+** Graph size
+\begin{equation*}
+q(G) = \lvert E(G) \rvert
+\end{equation*}
+** Graph density
+\begin{equation*}
+\frac{q(G)}{\binom{p(G)}{2}}
+\end{equation*}
+A graph is called dense if its density is close to 1 and sparse if it is close to 0.
+
+* Neighbourhoods
+** Open
+All the vertices adjacent to a vertex excluding the vertex itself.
+\begin{equation*}
+N_{G}(v) = \{u \in V(G) : uv \in E(G)\}
+\end{equation*}
+** Closed
+All the vertices adjacent to a vertex including the vertex itself.
+\begin{equation*}
+N_{G}[v] = N_{G}(v) \cup \{v\}
+\end{equation*}
+
+* Degree \(\deg_{G}(v)\)
++ Minimum degree: \(\delta(G) = \min_{1 \le i \le p} \{\deg_G(v_i)\}\)
++ Maximum degree: \(\Delta(G) = \max_{1 \le i \le p} \{\deg_G(v_i)\}\)
+
+* [[id:87704c09-b23d-4980-ab11-0a5f839ebf59][Operations]]
+- Vertex deletion
+- Edge Deletion
+- Edge Insertion
+
+* Example
+[[file:images/graph.png]]

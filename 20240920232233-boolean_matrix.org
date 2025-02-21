@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       27984177-d920-45da-acd2-362148b0e660
+:ROAM_ALIASES: "Binary Matrix"
 :END:
 #+title: Boolean Matrices
 

@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       a79f8536-1e29-4f68-8021-e3a07bb71731
+:END:
+#+title: The Fundamental Theorem of Graph Theory
+
+* Definition
+Let \(G\) be \((p,q)\)-[[id:6bc62b33-2126-4f09-a380-3b05d6efa5c2][graph]] and let \(V = \{v_{1},\ldots, v_{n}\}\).
+Then
+\begin{equation*}
+\sum_{i=1}^{p}\deg(v_{i}) = 2q
+\end{equation*}
+
+* Corollary (Handshaking lemma)
+Every graph contains an even number of odd vertices.

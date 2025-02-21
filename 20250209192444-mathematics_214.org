@@ -2,3 +2,15 @@
 :ID:       b8dd6a8f-24b0-4e50-b048-51fc41739520
 :END:
 #+title: Mathematics 214
+
+* Week 1
+** Lecture 1
+*** [[id:a15c1c29-91e3-4181-9901-95e772895731][Augmented Matrix]]
+*** [[id:1cdeaabc-baf6-49b8-b8e3-b9e5bf901ec8][Gaussian Elimination]]
+** TODO Lecture 2
+** Lecture 3
+*** [[id:e507a481-793c-4461-a024-10bbc1bb0859][Homogeneous Systems]]
+** TODO Lecture 4
+* Week 2
+** Lecture 1
+*** [[id:a76e4790-b665-46b5-a02f-2970b0f1196c][Linear Span]]
