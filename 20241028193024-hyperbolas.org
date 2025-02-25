@@ -11,7 +11,7 @@ A *hyperbola* is the set of all points in a plane the differene of whose distanc
 #+end_quote
 
 * Equation 1
-The ellipse
+The hyperbola
 \begin{equation*}
 \frac{x^2}{a^2} - \frac{y^2}{b^2} = 1 \qquad 0 < b \le a
 \end{equation*}

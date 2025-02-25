@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       08f9e97d-106e-4ec2-9244-05e1fa9f14ce
+:END:
+#+title: Cylinder
+
+* Definition
+A *cylinder* is a surface that consists of all lines (called *rulings*) that are parallel to a given line and pass through a given plane curve.
+
+* Example
+[[file:images/cylinder.png]]

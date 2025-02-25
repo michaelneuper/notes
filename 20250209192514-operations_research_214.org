@@ -3,16 +3,23 @@
 :END:
 #+title: Operations Research 214
 
-* Week 1 :w1:tut1:
+* Week 1 :w1:tut1:tut1mem:
 ** Undirected Graphs
 *** [[id:6bc62b33-2126-4f09-a380-3b05d6efa5c2][Graph]]
 *** [[id:a79f8536-1e29-4f68-8021-e3a07bb71731][The Fundamental Theorem of Graph Theory]]
 *** [[id:122888f6-681b-4b2f-985b-4f5638c42da2][Adjacency Matrix]]
 *** [[id:92476867-dac9-4c35-906f-e47167f06801][Types of Graphs]]
 *** [[id:bb178225-779f-4612-b826-b1dd90d032f3][Partite Graph]]
-** TODO Lecture 2
+** TODO Directed Graphs
 *** [[id:41b9dca8-794f-4c73-9062-8d4937f271bd][Directed Graph]]
-* Week 2
-** Lecture 1
+* Week 2 :w2:tut2:tut2mem:
+** Definitions and Concepts
 *** [[id:a617ddaf-21a5-4afc-b9d5-6ee3e4faecf4][Subgraph]]
-** Lecture 2
+*** [[id:8be007e8-f44e-4b33-8cb3-091edd7f5a9d][Spanning Subgraph]]
+*** [[id:098850e7-ac7b-4031-bf35-d96f6a980950][Tree]]
+*** [[id:4926d57b-42f5-4180-8360-78552a4fdf52][Weight Matrix]]
+*** [[id:01582307-9087-42a9-a21b-002030e8d6e5][Spanning Tree]]
+** Kruskal's Algorithm
+*** [[id:a65526aa-408b-495e-b421-8775743c8aac][Kruskal's Algorithm]]
+** Prim's Algorithm
+*** [[id:70dd735a-4fca-4fbb-b8db-d4e5bf240219][Prim's Algorithm]]

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       8be007e8-f44e-4b33-8cb3-091edd7f5a9d
+:END:
+#+title: Spanning Subgraph
+
+* Definition
+A [[id:a617ddaf-21a5-4afc-b9d5-6ee3e4faecf4][subgraph]] \(H \subseteq G\) is called a *spanning subgraph* if we have that \(V(H) = V(G)\).

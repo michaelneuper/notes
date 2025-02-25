@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       c922887e-a312-4566-b4ef-0e7bf69ea91c
+:END:
+#+title: Linear Independence
+
+* Definition
+A list of [[id:81c97780-c8a5-4652-a6eb-d33732c37f1e][vectors]] \(\mathcal{B} = \{\mathbf{v}_1, \mathbf{v}_2, \dots, \mathbf{v}_n\}\) in a vector space \(V\) is called *linearly independent* if the equation
+\begin{equation*}
+    k_1 \mathbf{v}_1 + k_2 \mathbf{v}_2 + \dots + k_n \mathbf{v}_n = 0
+\end{equation*}
+has only the trivial solution \( k_1 = k_2 = \dots = k_n = 0 \). Otherwise if it has a solution with at least one scalar \( k_i \neq 0 \)) the list \(\mathcal{B}\) is called *linearly dependent*.

@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       607a66b3-9390-4452-aa37-cb99c0b8ff2e
+:END:
+#+title: Space Curve
+
+* Definition
+Suppose \(f\), \(g\) and \(h\) are [[id:9f66f38c-1072-4146-9efe-5a90f984d480][continuous]] real-valued [[id:87d42439-b03b-48be-84ab-2215b4733dd7][functions]] on an interval \(I\).
+Then the set \(C\) of all points \((x,y,z)\) in space, where
+\(x =f(t)\), \(y = g(t)\), \(z=h(t)\) and \(t\) varies throughout the intercal \(I\) is called a *space curve*.
+
+* Example
+[[file:images/space-curve.png]]

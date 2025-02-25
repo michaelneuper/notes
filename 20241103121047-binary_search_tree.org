@@ -6,3 +6,6 @@
 * Definition
 A [[id:25af17fb-fb34-4bc4-961f-8e5e6bd138f9][recursive]] [[id:60e83175-8286-4cf8-8d40-aee5c8727578][data structure]] containing distinct comparable keys that is /ordered/.
 A BST is a null or a reference to a BST node (the root).
+
+* Links
+[[id:098850e7-ac7b-4031-bf35-d96f6a980950][Tree]]

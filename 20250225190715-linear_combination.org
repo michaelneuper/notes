@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       17bb9c22-c0e7-4232-be73-16ac4d3d5804
+:END:
+#+title: Linear Combination
+
+* Definition
+A *linear combination* of a finite collection \(\mathbf{v}_{1}, \ldots , \mathbf{v}_{n}\) of [[id:81c97780-c8a5-4652-a6eb-d33732c37f1e][vectors]] is a [[id:9bbf878c-2d8f-45ad-8bc3-5f5066b6ca06][vector space]] \(V\) is a vector of the form
+\begin{equation*}
+a_{1}\mathbf{v}_{1} + a_{2}\mathbf{v}_{2} + \cdots + a_{b}\mathbf{v}_{b}
+\end{equation*}
+where \(a_{1},\ldots, a_{n}\) are scalars.
+
+If all the scalars \(a_{i}\) are 0, we say that it is the *trivial* linear combination.
+
+* Example
+In \(\mathbb{R}^3\), the vector \((6, 2, -14)\) is a linear combination of the vectors \((-3, 1, 2)\) and \((-2, 0, 3)\) because
+
+\begin{equation*}
+(6, 2, -14) = 2(-3, 1, 2) - 6(-2, 0, 3).
+\end{equation*}

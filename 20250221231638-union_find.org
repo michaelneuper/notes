@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       9cc0f923-335d-46c7-a19b-0026da6ce0c5
+:END:
+#+title: Union-find
+#+filetags: algorithm

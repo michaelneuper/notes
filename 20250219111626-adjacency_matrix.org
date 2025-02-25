@@ -4,7 +4,7 @@
 #+title: Adjacency Matrix
 
 * Definition
-The adjacency [[id:a3e5a759-ca7d-46e2-a390-c3cb8f1cc823][matrix]] \(A(G)\) of a [[id:6bc62b33-2126-4f09-a380-3b05d6efa5c2][graph]] \(G\) is a \(p \times p\) symmetric [[id:27984177-d920-45da-acd2-362148b0e660][binary matrix]] with \(a_{ij}=1\) iff \(v_{i}\) is adjacent to \(v_{j}\) in \(G\) \((i \ne j)\), otherwise \(a_{ij} = 0\).
+The adjacency [[id:a3e5a759-ca7d-46e2-a390-c3cb8f1cc823][matrix]] \(A(G)\) of a [[id:6bc62b33-2126-4f09-a380-3b05d6efa5c2][graph]] \(G\) is a \(p \times p\) [[id:324ec34e-5418-4641-8fd8-1dda991fec9f][symmetric]] [[id:27984177-d920-45da-acd2-362148b0e660][binary matrix]] with \(a_{ij}=1\) iff \(v_{i}\) is adjacent to \(v_{j}\) in \(G\) \((i \ne j)\), otherwise \(a_{ij} = 0\).
 
 * Example
 [[file:images/adj_matrix.png]]

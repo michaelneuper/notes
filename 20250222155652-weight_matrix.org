@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       4926d57b-42f5-4180-8360-78552a4fdf52
+:END:
+#+title: Weight Matrix
+
+* Definition
+\begin{equation*}
+W(G) : w_{ij} =
+\begin{cases}
+0 & \text{if } i = j \\
+w(v_i, v_j) & \text{if } i \neq j \text{ and } v_i v_j \in E(G) \\
+\infty & \text{otherwise}
+\end{cases}
+\end{equation*}
+
+* Link
+[[id:a3e5a759-ca7d-46e2-a390-c3cb8f1cc823][Matrix]]

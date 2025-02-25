@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       b976162b-ee7b-49ae-8e61-decd4f20673e
+:END:
+#+title: Selection Sort
+#+filetags: algorithm

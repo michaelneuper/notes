@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       01582307-9087-42a9-a21b-002030e8d6e5
+:END:
+#+title: Spanning Tree
+
+* Definition
+A [[id:8be007e8-f44e-4b33-8cb3-091edd7f5a9d][spanning subgraph]] \(T\) of a [[id:6bc62b33-2126-4f09-a380-3b05d6efa5c2][graph]] \(G\) that is a [[id:098850e7-ac7b-4031-bf35-d96f6a980950][tree]].
+i.e. a subgraph of \(G\) such that \(V(T) = V(G)\) and \(T\) is connected and acyclic.
+
+* Minimum Spanning Tree
+A minimum spanning tree of a graph \(G\) is a spanning tree of \(G\) that has minimum total weight.

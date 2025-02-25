@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       d0e97de7-63ba-4b6f-b393-59e085c3a526
+:END:
+#+title: Quadric Surface
+
+* Definition
+A *quadric surface* is the graph of a second-degree equation in three variables \(x\), \(y\) and \(z\).
+The most general such equation is
+\begin{equation*}
+Ax^2 + By^2 + Cz^2 + Dxy + Eyz + Fxz + Gx + Hy + Iz + J = 0
+\end{equation*}
+where \(A, B, \ldots, J\) are constant.
+
+* Note
+Quadric surfaces are the counterparts in three dimentions of the [[id:cdc899a6-38b5-46bb-9fb2-e21e30fa2de8][Ellipses]], [[id:c902730a-aa02-4718-99f5-37aa8d571a55][Hyperbolas]], [[id:981cbc58-4c6b-4f66-89ce-7debafaf9c82][Parabolas]].
+
+* Graphs
+[[file:images/quadric-surfaces.png]]

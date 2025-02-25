@@ -3,14 +3,22 @@
 :END:
 #+title: Mathematics 214
 
-* Week 1
-** Lecture 1
+* Linear Algebra
+** Week 1
 *** [[id:a15c1c29-91e3-4181-9901-95e772895731][Augmented Matrix]]
 *** [[id:1cdeaabc-baf6-49b8-b8e3-b9e5bf901ec8][Gaussian Elimination]]
-** TODO Lecture 2
-** Lecture 3
 *** [[id:e507a481-793c-4461-a024-10bbc1bb0859][Homogeneous Systems]]
-** TODO Lecture 4
-* Week 2
-** Lecture 1
+** Week 2
+*** [[id:17bb9c22-c0e7-4232-be73-16ac4d3d5804][Linear Combination]]
 *** [[id:a76e4790-b665-46b5-a02f-2970b0f1196c][Linear Span]]
+*** [[id:c922887e-a312-4566-b4ef-0e7bf69ea91c][Linear Independence]]
+** TODO Week 3
+
+* Advanced Calculus
+** Week 1
+***  [[id:08f9e97d-106e-4ec2-9244-05e1fa9f14ce][Cylinder]]
+*** [[id:d0e97de7-63ba-4b6f-b393-59e085c3a526][Quadric Surface]]
+**  Week 2
+*** [[id:e34a10a0-7460-4b8f-8951-b34a7c95437d][Vector Function]]
+*** [[id:607a66b3-9390-4452-aa37-cb99c0b8ff2e][Space Curve]]
+** Week 3

@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       098850e7-ac7b-4031-bf35-d96f6a980950
+:END:
+#+title: Tree
+
+* Definition
+A tree \(T_n\) is a connected *acyclic* [[id:6bc62b33-2126-4f09-a380-3b05d6efa5c2][graph]].
+
+* Example
+[[file:images/tree.png]]

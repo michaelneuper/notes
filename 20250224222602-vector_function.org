@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       e34a10a0-7460-4b8f-8951-b34a7c95437d
+:END:
+#+title: Vector Function
+
+* Definition
+A *vector function* is a [[id:87d42439-b03b-48be-84ab-2215b4733dd7][function]] whose domain is a set of real numbers and whose range is a set of [[id:81c97780-c8a5-4652-a6eb-d33732c37f1e][vectors]].
+\begin{equation*}
+\mathbf{r}(t) = \langle f(t), g(t), h(t)\rangle
+\end{equation*}
