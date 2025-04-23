@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       639404cc-bbb2-4e6f-a72c-30073a2f830f
+:END:
+#+title: Maximum Flow Problem
+
+* Problem
+Find the maximum flow \(F\) we can get from the source node \(s\) to sink node \(t\) subject to the constraints:
++ the flow along an arc does not exceed its capacity
++ the flow into a vertex is equal to the flow out of a vertex (except for \(s\) and \(t\))
+
+* Definitions
+For each arc \(\overrightarrow{v_{i}v_{j}}\) we define
++ \(c_{ij}\): the capacity of arc \(\overrightarrow{v_{i}v_{j}}\)
++ \(f_{ij}\):  the flow through arc \(\overrightarrow{v_{i}v_{j}}\)
++ \(e_{ij}\): the excess capacity of arc \(\overrightarrow{v_{i}v_{j}}\)
+  - = \(c_{ij} - f_{ij}\)
+
+* Maximise \(F\)
+subject to \(f_{ij} \le c_{ij}\) for all  \(\overrightarrow{v_{i}v_{j}} \in E(D)\)

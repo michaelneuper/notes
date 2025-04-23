@@ -3,9 +3,39 @@
 :END:
 #+title: Chain Rule
 
-* Definition
-#+begin_quote
-\begin{equation}
+* General Version
+Suppose that \(u\) is a differentiable function of the \(n\) variables \(x_1, x_2, \ldots, x_{n}\) and each \(x_j\) is a differentiable function of the \(m\) variables \(t_1, t_2, \ldots, t_m\). Then \(u\) is a function of \(t_1, t_2 \ldots , t_m\) and
+
+\begin{equation*}
+\frac{\partial u}{\partial t_i} = \frac{\partial u}{\partial x_1}\frac{\partial x_1}{\partial t_i} + \frac{\partial u}{\partial x_2}\frac{\partial x_2}{\partial t_i} + \cdots + \frac{\partial u}{\partial x_n}\frac{\partial x_n}{\partial t_i}
+\end{equation*}
+
+for each \(i = 1, 2, \ldots, m\).
+
+* Definition for Single-variable Functions
+\begin{equation*}
 \frac{dy}{dx} = \frac{dy}{dt} \cdot \frac{dt}{dx}
-\end{equation}
-#+end_quote
+\end{equation*}
+
+
+* Definition for Functions of Two Variables
+** Case 1
+Suppose that \(z = f(x(t), y(t))\) is a [[id:086cb8a0-bd8b-465a-8b0c-65d60f454421][differentiable function]] of \(x(t)\) and \(y(t)\), where \(x(t)\) and \(y(t)\) are both differentiable functions of \(t\).
+Then \(z\) is a differentiable function of \(t\) and
+
+\begin{equation*}
+\frac{dz}{dt} = \frac{\partial z}{\partial x}\frac{dx}{dt} + \frac{\partial z}{\partial y}\frac{dy}{dt}
+\end{equation*}
+** Case 2
+Suppose that \(z = f(x(s,t), y(s,t))\) is a differentiable function of \(x(s,t)\) and \(y(s,t)\), where \(x(s,t)\) and \(y(s,t)\) are differentiable functions of \(s\) and \(t\).
+Then
+
+\begin{equation*}
+\frac{\partial z}{\partial s} = \frac{\partial z}{\partial x}\frac{\partial x}{\partial s} + \frac{\partial z}{\partial y}\frac{\partial y}{\partial s}
+\end{equation*}
+and
+\begin{equation*}
+\frac{\partial z}{\partial t} = \frac{\partial z}{\partial x}\frac{\partial x}{\partial t} + \frac{\partial z}{\partial y}\frac{\partial y}{\partial t}
+\end{equation*}
+
+[[file:images/chain-tree.png]]

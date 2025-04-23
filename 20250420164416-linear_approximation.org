@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       989993f4-f37b-4e61-9b62-e093ec4cd092
+:END:
+#+title: Linear Approximation
+
+* Definition
+The linear function whose graph is the [[id:5f7c379d-4e8e-4d3c-b22f-7225a0afb6fb][tangent plane]], namely
+
+\begin{equation*}
+L(x,y) = f(x_0, y_0) + f_x(x_0, y_0)(x - x_0) + f_y(x_0, y_0)(y - y_0)
+\end{equation*}
+
+is called the *linearisation* of \(f\) at \((x_0, y_0)\) and the approximation
+
+\begin{equation*}
+f(x,y) \approx f(x_0, y_0) + f_x(x_0, y_0)(x - x_0) + f_y(x_0, y_0)(y - y_0)
+\end{equation*}
+
+is called the *linear approximation* or *tangent plane approximation* of \(f\) at \((x_0,y_{0})\).

@@ -1,21 +1,30 @@
 :PROPERTIES:
 :ID:       6ffde4e8-a12d-4c3a-bc24-675b5a38433c
 :END:
-#+title: Limits
+#+title: Limit
 #+filetags: calculus functions_and_limits
 
 We say a [[id:87d42439-b03b-48be-84ab-2215b4733dd7][function]] \(f\) is defined near \(a\) for some \(x \in \mathbb{R}\) if \(f(x)\) is defined for all \(x \in I \backslash \{a\}\) where \(I\) is some open [[id:a995fc0e-d695-4662-a94f-4daad08de069][interval]] containing \(a\)
 
-* Definition
+* Precise Definition
+Let \(f\) be a [[id:87d42439-b03b-48be-84ab-2215b4733dd7][function]] defined on some open interval that contains the number \(a\), except possibly at \(a\) itself.
+Then we say that the *limit of \(f(x)\) as \(x\) approaches \(a\) is \(L\)*, and we write
+\begin{equation*}
+\lim_{x\to a}f(x) = L
+\end{equation*}
+if for every \(\varepsilon > 0\) there exists a \(\delta > 0\) such that
+\begin{equation*}
+0 < |x-a| < \delta \implies |f(x)-L| < \varepsilon
+\end{equation*}
+[[file:images/limit.png]]
+
+* Intuitive Definition
 Suppose \(f\) is a function where \(f(x)\) is defined new a for some \(a \in \mathbb{R}\) and say \(L \in \mathbb{R}\).
 Then we say the limit of \(f(x)\) as \(x\) approaches \(a\) equals \(L\), denoted
 \begin{equation*}
 \lim_{x\to a}f(x) = L
 \end{equation*}
 if we can make the values of \(f(x)\) arbitrarily close to \(L\) by restricting \(x\) to be sufficiently close to \(a\) but not equal to \(a\)
-
-* Alternative Definition
-Given any distance \(\varepsilon\) we can find some \(\delta\) such that for all \(x\) closer than \(\delta\) units to \(a\) we have that \(f(x)\) is closer than \(\varepsilon\) units from \(L\).
 
 * One-sided Limits
 - Let \(a,L \in \mathbb{R}\) and \(f\) be a function where there exists some \(b\in\mathbb{R}\) such that \(f\) is defined on \((b,a)\). We say that the *left-handed limit of \(f(x)\) as \(x\) approaches \(a\)* is equal to \(L\), denoted

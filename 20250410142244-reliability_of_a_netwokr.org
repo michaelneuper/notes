@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       abc0defc-d679-4d33-907a-d383558ce7e5
+:END:
+#+title: Reliability of a Network
+
+* Definition
+\begin{equation*}
+R_{0} = P(\Phi(X) = 1)
+\end{equation*}
+ where \(R_{0}\) is the probability that the network is in the up state.
+
+ We can rewrite the network reliability as \(R_{0} = E[\Phi(X)]\) as the [[id:ec08bf1f-90a5-429a-94f5-fb027476fb8e][expected value]] of \(\Phi(X)\).

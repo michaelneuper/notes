@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       4c4c61ac-13d9-4fef-8473-9733c5043a7d
+:END:
+#+title: Longest Path Algorithm
+#+filetags: algorithm
+
+* Input
+  An activity digraph \( D \) of order \( n \) with exactly one source vertex \( v_p \).
+
+* Output
+  Longest distance, as well as the longest (directed) path from \( v_p \) to all other vertices.
+
+* Algorithm
+1. Set \( \ell(v_p) = (0, \text{none}) \), mark as permanent. Set \( S = \{ v_p \} \) and \( \overline{S} = V(D) \setminus S \).
+2. If \( \overline{S} = \emptyset \), stop.
+     Otherwise, for each vertex \( v_i \) such that all the in-neighbours of \( v_i \) are permanently labelled, assign the temporary label
+     \[
+     \ell(v_i) = (\alpha(v_i), \textbf{predecessor}(v_i))
+     \]
+     where
+     \begin{equation*}
+     \alpha(v_i) = \max_{u \in N^-(v_i)} \{ \alpha(u) + w(u, v_i) \}
+     \end{equation*}
+     and \textbf{predecessor}(v_i) is the in-neighbour used for defining \( \alpha(v_i) \).
+3. Choose among the vertices with temporary labels the vertex with maximum \( \alpha(v_i) \) value, say \( v_j \).
+      Label \( v_j \) permanently.
+      \begin{equation*}
+      S \leftarrow S \cup \{ v_j \}, \quad \overline{S} \leftarrow \overline{S} \setminus \{ v_j \}.
+      \end{equation*}
+4. Return to step 2.

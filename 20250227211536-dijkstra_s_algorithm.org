@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       ade46dd9-8919-410e-b957-3c2da5379756
+:END:
+#+title: Dijkstra's Algorithm
+#+filetags: algorithm
+
+* Input
+  A connected, weighted graph \( G \) of order \( n \) and a starting vertex \( v_p \).
+
+* Output
+  The shortest path and distance from \( v_p \) to all other vertices.
+
+* Algorithm
+1. Set up a table for the graph, where each vertex is represented in a column. Below each vertex, list all the vertices adjacent to it, as well as the weight of the edge joining these two vertices.
+2. \( B_o \leftarrow V(G) \) and \( A_c \leftarrow \emptyset \).
+3. The label \( D(v_p) \) of the starting vertex \( v_p \) is marked permanent with an \( * \) and the distance of 0 is assigned to \( D(v_p) \) at the top of the column.
+   - Update: \( B_o \leftarrow B_o \setminus \{ v_p \} \) and \( A_c \leftarrow A_c \cup \{ v_p \} \).
+   - Cross out \( v_p \) everywhere else it occurs in the table.
+4. Choose the vertex \( v_k \) with the shortest total distance among all the columns marked with \( * \) and circle this vertex and its distance.
+   - Update: \( B_o \leftarrow B_o \setminus \{ v_k \} \) and \( A_c \leftarrow A_c \cup \{ v_k \} \).
+   - Write the total distance above \( v_k \)'s column and mark the column with an \( * \).
+   - Cross out \( v_k \) everywhere else it occurs in the table.
+5. If \( A_c = V(G) \), go to step 6. Otherwise, return to step 4.
+6. Determine the path from \( v_p \) to other vertices in the graph.

@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       ff76bb12-5ddc-4078-b810-68885117373c
+:END:
+#+title: Level Curve
+
+* Definition
+The *level curves* of a [[id:87d42439-b03b-48be-84ab-2215b4733dd7][function]] \(f\) of two variables are the curves with equations \(f(x,y) = k\), where \(k\) is constant (in the range of \(f\)).
+
+[[file:images/level-curve.png]]

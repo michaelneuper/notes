@@ -4,13 +4,16 @@
 #+title: Prim's Algorithm
 #+filetags: algorithm
 
-* Algorithm
-+ *Input:* A connected, weighted [[id:6bc62b33-2126-4f09-a380-3b05d6efa5c2][graph]] \(G\) of order \(n\)
-+ *Output:* A [[id:01582307-9087-42a9-a21b-002030e8d6e5][Minimum Spanning Tree]] \(\langle S \rangle_{G}\) of \(G\) with \(S\subseteq E(G)\)
+* Input
+A connected, weighted [[id:6bc62b33-2126-4f09-a380-3b05d6efa5c2][graph]] \(G\) of order \(n\)
 
-  1. \(A \leftarrow \varnothing\)
-  2. Let \(e_{1} = v_{i}v_{j}\) be an edge with minimum weight.
-     Then, \(S \leftarrow S \cup \{e_{1}\}\) and edge \(e_{1}\) and verticves \(v_{i}\) and \(v_{j}\) forms \(T= \langle \{e_{1}\}\rangle\).
-  3. Let \(e_{k}\) be the edge with minimum weight such that one of its endpoints are in \(T\) and the other one is /not/ in \(T\).
-     Then \(S \leftarrow S \cup \{e_{k}\}\), or \(T \leftarrow T + e_{k}\).
-  4. If \(|S| = n-1\), stop, otherwise go to Step 3.
+* Output
+A [[id:01582307-9087-42a9-a21b-002030e8d6e5][Minimum Spanning Tree]] \(\langle S \rangle_{G}\) of \(G\) with \(S\subseteq E(G)\)
+
+* Algorithm
+1. \(A \leftarrow \varnothing\)
+2. Let \(e_{1} = v_{i}v_{j}\) be an edge with minimum weight.
+   Then, \(S \leftarrow S \cup \{e_{1}\}\) and edge \(e_{1}\) and verticves \(v_{i}\) and \(v_{j}\) forms \(T= \langle \{e_{1}\}\rangle\).
+3. Let \(e_{k}\) be the edge with minimum weight such that one of its endpoints are in \(T\) and the other one is /not/ in \(T\).
+   Then \(S \leftarrow S \cup \{e_{k}\}\), or \(T \leftarrow T + e_{k}\).
+4. If \(|S| = n-1\), stop, otherwise go to Step 3.

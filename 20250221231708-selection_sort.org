@@ -3,3 +3,6 @@
 :END:
 #+title: Selection Sort
 #+filetags: algorithm
+
++ Compares: \(N^2/2\)
++ Exchanges: \(N\)

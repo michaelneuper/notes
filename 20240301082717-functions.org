@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       87d42439-b03b-48be-84ab-2215b4733dd7
 :END:
-#+title: Functions
+#+title: Function
 #+filetags: functions
 
 * Definition

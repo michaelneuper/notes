@@ -13,7 +13,7 @@ A *hyperbola* is the set of all points in a plane the differene of whose distanc
 * Equation 1
 The hyperbola
 \begin{equation*}
-\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1 \qquad 0 < b \le a
+\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1
 \end{equation*}
 has foci \((\pm c, 0)\), where \(c^2=a^2 + b^2\), vertices \((\pm a, 0)\), and asymptotes \(y = \pm (b/a)x\)
 [[file:images/hyperbola-1.png]]
@@ -21,7 +21,7 @@ has foci \((\pm c, 0)\), where \(c^2=a^2 + b^2\), vertices \((\pm a, 0)\), and a
 * Equation 2
 The ellipse
 \begin{equation*}
-\frac{x^2}{b^2} - \frac{y^2}{a^2} = 1 \qquad 0 < b \le a
+\frac{y^2}{a^2} - \frac{x^2}{b^2} = 1
 \end{equation*}
 has foci \((0, \pm c)\), where \(c^2=a^2 + b^2\), vertices \((0, \pm a)\), and asymptotes \(y = \pm (a/b)x\)
 [[file:images/hyperbola-2.png]]

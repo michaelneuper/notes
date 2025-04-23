@@ -4,7 +4,7 @@
 #+title: Cylinder
 
 * Definition
-A *cylinder* is a surface that consists of all lines (called *rulings*) that are parallel to a given line and pass through a given plane curve.
+A *cylinder* is a surface that consists of all lines (called *rulings*) that are parallel to a given line and pass through a given [[id:add8a012-7e54-4e3f-b115-1d23caeb9981][plane]] curve.
 
 * Example
 [[file:images/cylinder.png]]

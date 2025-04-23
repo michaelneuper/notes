@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       e34a10a0-7460-4b8f-8951-b34a7c95437d
+:ROAM_ALIASES: "Vector-valued Function"
 :END:
 #+title: Vector Function
 
@@ -8,3 +9,7 @@ A *vector function* is a [[id:87d42439-b03b-48be-84ab-2215b4733dd7][function]] w
 \begin{equation*}
 \mathbf{r}(t) = \langle f(t), g(t), h(t)\rangle
 \end{equation*}
+
+* Notes
++ [[id:6ffde4e8-a12d-4c3a-bc24-675b5a38433c][Limits]] are computed component-wise
++ [[id:a350707f-ba1b-4912-ad8d-60e80e1c5d47][Derivatives]] are computed component-wise

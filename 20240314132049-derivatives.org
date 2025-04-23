@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       a350707f-ba1b-4912-ad8d-60e80e1c5d47
 :END:
-#+title: Derivatives
+#+title: Derivative
 #+filetags: calculus
 
 * Definition

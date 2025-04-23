@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       8abd407f-e8f8-4e03-a7f8-55bd3a358bd6
+:END:
+#+title: Contour Map
+
+* Definition
+A collection of [[id:ff76bb12-5ddc-4078-b810-68885117373c][level curves]].
+
+[[file:images/contour-map.png]]

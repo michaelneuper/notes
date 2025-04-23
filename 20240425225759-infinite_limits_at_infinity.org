@@ -5,15 +5,11 @@
 #+filetags: calculus functions_and_limits
 
 * Intuitive Definition
-#+begin_quote
 Let \(f\) be a function defined on some intercal \((a,\infty)\).
 We denote by \(\lim_{x\to\infty}f(x)=\infty\) the fact that the values of \(f(x)\) become large as \(x\) becomes large.
-#+end_quote
 
 * Precise Definition
-#+begin_quote
 \(\lim_{x\to\infty}f(x) = \infty\) if for any \(M\in\mathbb{R}\) there exists some \(N\in\mathbb{N}\) such that \(f(x) > M\) for all \(x\ge N\).
-#+end_quote
 
 * Precise Definition
 [[file:images/inf-limits-at-infty.png]]

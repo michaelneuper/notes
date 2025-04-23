@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       4d929a06-f9ef-4f37-bb36-428b994b891c
+:END:
+#+title: Subspace
+
+* Definition
+A subset \( U \subseteq V \) of a [[id:9bbf878c-2d8f-45ad-8bc3-5f5066b6ca06][vector space]] \( V \) is called a *subspace* of \( V \) if:
+
+- For all \( \mathbf{u}, \mathbf{u}' \in U \), \( \mathbf{u} + \mathbf{u}' \in U \)
+- \( \mathbf{0} \in U \)
+- For all scalars \( k \) and all vectors \( \mathbf{u} \in U \) we have that \( k \cdot \mathbf{u} \in U \)
+
+* Lemma
+Suppose that \(U\) is a subspace of a vector space \(V\). If we equip \(U\) with the restricted [[id:87704c09-b23d-4980-ab11-0a5f839ebf59][operations]] addition and scalar multiplication from \(V\), then \(U\) is a vector space.
+
+* Example
+A line  through the origin in \(\mathbb{R}^{2}\) is a subspace of \(\mathbb{R}^{2}\).

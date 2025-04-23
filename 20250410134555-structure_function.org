@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       37190c0f-1d9e-4bc5-adab-0c2813675dc8
+:END:
+#+title: Structure Function
+
+* Definition
+The dependence of a [[id:1dced1c1-9ef6-4ae3-bb6b-8300d41aeb8b][network]] on the state of its elements is determined by the /structure [[id:87d42439-b03b-48be-84ab-2215b4733dd7][function]]/ \(\Phi(x)\).
+
+* Series Network
+If any of the edges in the network fail, the network will no longer be \(T\)-connected.
+
+\begin{equation*}
+\Phi(x) = \min_{i=1,\ldots, n} x_{i} = \Sum_{i=1}^{n} x_{i}
+\end{equation*}
+
+* In General
+Let \(P_{1}, P_{2},\ldots, P_{s}\) be the minimal path sets of a network \(G\). Then
+\begin{equation*}
+\Phi(x) = 1 - \Sum_{j=1}^{s} \left( 1 - \Sum_{i \in P_{j}} x_{i}\right)
+\end{equation*}

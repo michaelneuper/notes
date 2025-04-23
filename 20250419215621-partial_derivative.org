@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       8632521e-c7a0-4e38-913e-7bb9c2bd3887
+:END:
+#+title: Partial Derivative
+
+* Definition
+If \(f\) is a [[id:87d42439-b03b-48be-84ab-2215b4733dd7][function]] of two variables, its *partial derivatives* are the function \(\partial f/\partial x\) and \(\partial f / \partial y\) defined by the [[id:6ffde4e8-a12d-4c3a-bc24-675b5a38433c][limits]]
+\begin{equation*}
+\frac{\partial f}{\partial x} = \lim_{h \to 0} \frac{f(x+h, y) - f(x,y)}{h}
+\end{equation*}
+
+\begin{equation*}
+\frac{\partial f}{\partial y} = \lim_{h \to 0} \frac{f(x, y + h) - f(x,y)}{h}
+\end{equation*}
+
+* Finding Partial Derivatives
+The partial derivative with respect to \(x\) is just the [[id:a350707f-ba1b-4912-ad8d-60e80e1c5d47][ordinary derivative]] of the function of a single variable that we get by keeping \(y\) fixed.
+
+* Higher Derivatives
+\begin{equation*}
+\frac{\partial}{\partial x}\left(\frac{\partial f}{\partial y}\right) = \frac{\partial^2 f}{\partial x \, \partial y}
+\end{equation*}
+
+\begin{equation*}
+\frac{\partial}{\partial x}\left(\frac{\partial f}{\partial x}\right) = \frac{\partial^2 f}{\partial x^2}
+\end{equation*}
+
+* Interpretation
+The partial derivative wrt \(x\) can be thought of as the rate of change in the \(x\)-direction.
+[[file:images/partial.png]]

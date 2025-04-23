@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       ded44ef4-1c05-4fe6-a771-9765137065b0
+:END:
+#+title: Directional Derivative
+
+* Definition
+The *directional [[id:a350707f-ba1b-4912-ad8d-60e80e1c5d47][derivative]]* of a [[id:87d42439-b03b-48be-84ab-2215b4733dd7][function]] \(f\) at \((x_0,y_{0})\) in the direction of a [[id:107d4f63-d278-4fc7-bf8c-426ffe038507][unit vector]] \(\mathbf{u} = \langle a, b\rangle\) is
+
+\begin{equation*}
+\mathbf{D_u}f(x_0, y_0) = \lim_{h \to 0} \frac{f(x_0 + ha, y_0 + hb) - f(x_0, y_{0})}{h}
+\end{equation*}
+
+if this [[id:6ffde4e8-a12d-4c3a-bc24-675b5a38433c][limit]] exists.
+
+* Theorem
+If \(f\) is a [[id:086cb8a0-bd8b-465a-8b0c-65d60f454421][differentiable function]] of \(x\) and \(y\), then \(f\) has a directional derivative in the direction of any unit vector \(\mathbf{u} = \langle a, b\rangle\) and
+
+\begin{equation*}
+\mathbf{D_u}f(x,y) = f_x(x,y)a + f_y(x,y)b
+\end{equation*}
+
+, or in terms of the [[id:ff0a3356-e4d4-4bd8-8787-ae9537a90640][gradient]]:
+
+\begin{equation*}
+\mathbf{D_u}f(x,y) = \nabla f(x,y) \cdot \mathbf{u}
+\end{equation*}
+
+* Maximizing
+Suppose \(f\) is a differentiable function of two or three variables.
+The maximum value of the directional derivative \(\mathbf{D_u} f(\mathbf{x})\) is \(\lvert \nabla f(\mathbf{x})\rvert\) and it occurs when \(\mathbf{u}\) has the same direction as the gradient vector \(\nabla f(\mathbf{x})\).

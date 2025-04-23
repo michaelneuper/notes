@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       ff0a3356-e4d4-4bd8-8787-ae9537a90640
+:END:
+#+title: Gradient
+
+* Definition
+If \(f\) is a [[id:87d42439-b03b-48be-84ab-2215b4733dd7][function]] of two variables \(x\) and \(y\), then the *gradient* of \(f\) is the [[id:e34a10a0-7460-4b8f-8951-b34a7c95437d][vector function]] \(\nabla f\) defined by
+
+\begin{equation*}
+\nabla f(x,y) = \langle f_x(x,y), f_y(x,y) \rangle
+\end{equation*}

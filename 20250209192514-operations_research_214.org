@@ -3,16 +3,16 @@
 :END:
 #+title: Operations Research 214
 
-* Week 1 :w1:tut1:tut1mem:
+* Week 1
 ** Undirected Graphs
 *** [[id:6bc62b33-2126-4f09-a380-3b05d6efa5c2][Graph]]
 *** [[id:a79f8536-1e29-4f68-8021-e3a07bb71731][The Fundamental Theorem of Graph Theory]]
 *** [[id:122888f6-681b-4b2f-985b-4f5638c42da2][Adjacency Matrix]]
 *** [[id:92476867-dac9-4c35-906f-e47167f06801][Types of Graphs]]
 *** [[id:bb178225-779f-4612-b826-b1dd90d032f3][Partite Graph]]
-** TODO Directed Graphs
+** Directed Graphs
 *** [[id:41b9dca8-794f-4c73-9062-8d4937f271bd][Directed Graph]]
-* Week 2 :w2:tut2:tut2mem:
+* Week 2
 ** Definitions and Concepts
 *** [[id:a617ddaf-21a5-4afc-b9d5-6ee3e4faecf4][Subgraph]]
 *** [[id:8be007e8-f44e-4b33-8cb3-091edd7f5a9d][Spanning Subgraph]]
@@ -23,3 +23,18 @@
 *** [[id:a65526aa-408b-495e-b421-8775743c8aac][Kruskal's Algorithm]]
 ** Prim's Algorithm
 *** [[id:70dd735a-4fca-4fbb-b8db-d4e5bf240219][Prim's Algorithm]]
+* Week 3
+** [[id:ade46dd9-8919-410e-b957-3c2da5379756][Dijkstra's Algorithm]]
+* Week 4
+** [[id:c13fabc0-1f4c-4f09-a9bb-da3b8440aa92][Floyd's Algorithm]]
+** [[id:4c4c61ac-13d9-4fef-8473-9733c5043a7d][Longest Path Algorithm]]
+* Week 5
+** [[id:e9a71fab-d91c-48f5-862a-72a94aac6d7b][Flow Network]]
+** [[id:639404cc-bbb2-4e6f-a72c-30073a2f830f][Maximum Flow Problem]]
+** TODO [[id:3e44f71e-5ad2-47ac-950a-0e5ee4dbd141][Ford-Folkerson Algorithm]]
+**  [[id:b35d205e-0d56-44ca-bf34-bd889a29e721][Max-flow Min-cut Theorem]]
+* Week 6
+** [[id:1dced1c1-9ef6-4ae3-bb6b-8300d41aeb8b][Network]]
+** [[id:37190c0f-1d9e-4bc5-adab-0c2813675dc8][Structure Function]]
+** [[id:1b8b3bf5-bf32-48fd-a2a3-93c685a11284][Path Vectors]]
+** [[id:abc0defc-d679-4d33-907a-d383558ce7e5][Reliability of a Network]]

@@ -4,8 +4,10 @@
 #+title: Linear Span
 
 * Definition
-The span of a [[id:56ae2cf4-a426-46fd-82eb-9acb3c8512ba][set]] \(X\) of [[id:81c97780-c8a5-4652-a6eb-d33732c37f1e][vectors]] in some [[id:9bbf878c-2d8f-45ad-8bc3-5f5066b6ca06][vector space]] \(V\) is the set of all vectors in \(V\) which can be expressed as a linear combination of vectors from \(X\).
+Let \( V \) be a [[id:9bbf878c-2d8f-45ad-8bc3-5f5066b6ca06][vector space]] and let \( S \subset V \) be a [[id:56ae2cf4-a426-46fd-82eb-9acb3c8512ba][set]] containing [[id:81c97780-c8a5-4652-a6eb-d33732c37f1e][vectors]] from \( V \). The *span* of \( S \) is the set containing all linear combinations of the vectors in \( S \), i.e.
 
 \begin{equation*}
-\operatorname{span}{X} = \{a_1\mathbf{v}_1 + \cdots + a_n\mathbf{v}_n : a_n \in \mathbb{R} \text{ and } \mathbf{v}_n \in V \text{ and } n \in \mathbb{N}\}
+\text{span}(\mathbf{v}_1, \mathbf{v}_2, \dots, \mathbf{v}_n) = \{ c_1 \mathbf{v}_1 + \dots + c_n \mathbf{v}_n \mid c_i \in \mathbb{R} \}.
 \end{equation*}
+
+We say that a list of vectors \( \mathcal{B} = \{ \mathbf{v}_1, \mathbf{v}_2, \dots, \mathbf{v}_n \} \) in a vector space \( V \) *spans* \( V \) if every vector \( \mathbf{v} \in V \) is a linear combination of the vectors from \( \mathcal{B} \).

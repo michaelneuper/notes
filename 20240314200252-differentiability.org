@@ -4,13 +4,25 @@
 #+title: Differentiability
 
 * Definition
-- Let \(f\) be a function, \(a\in\mathbb{R}\) and \(I\) some open [[id:a995fc0e-d695-4662-a94f-4daad08de069][interval]].
+- Let \(f\) be a [[id:87d42439-b03b-48be-84ab-2215b4733dd7][function]], \(a\in\mathbb{R}\) and \(I\) some open [[id:a995fc0e-d695-4662-a94f-4daad08de069][interval]].
 - \(f\) is differentiable at \(a\) if \(f'(a)\) exists.
 - \(f\) is differentiable on \(I\) if \(f\) is differentiable at \(c\) for every \(c\in I\).
 - \(f\) is differentiable if \(f\) is differentiable at all \(c\in\text{dom}(f)\)
 
+* For a function of 2 variables
+If \(z = f(x, y)\), then \(f\) is *differentiable* at \((a,b)\) if \(\Delta z\) can be expressed in the form
+
+\begin{equation*}
+\Delta z = f_x(a,b) \Delta x + f_y(a,b) \Delta y + \varepsilon_1 \Delta x + \varepsilon_2 \Delta y
+\end{equation*}
+
+where \(\varepsilon_1\) and \(\varepsilon_2\) are functions of \(\Delta x\) and \(\Delta y\) such that \(\varepsilon_1\) and \(\varepsilon_2 \to 0\) as \((\Delta x, \Delta y) \to (0,0)\).
+
 * Theorem
-For any function \(f\) and any \(a\in\mathbb{R}\), if \(f\) is differentiable at \(a\), then \(f\) is [[id:9f66f38c-1072-4146-9efe-5a90f984d480][continuous]] at \(a\)
+** Single-variable Functions
+For any function \(f\) and any \(a\in\mathbb{R}\), if \(f\) is differentiable at \(a\), then \(f\) is [[id:9f66f38c-1072-4146-9efe-5a90f984d480][continuous]] at \(a\).
+** Functions of Two Variables
+If [[id:8632521e-c7a0-4e38-913e-7bb9c2bd3887][partial derivatives]] \(f_x\) and \(f_y\) exist near \((a,b)\) and are continuous at \((a,b)\), then \(f\) is differentiable at \((a,b)\).
 
 * Not Differentiable
 - \(f\) has a discontinuity at \(a\)

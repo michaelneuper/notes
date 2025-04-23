@@ -3,7 +3,7 @@
 :END:
 #+title: Mathematics 214
 
-* Linear Algebra
+* Linear Algebra :notes:
 ** Week 1
 *** [[id:a15c1c29-91e3-4181-9901-95e772895731][Augmented Matrix]]
 *** [[id:1cdeaabc-baf6-49b8-b8e3-b9e5bf901ec8][Gaussian Elimination]]
@@ -12,13 +12,30 @@
 *** [[id:17bb9c22-c0e7-4232-be73-16ac4d3d5804][Linear Combination]]
 *** [[id:a76e4790-b665-46b5-a02f-2970b0f1196c][Linear Span]]
 *** [[id:c922887e-a312-4566-b4ef-0e7bf69ea91c][Linear Independence]]
-** TODO Week 3
+** Week 3
+*** [[id:9bbf878c-2d8f-45ad-8bc3-5f5066b6ca06][Vector Space]]
+*** [[id:4d929a06-f9ef-4f37-bb36-428b994b891c][Subspace]]
+** Week 4
 
 * Advanced Calculus
 ** Week 1
-***  [[id:08f9e97d-106e-4ec2-9244-05e1fa9f14ce][Cylinder]]
+*** [[id:08f9e97d-106e-4ec2-9244-05e1fa9f14ce][Cylinder]]
 *** [[id:d0e97de7-63ba-4b6f-b393-59e085c3a526][Quadric Surface]]
 **  Week 2
 *** [[id:e34a10a0-7460-4b8f-8951-b34a7c95437d][Vector Function]]
 *** [[id:607a66b3-9390-4452-aa37-cb99c0b8ff2e][Space Curve]]
 ** Week 3
+*** [[id:ff76bb12-5ddc-4078-b810-68885117373c][Level Curve]]
+*** [[id:8abd407f-e8f8-4e03-a7f8-55bd3a358bd6][Contour Map]]
+** Week 4 & 5
+*** [[id:6ffde4e8-a12d-4c3a-bc24-675b5a38433c][Limits]]
+*** [[id:8632521e-c7a0-4e38-913e-7bb9c2bd3887][Partial Derivative]]
+** Week 6 & 7
+*** [[id:985249d1-7b7b-4357-8777-50794e61741d][Clairaut's Theorem]]
+*** [[id:5f7c379d-4e8e-4d3c-b22f-7225a0afb6fb][Tangent Plane]]
+*** [[id:989993f4-f37b-4e61-9b62-e093ec4cd092][Linear Approximation]]
+*** [[id:086cb8a0-bd8b-465a-8b0c-65d60f454421][Differentiability]]
+** Week 8
+*** [[id:99f8249c-f8d2-4fb6-bcf4-381e24cd029a][Chain Rule]]
+*** [[id:ded44ef4-1c05-4fe6-a771-9765137065b0][Directional Derivative]]
+*** [[id:ff0a3356-e4d4-4bd8-8787-ae9537a90640][Gradient]]

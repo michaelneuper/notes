@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       1b8b3bf5-bf32-48fd-a2a3-93c685a11284
+:END:
+#+title: Path Vectors
+
+* Definition
+A state vector \(x\) in a [[id:1dced1c1-9ef6-4ae3-bb6b-8300d41aeb8b][network]] is called a path [[id:81c97780-c8a5-4652-a6eb-d33732c37f1e][vector]] if  \(\Phi(x) = 1\).

@@ -14,6 +14,19 @@ def insertion_sort(arr):
             j -= 1
 #+end_src
 
+* Java Implementation
+#+begin_src java
+public class Insertion {
+  public static void sort(Comparable[] items) {
+    for (int i = 1; i < items.length; i++) {
+      for (int j = i; j > 0 && a[j] < a[j-1]; j--) {
+        swap(items, j, j - 1);
+      }
+    }
+  }
+}
+#+end_src
+
 * [[id:2606eefb-295e-4afc-8942-9bbea33f66ed][Order of Growth]]
 \(T_N \sim N^2\)
 

@@ -5,7 +5,6 @@
 #+filetags: linear_algebra vectors
 
 * Definition
-#+begin_quote
 A [[id:81c97780-c8a5-4652-a6eb-d33732c37f1e][vector]] of [[id:833b0c16-2313-4189-9979-084727a461d9][length]] \(1\) is called a *unit vector*.
 In \(\mathbb{R}^2\), the [[id:56ae2cf4-a426-46fd-82eb-9acb3c8512ba][set]] of all unit vectors can be identified with the /unit/ circle.
 
@@ -14,7 +13,9 @@ Given any nonzero vector \(\mathbf{v}\), we can always find a unit vector \(\mat
 \mathbf{u} = \left(\frac{1}{\lVert\mathbf{v}\rVert}\right)\mathbf{v}
 \end{equation*}
 This is referred to as *normalizing* a vector.
-#+end_quote
+
+
+
 [[file:images/normalizing-vector.png]]
 
 

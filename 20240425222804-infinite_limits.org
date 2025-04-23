@@ -5,7 +5,6 @@
 #+filetags: calculus functions_and_limits
 
 * Intuitive Definition
-#+begin_quote
 Let \(f\) be a [[id:87d42439-b03b-48be-84ab-2215b4733dd7][function]] defined near \(a\), except possibly at \(a\).
 Then
 \begin{equation*}
@@ -17,7 +16,6 @@ means that the values of \(f(x)\) can be made arbitrarily large by taking \(x\) 
 \lim_{x\to a}f(x) = -\infty
 \end{equation*}
 means that the values of \(f(x)\) can be made negative with arbitrarily large magnitude by taking \(x\) sufficiently close to \(a\), but not equal to \(a\).
-#+end_quote
 
 * Precise Definition
 [[file:images/infinite-limits.png]]

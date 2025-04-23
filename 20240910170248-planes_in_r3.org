@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       add8a012-7e54-4e3f-b115-1d23caeb9981
 :END:
-#+title: Planes in R3
+#+title: Plane
 #+filetags: linear_algebra vectors
 
 * Normal Form

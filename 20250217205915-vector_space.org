@@ -2,3 +2,22 @@
 :ID:       9bbf878c-2d8f-45ad-8bc3-5f5066b6ca06
 :END:
 #+title: Vector Space
+
+* Definition
+A *vector space* is a [[id:56ae2cf4-a426-46fd-82eb-9acb3c8512ba][set]] \(V\) equipped with the following data:
+- An addition [[id:87704c09-b23d-4980-ab11-0a5f839ebf59][operation]]
+- A zero [[id:81c97780-c8a5-4652-a6eb-d33732c37f1e][vector]]
+- A scalar multiplication operation
+
+NOTE: Both operations need to be [[id:c8c7c8e4-f393-4508-8378-c5df7145692f][closed]] under \(V\)
+
+* Axioms
+1. \( \mathbf{v} + \mathbf{w} = \mathbf{w} + \mathbf{v} \) (R1)
+2. \( (\mathbf{u} + \mathbf{v}) + \mathbf{w} = \mathbf{u} + (\mathbf{v} + \mathbf{w}) \) (R2)
+3. \( 0 + \mathbf{v} = \mathbf{v} \) (R3a)
+4. \( \mathbf{v} + 0 = \mathbf{v} \) (R3b)
+5. \( k \cdot (\mathbf{v} + \mathbf{w}) = k \cdot \mathbf{v} + k \cdot \mathbf{w} \) (R4)
+6. \( (k + l) \cdot \mathbf{v} = k \cdot \mathbf{v} + l \cdot \mathbf{v} \) (R5)
+7. \( k \cdot (l \cdot \mathbf{v}) = (kl) \cdot \mathbf{v} \) (R6)
+8. \( 1 \cdot \mathbf{v} = \mathbf{v} \) (R7)
+9. \( 0 \cdot \mathbf{v} = 0 \) (R8)

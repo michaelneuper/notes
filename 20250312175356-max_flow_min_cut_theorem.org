@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       b35d205e-0d56-44ca-bf34-bd889a29e721
+:END:
+#+title: Max-flow Min-cut Theorem
+#+filetags: theorem
+
+* Definition
+The [[id:639404cc-bbb2-4e6f-a72c-30073a2f830f][maximum flow]] through a network is equal to the capacity of the minimum cut through the network.

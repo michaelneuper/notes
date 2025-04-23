@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       985249d1-7b7b-4357-8777-50794e61741d
+:END:
+#+title: Clairaut's Theorem
+#+filetags: theorem
+
+* Definition
+Suppose \(f\) is defined on a disk \(D\) that contains the point \((a,b)\).
+If the functions \(f_{xy}\) and \(f_{yx}\) are both continuous on \(D\), then
+\begin{equation*}
+f_{xy}(a,b) = f_{yx}(a,b)
+\end{equation*}

@@ -1,0 +1,36 @@
+:PROPERTIES:
+:ID:       c13fabc0-1f4c-4f09-a9bb-da3b8440aa92
+:END:
+#+title: Floyd's Algorithm
+#+filetags: algorithm
+
+* Input
+  A connected, weighted graph \( G \) of order \( n \).
+
+* Output
+  The shortest path and distance between each pair of vertices.
+
+* Algorithm
+1. Let \( P^0 \) be an \( n \times n \) matrix such that \( p^0_{ij} = j \), and let \( D^0 = W(G) \), i.e., \( D^0 \) is an \( n \times n \) matrix such that:
+      \begin{equation*}
+     d^0_{ij} =
+     \begin{cases}
+     w(v_i v_j) & \text{if edge } v_i v_j \text{ exists} \\
+     0 & \text{if } i = j \\
+     \infty & \text{otherwise}
+     \end{cases}
+     \end{equation*}
+2. Let \( k = 1 \).
+3. Determine the values for the new distance matrix \( D^k \) with the formula:
+      \begin{equation*}
+     d^k_{ij} = \min \left\{ d^{k-1}_{ij}, d^{k-1}_{ik} + d^{k-1}_{kj} \right\}
+     \end{equation*}
+4. Determine the new values for the predecessor matrix \( P^k \) with the formula:
+      \begin{equation*}
+      p^k_{ij} =
+      \begin{cases}
+      p^{k-1}_{ik} & \text{if } d^k_{ij} \neq d^{k-1}_{ij} \\
+      p^{k-1}_{ij} & \text{otherwise}
+      \end{cases}
+      \end{equation*}
+5. If  \( k = n \), stop. Otherwise, set \( k \leftarrow k + 1 \) and return to step 3.

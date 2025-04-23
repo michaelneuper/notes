@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       e9a71fab-d91c-48f5-862a-72a94aac6d7b
+:END:
+#+title: Flow Network
+
+* Definition
+A weighted [[id:41b9dca8-794f-4c73-9062-8d4937f271bd][directed graph]]  \(G=(V,E)\) with two nodes \(s\) and \(t\) designated as the source and sink vertices, respectively, where \(s\) is the only vertex with no in-neighbours and \(t\) is the only vertex with no out-neighbours.
+
+[[file:images/flow-network.png]]

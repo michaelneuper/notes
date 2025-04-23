@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       1dced1c1-9ef6-4ae3-bb6b-8300d41aeb8b
+:END:
+#+title: Network
+
+* Definition
+A network is an ordered triple \(G = (V, E, T)\) where \(V\) and \(E\) are the vertex and edge sets, and \(T \subseteq V\) is the /terminal set/, a set of special vertices.
+An edge \(e_{i}\) can be binary or described by a [[id:a437fdc4-d141-485b-af6a-90cdbf58f859][binary random variable]] defined as \(P(X_{i} = 1) = p_{i}\) and \(P(X_{i} = 1) = 1 - p_{i}\).
+
+* Connectedness
++ A network is said to be \(T\)-connected if all the terminal vertices are connected to each other.
++ A subset \(V_{1} \subset V\) is called an /isolated component/ if all vertices \(V_{1}\) are connected and there are no edges \(v_{i}v_{j}\) such that \(v_{i} \in V_{1}\) and \(v_{j} \in V\setminus V_{1}\).
+
+* State Vectors
+We use [[id:81c97780-c8a5-4652-a6eb-d33732c37f1e][vector]] notation \(x = (x_{1}, x_{2}, \ldots, x_{n}\) to compactly denote the state of each of the edges.
