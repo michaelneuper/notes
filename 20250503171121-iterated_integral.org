@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       fb8c3c8d-37ae-4fa4-be48-be23bdbaed49
+:END:
+#+title: Iterated Integral
+
+* Definition
+Let \( f(x, y) \) be a [[id:9f66f38c-1072-4146-9efe-5a90f984d480][contiuous]] function on the [[id:fae4f08a-0750-490c-82dd-231781b77446][rectangle]] \( R = [a, b] \times [c, d] \). Then the *iterated integral* of \( f \) over \( R \) is defined as:
+
+\begin{equation*}
+\iint_R f(x, y) \, dA = \int_a^b \left[\int_c^d f(x, y) \, dy \right]\, dx
+\end{equation*}
+
+* Notes
+The notation \(\int_c^d f(x,y)\, dy\) is used to mean that \(x\) is held fixed and \(f(x,y)\) is integrated with respect to \(y\) from \(y = c\) to \(y=d\).
+This procedure is called /partial integration with respect to \(y\)/. (Note similarity to [[id:8632521e-c7a0-4e38-913e-7bb9c2bd3887][rartial differentiation]]).

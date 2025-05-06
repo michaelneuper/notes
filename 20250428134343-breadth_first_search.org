@@ -1,0 +1,36 @@
+:PROPERTIES:
+:ID:       f54a2424-8386-47e5-b46d-1f2e6a2a40e2
+:ROAM_ALIASES: BFS
+:END:
+#+title: Breadth-first Search
+
+- Search a [[id:6bc62b33-2126-4f09-a380-3b05d6efa5c2][graph]] horizontally before vertically
+- Implemented with a [[id:39dd3504-cf18-45e5-9ddb-6d1ef45970fb][queue]]
+
+* Java Implementation
+#+begin_src java
+public class BreadthFirstSearch {
+  private boolean[] marked;
+  private int[] edgeTo;
+
+  private void bfs(Graph g, int s) {
+    Queue<Integer> queue = new Queue<>();
+    queue.enqueue(s);
+    marked[s] = true;
+
+    while(!queue.isEmpty()) {
+      int v = queue.dequeue();
+
+      for (int w : G.adj(v))
+        if (!marked[w]) {
+          queue.enqueue(w);
+          marked[w] = true;
+          edgeTo[w] = v;
+        }
+    }
+  }
+}
+#+end_src
+
+* Proposition
+For any vertex \(v\) reachable from \(s\), BFS computes a /shortest path/ from \(s\) to \(v\) (no path from \(s\) to \(v\) has fewer edges).

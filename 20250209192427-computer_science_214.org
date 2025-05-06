@@ -7,5 +7,12 @@
 ** [[id:1d69c29d-2fa6-4db2-8900-70c38d86fc2a][Insertion Sort]]
 ** [[id:b976162b-ee7b-49ae-8e61-decd4f20673e][Selection Sort]]
 * TODO Searching
-**  [[id:a274672a-12c8-44d0-85ae-b76002dc6fc4][Symbol Table]]
+** [[id:a274672a-12c8-44d0-85ae-b76002dc6fc4][Symbol Table]]
 ** [[id:1b5003f1-d27c-42da-b8d1-8eb238861fce][Binary Search Tree]]
+* Graphs
+** [[id:6bc62b33-2126-4f09-a380-3b05d6efa5c2][Graph]]
+** [[id:098850e7-ac7b-4031-bf35-d96f6a980950][Tree]]
+** [[id:0c16bab4-5404-41ea-a044-54852b153042][Depth-first Search]]
+** [[id:f54a2424-8386-47e5-b46d-1f2e6a2a40e2][Breadth-first Search]]
+** [[id:ade46dd9-8919-410e-b957-3c2da5379756][Dijkstra's Algorithm]]
+** [[id:70dd735a-4fca-4fbb-b8db-d4e5bf240219][Prim's Algorithm]]

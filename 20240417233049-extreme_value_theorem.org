@@ -5,6 +5,4 @@
 #+filetags: calculus theorem
 
 * Definition
-#+begin_quote
 If \(f\) is continuous on a closed [[id:a995fc0e-d695-4662-a94f-4daad08de069][interval]] \([a,b]\), then \(f\) attains an absolute [[id:8e80da2f-092f-476a-b5f8-08749dc9dc1e][maximum value]] \(f(c)\) and an absolute minimum values \(f(d)\) at some numbres \(c\) and \(d\) in \([a, b]\).
-#+end_quote

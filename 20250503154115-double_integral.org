@@ -1,0 +1,44 @@
+:PROPERTIES:
+:ID:       386ffc68-d175-4899-9e9f-bc4add5a5f15
+:END:
+#+title: Double Integral
+
+* Definition
+A *double integral* is a [[id:7256d12e-eb3d-48d1-8f12-7168c6fe8522][definite integral]] of a 2-variable [[id:87d42439-b03b-48be-84ab-2215b4733dd7][function]].
+** Over a Rectangle
+The *double integral* of \(f\) over the [[id:fae4f08a-0750-490c-82dd-231781b77446][rectangle]] \(R\) is
+
+\begin{equation*}
+\iint_{R} f(x,y)\,dA
+= \lim_{{m,n\to\infty}}
+\sum_{i=1}^{m}\sum_{j=1}^{n}
+f\bigl(x_{i}^{*},y_{j}^{*}\bigr)\,\Delta A
+\end{equation*}
+
+if this [[id:6ffde4e8-a12d-4c3a-bc24-675b5a38433c][limit]] exists.
+** Over Geneneral Regions
+*** Type I
+\begin{equation*}
+D = \{(x,y) : x \in [a,b] \wedge y \in [g_1(x), g_2(x)]\}
+\end{equation*}
+
+
+
+
+[[file:images/type-1.png]]
+
+\begin{equation*}
+\iint_{D} f(x,y)\, dA = \int_a^b\int_{g_1(x)}^{g_2(x)} f(x,y)\, dy\, dx
+\end{equation*}
+
+*** Type II
+\begin{equation*}
+D = \{(x,y) : y \in [c,d] \wedge x \in [h_1(x), h_2(x)]\}
+\end{equation*}
+
+[[file:images/type-2.png]]
+
+
+\begin{equation*}
+\iint_{D} f(x,y)\, dA = \int_c^d\int_{h_1(y)}^{h_2(y)} f(x,y)\, dx\, dy
+\end{equation*}

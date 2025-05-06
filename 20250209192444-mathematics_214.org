@@ -12,10 +12,9 @@
 *** [[id:17bb9c22-c0e7-4232-be73-16ac4d3d5804][Linear Combination]]
 *** [[id:a76e4790-b665-46b5-a02f-2970b0f1196c][Linear Span]]
 *** [[id:c922887e-a312-4566-b4ef-0e7bf69ea91c][Linear Independence]]
-** Week 3
+** Week 3 & 4
 *** [[id:9bbf878c-2d8f-45ad-8bc3-5f5066b6ca06][Vector Space]]
 *** [[id:4d929a06-f9ef-4f37-bb36-428b994b891c][Subspace]]
-** Week 4
 
 * Advanced Calculus
 ** Week 1
@@ -39,3 +38,16 @@
 *** [[id:99f8249c-f8d2-4fb6-bcf4-381e24cd029a][Chain Rule]]
 *** [[id:ded44ef4-1c05-4fe6-a771-9765137065b0][Directional Derivative]]
 *** [[id:ff0a3356-e4d4-4bd8-8787-ae9537a90640][Gradient]]
+** Week 9
+*** [[id:386ffc68-d175-4899-9e9f-bc4add5a5f15][Double Integral]]
+*** [[id:fae4f08a-0750-490c-82dd-231781b77446][Rectangle]]
+*** [[id:fbd04568-95d7-4060-a639-515de38012fb][Volume]]
+*** [[id:fb8c3c8d-37ae-4fa4-be48-be23bdbaed49][Iterated Integral]]
+*** [[id:09408712-1c9a-4fe1-9e2d-bdc02e1fc943][Fubini's Theorem]]
+** Week 10
+*** [[id:8d4e5536-3c75-4454-b6ca-53b845aa133e][Rectangular Box]]
+*** [[id:f417cdaf-e46a-421b-9d80-6c76dc07e30c][Triple Integral]]
+** Week 11
+*** [[id:46460a58-2abd-4e04-aeb0-df9cc0cecb25][Integration by Substitution]]
+*** [[id:a133996e-5674-4df0-869b-46e728a43581][Transformation]]
+*** [[id:8aa59f52-300c-46c3-b68f-33d7b1fc9d2e][Jacobian]]

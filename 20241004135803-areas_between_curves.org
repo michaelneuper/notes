@@ -5,12 +5,11 @@
 #+filetags: calculus
 
 * Definition
-#+begin_quote
 The area \(A\) of the region bounded by the curves \(y = f(x)\), \(y = g(x)\), and the lines \(x=a\), \(x=b\), where \(f\) and \(g\) are [[id:9f66f38c-1072-4146-9efe-5a90f984d480][continuous]] and \(f(x) \ge g(x)\), for all \(x \in [a,b]\), is the following [[id:7256d12e-eb3d-48d1-8f12-7168c6fe8522][integral]]
+
 \begin{equation*}
 A = \int_a^{b} \left[f(x) - g(x)\right] \, dx
 \end{equation*}
-#+end_quote
 
 [[file:images/area-curves.png]]
 

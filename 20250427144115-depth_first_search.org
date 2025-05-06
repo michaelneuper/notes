@@ -1,0 +1,32 @@
+:PROPERTIES:
+:ID:       0c16bab4-5404-41ea-a044-54852b153042
+:ROAM_ALIASES: DFS
+:END:
+#+title: Depth-first Search
+
+- Search a [[id:6bc62b33-2126-4f09-a380-3b05d6efa5c2][graph]] vertically before horizontally
+- Implemented with a [[id:436f54b5-16ec-4f0c-aac1-94637d34f65f][stack]] (explicit or [[id:25af17fb-fb34-4bc4-961f-8e5e6bd138f9][recursion]])
+
+* Java Implementation
+#+begin_src java
+public class DepthFirstSearch {
+  private boolean[] marked;
+  private int count;
+
+  public DepthFirstSearch(Graph G, int s) {
+    marked = new boolean[G.V()];
+    dfs(G, s);
+  }
+
+  private void dfs(Graph G, int v) {
+    marked[v] = true;
+    count++;
+
+    for (int w : G.adj(v))
+      if (!marked[w]) dfs(G, w);
+  }
+}
+#+end_src
+
+* Connected Components
+"is connected to" is an [[id:392c7fec-581b-457b-a42a-c0f2ee2bfbb4][equivalence relation]] that divides vertices into [[id:306db8c7-c31f-4250-9ed7-63b6113e147e][equivalence classes]]

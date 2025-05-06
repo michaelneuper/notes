@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       a133996e-5674-4df0-869b-46e728a43581
+:END:
+#+title: Transformation
+
+* Definition
+A *transformation* is a [[id:87d42439-b03b-48be-84ab-2215b4733dd7][function]] \(T\) that maps a [[id:56ae2cf4-a426-46fd-82eb-9acb3c8512ba][set]] \(X\) to itself, \(T: X \to X\).
+
+[[file:images/transform.png]]
+
+* Notes
++ If \(T(u_1, v_1) = (x_1, y_1)\) then the point \((x_1, y_1)\) is the [[id:b91be08c-04fd-4514-a8b6-3c1344356832][image]].
++ \(T\) is called [[id:c35cd352-7e53-4c69-bdce-29d0bc1d11aa][one-to-one]] if no two points have the same image.
++ If \(T\) is a one-to-one transformation, then it has an /inverse transformation/ \(T^{-1}\).
+
+* Example
+To convert from Cartesian to [[id:e173dcae-762b-43a3-9ca4-599e2ba6c76a][polar coordinates]], \(T: (r, \theta) \mapsto (x,y) = (r\cos\theta, r\sin\theta)\).

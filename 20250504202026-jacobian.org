@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       8aa59f52-300c-46c3-b68f-33d7b1fc9d2e
+:END:
+#+title: Jacobian
+
+* Definition
+The *Jacobian* of a [[id:a133996e-5674-4df0-869b-46e728a43581][transformation]] \(T\) given by \(x = g(u,v)\) and \(y = h(u,v)\) is the following [[id:fdc2dbe7-d134-4b80-a687-407ac36f637f][determinant]] of [[id:8632521e-c7a0-4e38-913e-7bb9c2bd3887][partial derivatives]]
+
+\begin{equation*}
+\frac{\partial(x, y)}{\partial(u, v)} =
+\left|
+\begin{array}{cc}
+\frac{\partial x}{\partial u} & \frac{\partial x}{\partial v} \\
+\frac{\partial y}{\partial u} & \frac{\partial y}{\partial v}
+\end{array}
+\right|
+= \frac{\partial x}{\partial u} \frac{\partial y}{\partial v} - \frac{\partial x}{\partial v} \frac{\partial y}{\partial u}
+\end{equation*}

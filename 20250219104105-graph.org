@@ -44,3 +44,17 @@ N_{G}[v] = N_{G}(v) \cup \{v\}
 
 * Example
 [[file:images/graph.png]]
+
+* API
++ ~Graph(int V)~
+  create a \(V\)-vertex graph with no edges
++ ~int V()~
+  number of vertices
++ ~int E()~
+  number of edges
++ ~void addEdge(int v, int w)~
+  add edge \(v-w\) to this graph
++ ~Iterable<Integer> adj(int v)~
+  vertices adjacent to \(v\)
++ ~String toString()~
+  string representation

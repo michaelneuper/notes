@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       09408712-1c9a-4fe1-9e2d-bdc02e1fc943
+:END:
+#+title: Fubini's Theorem
+#+filetags: theorem
+
+* Definition ([[id:386ffc68-d175-4899-9e9f-bc4add5a5f15][Double Integrals]])
+If \(f\) is [[id:9f66f38c-1072-4146-9efe-5a90f984d480][continuous]] on the [[id:fae4f08a-0750-490c-82dd-231781b77446][rectangle]] \(R = [a,b] \times [c,d]\), then
+
+\begin{equation*}
+\iint_{R} f(x,y)\, dA = \int_a^b \int_c^d f(x,y)\, dy\, dx = \int_c^b \int_a^b f(x,y)\, dx\, dy
+\end{equation*}
+
+More generally, this is true if we assume \(f\) is bounded on \(R\), \(f\) is discontinuous only on a finite number of smooth curves, and the [[id:fb8c3c8d-37ae-4fa4-be48-be23bdbaed49][iterated integrals]] exist.
+
+* Definition ([[id:f417cdaf-e46a-421b-9d80-6c76dc07e30c][Triple Integrals]])
+If \(f\) is continuous on the [[id:8d4e5536-3c75-4454-b6ca-53b845aa133e][rectangular box]] \(B = [a,b] \times [c,d] \times [r,s]\), then
+
+\begin{equation*}
+\iiint_{B} f(x,y, z)\, dV = \int_r^s\int_c^d \int_a^b f(x,y, z)\, dx\, dy\, dz
+\end{equation*}

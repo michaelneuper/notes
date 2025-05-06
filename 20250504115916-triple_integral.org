@@ -1,0 +1,42 @@
+:PROPERTIES:
+:ID:       f417cdaf-e46a-421b-9d80-6c76dc07e30c
+:END:
+#+title: Triple Integral
+
+* Definition
+A *triple integral* is a [[id:7256d12e-eb3d-48d1-8f12-7168c6fe8522][definite integral]] of a 3-variable [[id:87d42439-b03b-48be-84ab-2215b4733dd7][function]].
+** Over a Rectangular Box
+The *double integral* of \(f\) over the [[id:8d4e5536-3c75-4454-b6ca-53b845aa133e][rectangular box]] \(B\) is
+
+\begin{equation*}
+\iiint_{B} f(x,y,z)\,dV
+= \lim_{{l,m,n\to\infty}}
+\sum_{i=1}^{l}\sum_{j=1}^{m}\sum_{k=1}^{n}
+f\bigl(x_{ijk}^{*},y_{ijk}^{*},z_{ijk}^{*}\bigr)\,\Delta V
+\end{equation*}
+
+if this [[id:6ffde4e8-a12d-4c3a-bc24-675b5a38433c][limit]] exists.
+** Over General Regions
+*** Type I (\(z\) outermost)
+\(E=\bigl\{(x,y,z)\mid (x,y)\in D_{xy},\;z_1(x,y)\le z\le z_2(x,y)\bigr\}\)
+
+\begin{equation*}
+\iiint_E f\,dV
+=\int\!\!\!\int_{D_{xy}}\Bigl[\int_{z_1(x,y)}^{z_2(x,y)}f(x,y,z)\,dz\Bigr]\,dA_{xy}
+\end{equation*}
+
+*** Type II (\(x\) outermost)
+\(E=\bigl\{(x,y,z)\mid (y,z)\in D_{yz},\;x_1(y,z)\le x\le x_2(y,z)\bigr\}\)
+
+\begin{equation*}
+\iiint_E f\,dV
+=\int\!\!\!\int_{D_{yz}}\Bigl[\int_{x_1(y,z)}^{x_2(y,z)}f(x,y,z)\,dx\Bigr]\,dA_{yz}
+\end{equation*}
+
+*** Type III (\(y\) outermost)
+\(E=\bigl\{(x,y,z)\mid (x,z)\in D_{xz},\;y_1(x,z)\le y\le y_2(x,z)\bigr\}\)
+
+\begin{equation*}
+\iiint_E f\,dV
+=\int\!\!\!\int_{D_{xz}}\Bigl[\int_{y_1(x,z)}^{y_2(x,z)}f(x,y,z)\,dy\Bigr]\,dA_{xz}
+\end{equation*}

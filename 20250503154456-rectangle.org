@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       fae4f08a-0750-490c-82dd-231781b77446
+:END:
+#+title: Rectangle
+
+* Definition
+A *closed rectangle* \(R\) in \(\mathbb{R}^2\) is defined [[id:fd77c6f5-fa5d-4cc1-893a-31e9dbaa49df][product]] of the [[id:a995fc0e-d695-4662-a94f-4daad08de069][closed intervals]] \([a,b]\) and \([c,d]\):
+
+\begin{equation*}
+R = [a,b] \times [c,d] = \{(x,y) \in \mathbb{R}^2 : x \in [a,b] \wedge y \in [c,d]\}
+\end{equation*}

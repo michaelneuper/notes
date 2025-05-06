@@ -1,14 +1,13 @@
 :PROPERTIES:
 :ID:       e606e6fc-c0e4-4d39-ad9f-704161129f5c
+:ROAM_ALIASES: "Indefinite Integral"
 :END:
-#+title: Antiderivatives
+#+title: Antiderivative
 #+filetags: calculus derivatives integration
 
 * Definition
-#+begin_quote
 Let \(f, F\) be functions and \(I\) and interval.
 Then \(F\) is an *antiderivative* of \(f\) on \(I\) if \(F'(x) = f(x)\) for all \(x\in I\).
-#+end_quote
 
 * Notes
 \(F\) an antiderivative of \(f\) on \(I\) subsumes:

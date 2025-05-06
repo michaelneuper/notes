@@ -5,9 +5,7 @@
 #+filetags: calculus integration_techniques
 
 * Definition
-#+begin_quote
 An extension of the notion of a [[id:7256d12e-eb3d-48d1-8f12-7168c6fe8522][definite integral]] to cases where the interval is infinite and also to the case where the integrand has an infinite discontinuity in the interval.
-#+end_quote
 
 * Type 1: Infinite Intervals
 1. If \(\int_a^tf(x) \, dx\) exists for every number \(t\ge a\), then

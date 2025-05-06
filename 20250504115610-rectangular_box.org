@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       8d4e5536-3c75-4454-b6ca-53b845aa133e
+:END:
+#+title: Rectangular Box
+
+* Definition
+A *closed rectangular box* \(B\) in \(\mathbb{R}^3\) is defined [[id:fd77c6f5-fa5d-4cc1-893a-31e9dbaa49df][product]] of the [[id:a995fc0e-d695-4662-a94f-4daad08de069][closed intervals]] \([a,b]\), \([c,d]\) and \([r, s]\):
+
+\begin{equation*}
+B = [a,b] \times [c,d] \times [r, s] = \{(x,y,z) \in \mathbb{R}^3 : x \in [a,b] \wedge y \in [c,d] \wedge z \in [r,s]\}
+\end{equation*}
+
+* Notes
+A [[id:fae4f08a-0750-490c-82dd-231781b77446][rectangle]] extended to 3 dimensions.
