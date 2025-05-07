@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       ab34fad0-4b4d-4d15-b1c8-c2d4675790a0
+:END:
+#+title: Basis
+
+* Definition
+A list of [[id:81c97780-c8a5-4652-a6eb-d33732c37f1e][vectors]] \(\mathcal{B} = \{\mathbf{e}_1,\mathbf{e}_2,\dots,\mathbf{e}_n\}\) in a [[id:9bbf878c-2d8f-45ad-8bc3-5f5066b6ca06][vector space]] \(V\) is called a *basis* for \(V\) if it is [[id:c922887e-a312-4566-b4ef-0e7bf69ea91c][linearly independent]] and [[id:a76e4790-b665-46b5-a02f-2970b0f1196c][spans]] \(V\).
+
+* Intuition
+A basis can be thought of as the building blocks to build any vector in \(V\).
+
+* Lemma
+If a list of vectors \(\mathbf{v}_1, \mathbf{v}_2, \dots , \mathbf{v}_n\) spans a vectors space \(V\), then [[id:4cf23cc7-6e99-4154-a8a2-ff1ca6b6d924][sifting]] the list will result in a basis for \(V\).
+
+* Corollary
+Any linearly independent list of vectors \(\mathbf{v}_1, \mathbf{v}_2, \dots , \mathbf{v}_k\) in a finite-dimensional vector space \(V\) can be extended to a basis of \(V\).
+
+* Corollary
+If \(\mathbf{v}_1, \mathbf{v}_2, \dots , \mathbf{v}_n\) is a linearly independent list of \(n\) vectors in an \(n\)-dimensional vector space \(V\), then it is a basis.

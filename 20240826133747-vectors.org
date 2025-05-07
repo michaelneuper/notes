@@ -1,13 +1,11 @@
 :PROPERTIES:
 :ID:       81c97780-c8a5-4652-a6eb-d33732c37f1e
 :END:
-#+title: Vectors
+#+title: Vector
 #+filetags: linear_algebra vectors
 
 * Definition
-#+begin_quote
 A *vector* is a _directed_ line segment that corresponds to a displacement from one point \(A\) to another point \(B\).
-#+end_quote
 
 * Notation
 - \(\overrightarrow{AB}\) denotes a vector from \(A\) to \(B\)

@@ -5,9 +5,7 @@
 #+filetags: linear_algebra matrices
 
 * Definition
-#+begin_quote
 A *matrix* is a rectangular [[id:3c151f03-1a4a-4df2-9ef2-a70d81b4bfe6][array]] of numbers called entries/elements of the matrix.
-#+end_quote
 
 * Size
 The size of a matrix is defined by the number of rows and columns it contains.

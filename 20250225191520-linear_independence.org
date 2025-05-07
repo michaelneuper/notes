@@ -5,7 +5,38 @@
 
 * Definition
 A list of [[id:81c97780-c8a5-4652-a6eb-d33732c37f1e][vectors]] \(\mathcal{B} = \{\mathbf{v}_1, \mathbf{v}_2, \dots, \mathbf{v}_n\}\) in a vector space \(V\) is called *linearly independent* if the equation
+
 \begin{equation*}
     k_1 \mathbf{v}_1 + k_2 \mathbf{v}_2 + \dots + k_n \mathbf{v}_n = 0
 \end{equation*}
+
 has only the trivial solution \( k_1 = k_2 = \dots = k_n = 0 \). Otherwise if it has a solution with at least one scalar \( k_i \neq 0 \)) the list \(\mathcal{B}\) is called *linearly dependent*.
+
+* Checking for Linear Independence
+To determine whether \(\mathcal{B}=\{\mathbf{v}_1,\dots,\mathbf{v}_n\}\) is linearly independent, you can use one of the following equivalent methods:
+
+** *Matrix & determinant test* (when \(n=\dim V\))
+- Form the square [[id:a3e5a759-ca7d-46e2-a390-c3cb8f1cc823][matrix]]
+  \[
+    A = \bigl[\mathbf{v}_1 \;\mathbf{v}_2\;\dots\;\mathbf{v}_n\bigr].
+  \]
+- Compute the [[id:fdc2dbe7-d134-4b80-a687-407ac36f637f][determinant]] \(\det(A)\).
+  - If \(\det(A)\neq 0\), then only the trivial combination solves \(A\mathbf{k}=0\), so \(\mathcal{B}\) is independent.
+  - If \(\det(A)=0\), then a non‑trivial solution exists and \(\mathcal{B}\) is dependent.
+
+** *Gaussian elimination / rank test*
+- Form the (possibly non‑square) matrix \(A\) as above.
+- Row‑reduce \(A\) to its [[id:beb2e909-31d6-4abb-9622-e44fbfe5f6e0][Reduced Row Echelon Form]] (RREF).
+- Count pivot columns:
+  - If there are \(n\) pivots (one in each column), the only solution to \(A\mathbf{k}=0\) is trivial ⇒ independent.
+  - If there are fewer than \(n\) pivots, free variables appear ⇒ non‑trivial solution ⇒ dependent.
+
+** *Direct homogeneous system test*
+- Write the equation
+
+  \[
+    k_1 \mathbf{v}_1 + \cdots + k_n \mathbf{v}_n = 0
+  \]
+
+  as the linear system \(A\mathbf{k}=0\).
+- Solve by any method: if the only solution is \(\mathbf{k}=\mathbf{0}\), the set is independent; otherwise it is dependent.

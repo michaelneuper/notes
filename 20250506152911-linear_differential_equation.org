@@ -1,0 +1,44 @@
+:PROPERTIES:
+:ID:       5c15b683-ce0e-4c80-a914-02fe9108c072
+:END:
+#+title: Linear Differential Equation
+
+* Definition
+A *linear* differential equation is a [[id:7434ea42-2761-4665-979d-e8314e74fc3a][differential equation]] where the function and its [[id:a350707f-ba1b-4912-ad8d-60e80e1c5d47][derivatives]] appear to the first power, and are not multiplies together.
+
+* Example
+Linear: \(\frac{dy}{dx} + y = x\)
+Nonlinear: \(\frac{dy}{dx} = y^2 + \sin(y)\)
+
+* Theorem: Existence and uniqueness of solutions to linear ODE's
+Let
+
+\begin{equation}
+y^{(n)} + a_{n-1}(x)y^{(n-1)} + \cdots + a_1(x)y^{(1)} + a_0(x)y = 0
+\end{equation}
+
+be a linear [[id:83f398aa-357b-4b34-9cdc-544df0cd123f][homogenous ordinary differential equation]] on an [[id:a995fc0e-d695-4662-a94f-4daad08de069][interval]] \(I\), where \(a_0(x), \dots , a_{n-1}(x)\) are [[id:9f66f38c-1072-4146-9efe-5a90f984d480][continuous]] on \(I\).
+Suppose we are given an initial conditions
+
+\begin{align}
+y(x_0) &= c_0 \\
+y^{(1)}(x_0) &= c_1 \\
+&\vdots \\
+y^{(n-1)}(x_0) &= c_{n-1}
+\end{align}
+
+where \(x_0\in I\) and \(c_0, \dots, c_{n-1}\) are arbitrary constants.
+Then there exists a unique [[id:87d42439-b03b-48be-84ab-2215b4733dd7][function]] \(y(x)\) on \(I\) satisfying the DE (1) and the initial conditions (2)-(5).
+
+** Corollary: [[id:8f52df92-2606-4d3d-90e9-3dd0a3f1d837][Dimension]] of a space of solutions to homogenous linear ODE of order \(n\)
+Let \(V\) be the [[id:9bbf878c-2d8f-45ad-8bc3-5f5066b6ca06][vector space]] of all solutions to an \(n\)th order homogenous linear ODE on an interval \(I\),
+
+\begin{equation}
+y^{(n)} + a_{n-1}(x)y^{(n-1)} + \cdots + a_1(x)y^{(1)} + a_0(x)y = 0
+\end{equation}
+
+where \(a_0(x), \dots , a_{n-1}(x)\) are continuous on \(I\). Then
+
+\begin{equation*}
+\dim V = n
+\end{equation*}

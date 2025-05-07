@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       a995fc0e-d695-4662-a94f-4daad08de069
 :END:
-#+title: Intervals
+#+title: Interval
 
 Geometrically seen as line segments on $\mathbb{R}$.
 

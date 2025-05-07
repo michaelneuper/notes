@@ -1,0 +1,35 @@
+:PROPERTIES:
+:ID:       9bcca6dc-a697-49d2-a68a-0c64ecbd9e87
+:END:
+#+title: Coordinate Vector
+
+* Definition
+Let \(\mathcal{B} = \mathbf{b}_1, \mathbf{b}_2.\dots, \mathbf{b}_n\) be a [[id:ab34fad0-4b4d-4d15-b1c8-c2d4675790a0][basis]] for a [[id:9bbf878c-2d8f-45ad-8bc3-5f5066b6ca06][vector space]] \(V\), and let \(\mathbf{v}\in V\).
+Write
+
+\begin{equation*}
+\mathbf{v} = a_1\mathbf{b}_1 + a_2\mathbf{b}_2 + \cdots + a_n\mathbf{b}_n
+\end{equation*}
+
+The scalars \(a_{i}\) appearing in the above expansion are called *coordinates of the vector \(\mathbf{v}\) w.r.t. to the basis \(\mathcal{B}\)*.
+The column [[id:81c97780-c8a5-4652-a6eb-d33732c37f1e][vector]]
+
+\begin{equation*}
+[\mathbf v]_B :=
+\begin{bmatrix}
+a_1 \\[6pt]
+a_2 \\[6pt]
+\vdots \\[3pt]
+a_n
+\end{bmatrix}
+\;\in\;\mathrm{Col}_n
+\end{equation*}
+
+is called the *coordinate vector of \(\mathbf{v}\) w.r.t. the basis \(\mathcal{B}\)*.
+
+* Lemma
+Let \(\mathcal{B} = \{\mathbf{e}_1,\mathbf{e}_2,\dots,\mathbf{e}_n\}\) be a basis for a vector space \(V\).
+Then for all vectors \(\mathbf{v}, \mathbf{w} \in V\) and all scalars \(k\) we have
+
++ \([\mathbf{v} + \mathbf{w}]_{\mathcal{B}} = [\mathbf{v}]_{\mathcal{B}} + [\mathbf{w}]_{\mathcal{B}}\)
++ \([k\mathbf{v}]_{\mathcal{B}} = k[\mathbf{v}]_{\mathcal{B}}\)

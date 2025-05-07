@@ -2,6 +2,7 @@
 :ID:       720aa1ed-7d13-4a25-ad9f-9f188c7cbb15
 :END:
 #+title: Computer Science 214
+#+filetags: module
 
 * TODO Sorting
 ** [[id:1d69c29d-2fa6-4db2-8900-70c38d86fc2a][Insertion Sort]]

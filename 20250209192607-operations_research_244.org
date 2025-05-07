@@ -2,3 +2,4 @@
 :ID:       8d6daf8d-b916-4ee5-a6ef-9d31bfa66f55
 :END:
 #+title: Operations Research 244
+#+filetags: module

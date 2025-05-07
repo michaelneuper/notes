@@ -5,12 +5,10 @@
 #+filetags: linear_algebra matrices
 
 * Definition
-#+begin_quote
 The *transpose* of an \(m \times n\) matrix \(\mathbf{A}\) is the \(n \times m\) matrix \(\mathbf{A}^T\) obtained by interchanging the rows and columns of \(\mathbf{A}\).
 \begin{equation*}
 (\mathbf{A}^T)_{ij} = \mathbf{A}_{ji} \quad \text{for all } i,j
 \end{equation*}
-#+end_quote
 
 * Theorem
 - If \(A\) is a square matrix, then \(A + A^T\) is a [[id:324ec34e-5418-4641-8fd8-1dda991fec9f][symmetric matrix]].

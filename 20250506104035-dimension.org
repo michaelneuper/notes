@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       8f52df92-2606-4d3d-90e9-3dd0a3f1d837
+:END:
+#+title: Dimension (vector space)
+
+* Definition
+A [[id:9bbf878c-2d8f-45ad-8bc3-5f5066b6ca06][vector space]] \(V\) is *finite-dimensional* if there exists a [[id:ab34fad0-4b4d-4d15-b1c8-c2d4675790a0][basis]] \(\mathcal{B}\) for \(V\) with a finite number of elements.
+In that case, the *dimension* of \(V\), denoted \(\dim V\) is the number of vectors in \(\mathcal{B}\).
+
+A vector space is *infinite-dimensional* if it is not finite-dimensional.
+
+* Convention
+If the vector space \(Z = \{\mathbf{0}\}\) is the zero vector space, we define \(\dim Z = 0\).
+
+* Theorem: Invariance of dimension
+If \(\mathcal{B} = \{\mathbf{b}_1, \mathbf{b}_2, \dots, \mathbf{b}_m\}\) and \(\mathcal{C} = \{\mathbf{c}_1, \mathbf{c}_2, \dots, \mathbf{c}_n\}\) are bases of a vector space \(V\), then \(m= n\).
+
+* Proposition: Dimensions of subspaces
+Let \(W\) be a [[id:4d929a06-f9ef-4f37-bb36-428b994b891c][subspace]] of a finite-dimensional vector space \(V\).
+Then \(W\) is finite-dimensional, and \(\dim W \le \dim V\).
+Moreover, if \(\dim W = \dim V\) then \(W = V\).

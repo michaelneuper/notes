@@ -2,6 +2,7 @@
 :ID:       05cab256-f461-4fa0-9897-ca8dbc61e2df
 :END:
 #+title: Operations Research 214
+#+filetags: module
 
 * Week 1
 ** Undirected Graphs

@@ -2,6 +2,7 @@
 :ID:       b8dd6a8f-24b0-4e50-b048-51fc41739520
 :END:
 #+title: Mathematics 214
+#+filetags: module
 
 * Linear Algebra :notes:
 ** Week 1
@@ -15,6 +16,12 @@
 ** Week 3 & 4
 *** [[id:9bbf878c-2d8f-45ad-8bc3-5f5066b6ca06][Vector Space]]
 *** [[id:4d929a06-f9ef-4f37-bb36-428b994b891c][Subspace]]
+** Week 5
+*** [[id:ab34fad0-4b4d-4d15-b1c8-c2d4675790a0][Basis]]
+*** [[id:8f52df92-2606-4d3d-90e9-3dd0a3f1d837][Dimension]]
+*** [[id:4cf23cc7-6e99-4154-a8a2-ff1ca6b6d924][Sifting Algorithm]]
+** Week 6
+*** [[id:9bcca6dc-a697-49d2-a68a-0c64ecbd9e87][Coordinate Vector]]
 
 * Advanced Calculus
 ** Week 1

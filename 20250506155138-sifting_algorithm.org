@@ -1,0 +1,43 @@
+:PROPERTIES:
+:ID:       4cf23cc7-6e99-4154-a8a2-ff1ca6b6d924
+:END:
+#+title: Sifting Algorithm
+#+filetags: algorithm
+
+* Definition
+The *sifting algorithm* is used to extract a [[id:c922887e-a312-4566-b4ef-0e7bf69ea91c][linearly indepent]] subset from a list of [[id:81c97780-c8a5-4652-a6eb-d33732c37f1e][vectors]] in a [[id:9bbf878c-2d8f-45ad-8bc3-5f5066b6ca06][vector space]]
+The method works by scanning each vector \( \mathbf{v}_i \) in order and removing it if:
+- \( \mathbf{v}_i = \mathbf{0} \), or
+- \( \mathbf{v}_i \) is a linear combination of the preceding vectors.
+
+* Example
+Given the list in \( \mathbb{R}^3 \):
+
+\begin{align*}
+\mathbf{v}_1 &= (1, 2, -1) \\
+\mathbf{v}_2 &= (0, 0, 0) \\
+\mathbf{v}_3 &= (3, 6, -3) \\
+\mathbf{v}_4 &= (1, 0, 5) \\
+\mathbf{v}_5 &= (5, 4, 13) \\
+\mathbf{v}_6 &= (1, 1, 0)
+\end{align*}
+
+We apply the algorithm:
+
+- Keep \( \mathbf{v}_1 \) (non-zero, independent).
+- Remove \( \mathbf{v}_2 \) (zero vector).
+- Remove \( \mathbf{v}_3 \) (equals \( 3\mathbf{v}_1 \)).
+- Keep \( \mathbf{v}_4 \) (not a multiple of \( \mathbf{v}_1 \)).
+- Remove \( \mathbf{v}_5 \) (can be written as \( 2\mathbf{v}_1 + 3\mathbf{v}_4 \)).
+- Keep \( \mathbf{v}_6 \) (not a linear combination of \( \mathbf{v}_1, \mathbf{v}_4 \)).
+
+Final sifting result
+
+\[
+\mathbf{v}_1, \mathbf{v}_4, \mathbf{v}_6
+\]
+
+This subset is linearly independent.
+
+* Note
+If the original list of vectors spans the vector space, applying the algorithm will result in a [[id:ab34fad0-4b4d-4d15-b1c8-c2d4675790a0][basis]] for that vector space.

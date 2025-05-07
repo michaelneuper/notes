@@ -1,7 +1,0 @@
-#+title: mathematics
-
-[[file:20230414145214-calculus.org][Calculus]]
-
-These are some simple notes in maths
-
-[[file:20230414162700-integration.org][Integration]]

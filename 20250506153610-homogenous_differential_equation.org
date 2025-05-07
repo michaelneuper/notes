@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       83f398aa-357b-4b34-9cdc-544df0cd123f
+:END:
+#+title: Homogenous Differential Equation
+
+* Definition
+A [[id:7434ea42-2761-4665-979d-e8314e74fc3a][differential equation]] where all terms involve the dependent variable or its [[id:a350707f-ba1b-4912-ad8d-60e80e1c5d47][derivatives]].
+
+* Example
+Homogenous: \(\frac{dy}{dx} + y = 0\)
+Non-homogenous: \(\frac{dy}{dx} + y = \sin(x)\)
