@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Generate org-roam-ui page
-        uses: ikoamu/publish-org-roam-ui@main
+        uses: michaelneuper/publish-org-roam-ui@main
         with:
           org-roam-db-filename: org-roam.db
           deploy-to-pages: true
